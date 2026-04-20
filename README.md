@@ -6,14 +6,14 @@
 
 <img alt="upc-logo" src="assets/upc_logo.png" width="200"/><br>
 
-<strong>Ingeniería de Software - 2025-2</strong><br>
-<strong>1ASI0730 - Aplicaciones Web</strong><br>
-<strong>NRC: 7432</strong><br>
-<strong>Profesor: Oscar Ivan Villafuerte Bazan</strong><br>
+<strong>Ingeniería de Software - 2026-1</strong><br>
+<strong>1ACC0238 - Aplicaciones para Dispositivos Móviles</strong><br>
+<strong>NRC: 3248</strong><br>
+<strong>Profesor: David Gerardo Quevedo Velasco</strong><br>
 
 <br><strong>Informe del Trabajo Final</strong><br><br>
 
-<strong>Startup: FijasDev</strong><br>
+<strong>Startup: HuariqueHub</strong><br>
 <strong>Producto: PuntoSabor</strong><br>
 
 
@@ -25,10 +25,10 @@
 |  Delgado Carrasco, Schneider  | u202321843 |
 |  Lopez Goitia, Carlos Alberto  | u202312700 |
 |  Tumi Oliden Manuel Ignacio  | u20241c134 |
-|  Vega Coronado Fabricio Samir   | u202317000 |
-|  Villanueva Andrade Ysaac Ligorio  | u20231c168 |
+|     |  |
+|    |  |
 
-<strong> Diciembre 2025</strong><br>
+<strong> Abril 2026</strong><br>
 </div>
 
 # Registro de Versiones del Informe
@@ -41,15 +41,15 @@
     <th>Descripción de modificación </th>
   </tr>
   <tr>
-    <td>TB1</td>
-    <td>2025-09-19</td>
+    <td>AV1</td>
+    <td>2026-04-20</td>
     <td>
       <ul> 
         <li>Delgado Carrasco, Schneider</li> 
         <li>Lopez Goitia, Carlos Alberto</li> 
         <li>Tumi Oliden Manuel Ignacio</li>
-        <li>Vega Coronado Fabricio Samir</li>
-        <li>Villanueva Andrade Ysaac Ligorio</li>
+        <li> </li>
+        <li> </li>
       </ul>
     </td>
     <td> Se han incluído los siguientes capítulos:
@@ -88,8 +88,8 @@
         <li>Delgado Carrasco, Schneider</li> 
         <li>Lopez Goitia, Carlos Alberto</li> 
         <li>Tumi Oliden Manuel Ignacio</li>
-        <li>Vega Coronado Fabricio Samir</li>
-        <li>Villanueva Andrade Ysaac Ligorio</li>
+        <li> </li>
+        <li> </li>
       </ul>
     </td>
     <td> Se han incluído los siguientes capítulos y secciones:
@@ -113,8 +113,8 @@
         <li>Delgado Carrasco, Schneider</li> 
         <li>Lopez Goitia, Carlos Alberto</li> 
         <li>Tumi Oliden Manuel Ignacio</li>
-        <li>Vega Coronado Fabricio Samir</li>
-        <li>Villanueva Andrade Ysaac Ligorio</li>
+        <li> </li>
+        <li> </li>
       </ul>
     </td>
     <td> Se han incluído los siguientes capítulos y secciones:
@@ -143,8 +143,8 @@
         <li>Delgado Carrasco, Schneider</li> 
         <li>Lopez Goitia, Carlos Alberto</li> 
         <li>Tumi Oliden Manuel Ignacio</li>
-        <li>Vega Coronado Fabricio Samir</li>
-        <li>Villanueva Andrade Ysaac Ligorio</li>
+        <li> </li>
+        <li> </li>
       </ul>
     </td>
     <td> Se han incluído los siguientes capítulos y secciones:
@@ -336,7 +336,7 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
       </td>
     </tr>
     <tr>
-      <td>Vega Coronado Fabricio Samir</td>
+      <td> </td>
       <td>
         <strong> TB1:</strong><br>
         Llevé a cabo actividades de needfinding, construcción de escenarios to-be, elaboración de impact mapping y organización de la Information Architecture. Para ello, mantuve comunicación constante con potenciales usuarios y clientes, lo que permitió obtener información valiosa para orientar correctamente el diseño y la definición inicial del producto.<br>
@@ -349,7 +349,7 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
       </td>
     </tr>
     <tr>
-      <td>Villanueva Andrade Ysaac Ligorio</td>
+      <td> </td>
       <td>
         <strong> TB1:</strong><br>
         Contribuí de manera activa al diseño de la página web utilizando Figma, proponiendo mejoras visuales y asegurando una línea gráfica coherente. Además, me mantuve en comunicación constante con el equipo para coordinar avances y garantizar que todos los componentes del proyecto estuvieran alineados.<br>
@@ -404,7 +404,7 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
       </td>
     </tr>
     <tr>
-      <td>Vega Coronado Fabricio Samir</td>
+      <td> </td>
       <td>
         <strong> TB1:</strong><br>
         Elaboré documentación clara y accesible, procurando que cualquier miembro del equipo o lector externo pudiera comprender el proyecto sin dificultad, detallando procesos y decisiones de manera ordenada.<br>
@@ -417,7 +417,7 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
       </td>
     </tr>
     <tr>
-      <td>Villanueva Andrade Ysaac Ligorio</td>
+      <td> </td>
       <td>
         <strong> TB1:</strong><br>
         Diseñé guías de estilo para la identidad visual y la interfaz web, además de crear wireframes, diagramas de flujo y prototipos interactivos en Figma que sirvieron como base para la construcción del producto.<br>
@@ -450,9 +450,9 @@ Esta iniciativa no solo busca promover la cultura gastronómica local y accesibl
 
 |                             Miembro                             |                                                                                                                                                                                   .
 |:---------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| ![alt text](<assets/Perfil_Fabricio.jpg>) |  <br>  |
+| ![alt text]() |  <br>  |
 | ![alt text](<assets/Perfil_Manuel.jpg>) || 
-|![alt text](<assets/Perfil_Ysaac.jpg>)                                                                 || 
+|![alt text]()                                                                 || 
 |![alt text](<assets/Perfil_Delgado.jpg>)                                                                 || 
 | ![alt text](<assets/Perfil_Lopez.jpg>)                                                                || 
 
