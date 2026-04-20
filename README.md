@@ -298,7 +298,7 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
       <td rowspan="5">Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
       <td>Delgado Carrasco, Schneider</td>
       <td>
-        <strong> TB1:</strong><br>
+        <strong> AV1:</strong><br>
         Identifiqué con claridad la problemática central de nuestra startup, definí los segmentos a los que está dirigida y realicé la investigación necesaria para establecer los requisitos de la aplicación web. Además, llevé a cabo una entrevista con un usuario representativo del público objetivo.<br>
         <strong> TP:</strong><br>
         Realicé las correcciones de los technical stories y sus evidencias según las observaciones recibidas. Avancé en el desarrollo del FrontEnd y participé activamente en las conversaciones y la planificación del sprint 2.<br>
@@ -312,7 +312,7 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
     <tr>
       <td>Lopez Goitia, Carlos Alberto</td>
       <td>
-        <strong> TB1:</strong><br>
+        <strong> AV1:</strong><br>
         Llevé a cabo entrevistas para obtener información relevante y diseñé la arquitectura de software siguiendo principios de Domain Driven Design, elaborando diagramas de contexto, contenedores y componentes.<br>
         <strong> TP:</strong><br>
         Realicé ajustes de mejora continua y participé en el desarrollo de la aplicación web junto con mis compañeros, coordinando reuniones para revisar avances y alinear el trabajo del equipo.<br>
@@ -323,42 +323,25 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
       </td>
     </tr>
     <tr>
-      <td>Tumi Oliden Manuel Ignacio</td>
+      <td>Tumi Oliden, Manuel Ignacio</td>
       <td>
-        <strong> TB1:</strong><br>
+        <strong> AV1:</strong><br>
         Durante esta etapa mantuve una comunicación fluida y constante con todo el equipo para asegurar que cada avance estuviera alineado. Paralelamente, seguí trabajando en el diseño de la interfaz en Figma, aportando ideas visuales y estructurales. También colaboré en la construcción inicial de la landing page y preparé tanto las preguntas guía para las entrevistas como los diagramas de clases necesarios para comprender mejor la estructura del sistema.<br>
-        <strong> TP:</strong><br>
-        En este periodo me encargué de organizar y repartir tareas entre los integrantes del equipo, procurando que cada uno tuviera claridad sobre sus responsabilidades. Continué desarrollando endpoints y trabajé en mejorar la parte visual del sitio web. Además, realicé ajustes y mejoras en la landing page para asegurar una presentación más sólida y coherente con la identidad del proyecto.<br>
-        <strong> TB2:</strong><br>
-        Retomé la gestión de roles y actividades para optimizar el flujo de trabajo, avanzando significativamente en la construcción del frontend. También realicé cambios puntuales en el backend para alinear la estructura del sistema con las necesidades actuales del desarrollo. En paralelo, me encargué de los últimos detalles que permitieron dejar la landing page lista y completamente funcional.<br>
-        <strong> TF:</strong><br>
-        Me enfoqué en fortalecer el frontend implementando mejoras importantes, especialmente la integración de la lógica necesaria para el manejo del JSON Web Token. Finalmente, realicé la transición de la aplicación desde una API simulada hacia la API real del sistema, asegurando que todo funcionara correctamente dentro del entorno definitivo.<br>
+        <br>
       </td>
     </tr>
     <tr>
       <td> </td>
       <td>
-        <strong> TB1:</strong><br>
-        Llevé a cabo actividades de needfinding, construcción de escenarios to-be, elaboración de impact mapping y organización de la Information Architecture. Para ello, mantuve comunicación constante con potenciales usuarios y clientes, lo que permitió obtener información valiosa para orientar correctamente el diseño y la definición inicial del producto.<br>
-        <strong> TP:</strong><br>
-        Me enfoqué en realizar mejoras significativas en el informe del trabajo final, ajustando estructura, contenido y claridad según las revisiones y objetivos del curso.<br>
-        <strong> TB2:</strong><br>
-        Formé parte del desarrollo del backend, donde colaboré en la construcción de nuevos módulos y en la implementación inicial de sus endpoints. Este trabajo permitió avanzar en la estructura lógica del sistema y sentar las bases para futuras funcionalidades.<br>
-        <strong> TF:</strong><br>
-        Continué mejorando y ampliando funcionalidades del backend en el Sprint 4, centrándome en la implementación de endpoints y en el fortalecimiento de la estructura técnica del proyecto.<br>
+        <strong> AV1:</strong><br>
+        <br>
       </td>
     </tr>
     <tr>
       <td> </td>
       <td>
-        <strong> TB1:</strong><br>
-        Contribuí de manera activa al diseño de la página web utilizando Figma, proponiendo mejoras visuales y asegurando una línea gráfica coherente. Además, me mantuve en comunicación constante con el equipo para coordinar avances y garantizar que todos los componentes del proyecto estuvieran alineados.<br>
-        <strong> TP:</strong><br>
-        Asumí la responsabilidad de completar la propuesta visual del proyecto, afinando detalles de la interfaz y asegurando que la presentación fuera consistente. También apoyé en el proceso de despliegue web, supervisando que la aplicación se mostrara correctamente en su entorno final.<br>
-        <strong> TB2:</strong><br>
-        Aporté mejoras tanto en la interfaz del frontend como en la versión actualizada del informe final, cuidando la coherencia del diseño y la calidad de la documentación entregada.<br>
-        <strong> TF:</strong><br>
-        Realicé mejoras adicionales en el frontend, optimizando la experiencia visual y funcional de la aplicación. Asimismo, diseñé y completé los apartados finales del sistema, garantizando que el proyecto quedara adecuadamente estructurado y listo para su presentación.<br>
+        <strong> AV1:</strong><br>
+        <br>
       </td>
     </tr>
     <!-- Criterio 2 -->
@@ -393,14 +376,9 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
     <tr>
       <td>Tumi Oliden Manuel Ignacio</td>
       <td>
-        <strong> TB1:</strong><br>
+        <strong> AV1:</strong><br>
         Me encargué de redactar el contenido para la landing page y parte de la documentación técnica, adaptando el lenguaje según el público objetivo, ya fueran usuarios finales o miembros del equipo de desarrollo.<br>
-        <strong> TP:</strong><br>
-        Desarrollé las interfaces principales de la web, incluyendo las páginas de inicio de sesión, registro y el módulo de reportes, asegurando coherencia visual y funcionalidad básica para el flujo del sistema.<br>
-        <strong> TB2:</strong><br>
-        Coordiné la distribución de tareas y responsabilidades dentro del equipo, avancé significativamente en la construcción del frontend e hice ajustes puntuales en el backend. Además, trabajé en los últimos detalles necesarios para consolidar la landing page.<br>
-        <strong> TF:</strong><br>
-        Redacté contenido optimizado para la landing page incorporando internacionalización, y realicé mejoras en el frontend, incluyendo la implementación de la lógica para manejar el JSON Web Token y la transición de la aplicación desde una API simulada hacia la API real del sistema.<br>
+        <br>
       </td>
     </tr>
     <tr>
@@ -471,7 +449,7 @@ Las plataformas comerciales de comida priorizan grandes establecimientos por su 
 #### Where? (¿Dónde?)
 Esta problemática se presenta en áreas urbanas y comunidades donde los huariques son comunes pero poco promocionados, especialmente en mercados hispanohablantes donde la cultura gastronómica local es muy rica pero poco digitalizada.
 
-#### When? (¿Dónde?)
+#### When? (Cuándo?)
 La falta de opciones digitales efectivas para huariques es una problemática constante, agudizada con la digitalización acelerada del mercado gastronómico en los últimos años.
 
 #### Who? (¿Quién?)
