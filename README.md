@@ -441,65 +441,66 @@ Esta iniciativa no solo busca promover la cultura gastronómica local y accesibl
 #### Las 5W's y 2H's
 
 #### What? (¿Qué?)
-El problema principal es la falta de visibilidad y accesibilidad de los huariques, pequeños negocios de comida tradicional o poco conocidos, en las plataformas digitales actuales. Esto dificulta que los consumidores encuentren opciones económicas y auténticas fuera de los restaurantes populares.
+El problema central radica en que los huariques, negocios gastronómicos pequeños y poco conocidos que ofrecen comida tradicional, tienen una presencia casi nula en el entorno digital, lo que impide que los consumidores puedan acceder fácilmente a alternativas de comida auténtica y a precios razonables más allá de los restaurantes con mayor popularidad.
 
 #### Why? (¿Por qué?)
-Las plataformas comerciales de comida priorizan grandes establecimientos por su capacidad de inversión y volumen de clientes, dejando fuera a huariques que no pueden competir en marketing digital. Esto genera un vacío donde el usuario no puede encontrar estos lugares de forma fácil y los huariques pierden oportunidades de crecimiento.
+Los grandes establecimientos y cadenas dominan las plataformas de comida digitales gracias a su mayor capacidad de inversión y volumen de operaciones, desplazando a los huariques que no disponen de los recursos para competir en ese terreno. Esto crea un vacío importante: los usuarios no logran encontrar estos lugares con facilidad, y los huariques pierden potenciales oportunidades de crecimiento.
 
 #### Where? (¿Dónde?)
-Esta problemática se presenta en áreas urbanas y comunidades donde los huariques son comunes pero poco promocionados, especialmente en mercados hispanohablantes donde la cultura gastronómica local es muy rica pero poco digitalizada.
+El fenómeno ocurre principalmente en zonas urbanas y comunidades donde los huariques tienen presencia física, pero carecen de representación digital. Se hace especialmente evidente en mercados hispanohablantes, donde la gastronomía local es culturalmente rica, pero aún escasamente digitalizada.
 
 #### When? (Cuándo?)
-La falta de opciones digitales efectivas para huariques es una problemática constante, agudizada con la digitalización acelerada del mercado gastronómico en los últimos años.
+Se trata de una problemática persistente, cuya gravedad ha aumentado con la acelerada transformación digital del mercado gastronómico en los últimos años.
 
 #### Who? (¿Quién?)
-Los afectados son dos grupos principales:
+Existen dos grupos directamente perjudicados:
 
-1. Los dueños de huariques, quienes luchan por atraer clientes y competir en un mercado dominado por grandes restaurantes y cadenas.
+1. Los propietarios de huariques, quienes enfrentan dificultades para captar clientes y sostenerse frente a la competencia de restaurantes y cadenas con mayor presencia en medios digitales.
 
-2. Los usuarios que desean descubrir comida local sabrosa, económica y auténtica pero no cuentan con un canal especializado para ello.
+2. Los usuarios que buscan experiencias gastronómicas locales, económicas y genuinas, pero no cuentan con herramientas digitales adecuadas para encontrarlas.
 
 #### How? (¿Cómo?)
-El problema se manifiesta a través de la falta de promoción digital, escasa o nula presencia en mapas y apps de comida, baja interacción con potenciales clientes y ausencia de una comunidad que recomiende estos lugares.
+El problema se expresa en la escasa o inexistente promoción digital de estos negocios, su ausencia en aplicaciones y mapas de referencia, la poca interacción con posibles clientes y la carencia de una comunidad que los recomiende y divulgue.
 
 #### How much? (¿Cuánto?)
-Este vacío representa una gran oportunidad económica desaprovechada para los dueños de huariques y una pérdida cultural gastronómica para el público. A nivel de mercado, millones de usuarios y miles de pequeños negocios quedan fuera del ecosistema digital gastronómico.
+Esta brecha representa no solo una oportunidad económica sin aprovechar para los dueños de huariques, sino también una pérdida del patrimonio gastronómico cultural. A escala de mercado, miles de negocios pequeños y millones de usuarios permanecen al margen del ecosistema digital gastronómico.
 
 ##### 1.2.2.1. Lean UX Problem Statements
 
-- Los pequeños huariques carecen de una plataforma digital accesible y especializada para promocionar sus negocios, lo que limita su capacidad para atraer nuevos clientes y crecer.
+- Los huariques no cuentan con una plataforma digital especializada y de fácil acceso donde puedan promover su negocio, lo que restringe su capacidad para crecer y captar nuevos clientes.
 
-- Los usuarios interesados en descubrir comida local auténtica y económica enfrentan dificultades para encontrar opciones fuera de las grandes apps convencionales, donde los huariques rara vez aparecen.
+- Quienes desean descubrir gastronomía local, auténtica y accesible económicamente tienen pocas opciones digitales orientadas a ese fin, ya que los huariques casi no aparecen en las aplicaciones convencionales.
 
-- La ausencia de un sistema confiable de reseñas y calificaciones enfocado en huariques dificulta la creación de confianza y comunidad entre usuarios y dueños de estos negocios.
+- La inexistencia de un sistema de reseñas y valoraciones enfocado en huariques dificulta generar confianza y construir una comunidad sólida entre usuarios y propietarios de estos negocios.
 
-- Las grandes aplicaciones de comida priorizan restaurantes y cadenas consolidadas, dejando una brecha para los huariques en términos de visibilidad y alcance de mercado.
+- Las aplicaciones gastronómicas más populares favorecen a los grandes restaurantes y cadenas, dejando a los huariques sin visibilidad ni alcance en el mercado digital.
 
-- Los dueños de huariques, generalmente con recursos limitados, requieren una solución práctica y eficiente que les permita gestionar su presencia digital sin complicaciones técnicas ni costos excesivos.
+- Los propietarios de huariques, que habitualmente trabajan con recursos escasos, necesitan una herramienta práctica que les permita gestionar su presencia en línea sin complicaciones técnicas ni inversiones elevadas.
 
 ##### 1.2.2.2. Lean UX Assumptions
 #### Business Assumptions
-- Se asume que la plataforma PuntoSabor atraerá a un número significativo de dueños de huariques interesados en aumentar su visibilidad digital mediante la membresía o planes publicitarios.
+- Se estima que PuntoSabor logrará convocar a un número considerable de dueños de huariques que buscan mayor visibilidad digital a través de membresías o planes publicitarios.
 
-- Se espera que la implementación de un modelo de membresía o planes promocionales genere un flujo constante de ingresos recurrentes para la startup.
+- Se prevé que la implementación de planes de membresía o publicidad genere ingresos recurrentes y estables para la startup.
 
-- Se considera que el mercado gastronómico local está dispuesto a adoptar una solución digital accesible que potencie negocios pequeños y mejore la experiencia de descubrimiento gastronómico para los usuarios.
+- Se considera que el mercado gastronómico local está preparado para adoptar soluciones digitales accesibles que impulsen a los pequeños negocios y mejoren la experiencia de descubrimiento para los usuarios.
 
-- Se supone que una comunidad activa de usuarios y dueños de huariques facilitará el crecimiento orgánico y la retención en la plataforma.
+- Se parte del supuesto de que una comunidad activa de usuarios y propietarios de huariques favorecerá el crecimiento orgánico y la fidelización dentro de la plataforma.
+
 #### User Assumptions
-- Se asume que los usuarios valoran encontrar opciones de comida local auténtica, económica y poco convencional que no aparecen en apps masivas.
+- Se estima que los usuarios priorizan hallar opciones de comida local genuina, económica y diferente a las que ofrecen las grandes aplicaciones.
 
-- Se espera que los usuarios utilicen la app no solo para descubrir huariques, sino también para calificar y dejar reseñas que ayuden a otros usuarios.
+- Se espera que los usuarios no solo exploren huariques a través de la app, sino que también contribuyan con calificaciones y reseñas que orienten a otros.
 
-- Se considera que la facilidad de uso, el acceso a fotos, especialidades, rango de precios y mapas integrados incentivarán la utilización frecuente de la plataforma por parte de los usuarios.
+- Se considera que una interfaz sencilla, combinada con acceso a fotografías, especialidades del lugar, rangos de precios y mapas integrados, motivará un uso frecuente de la plataforma.
 
-- Se supone que la posibilidad de guardar favoritos y consultar rankings motivará a los usuarios a regresar y recomendar PuntoSabor dentro de su comunidad.
+- Se supone que funciones como guardar favoritos y consultar rankings impulsarán a los usuarios a volver y recomendar PuntoSabor en su entorno cercano.
 
-- Se asume que los dueños o administradores de huariques encontrarán sencillo y valioso el proceso de registrar y gestionar su negocio en la app para aumentar su visibilidad y atraer clientes.
+- Se asume que los propietarios o administradores de huariques valorarán y encontrarán sencillo el proceso de registrar y gestionar su negocio dentro de la app, con miras a aumentar su visibilidad.
 
-- Se espera que estos usuarios aporten información completa y actualizada de sus huariques, incluyendo fotos, especialidades y precios, para mejorar la experiencia de los visitantes.
+- Se espera que estos usuarios proporcionen información completa y actualizada —fotos, especialidades, precios— para enriquecer la experiencia de quienes los visiten.
 
-- Se considera que incentivos como la membresía y la interacción con la comunidad fomentarán un compromiso activo por parte de los dueños para mantener su presencia digital actualizada y atractiva.
+- Se estima que beneficios como la membresía y la dinámica comunitaria fomentarán que los propietarios mantengan su perfil activo y atractivo.
 
 ##### 1.2.2.3. Lean UX Hypothesis Statements
 
