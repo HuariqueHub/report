@@ -331,9 +331,13 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
       </td>
     </tr>
     <tr>
-      <td> </td>
+      <td>Becerra Llempen, Fabiola Dayane</td>
       <td>
         <strong> AV1:</strong><br>
+        Contribuí de manera activa al diseño de la página web utilizando Figma, proponiendo mejoras visuales y asegurando una línea gráfica coherente. Además, me mantuve en comunicación constante con el equipo para coordinar avances y garantizar que todos los componentes del proyecto estuvieran alineados.
+        <strong> TP:</strong><br>
+        <strong> TB2:</strong><br>
+        <strong> TF:</strong><br>
         <br>
       </td>
     </tr>
@@ -382,16 +386,13 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
       </td>
     </tr>
     <tr>
-      <td> </td>
+      <td> Becerra Llempen, Fabiola Dayane </td>
       <td>
-        <strong> TB1:</strong><br>
-        Elaboré documentación clara y accesible, procurando que cualquier miembro del equipo o lector externo pudiera comprender el proyecto sin dificultad, detallando procesos y decisiones de manera ordenada.<br>
+        <strong> AV1:</strong><br>
+        Diseñé guías de estilo para la identidad visual y la interfaz web, además de crear wireframes diagramas de flujo y prototipos interactivos en Figma que sirvieron como base para la construcción del producto<br>
         <strong> TP:</strong><br>
-        Trabajé en mejorar el informe del trabajo final, ajustando contenido, estructura y redacción para fortalecer la presentación del proyecto.<br>
         <strong> TB2:</strong><br>
-        En el Sprint 3 participé activamente en la planificación, definiendo las entidades necesarias para el backend y documentando los avances correspondientes. Al mismo tiempo, implementé los endpoints centrales del sistema tanto operaciones de creación como consultas sentando una base sólida para las funcionalidades posteriores.<br>
         <strong> TF:</strong><br>
-        Finalmente, en el Sprint 4 completé el desarrollo del backend incorporando métodos <em>PUT</em> y los endpoints que el frontend requería para su integración total. También realicé el despliegue completo del backend y del frontend, garantizando su correcta comunicación y dejando el sistema listo para su uso final.<br>
       </td>
     </tr>
     <tr>
@@ -433,6 +434,7 @@ Esta iniciativa no solo busca promover la cultura gastronómica local y accesibl
 |![alt text]()                                                                 || 
 |![alt text](<assets/Perfil_Delgado.jpg>)                                                                 || 
 | ![alt text](<assets/Perfil_Lopez.jpg>)                                                                || 
+| ![alt text](<assets/Perfil_Becerra.jpg>)                                                                || 
 
 ## 1.2. Solution Profile
 
