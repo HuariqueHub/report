@@ -629,7 +629,7 @@ Preguntas Segmento 2:
 
 | Número de entrevista | Datos del entrevistado                                                                 | Evidencia de entrevista |
 |-----------------------|-----------------------------------------------------------------------------------------|--------------------------|
-| 2                     | **Nombre:** Piero Tapia  <br> **Edad:** 26  <br> **Distrito:** Jesús María <br><br> **Resumen:** DuDueño de un establecimiento de venta de sándwiches. Hoy en día, la falta de presupuesto y experiencia limitada en redes y pagos en línea hacen que dependa de la afluencia local; no le parece intuitiva la afiliación a aplicaciones. Es importante que la aplicación sea sencilla de aprender y utilizar, así como que tenga comisiones bajas (que no encarezcan sus productos). Solicita orientación y soporte para aprender a utilizar la herramienta y optimizar el negocio, además de visibilidad. Sugiere planes de forma escalonada (principiante, intermedio y avanzado). Éxito esperado: un mayor número de personas que consuman en el local (no solo lo visiten). | ![Evidencia](assets/Entrevista_Piero.jpg) <br> [📂 Ver entrevista](https://drive.google.com/file/d/1P5WpXLAtHH9lsgnF7tXXyMJiK7xsN05h/view?usp=sharing) 03:15 - 08:14|
+| 2                     | **Nombre:** Piero Tapia  <br> **Edad:** 26  <br> **Distrito:** Jesús María <br><br> **Resumen:** Dueño de un establecimiento de venta de sándwiches. Hoy en día, la falta de presupuesto y experiencia limitada en redes y pagos en línea hacen que dependa de la afluencia local; no le parece intuitiva la afiliación a aplicaciones. Es importante que la aplicación sea sencilla de aprender y utilizar, así como que tenga comisiones bajas (que no encarezcan sus productos). Solicita orientación y soporte para aprender a utilizar la herramienta y optimizar el negocio, además de visibilidad. Sugiere planes de forma escalonada (principiante, intermedio y avanzado). Éxito esperado: un mayor número de personas que consuman en el local (no solo lo visiten). | ![Evidencia](assets/Entrevista_Piero.jpg) <br> [📂 Ver entrevista](https://drive.google.com/file/d/1P5WpXLAtHH9lsgnF7tXXyMJiK7xsN05h/view?usp=sharing) 03:15 - 08:14|
 
 
 | Número de entrevista | Datos del entrevistado                                                                 | Evidencia de entrevista |
@@ -759,14 +759,14 @@ Coincidencias:
 - Carla tiene una frecuencia más alta que los demás en lo que respecta a compartir fotos y opiniones, aunque todos comparten una actitud media hacia la importancia de hacerlo.
 
 - Para los dos perfiles, las funciones que tienen que ver con la interacción social y la comunidad son de importancia media.
-- 
+  
 Diferencias:
 - Carla utiliza con frecuencia la búsqueda y consulta de huariques y mapas; en cambio, Don Luis tiene menos frecuencia en estas actividades debido a que su rol es más administrativo.
 
 - La actualización de la información de su huarique es una tarea que Carla no lleva a cabo, pero Don Luis invierte más tiempo y la considera importante.
 
 - Como resultado de sus roles y objetivos distintos en la plataforma, Carla tiene un alto grado de interacción con mapas y geolocalización, mientras que Don Luis lo tiene bajo.
-- 
+  
 ### 2.3.3. User Journey Mapping
 Segmento 1
 
@@ -881,7 +881,7 @@ Glosario:
 - Culinary Tradition (Tradición Culinaria): Conjunto de hábitos, recetas y prácticas culinarias típicas de los huariques, que enriquecen culturalmente la vivencia gastronómica.
 
 - Community Interaction (Interacción Comunitaria): Interacción entre los clientes y los propietarios de huariques a través del intercambio de experiencias, reseñas, sugerencias y conversaciones que aumentan la confianza y el reconocimiento de sus empresas.
-- 
+  
 - Membership (Membresía): Acuerdo financiero por el que un propietario de huarique obtiene ventajas extra de visibilidad y promoción dentro del ecosistema de PuntoSabor.
 
 # Capítulo III: Requirements Specification
