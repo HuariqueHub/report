@@ -25,7 +25,7 @@
 |  Delgado Carrasco, Schneider  | u202321843 |
 |  Lopez Goitia, Carlos Alberto  | u202312700 |
 |  Tumi Oliden Manuel Ignacio  | u20241c134 |
-|     |  |
+|  Becerra Llempen, Fabiola Dayane |u20171a518|
 |    |  |
 
 <strong> Abril 2026</strong><br>
@@ -48,7 +48,7 @@
         <li>Delgado Carrasco, Schneider</li> 
         <li>Lopez Goitia, Carlos Alberto</li> 
         <li>Tumi Oliden Manuel Ignacio</li>
-        <li> </li>
+        <li>Becerra Llempen Fabiola Dayane </li>
         <li> </li>
       </ul>
     </td>
