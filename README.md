@@ -26,7 +26,7 @@
 |  Lopez Goitia, Carlos Alberto  | u202312700 |
 |  Tumi Oliden Manuel Ignacio  | u20241c134 |
 |  Becerra Llempen, Fabiola Dayane |u20171a518|
-|    |  |
+|  Vasquez Goicochea Erick Alessander | u202019871 |
 
 <strong> Abril 2026</strong><br>
 </div>
@@ -49,6 +49,7 @@
         <li>Lopez Goitia, Carlos Alberto</li> 
         <li>Tumi Oliden Manuel Ignacio</li>
         <li>Becerra Llempen Fabiola Dayane </li>
+        <li>Vasquez Goicochea, Erick Alessander</li>
         <li> </li>
       </ul>
     </td>
@@ -234,6 +235,13 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
       </td>
     </tr>
     <tr>
+  <td>Vasquez Goicochea Erick Alessander</td>
+  <td>
+    <strong> AV1:</strong><br>
+    Apoyé en la revisión del contenido del capítulo 2, mejorando la redacción para que sea más clara y entendible. Además, reforcé el análisis en las secciones de competidores y entrevistas para que reflejen mejor las necesidades de los usuarios.<br>
+  </td>
+</tr>
+    <tr>
     </tr>
     <!-- Criterio 2 -->
     <tr>
@@ -268,6 +276,13 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
         Realice entrevistas y análisis de entrevistas para poder obtener fundamentos en la investigación. Tambien, realice un enfoque estratégico con el empathy Mapping y As-is Scenario Mapping de los segmentos obtenidos junto con el Big Picture Event Storming y Ubiquitous Language.<br>
       </td>
     </tr>
+  <tr>
+    <td>Vasquez Goicochea Erick Alessander</td>
+    <td>
+      <strong> AV1:</strong><br>
+      Colaboré con el equipo revisando y mejorando la claridad del documento, asegurando que el contenido sea comprensible tanto para lectores técnicos como no técnicos. También apoyé en la organización de la información del capítulo 2 para mantener coherencia en el análisis.<br>
+    </td>
+  </tr>
     <tr>
 
   </tbody>
@@ -293,6 +308,7 @@ Mediante una interfaz intuitiva, la herramienta permite a la comunidad descubrir
 |![alt text](<assets/Perfil_Delgado.jpg>)                                                                 || 
 | ![alt text](<assets/Perfil_Lopez.jpg>)                                                                || 
 | ![alt text](<assets/Perfil_Becerra.jpg>)                                                                || 
+| ![alt text](<assets/Perfil_Erick.jpg>)                                                                 ||
 
 ## 1.2. Solution Profile
 
