@@ -229,7 +229,7 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
       <td>Becerra Llempen, Fabiola Dayane</td>
       <td>
         <strong> AV1:</strong><br>
-        Contribuí de manera activa al diseño de la página web utilizando Figma, proponiendo mejoras visuales y asegurando una línea gráfica coherente. Además, me mantuve en comunicación constante con el equipo para coordinar avances y garantizar que todos los componentes del proyecto estuvieran alineados.<br>
+        Durante este trabajo realice los análisis competitivos de mercado para obtener las ventajas y encontrar oportunidades de mejora para nuestro proyecto. Asimismo, desarrolle los perfiles del user persona , user task matrix y el journey mapping con sus respectivas conclusiones. <br>
         <br>
       </td>
     </tr>
@@ -265,7 +265,7 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
       <td> Becerra Llempen, Fabiola Dayane </td>
       <td>
         <strong> AV1:</strong><br>
-        Diseñé guías de estilo para la identidad visual y la interfaz web, además de crear wireframes diagramas de flujo y prototipos interactivos en Figma que sirvieron como base para la construcción del producto<br>
+        Realice entrevistas y análisis de entrevistas para poder obtener fundamentos en la investigación. Tambien, realice un enfoque estratégico con el empathy Mapping y As-is Scenario Mapping de los segmentos obtenidos junto con el Big Picture Event Storming y Ubiquitous Language.<br>
       </td>
     </tr>
     <tr>
