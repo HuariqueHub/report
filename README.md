@@ -375,7 +375,7 @@ Esta brecha representa no solo una oportunidad económica sin aprovechar para lo
 - Creemos que la oferta de planes de membresía y publicidad atraerá a suficientes dueños de huariques para generar ingresos recurrentes sostenibles. Sabremos que esto es cierto cuando el 30% de los huariques registrados contraten al menos un plan pago durante los primeros seis meses.
 
 ##### 1.2.2.4. Lean UX Canvas
-![alt text](<assets/Lean UX Canvas - PuntoSabor.jpg>)
+![alt text](<assets/Lean UX Canvas - PuntoSabor.png>)
 
 ## 1.3. Segmentos objetivo
 ##Exploradores Gastronómicos
