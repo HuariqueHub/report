@@ -241,7 +241,7 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
       <td>Delgado Carrasco, Schneider</td>
       <td>
         <strong> AV1:</strong><br>
-        Como parte del Sprint 1, elaboré la descripción completa de la startup, su contexto y antecedentes; trabajé con Lean UX para formular y validar hipótesis; realicé un análisis competitivo y definí los segmentos del público objetivo respaldados con datos estadísticos.<br>
+        Como parte de las user stories, apoye en el desarrollo, su contexto y antecedentes; tambien realice algunos puntos del lean UX; realicé un análisis competitivo y definí los segmentos del público objetivo respaldados con datos estadísticos.<br>
       </td>
       <td rowspan="6">La comunicación escrita se realizó con claridad, ajustando el contenido según las necesidades tanto de públicos técnicos como de lectores no especializados.</td>
     </tr>
