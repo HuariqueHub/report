@@ -313,13 +313,7 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
       <td>Lopez Goitia, Carlos Alberto</td>
       <td>
         <strong> AV1:</strong><br>
-        Llevé a cabo entrevistas para obtener información relevante y diseñé la arquitectura de software siguiendo principios de Domain Driven Design, elaborando diagramas de contexto, contenedores y componentes.<br>
-        <strong> TP:</strong><br>
-        Realicé ajustes de mejora continua y participé en el desarrollo de la aplicación web junto con mis compañeros, coordinando reuniones para revisar avances y alinear el trabajo del equipo.<br>
-        <strong> TB2:</strong><br>
-        Colaboré en el desarrollo del backend, implementando la primera versión de los endpoints y contribuyendo a la organización estratégica de nuestras entidades para su implementación técnica.<br>
-        <strong> TF:</strong><br>
-        Apoyé en la revisión y validación de los endpoints desarrollados, manteniendo una comunicación constante con el equipo para asegurar la correcta integración del sistema.<br>
+        Realicé entrevistas para la extracción de requisitos críticos y definí la arquitectura del sistema bajo el enfoque de Domain-Driven Design (DDD), documentando la estructura mediante diagramas de contexto, contenedores y componentes.<br>
       </td>
     </tr>
     <tr>
@@ -334,19 +328,11 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
       <td>Becerra Llempen, Fabiola Dayane</td>
       <td>
         <strong> AV1:</strong><br>
-        Contribuí de manera activa al diseño de la página web utilizando Figma, proponiendo mejoras visuales y asegurando una línea gráfica coherente. Además, me mantuve en comunicación constante con el equipo para coordinar avances y garantizar que todos los componentes del proyecto estuvieran alineados.
-        <strong> TP:</strong><br>
-        <strong> TB2:</strong><br>
-        <strong> TF:</strong><br>
+        Contribuí de manera activa al diseño de la página web utilizando Figma, proponiendo mejoras visuales y asegurando una línea gráfica coherente. Además, me mantuve en comunicación constante con el equipo para coordinar avances y garantizar que todos los componentes del proyecto estuvieran alineados.<br>
         <br>
       </td>
     </tr>
     <tr>
-      <td> </td>
-      <td>
-        <strong> AV1:</strong><br>
-        <br>
-      </td>
     </tr>
     <!-- Criterio 2 -->
     <tr>
@@ -367,14 +353,9 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
     <tr>
       <td>Lopez Goitia, Carlos Alberto</td>
       <td>
-        <strong> TB1:</strong><br>
-        Elaboré un conjunto de preguntas para las entrevistas que permitiera fundamentar adecuadamente las decisiones de diseño, y aporté ideas técnicas basadas en la investigación previa realizada para orientar el enfoque del proyecto.<br>
-        <strong> TP:</strong><br>
-        Contribuí al cumplimiento del objetivo de construir la landing page, apoyando tanto en la parte visual como en la integración técnica y trabajando de manera colaborativa mediante herramientas como GitHub para asegurar un flujo de trabajo coordinado.<br>
-        <strong> TB2:</strong><br>
-        Establecí la organización conceptual del sistema y trabajé junto al equipo en la implementación del servicio API con .NET. Todo este proceso se llevó a cabo manteniendo una comunicación constante para asegurar un entorno de desarrollo coherente y funcional.<br>
-        <strong> TF:</strong><br>
-        Colaboré en la documentación correspondiente al sprint 4 y en la revisión de detalles técnicos, participando en la coordinación general del equipo para garantizar la correcta evolución del proyecto en su etapa final.<br>
+        <strong> AV1:</strong><br>
+        Diseñé instrumentos de entrevista estructurados para validar las decisiones arquitectónicas y propuse soluciones técnicas fundamentadas en una investigación previa, asegurando que el proyecto mantuviera un enfoque sólido y justificado.<br>
+        <br>
       </td>
     </tr>
     <tr>
@@ -417,21 +398,17 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
 
-FijasDev es una startup orientada al desarrollo de soluciones tecnológicas innovadoras que potencian la visibilidad y el crecimiento de pequeños negocios locales, especialmente en el sector gastronómico. Su proyecto principal, PuntoSabor, es una plataforma web diseñada para conectar a los usuarios con huariques, que son establecimientos de comida tradicional y casera, poco conocidos pero con una oferta culinaria auténtica y de alta calidad.
+HuariqueHub es una startup dedicada a la creación de soluciones tecnológicas diseñadas para impulsar la competitividad y el crecimiento de pequeños comercios locales, con un énfasis particular en el rubro gastronómico. Su propuesta central, PuntoSabor, consiste en una plataforma web que vincula a los comensales con "huariques", establecimientos de cocina tradicional que destacan por su autenticidad y calidad, pero que suelen carecer de exposición en el entorno digital.
 
-PuntoSabor nace con el propósito de llenar un vacío existente en el mercado digital, donde los huariques suelen quedar invisibilizados ante las grandes aplicaciones de comida que priorizan restaurantes consolidados y cadenas. A través de una experiencia intuitiva y funcional, la aplicación facilita a los usuarios descubrir, valorar y recomendar estos espacios, generando una comunidad sólida y un canal de promoción eficaz para los dueños de estos negocios.
+El proyecto surge para resolver la brecha de visibilidad que enfrentan estos negocios frente a las grandes cadenas en las aplicaciones convencionales. 
 
-Esta iniciativa no solo busca promover la cultura gastronómica local y accesible, sino también fomentar un modelo de negocio sostenible para los pequeños emprendedores mediante la incorporación de membresías y planes publicitarios, beneficiando a todos los actores involucrados en el ecosistema.
+Mediante una interfaz intuitiva, la herramienta permite a la comunidad descubrir y recomendar estos locales, validando un modelo de negocio sostenible basado en planes de visibilidad y membresías que fortalecen el ecosistema emprendedor local.
     
 ### 1.1.2. Perfiles de integrantes del equipo
 
-    
-
 |                             Miembro                             |                                                                                                                                                                                   .
 |:---------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| ![alt text]() |  <br>  |
 | ![alt text](<assets/Perfil_Manuel.jpg>) || 
-|![alt text]()                                                                 || 
 |![alt text](<assets/Perfil_Delgado.jpg>)                                                                 || 
 | ![alt text](<assets/Perfil_Lopez.jpg>)                                                                || 
 | ![alt text](<assets/Perfil_Becerra.jpg>)                                                                || 
