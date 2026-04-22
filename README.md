@@ -299,13 +299,8 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
       <td>Delgado Carrasco, Schneider</td>
       <td>
         <strong> AV1:</strong><br>
-        Identifiqué con claridad la problemática central de nuestra startup, definí los segmentos a los que está dirigida y realicé la investigación necesaria para establecer los requisitos de la aplicación web. Además, llevé a cabo una entrevista con un usuario representativo del público objetivo.<br>
-        <strong> TP:</strong><br>
-        Realicé las correcciones de los technical stories y sus evidencias según las observaciones recibidas. Avancé en el desarrollo del FrontEnd y participé activamente en las conversaciones y la planificación del sprint 2.<br>
-        <strong> TB2:</strong><br>
-        Trabajé en el desarrollo de funcionalidades del backend durante el Sprint 3, enfocándome en la creación y configuración de las tablas, la documentación de los modelos de datos y las relaciones entre entidades. También apoyé en la organización de la arquitectura técnica del sistema.<br>
-        <strong> TF:</strong><br>
-        Refiné nuevamente el informe final, fortaleciendo la presentación, la redacción y la organización del documento para asegurar que reflejara con precisión el progreso del equipo y la calidad del proyecto.<br>
+        Identifiqué con claridad la problemática central de nuestra startup, definí los segmentos a los que está dirigida y realicé la investigación necesaria para establecer los requisitos de la aplicación web. Además, llevé a cabo una entrevista con un usuario representativo del público objetivo.
+        <br>
       </td>
       <td rowspan="5">El equipo se comunicó de forma clara y estructurada, aportando conjuntamente al análisis técnico y estratégico del proyecto.</td>
     </tr>
@@ -339,14 +334,8 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
       <td rowspan="6">Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos</td>
       <td>Delgado Carrasco, Schneider</td>
       <td>
-        <strong> TB1:</strong><br>
+        <strong> AV1:</strong><br>
         Como parte del Sprint 1, elaboré la descripción completa de la startup, su contexto y antecedentes; trabajé con Lean UX para formular y validar hipótesis; realicé un análisis competitivo y definí los segmentos del público objetivo respaldados con datos estadísticos.<br>
-        <strong> TP:</strong><br>
-        Durante el Sprint 2, me enfoqué en dejar registrada toda la evidencia del desarrollo, corregir el informe según las observaciones recibidas y definir con mayor precisión los features esenciales para la aplicación web, estableciendo una línea clara de trabajo para el equipo.<br>
-        <strong> TB2:</strong><br>
-        Incorporé mejoras en el frontend y realicé ajustes adicionales en el informe final, afinando aspectos visuales y documentales para mantener la coherencia del proyecto.<br>
-        <strong> TF:</strong><br>
-        Continué perfeccionando el informe final, revisando detalles, corrigiendo apartados y asegurando que el documento reflejara de forma precisa y completa el trabajo realizado.<br>
       </td>
       <td rowspan="6">La comunicación escrita se realizó con claridad, ajustando el contenido según las necesidades tanto de públicos técnicos como de lectores no especializados.</td>
     </tr>
