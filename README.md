@@ -783,19 +783,15 @@ Glosario:
 
 # 5.4. Video About-the-Product
 
-https://drive.google.com/file/d/1IFWF2grAcX5bDUyp4jeoviRTwzra_2JY/view
+https://drive.google.com/drive/folders/1Iqb5Lz3YxKQMyos2Oyqczd73CZMvspKV?usp=drive_link
 
 # Conclusiones
 
-A lo largo de los cuatro sprints, el equipo pudo establecer no solo una base técnica para el proyecto, sino también un procedimiento de trabajo más cooperativo y estructurado. Establecimos las bases del proyecto en el Sprint 1: definimos el flujo de trabajo con GitHub, organizamos roles, estructuramos el repositorio y creamos la primera versión de la página de aterrizaje. También se diseñaron los componentes iniciales en Figma y se preparó el entorno para seguir avanzando en el producto.
+Este primer avance ha permitido establecer las bases conceptuales y analíticas del proyecto PuntoSabor. A través de la definición del problema, el análisis competitivo, las entrevistas con ambos segmentos objetivo y el needfinding, se logró comprender con mayor profundidad la realidad que enfrentan tanto los exploradores gastronómicos como los dueños de huariques en el entorno digital actual.
 
-Durante el Sprint 2, logramos un avance significativo al crear la primera versión funcional de la aplicación movíl. Además de lanzar la primera versión en producción, también pusimos en marcha la búsqueda avanzada, la vista de mapa, las categorías y el registro de huariques. Se incorporó una API falsa a través de Render y JSON Server, lo que posibilitó la prueba de los flujos reales entre el frontend y el backend. Además, se llevó a cabo una mejora en el empleo de GitFlow, ramas por funcionalidad y despliegues en Netlify y Vercel.
+Los hallazgos obtenidos confirman que existe una oportunidad real y concreta: los huariques carecen de representación digital adecuada, y los usuarios que buscan ese tipo de experiencia gastronómica no cuentan con herramientas diseñadas para ellos. Esta brecha valida la propuesta de PuntoSabor como solución especializada y diferenciada.
 
-Se implementaron características más completas y enfocadas en la conducta real del usuario, como iniciar sesión y registrarse, dejar reseñas, marcar favoritos, tener membresías y recibir notificaciones iniciales durante el Sprint 3. Además, se puso en marcha la versión inicial del backend, que incluye controladores, una base de datos inicial, endpoints reales y documentación en Swagger. Esto facilitó la mejora de la calidad de la plataforma y el progreso hacia una integración entre los módulos del sistema.
-
-En última instancia, en el Sprint 4, nos concentramos en perfeccionar la experiencia del usuario y optimizar elementos visuales, flujos internos y estabilidad general. Se incorporaron actualizaciones en el mapa, opciones personalizadas, huariques preferidos, informes de datos erróneos y una versión adaptable del landing page. Asimismo, se logró una integración con el backend más sólida al resolver errores, organizar los endpoints y garantizar la compatibilidad con el frontend.
-
-Durante los sprints, el equipo perfeccionó su organización interna de manera significativa, reforzó la comunicación, utilizó en Git prácticas adecuadas y aprendió a coordinarse mejor entre diseño, backend y frontend. Esto posibilitó que cada entrega tuviera más solidez que la anterior.
+Como siguiente paso, el proyecto avanzará hacia la definición de requerimientos funcionales y el diseño de la arquitectura de la solución, tomando como base todo lo trabajado en este primer avance.
 
 # Bibliografía
 
@@ -818,4 +814,4 @@ Durante los sprints, el equipo perfeccionó su organización interna de manera s
 
 VIDEOS DEL EQUIPO:
 
-https://drive.google.com/drive/folders/1O24Act8yiSku-69flphDrmjVyVIwWxQs?usp=sharing
+https://drive.google.com/drive/folders/1Iqb5Lz3YxKQMyos2Oyqczd73CZMvspKV?usp=drive_link
