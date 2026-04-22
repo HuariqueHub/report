@@ -26,7 +26,7 @@
 |  Lopez Goitia, Carlos Alberto  | u202312700 |
 |  Tumi Oliden Manuel Ignacio  | u20241c134 |
 |  Becerra Llempen, Fabiola Dayane |u20171a518|
-|    |  |
+|  Vasquez Goicochea Erick Alessander | u202019871 |
 
 <strong> Abril 2026</strong><br>
 </div>
@@ -49,6 +49,7 @@
         <li>Lopez Goitia, Carlos Alberto</li> 
         <li>Tumi Oliden Manuel Ignacio</li>
         <li>Becerra Llempen Fabiola Dayane </li>
+        <li>Vasquez Goicochea, Erick Alessander</li>
         <li> </li>
       </ul>
     </td>
@@ -234,6 +235,13 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
       </td>
     </tr>
     <tr>
+  <td>Vasquez Goicochea Erick Alessander</td>
+  <td>
+    <strong> AV1:</strong><br>
+    Apoyé en la revisión del contenido del capítulo 2, mejorando la redacción para que sea más clara y entendible. Además, reforcé el análisis en las secciones de competidores y entrevistas para que reflejen mejor las necesidades de los usuarios.<br>
+  </td>
+</tr>
+    <tr>
     </tr>
     <!-- Criterio 2 -->
     <tr>
@@ -268,6 +276,13 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
         Realice entrevistas y análisis de entrevistas para poder obtener fundamentos en la investigación. Tambien, realice un enfoque estratégico con el empathy Mapping y As-is Scenario Mapping de los segmentos obtenidos junto con el Big Picture Event Storming y Ubiquitous Language.<br>
       </td>
     </tr>
+  <tr>
+    <td>Vasquez Goicochea Erick Alessander</td>
+    <td>
+      <strong> AV1:</strong><br>
+      Colaboré con el equipo revisando y mejorando la claridad del documento, asegurando que el contenido sea comprensible tanto para lectores técnicos como no técnicos. También apoyé en la organización de la información del capítulo 2 para mantener coherencia en el análisis.<br>
+    </td>
+  </tr>
     <tr>
 
   </tbody>
@@ -293,6 +308,7 @@ Mediante una interfaz intuitiva, la herramienta permite a la comunidad descubrir
 |![alt text](<assets/Perfil_Delgado.jpg>)                                                                 || 
 | ![alt text](<assets/Perfil_Lopez.jpg>)                                                                || 
 | ![alt text](<assets/Perfil_Becerra.jpg>)                                                                || 
+| ![alt text](<assets/Perfil_Erick.jpg>)                                                                 ||
 
 ## 1.2. Solution Profile
 
@@ -403,8 +419,13 @@ Esta brecha representa no solo una oportunidad económica sin aprovechar para lo
 ## 2.1. Competidores
 ### 2.1.1. Análisis competitivo
 
-En el mercado contemporáneo, hay numerosas plataformas y aplicaciones alimentarias que posibilitan a los usuarios buscar sitios y restaurantes para comer, como Google Maps, Uber Eats, Yelp o Rappi. Estas aplicaciones, no obstante, dan preferencia a
-restaurantes establecidos y cadenas, lo que da escaso lugar a huariques o negocios locales de gastronomía menos conocidos.
+Actualmente existen varias plataformas que permiten a los usuarios buscar lugares para comer, como Google Maps, Uber Eats, Yelp o Rappi. Estas aplicaciones ofrecen una gran variedad de opciones, pero en la mayoría de casos dan mayor visibilidad a restaurantes conocidos o cadenas, dejando de lado a negocios más pequeños como los huariques.
+
+En ese sentido, muchos de estos locales no logran aparecer fácilmente en los resultados o no cuentan con suficiente información para generar confianza en los usuarios. Esto hace que las personas tengan dificultades para descubrir nuevas opciones fuera de lo común.
+
+Frente a esta situación, PuntoSabor propone un enfoque diferente, ya que se centra únicamente en huariques. Esto permite ofrecer una experiencia más específica y enfocada en comida local auténtica, algo que las plataformas tradicionales no priorizan.
+
+Además, al incluir funciones pensadas para este tipo de negocios, como la gestión directa del perfil y un sistema de reseñas más enfocado, se genera una mejor conexión entre usuarios y dueños. Por eso, se puede ver que existe una oportunidad clara para diferenciarse en el mercado.
 
 ![alt text](assets/AnalisisCompetitivo_PuntoSabor.png)
 ![alt text](assets/FODA_PuntoSabor.png)
@@ -413,26 +434,27 @@ PuntoSabor se distingue por su enfoque exclusivo en huariques, brindando un luga
 
 ### 2.1.2. Estrategias y tácticas frente a competidores.  
 
-Con el objetivo de distinguir a PuntoSabor de las plataformas generales más grandes y establecerse con éxito en el sector de los huariques, se proponen las siguientes tácticas y estrategias:
+Con el fin de diferenciar a PuntoSabor de otras plataformas más grandes y posicionarse dentro del mercado de huariques, se plantean las siguientes estrategias y tácticas:
 
 Estrategias:
-- Dirigir la plataforma únicamente hacia pequeñas empresas de comida local que sean poco reconocidas, lo que posibilitará brindar una experiencia genuina y única que los competidores masivos no logran satisfacer de manera adecuada.
 
-- Promover la implicación activa de los propietarios y usuarios, a través de reseñas, sugerencias y la producción de contenido genuino que genere un sentimiento de confianza y pertenencia.
+- Enfocar la plataforma en huariques y pequeños negocios de comida local poco conocidos, permitiendo ofrecer una experiencia más auténtica que no suele encontrarse en aplicaciones tradicionales.
 
-- Crear un modelo de ingresos que se base en membresías y publicidad y que esté al alcance de los propietarios de huariques, logrando un balance entre la monetización y el crecimiento orgánico de la plataforma.
+- Incentivar la participación de usuarios y propietarios mediante reseñas, recomendaciones y contenido real, con el objetivo de generar mayor confianza dentro de la plataforma.
 
-Tácticas: 
+- Implementar un modelo de ingresos basado en membresías y publicidad accesible, pensado para que los dueños de huariques puedan promocionarse sin necesidad de realizar grandes inversiones.
 
-- Con el fin de atraer a los usuarios y propietarios que estén interesados, emplear publicidad en buscadores y redes sociales dirigida a áreas urbanas concretas donde se encuentran huariques..
+Tácticas:
 
-- Trabajar en conjunto con ferias, eventos y organizaciones gastronómicas con el fin de impulsar la aplicación y añadir huariques significativos a la plataforma.
+- Utilizar publicidad en redes sociales y buscadores, enfocada en zonas urbanas donde existe presencia de huariques, para atraer tanto usuarios como propietarios.
 
-- Asegurar que la aplicación web sea accesible, rápida y fácil de usar, incorporando un sistema simple para añadir y actualizar huariques, una interfaz amigable para el usuario y funcionalidades intuitivas de mapas.
+- Establecer alianzas con ferias, eventos y organizaciones gastronómicas para dar mayor visibilidad a la plataforma e incorporar nuevos huariques.
 
-- Fomentar el uso y la lealtad a través de incentivos como reconocimientos, descuentos o beneficios para quienes participen activamente (reseñas, renovación del perfil, membresía).
+- Asegurar que la aplicación sea fácil de usar, rápida y accesible, incluyendo herramientas simples para registrar y actualizar información, así como un sistema de mapas intuitivo.
 
-- Para mejorar de manera continua la plataforma, se debe establecer un sistema que analice y responda rápidamente a las sugerencias y problemas que los usuarios reporten.
+- Promover la participación mediante incentivos como descuentos, beneficios o reconocimientos para usuarios y dueños que interactúan activamente.
+
+- Implementar un sistema de retroalimentación que permita recoger sugerencias y mejorar la plataforma de manera continua.
 
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
@@ -537,6 +559,15 @@ Cada semana busca sitios nuevos, especialmente los fines de semana con su pareja
 - Se motiva por una app **confiable y enfocada en huariques**.  
 - Imprescindibles: **filtros por comida, precios y ubicación, mapa interactivo, recomendaciones**.  
 - Preocupaciones: **publicidad excesiva, información falsa, pocas opciones locales**.
+
+A partir de los resultados obtenidos en este segmento, se puede ver que existe un patrón claro en el comportamiento de los usuarios. En general, los exploradores gastronómicos buscan constantemente nuevas opciones, pero dependen en gran parte de redes sociales como TikTok e Instagram para descubrir lugares.
+
+Sin embargo, todos coinciden en que las aplicaciones actuales no muestran suficientes huariques o presentan información poco confiable, como horarios desactualizados o falta de reseñas reales. Esto genera una experiencia poco segura al momento de elegir un lugar.
+
+Además, se repite la importancia de contar con filtros, mapas interactivos y recomendaciones personalizadas, lo que indica que los usuarios valoran herramientas que faciliten la búsqueda y reduzcan el riesgo de equivocarse.
+
+Por eso, se puede entender que existe una necesidad clara de una plataforma más confiable, enfocada en huariques y con información actualizada.
+
 ---
 ### Segmento #2: Dueños y Administradores de Huariques
 ## 👨 Wildor Villalobos (28 años)
@@ -591,6 +622,13 @@ Su objetivo fundamental es que la aplicación lo asista para **incrementar el n�
 - Se inclina por un **modelo de membresía escalonado** (básico, intermedio y avanzado).  
 - Expectativa: **Consolidar la identidad de su negocio y hacer crecer la clientela que va en persona**.
 
+En el caso de los dueños de huariques, se puede ver que la mayoría enfrenta dificultades relacionadas con el uso de herramientas digitales. Muchos no utilizan plataformas por falta de conocimiento o porque consideran que son complicadas.
+
+También se repite el problema del presupuesto, ya que no pueden invertir grandes cantidades en publicidad como lo hacen los negocios más grandes. A pesar de esto, muestran interés en soluciones que sean simples, accesibles y que realmente les generen resultados.
+
+Otro punto importante es que valoran mucho el acompañamiento, como guías o soporte, lo que indica que no solo necesitan una plataforma, sino también ayuda para aprender a usarla.
+
+Por eso, se puede concluir que la solución debe ser fácil de usar, económica y enfocada en generar resultados como atraer más clientes y aumentar las ventas.
 
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
@@ -598,11 +636,12 @@ Se han creado dos perfiles de usuario o personas representativas para entender c
 
 - Persona  1: Carla, la Exploradora Gastronómica
 
-   Carla simboliza a los usuarios jóvenes y activos, quienes buscan alternativas culinarias auténticas y asequibles que se aparten de las propuestas tradicionales. Este perfil aprecia que se pueda hallar huariques confiables de manera sencilla por medio de plataformas digitales, las cuales ofrezcan información clara y reseñas auténticas.
+   Carla simboliza a los usuarios jóvenes y activos, que buscan probar nuevas opciones de comida, especialmente aquellas que son auténticas y económicas. Este tipo de usuario valora poder encontrar huariques de forma sencilla a través de plataformas digitales, siempre que estas ofrezcan información clara, fotos reales y reseñas confiables.
+
 ![alt text](assets/UserPersonaSeg1.jpg)
 
 - Persona 2: Don Luis, dueño de huarique tradicional
-Don Luis representa a los dueños de huariques y a los emprendedores pequeños que requieren instrumentos asequibles y eficaces para hacer publicidad de su negocio y ampliar su clientela. Con una experiencia reducida en tecnología digital, busca soluciones sencillas de utilizar que le faciliten manejar su presencia en línea sin excesivas dificultades ni gastos altos.
+Don Luis representa a los dueños de huariques y a los emprendedores pequeños que buscan una forma simple de dar a conocer su negocio. No tiene mucha experiencia con tecnología, por lo que necesita herramientas fáciles de usar y que no impliquen gastos altos.
 ![alt text](assets/UserPersonaSeg2.jpg)
 
 ### 2.3.2. User Task Matrix
@@ -612,19 +651,19 @@ Don Luis representa a los dueños de huariques y a los emprendedores pequeños q
 Los perfiles de usuario en PuntoSabor presentan diferencias notables en sus tareas habituales, dependiendo de las necesidades y el rol de cada uno. Como exploradora gastronómica, Carla Dípes emplea la aplicación web de manera continua y activa para buscar huariques, leer reseñas y utilizar la función de mapas con geolocalización. Para ella, estas actividades son fundamentales para su experiencia. Por otro lado, Don Luis Pérez, propietario de huarique, no suele emplear la aplicación para buscar o ver mapas; su interés principal es actualizar la información de su huarique, tarea que lleva a cabo con frecuencia y considera esencial. Los dos individuos se comunican de vez en cuando utilizando la función de responder reseñas y compartir fotografías u opiniones, aunque Don Luis lo hace con menos frecuencia, pero sigue siendo significativo en términos de importancia.
 
 Coincidencias:
-- Ambos, de manera ocasional, interactúan con la función de responder reseñas, a la que le asignan una importancia media.
+- Ambos utilizan, en menor medida, la función de responder reseñas, considerándola de importancia media.
 
 - Carla tiene una frecuencia más alta que los demás en lo que respecta a compartir fotos y opiniones, aunque todos comparten una actitud media hacia la importancia de hacerlo.
 
 - Para los dos perfiles, las funciones que tienen que ver con la interacción social y la comunidad son de importancia media.
   
 Diferencias:
-- Carla utiliza con frecuencia la búsqueda y consulta de huariques y mapas; en cambio, Don Luis tiene menos frecuencia en estas actividades debido a que su rol es más administrativo.
+- Carla usa con frecuencia la búsqueda de huariques y el mapa, mientras que Don Luis casi no utiliza estas funciones debido a su enfoque más administrativo.
 
 - La actualización de la información de su huarique es una tarea que Carla no lleva a cabo, pero Don Luis invierte más tiempo y la considera importante.
 
-- Como resultado de sus roles y objetivos distintos en la plataforma, Carla tiene un alto grado de interacción con mapas y geolocalización, mientras que Don Luis lo tiene bajo.
-  
+- Carla presenta un alto nivel de interacción con funciones de exploración, mientras que Don Luis tiene una participación menor en este aspecto.
+
 ### 2.3.3. User Journey Mapping
 Segmento 1
 
@@ -726,7 +765,7 @@ Glosario:
 
 - Huarique (Huarique): Restaurante peruano tradicional, que normalmente es familiar o local, famoso por su cocina auténtica, accesible y casera. Es el núcleo de la propuesta de PuntoSabor.
 
-- Gastronomic Explorer (Explorador culinario): Persona que tiene como motivación la experiencia cultural y gastronómica y que se interesa por encontrar huariques auténticos, asequibles y poco conocidos.
+- Gastronomic Explorer (Explorador culinario): Persona interesada en descubrir nuevas experiencias gastronómicas, especialmente huariques auténticos, económicos y poco conocidos.
 
 - Huarique Owner (Propietario de Huarique): Persona encargada de administrar un huarique, que incluye la elaboración de los platos, la atención al cliente y la gestión general del negocio.
 
@@ -739,8 +778,8 @@ Glosario:
 - Culinary Tradition (Tradición Culinaria): Conjunto de hábitos, recetas y prácticas culinarias típicas de los huariques, que enriquecen culturalmente la vivencia gastronómica.
 
 - Community Interaction (Interacción Comunitaria): Interacción entre los clientes y los propietarios de huariques a través del intercambio de experiencias, reseñas, sugerencias y conversaciones que aumentan la confianza y el reconocimiento de sus empresas.
-  
-- Membership (Membresía): Acuerdo financiero por el que un propietario de huarique obtiene ventajas extra de visibilidad y promoción dentro del ecosistema de PuntoSabor.
+  X
+- Membership (Membresía): Plan o suscripción que permite a los propietarios obtener mayor visibilidad y beneficios dentro de la plataforma.
 
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping
