@@ -221,7 +221,7 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
       <td>Tumi Oliden, Manuel Ignacio</td>
       <td>
         <strong> AV1:</strong><br>
-        Durante esta etapa mantuve una comunicación fluida y constante con todo el equipo para asegurar que cada avance estuviera alineado. Paralelamente, seguí trabajando en el diseño de la interfaz en Figma, aportando ideas visuales y estructurales. También colaboré en la construcción inicial de la landing page y preparé tanto las preguntas guía para las entrevistas como los diagramas de clases necesarios para comprender mejor la estructura del sistema.<br>
+        Durante esta etapa redacté el análisis de antecedentes y problemática mediante las 5W's y 2H's, identificando los principales grupos afectados: propietarios de huariques y usuarios que buscan gastronomía local auténtica. Asimismo,  desarrollé los Lean UX Problem Statements, las Business y User Assumptions, y los Lean UX Hypothesis Statements con sus respectivos criterios de validación, estableciendo así las bases para la dirección estratégica del producto.<br>
         <br>
       </td>
     </tr>
@@ -257,7 +257,7 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
       <td>Tumi Oliden Manuel Ignacio</td>
       <td>
         <strong> AV1:</strong><br>
-        Me encargué de redactar el contenido para la landing page y parte de la documentación técnica, adaptando el lenguaje según el público objetivo, ya fueran usuarios finales o miembros del equipo de desarrollo.<br>
+        Me encargué de redactar las secciones de antecedentes, problemática y supuestos del proyecto, adaptando el lenguaje según el destinatario: un enfoque analítico para la documentación técnica del equipo y un enfoque estratégico para los Lean UX Statements e Hypothesis, asegurando que el contenido fuera claro y coherente para todos los involucrados.<br>
         <br>
       </td>
     </tr>
@@ -266,24 +266,10 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
       <td>
         <strong> AV1:</strong><br>
         Diseñé guías de estilo para la identidad visual y la interfaz web, además de crear wireframes diagramas de flujo y prototipos interactivos en Figma que sirvieron como base para la construcción del producto<br>
-        <strong> TP:</strong><br>
-        <strong> TB2:</strong><br>
-        <strong> TF:</strong><br>
       </td>
     </tr>
     <tr>
-      <td> </td>
-      <td>
-        <strong> TB1:</strong><br>
-        Diseñé guías de estilo para la identidad visual y la interfaz web, además de crear wireframes, diagramas de flujo y prototipos interactivos en Figma que sirvieron como base para la construcción del producto.<br>
-        <strong> TP:</strong><br>
-        Redacté las user stories necesarias y trabajé en la elaboración de diversos componentes que conforman la página principal, asegurando consistencia en la estructura y funcionalidad inicial del sitio.<br>
-        <strong> TB2:</strong><br>
-        Definí la organización conceptual del módulo relacionado con la gestión del sistema y los reportes, y participé activamente con el equipo en el desarrollo del servicio API empleando .NET bajo un enfoque REST, manteniendo una integración técnica ordenada.<br>
-        <strong> TF:</strong><br>
-        Realicé mejoras en el backend, optimizando su estructura y funcionalidad, y diseñé los apartados finales del sistema para completar la versión final del proyecto.<br>
-      </td>
-    </tr>
+
   </tbody>
 </table>
 </div>             
