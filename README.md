@@ -811,89 +811,596 @@ Glosario:
 
 ### 2.4.1. User Stories
 
-_Pendiente de completar._
+En esta sección se presentan los requisitos definidos para PuntoSabor, expresados mediante User Stories y Epics. Cada User Story incluye criterios de aceptación claros y comprobables, redactados en tiempo presente y tercera persona, siguiendo la estructura Gherkin (Given-When-Then). Se considera tanto la experiencia del usuario en la aplicación móvil como aspectos técnicos del desarrollo, incluyendo historias técnicas para el RESTful API.
+
+A continuación, se muestra un cuadro resumen con los Epics y User Stories definidos, sus descripciones, criterios de aceptación y relaciones entre ellos.
+
+| Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+|-----------------|--------|-------------|-------------------------|---------------------------|
+| EP01 | Descubrimiento de Huariques | Como explorador gastronómico, quiero buscar y descubrir huariques locales para elegir dónde comer. | | |
+| EP02 | Gestión de Huariques | Como dueño, quiero registrar y actualizar la información de mi huarique para mantenerlo visible. | | |
+| EP03 | Interacción Comunitaria | Como usuario, quiero dejar reseñas y calificaciones para compartir mi opinión. | | |
+| EP04 | Información del Sitio Web Estático | Como visitante, quiero acceder a una landing page con información clara sobre PuntoSabor y sus servicios. | | |
+| EP05 | Notificaciones y Alertas | Como usuario, quiero recibir notificaciones sobre novedades, promociones o actualizaciones. | | |
+| EP06 | Servicios Técnicos y API | Como developer, necesito APIs RESTful para gestionar huariques, usuarios y búsquedas. | | |
+| EP07 | Seguridad y Autenticación | Como usuario, quiero que mis datos estén protegidos y acceder con autenticación segura. | | |
+| EP08 | Personalización y Recomendador | Como usuario, quiero recibir sugerencias ajustadas a mis preferencias y búsquedas previas, para descubrir huariques relevantes a mis gustos y presupuesto. | | |
+| EP09 | Calidad de Datos y Verificación | Como usuario, quiero que la plataforma valide horarios, estado abierto/cerrado y datos clave de los huariques para no perder tiempo en información desactualizada. | | |
+| EP10 | Monetización y Facturación | Como dueño de huarique, quiero acceder a planes de membresía claros y a facturación transparente para mejorar la visibilidad de mi negocio. | | |
+| US01 | Búsqueda avanzada | Como usuario, puedo filtrar huariques por ubicación, tipo de comida y precio para una búsqueda eficiente. | Escenario 1: Filtrado con resultados. Dado que el usuario aplica filtros válidos, Cuando realiza la búsqueda, Entonces la app muestra huariques que cumplen esos filtros. Escenario 2: Filtrado sin resultados. Dado que el usuario aplica filtros estrictos sin coincidencias, Cuando realiza la búsqueda, Entonces aparece un mensaje de "No se encontraron huariques con esos filtros". Escenario 3: Búsqueda sin filtros. Dado que el usuario no aplica filtros, Cuando realiza la búsqueda, Entonces la app muestra todos los huariques disponibles. | EP01 |
+| US02 | Visualización en mapa | Como usuario, quiero ver la ubicación de los huariques en un mapa para facilitar la visita. | Escenario 1: Mostrar mapa con marcadores. Dado que el usuario accede a la vista de mapa, Cuando se carga la pantalla, Entonces el mapa muestra marcadores para cada huarique visible según la búsqueda. Escenario 2: Selección de marcador. Dado que el usuario selecciona un marcador en el mapa, Cuando hace tap en el marcador, Entonces se muestra un resumen con el nombre, dirección y calificación del huarique. | EP01 |
+| US03 | Guardar favoritos | Como usuario, puedo guardar huariques para acceder fácilmente después. | Escenario 1: Guardar huarique como favorito. Dado que el usuario marca un huarique como favorito, Cuando confirma la acción, Entonces se guarda en su lista personal. Escenario 2: Acceder lista de favoritos. Dado que el usuario accede a su lista de favoritos, Cuando la abre, Entonces puede ver y seleccionar huariques guardados. | EP01 |
+| US04 | Registro de nuevo huarique | Como dueño, puedo registrar un nuevo huarique con información básica para aparecer en la plataforma. | Escenario 1: Registro exitoso. Dado que el dueño completa los campos requeridos, Cuando envía el formulario, Entonces el huarique se registra y aparece en la app. Escenario 2: Campos obligatorios faltantes. Dado que el dueño no completa todos los campos obligatorios, Cuando intenta registrar, Entonces la app muestra errores indicando campos faltantes. | EP02 |
+| US05 | Actualización de información | Como dueño, puedo modificar los datos de mi huarique para mantenerlos actualizados. | Escenario 1: Actualización exitosa. Dado que el dueño edita la información, Cuando hace tap en guardar, Entonces los datos se actualizan correctamente. Escenario 2: Error en datos incompletos. Dado que el dueño deja un campo obligatorio vacío, Cuando intenta guardar, Entonces la app muestra un error indicando llenar el campo. | EP02 |
+| US06 | Gestión multimedia | Como dueño, puedo subir fotos y videos para mostrar mi huarique. | Escenario 1: Subida exitosa. Dado que el dueño selecciona archivo válido, Cuando lo sube, Entonces se añade multimedia al perfil del huarique. Escenario 2: Archivo inválido. Dado que el archivo no es compatible, Cuando intenta subirlo, Entonces la app muestra un error indicando tipos permitidos. | EP02 |
+| US07 | Envío de reseñas | Como usuario, puedo dejar una reseña y calificación en un huarique. | Escenario 1: Envío exitoso. Dado que el usuario completa la reseña y la calificación, Cuando confirma el envío, Entonces la reseña aparece visible para todos los usuarios. Escenario 2: Restricción de una reseña por huarique. Dado que el usuario ya dejó una reseña en el huarique, Cuando intenta dejar otra, Entonces la app impide la acción con mensaje informativo. | EP03 |
+| US08 | Moderación automática | Como sistema, debo detectar reseñas inapropiadas y bloquearlas. | Escenario 1: Detección de contenido inapropiado. Dado que la reseña contiene lenguaje ofensivo, Cuando se intenta publicar, Entonces el sistema bloquea o marca la reseña para revisión. | EP03 |
+| US09 | Presentación de beneficios | Como visitante, puedo ver las ventajas de PuntoSabor en la landing page. | Escenario 1: Carga de landing page. Dado que el visitante entra al sitio, Cuando se carga la página, Entonces se muestran claramente los beneficios para usuarios y dueños. | EP04 |
+| US10 | Formulario de contacto | Como visitante, puedo enviar consultas a través de un formulario. | Escenario 1: Envío exitoso. Dado que el visitante completa el formulario correctamente, Cuando lo envía, Entonces el equipo recibe la consulta y confirma recepción. Escenario 2: Campos obligatorios. Dado que el visitante no completa datos requeridos, Cuando intenta enviar, Entonces la app muestra errores indicando los campos faltantes. | EP04 |
+| US11 | Configuración de notificaciones | Como usuario, puedo activar o desactivar notificaciones a mi preferencia. | Escenario 1: Guardar preferencias. Dado que el usuario cambia su configuración, Cuando guarda, Entonces las preferencias se aplican correctamente. | EP05 |
+| US12 | Notificación de nuevas reseñas | Como dueño, recibo alertas cuando hay reseñas nuevas en mi huarique. | Escenario 1: Alerta por nueva reseña. Dado que un usuario publica una reseña, Cuando ésta es aprobada, Entonces el dueño recibe una notificación inmediata. | EP05 |
+| US13 | API de búsqueda | Como developer, puedo consultar huariques filtrando por parámetros vía API. | Escenario 1: Consulta con filtros. Dado que la petición API incluye criterios, Cuando se procesa, Entonces devuelve resultados acordes a los filtros. Escenario 2: Parámetros inválidos. Dado que la petición API tiene parámetros inválidos, Cuando se procesa, Entonces devuelve error o mensaje claro. | EP06 |
+| US14 | API de registro y actualización | Como developer, puedo crear y actualizar huariques a través de la API. | Escenario 1: Creación exitosa. Dado que la petición contiene datos válidos, Cuando se procesa, Entonces se crea un nuevo huarique y responde con éxito. Escenario 2: Actualización exitosa. Dado que se envían datos para modificar un huarique existente, Cuando se procesa, Entonces se actualizan los datos y responde con éxito. | EP06 |
+| US15 | Registro y login seguro | Como usuario, puedo crear cuenta y acceder con credenciales seguras. | Escenario 1: Registro exitoso. Dado que el usuario completa datos válidos, Cuando envía el formulario, Entonces la cuenta se crea y puede iniciar sesión. Escenario 2: Login con credenciales incorrectas. Dado que el usuario ingresa datos erróneos, Cuando intenta iniciar sesión, Entonces recibe mensaje de error y no accede. | EP07 |
+| US16 | Recuperación de contraseña | Como usuario, puedo recuperar mi contraseña en caso de olvido. | Escenario 1: Solicitud de recuperación. Dado que usuario solicita recuperación, Cuando facilita su correo válido, Entonces recibe instrucciones para restablecer contraseña. | EP07 |
+| US17 | Configuración de preferencias | Como usuario, puedo guardar mis preferencias de tipo de cocina, presupuesto y ubicación para recibir recomendaciones personalizadas. | Escenario 1: Guardar preferencias. Dado que ingreso mis preferencias, Cuando confirmo, Entonces se almacenan en mi perfil. Escenario 2: Recomendaciones aplicadas. Dado que tengo preferencias guardadas, Cuando entro a "Recomendados", Entonces aparecen huariques que cumplen esos criterios. | EP08 |
+| US18 | Recomendador automático | Como usuario, quiero que la app me sugiera huariques basados en mi historial de búsquedas y favoritos. | Escenario 1: Con historial. Dado que ya busqué huariques, Cuando accedo a "Recomendados", Entonces aparecen opciones similares. Escenario 2: Sin historial. Dado que no tengo historial, Cuando accedo a "Recomendados", Entonces aparecen sugerencias populares de la zona. | EP08 |
+| US19 | Sugerencias por ubicación | Como usuario, quiero recibir recomendaciones de huariques cercanos a mi ubicación actual. | Escenario 1: Geolocalización activada. Dado que otorgo permiso de ubicación, Cuando accedo a "Cerca de mí", Entonces se muestran huariques dentro del radio definido. Escenario 2: Sin permisos. Dado que no otorgo acceso a ubicación, Cuando accedo a "Cerca de mí", Entonces la app solicita permisos o permite búsqueda manual. | EP08 |
+| US20 | Verificación de horarios | Como usuario, quiero que la app me muestre si el horario de un huarique ha sido confirmado recientemente. | Escenario 1: Confirmado. Dado que un dueño actualiza su horario, Cuando entro al perfil, Entonces aparece la etiqueta "Horario verificado". Escenario 2: Sin confirmar. Dado que no hay actualizaciones recientes, Cuando entro al perfil, Entonces aparece la etiqueta "Horario no verificado". | EP09 |
+| US21 | Reporte de información incorrecta | Como usuario, puedo reportar si un huarique tiene datos erróneos (dirección, horario, estado). | Escenario 1: Reporte enviado. Dado que detecto un error, Cuando envío el reporte, Entonces queda registrado en el sistema. Escenario 2: Corrección aplicada. Dado que la información fue revisada, Cuando el administrador actualiza, Entonces el huarique refleja el cambio. | EP09 |
+| US22 | Validación automática de estado | Como sistema, quiero mostrar si un huarique está abierto o cerrado en tiempo real mediante verificación cruzada con reseñas recientes o interacción del dueño. | Escenario 1: Estado confirmado. Dado que el sistema valida apertura con datos recientes, Cuando el usuario accede al perfil, Entonces se muestra "Abierto ahora" o "Cerrado". Escenario 2: Datos inciertos. Dado que no hay datos suficientes, Cuando accede al perfil, Entonces aparece la alerta "Estado no confirmado". | EP09 |
+| US23 | Planes de membresía | Como dueño, quiero poder elegir entre planes de membresía con distintos beneficios (básico, pro) para dar mayor visibilidad a mi huarique. | Escenario 1: Selección de plan. Dado que elijo un plan, Cuando confirmo, Entonces la suscripción queda activa. Escenario 2: Cambio de plan. Dado que deseo cambiar de plan, Cuando lo solicito, Entonces la app actualiza la suscripción al finalizar el periodo vigente. | EP10 |
+| US24 | Pago de suscripción | Como dueño, quiero pagar mi membresía mediante tarjeta o billetera digital de forma segura. | Escenario 1: Pago válido. Dado que ingreso datos de tarjeta válidos, Cuando confirmo, Entonces la suscripción se activa y recibo comprobante. Escenario 2: Pago inválido. Dado que ingreso datos erróneos, Cuando confirmo, Entonces la app muestra un mensaje de error. | EP10 |
+| US25 | Facturación y comprobantes | Como dueño, quiero descargar facturas mensuales de mis pagos para llevar un control contable. | Escenario 1: Descarga exitosa. Dado que accedo a facturación, Cuando selecciono un mes, Entonces puedo descargar el PDF. Escenario 2: Pago fallido. Dado que hubo un problema de cobro, Cuando reviso facturación, Entonces aparece un aviso de "Pago pendiente". | EP10 |
+| US26 | Promociones destacadas | Como dueño Pro, quiero publicar promociones que aparezcan destacadas en los listados de huariques. | Escenario 1: Crear promoción. Dado que configuro fechas y cupos, Cuando publico, Entonces la promoción aparece destacada. Escenario 2: Fin de promoción. Dado que expira la fecha límite, Cuando reviso el listado, Entonces la promoción deja de mostrarse. | EP10 |
 
 ### 2.4.2. Impact Mapping
 
-_Pendiente de completar._
+![ImpactMap](assets/ImpactmapPuntoSabor.png)
 
 ### 2.4.3. Product Backlog
 
-_Pendiente de completar._
+| # Orden | User Story ID | Título | Descripción | Story Points (1 / 2 / 3 / 5 / 8) |
+|---------|---------------|--------|-------------|----------------------------------|
+| 1 | US01 | Búsqueda avanzada | Como usuario, puedo filtrar huariques por ubicación, tipo de comida y precio para una búsqueda eficiente. | 5 |
+| 2 | US02 | Visualización en mapa | Como usuario, quiero ver la ubicación de los huariques en un mapa para facilitar la visita. | 3 |
+| 3 | US03 | Guardar favoritos | Como usuario, puedo guardar huariques para acceder fácilmente después. | 3 |
+| 4 | US04 | Registro de nuevo huarique | Como dueño, puedo registrar un nuevo huarique con información básica para aparecer en la plataforma. | 5 |
+| 5 | US05 | Actualización de información | Como dueño, puedo modificar los datos de mi huarique para mantenerlos actualizados. | 3 |
+| 6 | US06 | Gestión multimedia | Como dueño, puedo subir fotos y videos para mostrar mi huarique. | 3 |
+| 7 | US07 | Envío de reseñas | Como usuario, puedo dejar una reseña y calificación en un huarique. | 3 |
+| 8 | US08 | Moderación automática | Como sistema, debo detectar reseñas inapropiadas y bloquearlas. | 5 |
+| 9 | US09 | Presentación de beneficios | Como visitante, puedo ver las ventajas de PuntoSabor en la landing page. | 2 |
+| 10 | US10 | Formulario de contacto | Como visitante, puedo enviar consultas a través de un formulario. | 2 |
+| 11 | US11 | Configuración de notificaciones | Como usuario, puedo activar o desactivar notificaciones a mi preferencia. | 2 |
+| 12 | US12 | Notificación de nuevas reseñas | Como dueño, recibo alertas cuando hay reseñas nuevas en mi huarique. | 2 |
+| 13 | US13 | API de búsqueda | Como developer, puedo consultar huariques filtrando por parámetros vía API. | 5 |
+| 14 | US14 | API de registro y actualización | Como developer, puedo crear y actualizar huariques a través de la API. | 5 |
+| 15 | US15 | Registro y login seguro | Como usuario, puedo crear cuenta y acceder con credenciales seguras. | 5 |
+| 16 | US16 | Recuperación de contraseña | Como usuario, puedo recuperar mi contraseña en caso de olvido. | 2 |
+| 17 | US17 | Configuración de preferencias | Como usuario, puedo guardar mis preferencias de tipo de cocina, presupuesto y ubicación para recibir recomendaciones personalizadas. | 3 |
+| 18 | US18 | Recomendador automático | Como usuario, quiero que la app me sugiera huariques basados en mi historial de búsquedas y favoritos. | 5 |
+| 19 | US19 | Sugerencias por ubicación | Como usuario, quiero recibir recomendaciones de huariques cercanos a mi ubicación actual. | 3 |
+| 20 | US20 | Verificación de horarios | Como usuario, quiero que la app muestre si el horario de un huarique ha sido confirmado recientemente. | 3 |
+| 21 | US21 | Reporte de información incorrecta | Como usuario, puedo reportar si un huarique tiene datos erróneos (dirección, horario, estado). | 2 |
+| 22 | US22 | Validación automática de estado | Como sistema, quiero mostrar si un huarique está abierto o cerrado en tiempo real mediante verificación cruzada. | 5 |
+| 23 | US23 | Planes de membresía | Como dueño, quiero poder elegir entre planes de membresía con distintos beneficios (básico, pro). | 3 |
+| 24 | US24 | Pago de suscripción | Como dueño, quiero pagar mi membresía mediante tarjeta o billetera digital de forma segura. | 5 |
+| 25 | US25 | Facturación y comprobantes | Como dueño, quiero descargar facturas mensuales de mis pagos para control contable. | 3 |
+| 26 | US26 | Promociones destacadas | Como dueño Pro, quiero publicar promociones que aparezcan destacadas en listados. | 3 |
 
 ## 2.5. Strategic-Level Domain-Driven Design
 
 ### 2.5.1. EventStorming
 
-_Pendiente de completar._
+A partir del Big Picture EventStorming realizado en la sección 2.3.5, se elaboró el Design-Level EventStorming de PuntoSabor, definiendo para cada bounded context sus Aggregates, Commands, Domain Events, Policies, Invariantes y Read Models.
 
 #### 2.5.1.1. Candidate Context Discovery
 
-_Pendiente de completar._
+Del proceso de EventStorming se identificaron los siguientes bounded contexts candidatos:
+
+| Bounded Context | Aggregate principal | Responsabilidad |
+|---|---|---|
+| Explorer Discovery | `SearchSession` | Búsqueda y descubrimiento de huariques |
+| User Preferences | `UserPreferences` | Preferencias y consentimiento del usuario |
+| Business Listing | `BusinessListing` | Registro y publicación de huariques |
+| Subscription & Billing | `BusinessSubscription` | Planes de membresía y facturación |
+| Promotion | `Promotion` | Creación y publicación de promociones |
+| Contact & Support | `SupportRequest` | Contacto, direcciones y soporte |
 
 #### 2.5.1.2. Domain Message Flows Modeling
 
-_Pendiente de completar._
+**Flujo: Publicar un Huarique**
+
+1. `CreateListing` → `ListingCreated`
+2. `UpdateListingFields` → `ListingFieldsUpdated`
+3. `GeocodeAddress` → `AddressGeocoded` → (policy) `RunListingValidations` → `ListingValidationsPassed`
+4. `PublishListing` → `ListingPublished` → actualiza `PublicListingView`
+
+**Flujo: Crear y Publicar una Promoción**
+
+1. `CreatePromotion` → `PromotionCreated`
+2. `SetPromotionTargeting` → `PromotionTargetingSet`
+3. `SetPromotionSchedule` → `PromotionScheduleSet` → (policy) `SchedulePublish/Unpublish`
+4. `PublishPromotion` → `PromotionPublished` → (policy) `IndexPromotionForDiscovery` → actualiza `ZonePromotionsView`
+
+**Invariantes transversales**
+
+- Un huarique solo puede publicarse si cumple validaciones y tiene geolocalización.
+- Una promoción solo puede publicarse si existe un plan activo y el huarique está publicado.
+- Los resultados de búsqueda nunca incluyen huariques inactivos o no publicados.
+- Los comandos deben ser idempotentes para evitar duplicación de eventos.
 
 #### 2.5.1.3. Bounded Context Canvases
 
-_Pendiente de completar._
+**Explorer Discovery**
+
+| Elemento | Detalle |
+|---|---|
+| Aggregate | `SearchSession` |
+| Commands | `StartSearchSession`, `ApplySearchFilter`, `OpenMap`, `SelectHuarique`, `ViewHuariqueDetail` |
+| Domain Events | `SearchSessionStarted`, `SearchPerformed`, `MapDisplayed`, `HuariqueSelected`, `HuariqueDetailViewed` |
+| Policies | `AutoSearch`, `RankingPolicy` |
+| Read Models | `SearchResultsView`, `HuariqueMiniCard` |
+| Invariantes | Solo se listan huariques con estado `PUBLISHED` y `ACTIVE`. |
+
+**Business Listing**
+
+| Elemento | Detalle |
+|---|---|
+| Aggregate | `BusinessListing` |
+| Commands | `CreateListing`, `UploadListingImage`, `UpdateListingFields`, `GeocodeAddress`, `PublishListing` |
+| Domain Events | `ListingCreated`, `ListingImageUploaded`, `ListingFieldsUpdated`, `AddressGeocoded`, `ListingPublished` |
+| Policies | `RunListingValidations` |
+| Read Models | `OwnerListingDashboard`, `PublicListingView` |
+| Invariantes | No se publica un huarique sin nombre, dirección, geolocalización y dueño asignado. |
+
+**Subscription & Billing**
+
+| Elemento | Detalle |
+|---|---|
+| Aggregate | `BusinessSubscription` |
+| Commands | `SelectPlan`, `AcceptPlanTerms`, `ValidateBusinessEligibility`, `ActivatePlan`, `ChangePlan` |
+| Domain Events | `PlanSelected`, `PlanTermsAccepted`, `BusinessEligibilityValidated`, `PlanActivated`, `PlanChanged` |
+| Policies | `EnablePromotionCapabilities`, `DisablePromotionCapabilities` |
+| Read Models | `BillingHistory`, `PlanStatusView` |
+| Invariantes | Solo un `PlanActivated` habilita la creación de promociones. |
+
+**Promotion**
+
+| Elemento | Detalle |
+|---|---|
+| Aggregate | `Promotion` |
+| Commands | `CreatePromotion`, `SetPromotionTargeting`, `SetPromotionSchedule`, `PublishPromotion`, `UnpublishPromotion` |
+| Domain Events | `PromotionCreated`, `PromotionTargetingSet`, `PromotionScheduleSet`, `PromotionPublished`, `PromotionUnpublished` |
+| Policies | `IndexPromotionForDiscovery`, `SchedulePublish/Unpublish` |
+| Read Models | `ZonePromotionsView`, `OwnerPromotionsDashboard` |
+| Invariantes | Solo se publican promociones si el huarique tiene `ListingPublished` y `PlanActivated`. |
+
+**User Preferences**
+
+| Elemento | Detalle |
+|---|---|
+| Aggregate | `UserPreferences` |
+| Commands | `SetPreferredLanguage`, `SetDiscoveryPreferences`, `SavePrivacyConsent` |
+| Domain Events | `PreferredLanguageChanged`, `DiscoveryPreferencesSaved`, `PrivacyConsentRecorded` |
+| Read Models | `UserPrefView` |
+
+**Contact & Support**
+
+| Elemento | Detalle |
+|---|---|
+| Aggregate | `SupportRequest` |
+| Commands | `SubmitContactForm`, `OpenDirections`, `AcceptPrivacyConsent` |
+| Domain Events | `ContactFormSubmitted`, `DirectionsOpened`, `PrivacyConsentRecorded` |
+| Read Models | `SupportInboxView`, `ConsentLedger` |
 
 ### 2.5.2. Context Mapping
 
-_Pendiente de completar._
+El Context Mapping define las relaciones entre los Bounded Contexts del sistema. Se utilizan los patrones DDD estándar: **U** (Upstream), **D** (Downstream), **ACL** (Anti-Corruption Layer), **OHS** (Open Host Service).
+
+![Context Mapping](assets/MermaidDiagrams/Context_Mapping.png)
+
+| Relación | Patrón | Descripción |
+|---|---|---|
+| Business Listing → Explorer Discovery | OHS / Published Language | Discovery consume el catálogo de huariques publicado por Listing vía API REST. |
+| Subscription & Billing → Business Listing | Customer-Supplier | Listing (downstream) valida con Billing si el dueño tiene suscripción activa antes de publicar. |
+| Subscription & Billing → Promotion | Customer-Supplier | Promotion solo puede publicar si Billing confirma membresía vigente. |
+| Business Listing → Promotion | Customer-Supplier | Promotion necesita que el huarique esté registrado y activo en Listing. |
+| User Preferences → Explorer Discovery | OHS / Published Language | Discovery aplica los filtros (zona, tipo de comida, precio) expuestos por Preferences. |
+| Promotion → Explorer Discovery | ACL | Discovery traduce el modelo de promociones al formato de su feed interno mediante una capa anticorrupción. |
+| Contact & Support → User Preferences | Conformist | Support reutiliza la identidad del usuario definida en Preferences sin transformarla. |
 
 ### 2.5.3. Software Architecture
 
 #### 2.5.3.1. Software Architecture Context Level Diagrams
 
-_Pendiente de completar._
+El diagrama de contexto muestra a PuntoSabor como sistema central interactuando con sus dos tipos de usuarios principales:
+
+- **PuntoSabor:** sistema principal que conecta a exploradores y dueños de huariques.
+- **Explorador gastronómico:** usuario que busca y descubre huariques auténticos.
+- **Dueño de restaurante:** usuario que publica su huarique y gestiona su membresía.
+
+![Software Architecture Context Level Diagram](assets/structurizr-punto_context.png)
 
 #### 2.5.3.2. Software Architecture Container Level Diagrams
 
-_Pendiente de completar._
+El diagrama de contenedores muestra los componentes internos del sistema PuntoSabor:
+
+- **Aplicación Móvil (Android/Kotlin):** interfaz principal del usuario, construida con Jetpack Compose.
+- **Landing Page (HTML/CSS/JS):** sitio estático desplegado en GitHub Pages.
+- **Backend API (C#/.NET 8):** servidor de aplicaciones que expone endpoints REST y gestiona la lógica de negocio.
+- **Base de datos (MySQL):** almacena usuarios, huariques, reseñas, planes y suscripciones.
+
+![Software Architecture Container Level Diagram](assets/structurizr-c2_puntosabor.png)
 
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
-_Pendiente de completar._
+El diagrama de despliegue muestra los nodos de infraestructura donde se ejecutan los componentes del sistema HuariqueHub y cómo se comunican entre sí.
+
+![Deployment Diagram](assets/MermaidDiagrams/Deployment_Diagram.png)
+
+| Nodo | Tecnología | Descripción |
+|---|---|---|
+| Android Device | Android 8+ | Dispositivo físico o emulador donde se instala la app móvil. |
+| HuariqueHub Mobile (APK) | Kotlin + Jetpack Compose | Aplicación Android distribuida directamente (APK). |
+| Landing Page | HTML / CSS / JS | Sitio estático desplegado en GitHub Pages (CDN gratuito). |
+| Backend API | .NET 8 / C# (Docker) | API REST desplegada en Railway como contenedor Docker. |
+| MySQL Database | MySQL 8 | Base de datos relacional gestionada por Railway. |
+| Payments Gateway | Externo (ej. Stripe/Culqi) | Procesamiento de pagos de membresías vía webhooks. |
+| Map Provider | Externo (ej. Google Maps) | Tiles de mapa y geocodificación para localizar huariques. |
+| Email Service | Externo (ej. SendGrid) | Envío de correos de confirmación para formularios de soporte. |
 
 ## 2.6. Tactical-Level Domain-Driven Design
 
-### 2.6.x. Bounded Context: <Bounded Context Name>
+### 2.6.1. Bounded Context: Explorer Discovery
 
-_Pendiente de completar._
+#### 2.6.1.1. Domain Layer
 
-#### 2.6.x.1. Domain Layer
+| Elemento | Clase |
+|---|---|
+| Aggregate root | `Huarique` |
+| Entidades | `Review`, `Category` |
+| Value Objects | `Description`, `Address`, `Coordinates`, `Rating`, `OpeningStatus` |
+| Servicio de dominio | `SearchService` (búsqueda por filtros) |
 
-_Pendiente de completar._
+#### 2.6.1.2. Interface Layer
 
-#### 2.6.x.2. Interface Layer
+Endpoints REST expuestos:
 
-_Pendiente de completar._
+| Método | Endpoint | Descripción |
+|---|---|---|
+| GET | `/huariques` | Listar/buscar huariques con filtros |
+| GET | `/huariques/{id}` | Obtener detalle de un huarique |
+| GET | `/categories` | Listar categorías disponibles |
 
-#### 2.6.x.3. Application Layer
+Pantallas móviles: HomeScreen, HuariqueDetailScreen.
 
-_Pendiente de completar._
+#### 2.6.1.3. Application Layer
 
-#### 2.6.x.4. Infrastructure Layer
+| Clase | Método |
+|---|---|
+| `HuariquesApplicationService` | `getHuarique(id)`, `searchHuariques(filters)` |
 
-_Pendiente de completar._
+#### 2.6.1.4. Infrastructure Layer
 
-#### 2.6.x.5. Bounded Context Software Architecture Component Level Diagrams
+| Clase | Rol |
+|---|---|
+| `HuariqueRepositorySQL` | Implementa `IHuariqueRepository` con consultas SQL/EF Core |
+| `CategoryRepositorySQL` | Implementa `ICategoryRepository` |
 
-_Pendiente de completar._
+#### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
 
-#### 2.6.x.6. Bounded Context Software Architecture Code Level Diagrams
+![Explorer Discovery Component Level Diagram](assets/structurizr-c3_zones.png)
 
-_Pendiente de completar._
+#### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 
-##### 2.6.x.6.1. Bounded Context Domain Layer Class Diagrams
+##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
 
-_Pendiente de completar._
+![Explorer Discovery Class Diagram](assets/MermaidDiagrams/ExplorerDiscovery_ClassDiagram.png)
 
-##### 2.6.x.6.2. Bounded Context Database Design Diagram
+| Clase | Definición |
+|-------|-----------|
+| `Huarique` | Aggregate root: local gastronómico con nombre, descripción, dirección, coordenadas, calificación promedio y estado de apertura. |
+| `Category` | Entidad que clasifica a los huariques por tipo/estilo. |
+| `Review` | Entidad que modela una reseña con calificación (1..5), comentario y fecha. |
+| `Description` | Value Object que encapsula la descripción validada del huarique. |
+| `Address` | Value Object con línea, distrito y ciudad. |
+| `Coordinates` | Value Object con latitud/longitud válidas para geolocalización. |
+| `Rating` | Value Object entero (1..5) que garantiza calificaciones válidas. |
+| `OpeningStatus` | Enumeración del estado operativo del local. |
+| `IHuariqueRepository` | Puerto para la persistencia de `Huarique`. |
+| `IReviewRepository` | Puerto para la persistencia de `Review`. |
+| `HuariqueRepositorySQL` | Adaptador que implementa `IHuariqueRepository` usando SQL. |
+| `ReviewService` | Servicio de dominio para publicar/moderar reseñas. |
+| `HuariquesApplicationService` | Servicio de aplicación que orquesta los casos de uso. |
 
-_Pendiente de completar._
+##### 2.6.1.6.2. Bounded Context Database Design Diagram
+
+![Explorer Discovery ER Diagram](assets/MermaidDiagrams/ExplorerDiscovery_ERDiagram.png)
+
+---
+
+### 2.6.2. Bounded Context: Business Listing
+
+#### 2.6.2.1. Domain Layer
+
+| Elemento | Clase |
+|---|---|
+| Aggregate root | `Huarique` (rol de listing) |
+| Value Objects | `Address`, `Coordinates`, `Description` |
+| Servicio de dominio | `ListingValidationService` |
+
+#### 2.6.2.2. Interface Layer
+
+| Método | Endpoint | Descripción |
+|---|---|---|
+| POST | `/huariques` | Registrar nuevo huarique |
+| PATCH | `/huariques/{id}` | Actualizar datos del huarique |
+
+#### 2.6.2.3. Application Layer
+
+| Clase | Método |
+|---|---|
+| `ListingApplicationService` | `createListing(ownerId, info)`, `updateListing(id, fields)`, `publishListing(id)` |
+
+#### 2.6.2.4. Infrastructure Layer
+
+| Clase | Rol |
+|---|---|
+| `HuariqueRepositorySQL` | Persistencia del listing en MySQL vía EF Core |
+| `GeocodingAdapter` | Llama a API externa para convertir dirección en coordenadas |
+| `ImageStorageAdapter` | Gestiona subida de fotos al storage en la nube |
+
+#### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
+
+![Business Listing Component Level Diagram](assets/structurizr-c3_categories.png)
+
+#### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
+
+##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
+
+![Business Listing Class Diagram](assets/MermaidDiagrams/BusinessListing_ClassDiagram.png)
+
+| Clase | Definición |
+|---|---|
+| `Huarique` | Aggregate root: listing del local gastronómico con nombre, descripción, dirección, coordenadas, estado y fotos. |
+| `HuariquePhoto` | Entidad que representa una foto asociada al huarique. |
+| `Description` | Value Object con el texto descriptivo validado. |
+| `Address` | Value Object con línea, distrito y ciudad. |
+| `Coordinates` | Value Object con latitud/longitud válidas. |
+| `OpeningStatus` | Enumeración del estado operativo del local. |
+| `ListingValidationService` | Servicio de dominio que valida invariantes antes de guardar el listing. |
+| `IHuariqueRepository` | Puerto de persistencia para `Huarique`. |
+| `HuariqueRepositorySQL` | Adaptador que implementa `IHuariqueRepository` con SQL/EF Core. |
+| `ImageStorageAdapter` | Puerto de infraestructura para subida de fotos. |
+| `BusinessListingApplicationService` | Orquesta los casos de uso de registro y edición de listings. |
+
+##### 2.6.2.6.2. Bounded Context Database Design Diagram
+
+![Business Listing ER Diagram](assets/MermaidDiagrams/BusinessListing_ERDiagram.png)
+
+---
+
+### 2.6.3. Bounded Context: Subscription & Billing
+
+#### 2.6.3.1. Domain Layer
+
+| Elemento | Clase |
+|---|---|
+| Aggregate root | `Subscription` |
+| Entidades | `MembershipPlan` |
+| Value Objects | `SubscriptionStatus` (`ACTIVE`, `CANCELED`, `EXPIRED`) |
+| Servicio de dominio | `MembershipService` |
+
+#### 2.6.3.2. Interface Layer
+
+| Método | Endpoint | Descripción |
+|---|---|---|
+| GET | `/plans` | Listar planes de membresía disponibles |
+
+Pantallas móviles: PlanesScreen, PagoScreen.
+
+#### 2.6.3.3. Application Layer
+
+| Clase | Método |
+|---|---|
+| `SubscriptionApplicationService` | `selectPlan(huariqueId, planId)`, `activatePlan(id, paymentId)`, `changePlan(id, newPlanId)` |
+
+#### 2.6.3.4. Infrastructure Layer
+
+| Clase | Rol |
+|---|---|
+| `SubscriptionRepositorySQL` | Persistencia de `Subscription` y `MembershipPlan` en MySQL |
+| `PaymentGatewayAdapter` | Integración con pasarela de pago externa |
+
+#### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
+
+![Subscription & Billing Component Level Diagram](assets/structurizr-c3_plans.png)
+
+#### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
+
+##### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
+
+![Subscription & Billing Class Diagram](assets/MermaidDiagrams/SubscriptionBilling_ClassDiagram.png)
+
+| Clase | Definición |
+|---|---|
+| `Subscription` | Aggregate root: suscripción de un huarique a un plan de membresía. |
+| `MembershipPlan` | Entidad que define un plan (nombre, precio mensual, descripción). |
+| `SubscriptionStatus` | Enumeración: `PENDING`, `ACTIVE`, `CANCELED`, `EXPIRED`. |
+| `MembershipService` | Servicio de dominio que valida transiciones de estado entre planes. |
+| `ISubscriptionRepository` | Puerto de persistencia para `Subscription` y `MembershipPlan`. |
+| `SubscriptionRepositorySQL` | Adaptador que implementa `ISubscriptionRepository` con SQL/EF Core. |
+| `PaymentGatewayAdapter` | Puerto de infraestructura para cobros y devoluciones. |
+| `SubscriptionApplicationService` | Orquesta selección, activación y cambio de plan. |
+
+##### 2.6.3.6.2. Bounded Context Database Design Diagram
+
+![Subscription & Billing ER Diagram](assets/MermaidDiagrams/SubscriptionBilling_ERDiagram.png)
+
+---
+
+### 2.6.4. Bounded Context: Promotion
+
+#### 2.6.4.1. Domain Layer
+
+| Elemento | Clase |
+|---|---|
+| Aggregate root | `Promotion` |
+| Value Objects | `PromotionSchedule` (startAt, endAt), `PromotionTargeting` (zones, tags) |
+| Servicio de dominio | `PromotionPublishingService` |
+
+#### 2.6.4.2. Interface Layer
+
+| Método | Endpoint | Descripción |
+|---|---|---|
+| GET | `/promos` | Listar promociones activas |
+
+Pantallas móviles: PromocionesScreen, CrearPromocionScreen.
+
+#### 2.6.4.3. Application Layer
+
+| Clase | Método |
+|---|---|
+| `PromotionApplicationService` | `createPromotion(huariqueId, content)`, `publishPromotion(id)`, `unpublishPromotion(id, reason)` |
+
+#### 2.6.4.4. Infrastructure Layer
+
+| Clase | Rol |
+|---|---|
+| `PromotionRepositorySQL` | Persistencia de `Promotion` en MySQL |
+| `SchedulerAdapter` | Ejecuta publicación/despublicación automática según fechas |
+
+#### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
+
+![Promotion Component Level Diagram](assets/structurizr-c3_promotions.png)
+
+#### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
+
+##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
+
+![Promotion Class Diagram](assets/MermaidDiagrams/Promotion_ClassDiagram.png)
+
+| Clase | Definición |
+|---|---|
+| `Promotion` | Aggregate root: promoción creada por un dueño de huarique con contenido, ventana temporal y targeting. |
+| `PromotionSchedule` | Value Object con `startAt` y `endAt` validados. |
+| `PromotionTargeting` | Value Object con zonas y etiquetas de segmentación. |
+| `PromotionStatus` | Enumeración: `DRAFT`, `PUBLISHED`, `UNPUBLISHED`. |
+| `PromotionPublishingService` | Servicio de dominio que valida reglas de publicación y programa despublicación. |
+| `IPromotionRepository` | Puerto de persistencia para `Promotion`. |
+| `PromotionRepositorySQL` | Adaptador que implementa `IPromotionRepository` con SQL/EF Core. |
+| `SchedulerAdapter` | Puerto de infraestructura para programar tareas de publicación/despublicación. |
+| `PromotionApplicationService` | Orquesta creación, publicación y despublicación de promociones. |
+
+##### 2.6.4.6.2. Bounded Context Database Design Diagram
+
+![Promotion ER Diagram](assets/MermaidDiagrams/Promotion_ERDiagram.png)
+
+---
+
+### 2.6.5. Bounded Context: User Preferences
+
+#### 2.6.5.1. Domain Layer
+
+| Elemento | Clase |
+|---|---|
+| Aggregate root | `UserPreferences` |
+| Value Objects | `DiscoveryPreferences` (priceRange, foodTypes, zone), `PrivacyConsent` |
+
+#### 2.6.5.2. Interface Layer
+
+Pantallas móviles: PreferenciasScreen (configuración de idioma, tipo de comida, presupuesto, zona).
+
+#### 2.6.5.3. Application Layer
+
+| Clase | Método |
+|---|---|
+| `PreferencesApplicationService` | `setPreferences(userId, prefs)`, `getPreferences(userId)` |
+
+#### 2.6.5.4. Infrastructure Layer
+
+| Clase | Rol |
+|---|---|
+| `UserPreferencesRepositorySQL` | Persistencia de preferencias del usuario en MySQL |
+
+#### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
+
+![User Preferences Component Level Diagram](assets/structurizr-c3_profile.png)
+
+#### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
+
+##### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
+
+![User Preferences Class Diagram](assets/MermaidDiagrams/UserPreferences_ClassDiagram.png)
+
+| Clase | Definición |
+|---|---|
+| `UserPreferences` | Aggregate root: preferencias de descubrimiento y privacidad del usuario. |
+| `DiscoveryPreferences` | Value Object con rango de precio, tipos de comida y zona preferida. |
+| `PrivacyConsent` | Value Object con consentimiento de ubicación y notificaciones. |
+| `IUserPreferencesRepository` | Puerto de persistencia para `UserPreferences`. |
+| `UserPreferencesRepositorySQL` | Adaptador que implementa `IUserPreferencesRepository` con SQL/EF Core. |
+| `PreferencesApplicationService` | Orquesta lectura y actualización de preferencias del usuario. |
+
+##### 2.6.5.6.2. Bounded Context Database Design Diagram
+
+![User Preferences ER Diagram](assets/MermaidDiagrams/UserPreferences_ERDiagram.png)
+
+---
+
+### 2.6.6. Bounded Context: Contact & Support
+
+#### 2.6.6.1. Domain Layer
+
+| Elemento | Clase |
+|---|---|
+| Aggregate root | `SupportRequest` |
+| Value Objects | `ContactPayload` (nombre, email, mensaje), `ConsentScopes` |
+
+#### 2.6.6.2. Interface Layer
+
+Landing Page: formulario de contacto HTML estático.  
+Pantallas móviles: ContactoScreen, DireccionesScreen.
+
+#### 2.6.6.3. Application Layer
+
+| Clase | Método |
+|---|---|
+| `SupportApplicationService` | `submitContactForm(payload)`, `openDirections(huariqueId)` |
+
+#### 2.6.6.4. Infrastructure Layer
+
+| Clase | Rol |
+|---|---|
+| `SupportRequestRepositorySQL` | Persistencia de solicitudes de soporte en MySQL |
+| `EmailNotificationAdapter` | Envío de correos de confirmación al usuario |
+
+#### 2.6.6.5. Bounded Context Software Architecture Component Level Diagrams
+
+![Contact & Support Component Level Diagram](assets/structurizr-c3_contact.png)
+
+#### 2.6.6.6. Bounded Context Software Architecture Code Level Diagrams
+
+##### 2.6.6.6.1. Bounded Context Domain Layer Class Diagrams
+
+![Contact & Support Class Diagram](assets/MermaidDiagrams/ContactSupport_ClassDiagram.png)
+
+| Clase | Definición |
+|---|---|
+| `SupportRequest` | Aggregate root: solicitud de soporte o contacto enviada por el usuario. |
+| `ContactPayload` | Value Object con nombre, email y mensaje del formulario. |
+| `ConsentScopes` | Value Object con aceptación del tratamiento de datos. |
+| `SupportStatus` | Enumeración: `SUBMITTED`, `IN_REVIEW`, `RESOLVED`. |
+| `ISupportRequestRepository` | Puerto de persistencia para `SupportRequest`. |
+| `SupportRequestRepositorySQL` | Adaptador que implementa `ISupportRequestRepository` con SQL/EF Core. |
+| `EmailNotificationAdapter` | Puerto de infraestructura para envío de correos de confirmación. |
+| `SupportApplicationService` | Orquesta el envío de formularios y la apertura de direcciones. |
+
+##### 2.6.6.6.2. Bounded Context Database Design Diagram
+
+![Contact & Support ER Diagram](assets/MermaidDiagrams/ContactSupport_ERDiagram.png)
 
 # Capítulo III: Solution UI/UX Design
 

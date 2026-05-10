@@ -1,0 +1,18 @@
+erDiagram
+  Users ||--o| User_Preferences : "has"
+
+  User_Preferences {
+    uuid user_id PK
+    string price_range
+    json food_types
+    string preferred_zone
+    bool location_allowed
+    bool notifications_allowed
+    timestamp consented_at
+    timestamp updated_at
+  }
+  Users {
+    uuid user_id PK
+    string name
+    string email
+  }

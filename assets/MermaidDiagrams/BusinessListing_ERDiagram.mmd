@@ -1,0 +1,30 @@
+erDiagram
+  Huariques ||--o{ Huarique_Photos : "has"
+  Categories ||--o{ Huariques : "classifies"
+
+  Huariques {
+    uuid huarique_id PK
+    string name
+    text description
+    string address_line
+    string district
+    string city
+    float lat
+    float lng
+    enum opening_status
+    int category_id FK
+    timestamp created_at
+    timestamp updated_at
+  }
+  Huarique_Photos {
+    uuid photo_id PK
+    uuid huarique_id FK
+    string url
+    timestamp created_at
+  }
+  Categories {
+    int category_id PK
+    string name
+    string description
+    timestamp created_at
+  }

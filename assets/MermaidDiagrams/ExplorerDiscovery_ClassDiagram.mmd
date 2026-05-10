@@ -1,0 +1,88 @@
+classDiagram
+direction TB
+
+class HuariquesApplicationService {
+  +getHuarique(id: UUID) HuariqueDTO
+  +createReview(review: ReviewDTO) void
+}
+HuariquesApplicationService --> ReviewService
+HuariquesApplicationService --> IHuariqueRepository
+HuariquesApplicationService --> HuariqueDTO
+HuariquesApplicationService --> ReviewDTO
+
+class HuariqueDTO {
+  +UUID id
+  +string name
+  +string description
+  +string category
+  +float averageRating
+  +string status
+  +string address
+  +string location
+}
+class ReviewDTO {
+  +UUID userId
+  +UUID huariqueId
+  +int rating
+  +string comment
+  +datetime date
+}
+
+class ReviewService {
+  +publish(huariqueId: UUID, rating: int, comment: string) void
+}
+ReviewService --> IReviewRepository
+ReviewService --> Huarique
+
+class IHuariqueRepository {
+  +getById(id: UUID) Huarique
+  +save(h: Huarique) void
+}
+class IReviewRepository {
+  +forHuarique(id: UUID) List_Review
+  +save(r: Review) void
+}
+class HuariqueRepositorySQL {
+  +getById(id: UUID) Huarique
+  +save(h: Huarique) void
+}
+HuariqueRepositorySQL ..|> IHuariqueRepository
+
+class Huarique {
+  +UUID id
+  +string name
+  +Description description
+  +Address address
+  +Coordinates location
+  +float averageRating
+  +OpeningStatus status
+  +addReview(r: Review) void
+}
+Huarique "1" --> "0..*" Review
+Huarique --> Category
+Huarique --> Description
+Huarique --> Address
+Huarique --> Coordinates
+Huarique --> OpeningStatus
+
+class Review {
+  +UUID id
+  +Rating rating
+  +string comment
+  +datetime date
+}
+Review --> Rating
+
+class Category { +UUID id; +string name }
+class Description { -string value }
+class Address { -string line1; -string district; -string city }
+class Coordinates { -float lat; -float lng }
+class Rating { -int value }
+
+class OpeningStatus {
+  <<enumeration>>
+  OPEN
+  CLOSED
+  UNKNOWN
+  TEMPORARILY_CLOSED
+}

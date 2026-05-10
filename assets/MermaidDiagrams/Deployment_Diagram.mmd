@@ -1,0 +1,28 @@
+graph TD
+  subgraph "Dispositivo del usuario"
+    MOB["Android Device\n[Execution Environment]\nAndroid 8+"]
+    APP["HuariqueHub Mobile\n[Artifact: APK]\nKotlin + Jetpack Compose"]
+    MOB --> APP
+  end
+
+  subgraph "GitHub Pages [CDN]"
+    LP["Landing Page\n[Artifact: HTML/CSS/JS]\nSitio estático"]
+  end
+
+  subgraph "Railway [Cloud PaaS]"
+    API["Backend API\n[Artifact: .NET 8 / C#]\nDocker container"]
+    DB["MySQL Database\n[Artifact: MySQL 8]\nRailway managed"]
+    API -- "TCP/SQL" --> DB
+  end
+
+  subgraph "Servicios Externos"
+    PAY["Payments Gateway\n[Software System]"]
+    MAP["Map Provider\n[Software System]"]
+    MAIL["Email Service\n[Software System]"]
+  end
+
+  APP -- "HTTPS/JSON\nREST API" --> API
+  APP -- "HTTPS" --> MAP
+  LP -- "HTTPS/JSON\nREST API" --> API
+  API -- "HTTPS" --> PAY
+  API -- "HTTPS" --> MAIL

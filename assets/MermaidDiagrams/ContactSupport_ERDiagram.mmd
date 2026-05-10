@@ -1,0 +1,20 @@
+erDiagram
+  Users ||--o{ Support_Requests : "submits"
+
+  Support_Requests {
+    uuid request_id PK
+    uuid user_id FK
+    string nombre
+    string email
+    text mensaje
+    bool data_processing_accepted
+    timestamp consented_at
+    enum status
+    timestamp created_at
+    timestamp updated_at
+  }
+  Users {
+    uuid user_id PK
+    string name
+    string email
+  }

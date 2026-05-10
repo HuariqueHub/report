@@ -1,0 +1,60 @@
+classDiagram
+direction TB
+
+class BusinessListingApplicationService {
+  +registerHuarique(cmd: RegisterHuariqueDTO) HuariqueDTO
+  +updateListing(id: UUID, cmd: UpdateListingDTO) void
+  +uploadPhoto(id: UUID, url: string) void
+}
+BusinessListingApplicationService --> ListingValidationService
+BusinessListingApplicationService --> IHuariqueRepository
+
+class ListingValidationService {
+  +validate(h: Huarique) void
+}
+
+class Huarique {
+  +UUID id
+  +string name
+  +Description description
+  +Address address
+  +Coordinates location
+  +OpeningStatus status
+  +List~HuariquePhoto~ photos
+  +addPhoto(url: string) void
+}
+Huarique --> Description
+Huarique --> Address
+Huarique --> Coordinates
+Huarique --> OpeningStatus
+Huarique "1" --> "0..*" HuariquePhoto
+
+class HuariquePhoto {
+  +UUID photoId
+  +UUID huariqueId
+  +string url
+}
+class Description { -string value }
+class Address { -string line1; -string district; -string city }
+class Coordinates { -float lat; -float lng }
+class OpeningStatus {
+  <<enumeration>>
+  OPEN
+  CLOSED
+  TEMPORARILY_CLOSED
+}
+
+class IHuariqueRepository {
+  +save(h: Huarique) void
+  +getById(id: UUID) Huarique
+}
+class HuariqueRepositorySQL {
+  +save(h: Huarique) void
+  +getById(id: UUID) Huarique
+}
+HuariqueRepositorySQL ..|> IHuariqueRepository
+
+class ImageStorageAdapter {
+  +upload(file: bytes, name: string) string
+}
+BusinessListingApplicationService --> ImageStorageAdapter

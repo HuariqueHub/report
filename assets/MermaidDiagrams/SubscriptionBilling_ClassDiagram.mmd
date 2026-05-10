@@ -1,0 +1,57 @@
+classDiagram
+direction TB
+
+class SubscriptionApplicationService {
+  +selectPlan(huariqueId: UUID, planId: UUID) SubscriptionDTO
+  +activatePlan(id: UUID, paymentId: string) void
+  +changePlan(id: UUID, newPlanId: UUID) void
+}
+SubscriptionApplicationService --> MembershipService
+SubscriptionApplicationService --> ISubscriptionRepository
+SubscriptionApplicationService --> PaymentGatewayAdapter
+
+class MembershipService {
+  +validateTransition(current: Subscription, newPlan: MembershipPlan) void
+}
+
+class Subscription {
+  +UUID subscriptionId
+  +UUID huariqueId
+  +MembershipPlan plan
+  +SubscriptionStatus status
+  +date startDate
+  +date endDate
+  +activate(paymentId: string) void
+  +cancel() void
+}
+Subscription --> MembershipPlan
+Subscription --> SubscriptionStatus
+
+class MembershipPlan {
+  +UUID planId
+  +string name
+  +string description
+  +decimal monthlyPrice
+}
+class SubscriptionStatus {
+  <<enumeration>>
+  PENDING
+  ACTIVE
+  CANCELED
+  EXPIRED
+}
+
+class ISubscriptionRepository {
+  +save(s: Subscription) void
+  +getByHuarique(id: UUID) Subscription
+}
+class SubscriptionRepositorySQL {
+  +save(s: Subscription) void
+  +getByHuarique(id: UUID) Subscription
+}
+SubscriptionRepositorySQL ..|> ISubscriptionRepository
+
+class PaymentGatewayAdapter {
+  +charge(amount: decimal, token: string) string
+  +refund(chargeId: string) void
+}
