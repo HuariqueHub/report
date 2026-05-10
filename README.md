@@ -997,7 +997,19 @@ Del proceso de EventStorming se identificaron los siguientes bounded contexts ca
 
 ### 2.5.2. Context Mapping
 
-_Pendiente de insertar diagrama de Context Mapping._
+El Context Mapping define las relaciones entre los Bounded Contexts del sistema. Se utilizan los patrones DDD estándar: **U** (Upstream), **D** (Downstream), **ACL** (Anti-Corruption Layer), **OHS** (Open Host Service).
+
+![Context Mapping](assets/MermaidDiagrams/Context_Mapping.png)
+
+| Relación | Patrón | Descripción |
+|---|---|---|
+| Business Listing → Explorer Discovery | OHS / Published Language | Discovery consume el catálogo de huariques publicado por Listing vía API REST. |
+| Subscription & Billing → Business Listing | Customer-Supplier | Listing (downstream) valida con Billing si el dueño tiene suscripción activa antes de publicar. |
+| Subscription & Billing → Promotion | Customer-Supplier | Promotion solo puede publicar si Billing confirma membresía vigente. |
+| Business Listing → Promotion | Customer-Supplier | Promotion necesita que el huarique esté registrado y activo en Listing. |
+| User Preferences → Explorer Discovery | OHS / Published Language | Discovery aplica los filtros (zona, tipo de comida, precio) expuestos por Preferences. |
+| Promotion → Explorer Discovery | ACL | Discovery traduce el modelo de promociones al formato de su feed interno mediante una capa anticorrupción. |
+| Contact & Support → User Preferences | Conformist | Support reutiliza la identidad del usuario definida en Preferences sin transformarla. |
 
 ### 2.5.3. Software Architecture
 
@@ -1009,7 +1021,7 @@ El diagrama de contexto muestra a PuntoSabor como sistema central interactuando 
 - **Explorador gastronómico:** usuario que busca y descubre huariques auténticos.
 - **Dueño de restaurante:** usuario que publica su huarique y gestiona su membresía.
 
-_Pendiente de insertar diagrama C4 Context Level (Structurizr)._
+![Software Architecture Context Level Diagram](assets/structurizr-punto_context.png)
 
 #### 2.5.3.2. Software Architecture Container Level Diagrams
 
@@ -1020,11 +1032,24 @@ El diagrama de contenedores muestra los componentes internos del sistema PuntoSa
 - **Backend API (C#/.NET 8):** servidor de aplicaciones que expone endpoints REST y gestiona la lógica de negocio.
 - **Base de datos (MySQL):** almacena usuarios, huariques, reseñas, planes y suscripciones.
 
-_Pendiente de insertar diagrama C4 Container Level (Structurizr)._
+![Software Architecture Container Level Diagram](assets/structurizr-c2_puntosabor.png)
 
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
-_Pendiente de completar._
+El diagrama de despliegue muestra los nodos de infraestructura donde se ejecutan los componentes del sistema HuariqueHub y cómo se comunican entre sí.
+
+![Deployment Diagram](assets/MermaidDiagrams/Deployment_Diagram.png)
+
+| Nodo | Tecnología | Descripción |
+|---|---|---|
+| Android Device | Android 8+ | Dispositivo físico o emulador donde se instala la app móvil. |
+| HuariqueHub Mobile (APK) | Kotlin + Jetpack Compose | Aplicación Android distribuida directamente (APK). |
+| Landing Page | HTML / CSS / JS | Sitio estático desplegado en GitHub Pages (CDN gratuito). |
+| Backend API | .NET 8 / C# (Docker) | API REST desplegada en Railway como contenedor Docker. |
+| MySQL Database | MySQL 8 | Base de datos relacional gestionada por Railway. |
+| Payments Gateway | Externo (ej. Stripe/Culqi) | Procesamiento de pagos de membresías vía webhooks. |
+| Map Provider | Externo (ej. Google Maps) | Tiles de mapa y geocodificación para localizar huariques. |
+| Email Service | Externo (ej. SendGrid) | Envío de correos de confirmación para formularios de soporte. |
 
 ## 2.6. Tactical-Level Domain-Driven Design
 
@@ -1032,128 +1057,47 @@ _Pendiente de completar._
 
 #### 2.6.1.1. Domain Layer
 
-- **Aggregate:** `SearchSession`
-- **Domain Events:** `SearchSessionStarted`, `SearchPerformed`, `MapDisplayed`, `HuariqueSelected`, `HuariqueDetailViewed`
-- **Policies:** `AutoSearch`, `RankingPolicy`
-- **Invariantes:** Solo se listan huariques con estado `PUBLISHED` y `ACTIVE`.
+| Elemento | Clase |
+|---|---|
+| Aggregate root | `Huarique` |
+| Entidades | `Review`, `Category` |
+| Value Objects | `Description`, `Address`, `Coordinates`, `Rating`, `OpeningStatus` |
+| Servicio de dominio | `SearchService` (búsqueda por filtros) |
 
 #### 2.6.1.2. Interface Layer
 
-- **Read Models:** `SearchResultsView`, `HuariqueMiniCard`
-- Pantallas: Home (lista de huariques), Mapa interactivo, Detalle de Huarique.
+Endpoints REST expuestos:
+
+| Método | Endpoint | Descripción |
+|---|---|---|
+| GET | `/huariques` | Listar/buscar huariques con filtros |
+| GET | `/huariques/{id}` | Obtener detalle de un huarique |
+| GET | `/categories` | Listar categorías disponibles |
+
+Pantallas móviles: HomeScreen, HuariqueDetailScreen.
 
 #### 2.6.1.3. Application Layer
 
-- **Commands:**
-  - `StartSearchSession(userId, zoneId?, q?, filters)`
-  - `ApplySearchFilter(sessionId, filters)`
-  - `OpenMap(sessionId, viewport)`
-  - `SelectHuarique(sessionId, huariqueId)`
-  - `ViewHuariqueDetail(userId, huariqueId)`
+| Clase | Método |
+|---|---|
+| `HuariquesApplicationService` | `getHuarique(id)`, `searchHuariques(filters)` |
 
 #### 2.6.1.4. Infrastructure Layer
 
-- Repositorio de búsqueda con soporte para filtros por nombre, categoría, distrito, precio y calificación.
-- Integración con servicio de mapas (Leaflet / Google Maps API).
+| Clase | Rol |
+|---|---|
+| `HuariqueRepositorySQL` | Implementa `IHuariqueRepository` con consultas SQL/EF Core |
+| `CategoryRepositorySQL` | Implementa `ICategoryRepository` |
 
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
 
-_Pendiente de insertar diagrama C4 Component Level._
+![Explorer Discovery Component Level Diagram](assets/structurizr-c3_zones.png)
 
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 
 ##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
 
-```mermaid
-classDiagram
-direction TB
-
-class HuariquesApplicationService {
-  +getHuarique(id: UUID) HuariqueDTO
-  +createReview(review: ReviewDTO) void
-}
-HuariquesApplicationService --> ReviewService
-HuariquesApplicationService --> IHuariqueRepository
-HuariquesApplicationService --> HuariqueDTO
-HuariquesApplicationService --> ReviewDTO
-
-class HuariqueDTO {
-  +UUID id
-  +string name
-  +string description
-  +string category
-  +float averageRating
-  +string status
-  +string address
-  +string location
-}
-class ReviewDTO {
-  +UUID userId
-  +UUID huariqueId
-  +int rating
-  +string comment
-  +datetime date
-}
-
-class ReviewService {
-  +publish(huariqueId: UUID, rating: int, comment: string) void
-}
-ReviewService --> IReviewRepository
-ReviewService --> Huarique
-
-class IHuariqueRepository {
-  +getById(id: UUID) Huarique
-  +save(h: Huarique) void
-}
-class IReviewRepository {
-  +forHuarique(id: UUID) List_Review
-  +save(r: Review) void
-}
-class HuariqueRepositorySQL {
-  +getById(id: UUID) Huarique
-  +save(h: Huarique) void
-}
-HuariqueRepositorySQL ..|> IHuariqueRepository
-
-class Huarique {
-  +UUID id
-  +string name
-  +Description description
-  +Address address
-  +Coordinates location
-  +float averageRating
-  +OpeningStatus status
-  +addReview(r: Review) void
-}
-Huarique "1" --> "0..*" Review
-Huarique --> Category
-Huarique --> Description
-Huarique --> Address
-Huarique --> Coordinates
-Huarique --> OpeningStatus
-
-class Review {
-  +UUID id
-  +Rating rating
-  +string comment
-  +datetime date
-}
-Review --> Rating
-
-class Category { +UUID id; +string name }
-class Description { -string value }
-class Address { -string line1; -string district; -string city }
-class Coordinates { -float lat; -float lng }
-class Rating { -int value }
-
-class OpeningStatus {
-  <<enumeration>>
-  OPEN
-  CLOSED
-  UNKNOWN
-  TEMPORARILY_CLOSED
-}
-```
+![Explorer Discovery Class Diagram](assets/MermaidDiagrams/ExplorerDiscovery_ClassDiagram.png)
 
 | Clase | Definición |
 |-------|-----------|
@@ -1173,96 +1117,7 @@ class OpeningStatus {
 
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
 
-```mermaid
-erDiagram
-  Users            ||--o{ Reviews           : "writes"
-  Users            ||--o{ Favorites         : "bookmarks"
-  Huariques        ||--o{ Reviews           : "reviewed in"
-  Huariques        ||--o{ Favorites         : "bookmarked"
-  Categories       ||--o{ Huariques         : "classifies"
-  Huariques        ||--o{ Huarique_Photos   : "has"
-  Membership_Plans ||--o{ Subscriptions     : "offered to"
-  Huariques        ||--o{ Subscriptions     : "subscribes"
-  Users            ||--o{ Subscriptions     : "created by"
-  Users            ||--o{ Audit_Logs        : "logs"
-
-  Users {
-      uuid user_id PK
-      string name
-      string email UK
-      enum role
-      timestamp created_at
-      timestamp updated_at
-  }
-  Huariques {
-      uuid huarique_id PK
-      string name
-      text description
-      string address_line
-      string district
-      string city
-      float lat
-      float lng
-      enum opening_status
-      decimal average_rating
-      int category_id FK
-      timestamp created_at
-      timestamp updated_at
-  }
-  Categories {
-      int category_id PK
-      string name
-      string description
-      timestamp created_at
-  }
-  Reviews {
-      uuid review_id PK
-      uuid huarique_id FK
-      uuid user_id FK
-      int rating
-      string comment
-      datetime review_date
-      timestamp created_at
-  }
-  Favorites {
-      uuid user_id PK
-      uuid huarique_id PK
-      timestamp created_at
-  }
-  Membership_Plans {
-      uuid plan_id PK
-      string name
-      text description
-      decimal monthly_price
-      timestamp created_at
-  }
-  Subscriptions {
-      uuid subscription_id PK
-      uuid huarique_id FK
-      uuid plan_id FK
-      uuid user_id FK
-      date start_date
-      date end_date
-      enum status
-      timestamp created_at
-      timestamp updated_at
-  }
-  Huarique_Photos {
-      uuid photo_id PK
-      uuid huarique_id FK
-      string url
-      timestamp created_at
-  }
-  Audit_Logs {
-      int audit_id PK
-      uuid user_id FK
-      string entity_type
-      uuid entity_id
-      string action
-      json details
-      timestamp audit_date
-  }
-```
+![Explorer Discovery ER Diagram](assets/MermaidDiagrams/ExplorerDiscovery_ERDiagram.png)
 
 ---
 
@@ -1270,44 +1125,60 @@ erDiagram
 
 #### 2.6.2.1. Domain Layer
 
-- **Aggregate:** `BusinessListing`
-- **Domain Events:** `ListingCreated`, `ListingImageUploaded`, `ListingFieldsUpdated`, `AddressGeocoded`, `ListingPublished`
-- **Policies:** `RunListingValidations`
-- **Invariantes:** No se publica un huarique sin nombre, dirección, geolocalización y dueño asignado.
+| Elemento | Clase |
+|---|---|
+| Aggregate root | `Huarique` (rol de listing) |
+| Value Objects | `Address`, `Coordinates`, `Description` |
+| Servicio de dominio | `ListingValidationService` |
 
 #### 2.6.2.2. Interface Layer
 
-- **Read Models:** `OwnerListingDashboard`, `PublicListingView`
-- Pantallas: Registrar Huarique, Editar Huarique, Gestión multimedia.
+| Método | Endpoint | Descripción |
+|---|---|---|
+| POST | `/huariques` | Registrar nuevo huarique |
+| PATCH | `/huariques/{id}` | Actualizar datos del huarique |
 
 #### 2.6.2.3. Application Layer
 
-- **Commands:**
-  - `CreateListing(ownerId, basicInfo)`
-  - `UploadListingImage(huariqueId, imageMeta)`
-  - `UpdateListingFields(huariqueId, fields)`
-  - `GeocodeAddress(huariqueId, address)`
-  - `PublishListing(huariqueId)`
+| Clase | Método |
+|---|---|
+| `ListingApplicationService` | `createListing(ownerId, info)`, `updateListing(id, fields)`, `publishListing(id)` |
 
 #### 2.6.2.4. Infrastructure Layer
 
-- Repositorio SQL para `BusinessListing`.
-- Servicio externo de geocodificación de direcciones.
-- Almacenamiento de imágenes (cloud storage).
+| Clase | Rol |
+|---|---|
+| `HuariqueRepositorySQL` | Persistencia del listing en MySQL vía EF Core |
+| `GeocodingAdapter` | Llama a API externa para convertir dirección en coordenadas |
+| `ImageStorageAdapter` | Gestiona subida de fotos al storage en la nube |
 
 #### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
 
-_Pendiente de insertar diagrama C4 Component Level._
+![Business Listing Component Level Diagram](assets/structurizr-c3_categories.png)
 
 #### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
 
 ##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
 
-_Ver diagrama general en 2.6.1.6.1._
+![Business Listing Class Diagram](assets/MermaidDiagrams/BusinessListing_ClassDiagram.png)
+
+| Clase | Definición |
+|---|---|
+| `Huarique` | Aggregate root: listing del local gastronómico con nombre, descripción, dirección, coordenadas, estado y fotos. |
+| `HuariquePhoto` | Entidad que representa una foto asociada al huarique. |
+| `Description` | Value Object con el texto descriptivo validado. |
+| `Address` | Value Object con línea, distrito y ciudad. |
+| `Coordinates` | Value Object con latitud/longitud válidas. |
+| `OpeningStatus` | Enumeración del estado operativo del local. |
+| `ListingValidationService` | Servicio de dominio que valida invariantes antes de guardar el listing. |
+| `IHuariqueRepository` | Puerto de persistencia para `Huarique`. |
+| `HuariqueRepositorySQL` | Adaptador que implementa `IHuariqueRepository` con SQL/EF Core. |
+| `ImageStorageAdapter` | Puerto de infraestructura para subida de fotos. |
+| `BusinessListingApplicationService` | Orquesta los casos de uso de registro y edición de listings. |
 
 ##### 2.6.2.6.2. Bounded Context Database Design Diagram
 
-_Ver diagrama general en 2.6.1.6.2._
+![Business Listing ER Diagram](assets/MermaidDiagrams/BusinessListing_ERDiagram.png)
 
 ---
 
@@ -1315,43 +1186,58 @@ _Ver diagrama general en 2.6.1.6.2._
 
 #### 2.6.3.1. Domain Layer
 
-- **Aggregate:** `BusinessSubscription`
-- **Domain Events:** `PlanSelected`, `PlanTermsAccepted`, `BusinessEligibilityValidated`, `PlanActivated`, `PlanChanged`
-- **Policies:** `EnablePromotionCapabilities`, `DisablePromotionCapabilities`
-- **Invariantes:** Solo un `PlanActivated` habilita la creación de promociones.
+| Elemento | Clase |
+|---|---|
+| Aggregate root | `Subscription` |
+| Entidades | `MembershipPlan` |
+| Value Objects | `SubscriptionStatus` (`ACTIVE`, `CANCELED`, `EXPIRED`) |
+| Servicio de dominio | `MembershipService` |
 
 #### 2.6.3.2. Interface Layer
 
-- **Read Models:** `BillingHistory`, `PlanStatusView`
-- Pantallas: Selección de Plan, Pago, Historial de facturación.
+| Método | Endpoint | Descripción |
+|---|---|---|
+| GET | `/plans` | Listar planes de membresía disponibles |
+
+Pantallas móviles: PlanesScreen, PagoScreen.
 
 #### 2.6.3.3. Application Layer
 
-- **Commands:**
-  - `SelectPlan(huariqueId, planId)`
-  - `AcceptPlanTerms(huariqueId, termsVersion)`
-  - `ValidateBusinessEligibility(huariqueId)`
-  - `ActivatePlan(huariqueId, paymentId)`
-  - `ChangePlan(huariqueId, newPlanId)`
+| Clase | Método |
+|---|---|
+| `SubscriptionApplicationService` | `selectPlan(huariqueId, planId)`, `activatePlan(id, paymentId)`, `changePlan(id, newPlanId)` |
 
 #### 2.6.3.4. Infrastructure Layer
 
-- Repositorio SQL para `Subscription` y `Membership_Plans`.
-- Integración con pasarela de pago.
+| Clase | Rol |
+|---|---|
+| `SubscriptionRepositorySQL` | Persistencia de `Subscription` y `MembershipPlan` en MySQL |
+| `PaymentGatewayAdapter` | Integración con pasarela de pago externa |
 
 #### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
 
-_Pendiente de insertar diagrama C4 Component Level._
+![Subscription & Billing Component Level Diagram](assets/structurizr-c3_plans.png)
 
 #### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
 
 ##### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
 
-_Ver diagrama general en 2.6.1.6.1._
+![Subscription & Billing Class Diagram](assets/MermaidDiagrams/SubscriptionBilling_ClassDiagram.png)
+
+| Clase | Definición |
+|---|---|
+| `Subscription` | Aggregate root: suscripción de un huarique a un plan de membresía. |
+| `MembershipPlan` | Entidad que define un plan (nombre, precio mensual, descripción). |
+| `SubscriptionStatus` | Enumeración: `PENDING`, `ACTIVE`, `CANCELED`, `EXPIRED`. |
+| `MembershipService` | Servicio de dominio que valida transiciones de estado entre planes. |
+| `ISubscriptionRepository` | Puerto de persistencia para `Subscription` y `MembershipPlan`. |
+| `SubscriptionRepositorySQL` | Adaptador que implementa `ISubscriptionRepository` con SQL/EF Core. |
+| `PaymentGatewayAdapter` | Puerto de infraestructura para cobros y devoluciones. |
+| `SubscriptionApplicationService` | Orquesta selección, activación y cambio de plan. |
 
 ##### 2.6.3.6.2. Bounded Context Database Design Diagram
 
-_Ver diagrama general en 2.6.1.6.2._
+![Subscription & Billing ER Diagram](assets/MermaidDiagrams/SubscriptionBilling_ERDiagram.png)
 
 ---
 
@@ -1359,43 +1245,58 @@ _Ver diagrama general en 2.6.1.6.2._
 
 #### 2.6.4.1. Domain Layer
 
-- **Aggregate:** `Promotion`
-- **Domain Events:** `PromotionCreated`, `PromotionTargetingSet`, `PromotionScheduleSet`, `PromotionPublished`, `PromotionUnpublished`
-- **Policies:** `IndexPromotionForDiscovery`, `SchedulePublish/Unpublish`
-- **Invariantes:** Solo se publican promociones si el huarique tiene `ListingPublished` y `PlanActivated`.
+| Elemento | Clase |
+|---|---|
+| Aggregate root | `Promotion` |
+| Value Objects | `PromotionSchedule` (startAt, endAt), `PromotionTargeting` (zones, tags) |
+| Servicio de dominio | `PromotionPublishingService` |
 
 #### 2.6.4.2. Interface Layer
 
-- **Read Models:** `ZonePromotionsView`, `OwnerPromotionsDashboard`
-- Pantallas: Crear Promoción, Listado de Promociones destacadas.
+| Método | Endpoint | Descripción |
+|---|---|---|
+| GET | `/promos` | Listar promociones activas |
+
+Pantallas móviles: PromocionesScreen, CrearPromocionScreen.
 
 #### 2.6.4.3. Application Layer
 
-- **Commands:**
-  - `CreatePromotion(huariqueId, content)`
-  - `SetPromotionTargeting(promoId, zones?, tags?, audience?)`
-  - `SetPromotionSchedule(promoId, startAt, endAt)`
-  - `PublishPromotion(promoId)`
-  - `UnpublishPromotion(promoId, reason)`
+| Clase | Método |
+|---|---|
+| `PromotionApplicationService` | `createPromotion(huariqueId, content)`, `publishPromotion(id)`, `unpublishPromotion(id, reason)` |
 
 #### 2.6.4.4. Infrastructure Layer
 
-- Repositorio SQL para `Promotion`.
-- Scheduler para publicación/despublicación automática.
+| Clase | Rol |
+|---|---|
+| `PromotionRepositorySQL` | Persistencia de `Promotion` en MySQL |
+| `SchedulerAdapter` | Ejecuta publicación/despublicación automática según fechas |
 
 #### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
 
-_Pendiente de insertar diagrama C4 Component Level._
+![Promotion Component Level Diagram](assets/structurizr-c3_promotions.png)
 
 #### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
 
 ##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
 
-_Ver diagrama general en 2.6.1.6.1._
+![Promotion Class Diagram](assets/MermaidDiagrams/Promotion_ClassDiagram.png)
+
+| Clase | Definición |
+|---|---|
+| `Promotion` | Aggregate root: promoción creada por un dueño de huarique con contenido, ventana temporal y targeting. |
+| `PromotionSchedule` | Value Object con `startAt` y `endAt` validados. |
+| `PromotionTargeting` | Value Object con zonas y etiquetas de segmentación. |
+| `PromotionStatus` | Enumeración: `DRAFT`, `PUBLISHED`, `UNPUBLISHED`. |
+| `PromotionPublishingService` | Servicio de dominio que valida reglas de publicación y programa despublicación. |
+| `IPromotionRepository` | Puerto de persistencia para `Promotion`. |
+| `PromotionRepositorySQL` | Adaptador que implementa `IPromotionRepository` con SQL/EF Core. |
+| `SchedulerAdapter` | Puerto de infraestructura para programar tareas de publicación/despublicación. |
+| `PromotionApplicationService` | Orquesta creación, publicación y despublicación de promociones. |
 
 ##### 2.6.4.6.2. Bounded Context Database Design Diagram
 
-_Ver diagrama general en 2.6.1.6.2._
+![Promotion ER Diagram](assets/MermaidDiagrams/Promotion_ERDiagram.png)
 
 ---
 
@@ -1403,38 +1304,49 @@ _Ver diagrama general en 2.6.1.6.2._
 
 #### 2.6.5.1. Domain Layer
 
-- **Aggregate:** `UserPreferences`
-- **Domain Events:** `PreferredLanguageChanged`, `DiscoveryPreferencesSaved`, `PrivacyConsentRecorded`
+| Elemento | Clase |
+|---|---|
+| Aggregate root | `UserPreferences` |
+| Value Objects | `DiscoveryPreferences` (priceRange, foodTypes, zone), `PrivacyConsent` |
 
 #### 2.6.5.2. Interface Layer
 
-- **Read Models:** `UserPrefView`
-- Pantallas: Configuración de preferencias, Recomendados.
+Pantallas móviles: PreferenciasScreen (configuración de idioma, tipo de comida, presupuesto, zona).
 
 #### 2.6.5.3. Application Layer
 
-- **Commands:**
-  - `SetPreferredLanguage(userId, lang)`
-  - `SetDiscoveryPreferences(userId, priceRange?, foodTypes?, zone?)`
-  - `SavePrivacyConsent(userId?, anonymousId, scopes)`
+| Clase | Método |
+|---|---|
+| `PreferencesApplicationService` | `setPreferences(userId, prefs)`, `getPreferences(userId)` |
 
 #### 2.6.5.4. Infrastructure Layer
 
-- Repositorio SQL para `UserPreferences`.
+| Clase | Rol |
+|---|---|
+| `UserPreferencesRepositorySQL` | Persistencia de preferencias del usuario en MySQL |
 
 #### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
 
-_Pendiente de insertar diagrama C4 Component Level._
+![User Preferences Component Level Diagram](assets/structurizr-c3_profile.png)
 
 #### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
 
 ##### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
 
-_Ver diagrama general en 2.6.1.6.1._
+![User Preferences Class Diagram](assets/MermaidDiagrams/UserPreferences_ClassDiagram.png)
+
+| Clase | Definición |
+|---|---|
+| `UserPreferences` | Aggregate root: preferencias de descubrimiento y privacidad del usuario. |
+| `DiscoveryPreferences` | Value Object con rango de precio, tipos de comida y zona preferida. |
+| `PrivacyConsent` | Value Object con consentimiento de ubicación y notificaciones. |
+| `IUserPreferencesRepository` | Puerto de persistencia para `UserPreferences`. |
+| `UserPreferencesRepositorySQL` | Adaptador que implementa `IUserPreferencesRepository` con SQL/EF Core. |
+| `PreferencesApplicationService` | Orquesta lectura y actualización de preferencias del usuario. |
 
 ##### 2.6.5.6.2. Bounded Context Database Design Diagram
 
-_Ver diagrama general en 2.6.1.6.2._
+![User Preferences ER Diagram](assets/MermaidDiagrams/UserPreferences_ERDiagram.png)
 
 ---
 
@@ -1442,39 +1354,53 @@ _Ver diagrama general en 2.6.1.6.2._
 
 #### 2.6.6.1. Domain Layer
 
-- **Aggregate:** `SupportRequest`
-- **Domain Events:** `ContactFormSubmitted`, `DirectionsOpened`, `PrivacyConsentRecorded`
+| Elemento | Clase |
+|---|---|
+| Aggregate root | `SupportRequest` |
+| Value Objects | `ContactPayload` (nombre, email, mensaje), `ConsentScopes` |
 
 #### 2.6.6.2. Interface Layer
 
-- **Read Models:** `SupportInboxView`, `ConsentLedger`
-- Pantallas: Formulario de contacto, Cómo llegar.
+Landing Page: formulario de contacto HTML estático.  
+Pantallas móviles: ContactoScreen, DireccionesScreen.
 
 #### 2.6.6.3. Application Layer
 
-- **Commands:**
-  - `SubmitContactForm(userId?, payload)`
-  - `OpenDirections(userId?, huariqueId)`
-  - `AcceptPrivacyConsent(subjectId, scopes)`
+| Clase | Método |
+|---|---|
+| `SupportApplicationService` | `submitContactForm(payload)`, `openDirections(huariqueId)` |
 
 #### 2.6.6.4. Infrastructure Layer
 
-- Repositorio SQL para `SupportRequest`.
-- Integración con servicio de email/notificaciones.
+| Clase | Rol |
+|---|---|
+| `SupportRequestRepositorySQL` | Persistencia de solicitudes de soporte en MySQL |
+| `EmailNotificationAdapter` | Envío de correos de confirmación al usuario |
 
 #### 2.6.6.5. Bounded Context Software Architecture Component Level Diagrams
 
-_Pendiente de insertar diagrama C4 Component Level._
+![Contact & Support Component Level Diagram](assets/structurizr-c3_contact.png)
 
 #### 2.6.6.6. Bounded Context Software Architecture Code Level Diagrams
 
 ##### 2.6.6.6.1. Bounded Context Domain Layer Class Diagrams
 
-_Ver diagrama general en 2.6.1.6.1._
+![Contact & Support Class Diagram](assets/MermaidDiagrams/ContactSupport_ClassDiagram.png)
+
+| Clase | Definición |
+|---|---|
+| `SupportRequest` | Aggregate root: solicitud de soporte o contacto enviada por el usuario. |
+| `ContactPayload` | Value Object con nombre, email y mensaje del formulario. |
+| `ConsentScopes` | Value Object con aceptación del tratamiento de datos. |
+| `SupportStatus` | Enumeración: `SUBMITTED`, `IN_REVIEW`, `RESOLVED`. |
+| `ISupportRequestRepository` | Puerto de persistencia para `SupportRequest`. |
+| `SupportRequestRepositorySQL` | Adaptador que implementa `ISupportRequestRepository` con SQL/EF Core. |
+| `EmailNotificationAdapter` | Puerto de infraestructura para envío de correos de confirmación. |
+| `SupportApplicationService` | Orquesta el envío de formularios y la apertura de direcciones. |
 
 ##### 2.6.6.6.2. Bounded Context Database Design Diagram
 
-_Ver diagrama general en 2.6.1.6.2._
+![Contact & Support ER Diagram](assets/MermaidDiagrams/ContactSupport_ERDiagram.png)
 
 # Capítulo III: Solution UI/UX Design
 

@@ -1,0 +1,39 @@
+classDiagram
+direction TB
+
+class PreferencesApplicationService {
+  +setPreferences(userId: UUID, prefs: PrefsDTO) void
+  +getPreferences(userId: UUID) PrefsDTO
+}
+PreferencesApplicationService --> IUserPreferencesRepository
+
+class UserPreferences {
+  +UUID userId
+  +DiscoveryPreferences discovery
+  +PrivacyConsent consent
+  +update(discovery: DiscoveryPreferences) void
+  +revokeConsent() void
+}
+UserPreferences --> DiscoveryPreferences
+UserPreferences --> PrivacyConsent
+
+class DiscoveryPreferences {
+  -string priceRange
+  -List~string~ foodTypes
+  -string preferredZone
+}
+class PrivacyConsent {
+  -bool locationAllowed
+  -bool notificationsAllowed
+  -datetime consentedAt
+}
+
+class IUserPreferencesRepository {
+  +save(p: UserPreferences) void
+  +getByUser(userId: UUID) UserPreferences
+}
+class UserPreferencesRepositorySQL {
+  +save(p: UserPreferences) void
+  +getByUser(userId: UUID) UserPreferences
+}
+UserPreferencesRepositorySQL ..|> IUserPreferencesRepository
