@@ -921,11 +921,25 @@ _Pendiente de completar._
 
 #### 3.1.2.4. Searching Systems
 
-_Pendiente de completar._
+La aplicación móvil de HuariqueHub ofrece sistemas de búsqueda diseñados para que el usuario encuentre lo que necesita sin esfuerzo:
+
+- **Búsqueda en catálogo:** localización de huariques por nombre, tipo de comida o distrito.  
+- **Filtros avanzados:** por rango de precios, valoración de usuarios, ubicación geográfica y promociones activas.  
+- **Mapa interactivo:** permite aplicar filtros visuales y seleccionar huariques desde su ubicación exacta.  
+- **Búsqueda en reseñas:** posibilidad de filtrar comentarios por calificación (positivas/negativas) o por temas (precio, atención, sabor).  
+De esta manera se evita que el usuario se sienta perdido entre la cantidad de opciones disponibles y se mejora la eficiencia en la exploración.
 
 #### 3.1.2.5. Navigation Systems
 
-_Pendiente de completar._
+La navegación de PuntoSabor combina claridad, consistencia y adaptabilidad:
+
+- **Landing Page (Desktop):** menú superior con navegación horizontal que permite acceder rápidamente a las secciones principales. Desplegada en GitHub Pages.  
+- **Landing Page (Móvil):** menú tipo hamburguesa con navegación vertical, optimizado para pantallas pequeñas.  
+- **Aplicación Móvil (Android/Kotlin):** navegación entre pantallas mediante Jetpack Compose Navigation, con acceso a Login, Registro, Home, Detalle de Huarique y otras pantallas core.  
+- **CTAs estratégicos:** botones prominentes en el color primario de la paleta para guiar al usuario a acciones críticas como buscar huariques, registrar un negocio o activar una promoción.  
+
+En conjunto, estos sistemas garantizan que los usuarios puedan recorrer la plataforma de forma intuitiva, cumpliendo sus metas sin obstáculos.
+
 
 ### 3.1.3. Landing Page UI Design
 
@@ -963,21 +977,110 @@ _Pendiente de completar._
 
 ## 4. Product Implementation & Validation
 
-_Pendiente de completar._
-
 ## 4.1. Software Configuration Management
+
+En esta sección se detalla cómo se implementa, organiza y publica HuariqueHub, compuesto por tres componentes principales:
+
+1. **Landing Page (HTML/CSS/JS estático):** publicada en GitHub Pages.
+2. **Backend (C#/.NET 8):** API REST desplegada en Railway.
+3. **Aplicación Móvil (Android/Kotlin con Jetpack Compose):** la interfaz principal del usuario, con las pantallas core de la plataforma.
+
+El objetivo es mantener la consistencia del desarrollo entre los tres componentes y documentar las convenciones de código para futuras iteraciones.
 
 ### 4.1.1. Software Development Environment Configuration
 
-_Pendiente de completar._
+**Landing Page (HuariqueHub-Landing)**
+- Tecnologías: HTML5, CSS3, JavaScript (vanilla).
+- Responsive Web Design: CSS (Flexbox/Grid + media queries).
+- Editor: Visual Studio Code.
+- Control de versiones: Git + GitHub.
+- Plataforma de despliegue: GitHub Pages.
+
+Estructura:
+- `index.html` (página principal)
+- `css/style.css` (hoja de estilos)
+- `img/` (recursos de imágenes)
+
+**Backend (HuariqueHub-Backend)**
+- Framework: .NET 8
+- Lenguaje: C#
+- IDE: Visual Studio 2022 o Visual Studio Code con extensión C#.
+- Control de versiones: Git + GitHub.
+- Plataforma de despliegue: Railway.
+
+**Aplicación Móvil (HuariqueHub-App)**
+- Lenguaje: Kotlin
+- Framework UI: Jetpack Compose
+- Nombre del proyecto: `HuariqueHub-Mobile`
+- IDE: Android Studio.
+- Control de versiones: Git + GitHub.
 
 ### 4.1.2. Source Code Management
 
-_Pendiente de completar._
+**Repositorios GitHub (actual)**
+- `HuariqueHub-Landing` (Landing Page estática HTML/CSS/JS, desplegada en GitHub Pages).
+- `HuariqueHub-Backend` (API REST en C#/.NET 8, desplegada en Railway).
+- `HuariqueHub-App` (Aplicación móvil Android/Kotlin con Jetpack Compose).
+
+**Flujo de trabajo (GitFlow ligero)**
+- **Ramas principales**
+  - `main`: versión estable publicada.
+  - `develop`: integración previa a publicación.
+- **Ramas de apoyo**
+  - `feature/*`: nuevas funcionalidades o mejoras (p. ej., `feature/US01-home-screen`, `feature/auth-login`).
+  - `hotfix/*`: correcciones urgentes sobre `main`.
+
+**Versionado Semántico**
+- **X (major)**: cambios incompatibles (reestructura global de navegación/archivos).
+- **Y (minor)**: nuevas secciones o funcionalidades compatibles.
+- **Z (patch)**: correcciones menores (estilos, textos, enlaces).
+- Ejemplos: `v1.0`, `v1.1`.
+
+**Conventional Commits**
+
+Formato general:
+```
+<type>[scope]: <descripción>
+```
+Ejemplos:
+- `feat: agregar pantalla de home con lista de huariques`
+- `feat(auth): implementar pantalla de login con Jetpack Compose`
+- `fix(api): corregir endpoint de búsqueda por distrito`
+- `docs: actualizar pasos de despliegue en README`
 
 ### 4.1.3. Source Code Style Guide & Conventions
 
-_Pendiente de completar._
+**Landing Page — HTML**
+- Estructura semántica: `<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`.
+- Imágenes siempre con `alt`.
+- Enlaces relativos y consistentes entre páginas.
+- Scripts JS al final del `body` cuando corresponda.
+
+**Landing Page — CSS**
+- Uso de variables CSS (`:root { --color... }`) para colores y espaciados.
+- Convención de clases en kebab-case (ej.: `.hero-title`, `.card-grid`).
+- Layout con Flexbox y/o Grid.
+- Media queries para puntos de quiebre (ej.: 960px, 760px, 560px).
+- Estados y accesibilidad: `:hover`, `:focus-visible`, contraste adecuado.
+
+**Landing Page — JavaScript**
+- `const` / `let` (evitar `var`), funciones pequeñas y claras.
+- Separar lógica de interacción del DOM cuando sea posible.
+- Uso moderado de `localStorage` solo para preferencias/estado del cliente (si aplica).
+
+**Backend — C# / .NET 8**
+- Nombres en PascalCase para clases, métodos y propiedades.
+- Estructura de capas: Domain, Application, Infrastructure, Presentation.
+- Inyección de dependencias mediante el contenedor DI nativo de .NET.
+- Métodos asíncronos con `async/await` (Task/Task<T>) para operaciones I/O.
+- Documentación con comentarios XML (`///`) en métodos y clases públicas.
+
+**Aplicación Móvil — Kotlin / Jetpack Compose**
+- Variables y funciones en camelCase; clases y Composables en PascalCase.
+- Composables pequeños, reutilizables y sin estado cuando sea posible.
+- Navegación centralizada mediante `AppNavigation.kt` con Jetpack Compose Navigation.
+- Corrutinas de Kotlin para operaciones asíncronas.
+- Separación clara entre UI (`ui/screens/`) y datos (`data/model/`).
 
 ### 4.1.4. Software Deployment Configuration
 
