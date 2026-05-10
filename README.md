@@ -1,41 +1,42 @@
-# report
+# Carátula
 
 <div align="center">
 
-<h3>Universidad Peruana de Ciencias Aplicadas</h3>
-
 <img alt="upc-logo" src="assets/upc_logo.png" width="200"/><br>
 
-<strong>Ingeniería de Software - 2026-1</strong><br>
-<strong>1ACC0238 - Aplicaciones para Dispositivos Móviles</strong><br>
+<strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
+<strong>Ingeniería de Software</strong><br>
+<strong>Periodo: 2026-1</strong><br>
+<strong>Curso: 1ACC0238 - Aplicaciones para Dispositivos Móviles</strong><br>
 <strong>NRC: 3248</strong><br>
-<strong>Profesor: David Gerardo Quevedo Velasco</strong><br>
+<strong>Docente: David Gerardo Quevedo Velasco</strong><br>
 
-<br><strong>Informe del Trabajo Final</strong><br><br>
+<br><strong>Informe de Trabajo Final</strong><br><br>
 
 <strong>Startup: HuariqueHub</strong><br>
 <strong>Producto: PuntoSabor</strong><br>
 
+<br>
 
+<strong>Relación de integrantes en orden alfabético por apellido</strong>
 
-### Team Members:
+| Código | Apellidos y nombres |
+|:------:|:--------------------|
+| u20171a518 | Becerra Llempen, Fabiola Dayane |
+| u202321843 | Delgado Carrasco, Schneider |
+| u202312700 | Lopez Goitia, Carlos Alberto |
+| u20241c134 | Tumi Oliden, Manuel Ignacio |
+| u202019871 | Vasquez Goicochea, Erick Alessander |
 
-|             Member              |   Code    |
-|:-------------------------------:|:---------:|
-|  Delgado Carrasco, Schneider  | u202321843 |
-|  Lopez Goitia, Carlos Alberto  | u202312700 |
-|  Tumi Oliden Manuel Ignacio  | u20241c134 |
-|  Becerra Llempen, Fabiola Dayane |u20171a518|
-|  Vasquez Goicochea Erick Alessander | u202019871 |
+<strong>Abril 2026</strong><br>
 
-<strong> Abril 2026</strong><br>
 </div>
 
 # Registro de Versiones del Informe
 
 <table>
   <tr>
-    <th>Version</th>
+    <th>Versión</th>
     <th>Fecha</th>
     <th>Autor</th>
     <th>Descripción de modificación </th>
@@ -53,15 +54,15 @@
         <li> </li>
       </ul>
     </td>
-    <td> Se han incluído los siguientes capítulos:
+    <td> Se han incluido los siguientes capítulos:
         <ul>
           <li>Carátula</li>
-          <li>Registro de Versiones del informe</li>
+          <li>Registro de Versiónes del informe</li>
           <li>Project Report Collaboration Insights</li>
           <li>Contenido</li>
           <li>Student Outcome</li>
           <li>Capítulo I: Presentación</li>
-        <li>Capítulo II: Requirements Development and Sotware Solution Design</li>
+        <li>Capítulo II: Requirements Development and Software Solution Design</li>
         <li>Conclusiones</li>
         <li>Bibliografía</li>
         <li>Anexos</li>
@@ -69,124 +70,119 @@
   </tr>
 </table>
 
-## Contenido
+# Project Report Collaboration Insights
+
+URL del repositorio del informe: _Pendiente de colocar._
+
+Para la entrega AV1, el equipo elaboró el informe de manera colaborativa en formato Markdown, organizando los aportes por secciones asignadas y registrando las modificaciones mediante commits en GitHub.
+
+Evidencias de colaboración:
+
+- Captura de commits del repositorio del informe: _Pendiente de insertar._
+- Captura de contributors/insights de GitHub: _Pendiente de insertar._
+- Resumen de participación por integrante: _Pendiente de completar._
+
+# Contenido
+
+## Tabla de contenidos
+
+- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+- [Project Report Collaboration Insights](#project-report-collaboration-insights)
+- [Contenido](#contenido)
 - [Student Outcome](#student-outcome)
-- [Capítulo I: Introducción](#capítulo-i-introducción)
-    - [1.1. Startup Profile](#11-startup-profile)
-        - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-        - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-    - [1.2. Solution Profile](#12-solution-profile)
-        - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-        - [1.2.2. Lean UX Process](#122-lean-ux-process)
-            - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-            - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-            - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-            - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-    - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
-    - [2.1. Competidores](#21-competidores)
-        - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-        - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-    - [2.2. Entrevistas](#22-entrevistas)
-        - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-        - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-        - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-    - [2.3. Needfinding](#23-needfinding)
-        - [2.3.1. User Personas](#231-user-personas)
-        - [2.3.2. User Task Matrix](#232-user-task-matrix)
-        - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-        - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-        - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-    - [2.4. Ubiquitous Language](#24-ubiquitous-language)
-- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-    - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-    - [3.2. User Stories](#32-user-stories)
-    - [3.3. Impact Mapping](#33-impact-mapping)
-    - [3.4. Product Backlog](#34-product-backlog)
-- [Capítulo IV: Product Design](#capítulo-iv-product-design)
-    - [4.1. Style Guidelines](#41-style-guidelines)
-        - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-        - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
-    - [4.2. Information Architecture](#42-information-architecture)
-        - [4.2.1. Organization Systems](#421-organization-systems)
-        - [4.2.2. Labeling Systems](#422-labeling-systems)
-        - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-        - [4.2.4. Searching Systems](#424-searching-systems)
-        - [4.2.5. Navigation Systems](#425-navigation-systems)
-    - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
-        - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
-        - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
-    - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
-        - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
-        - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
-        - [4.4.2. Web Applications Mock-ups](#442-web-applications-mock-ups)
-        - [4.4.3. Web Applications User Flow Diagrams](#443-web-applications-user-flow-diagrams)
-    - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
-    - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
-        - [4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)
-        - [4.6.2. Software Architecture Container Diagrams](#462-software-architecture-container-diagrams)
-        - [4.6.3. Software Architecture Components Diagrams](#463-software-architecture-components-diagrams)
-    - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
-        - [4.7.1. Class Diagrams](#471-class-diagrams)
-        - [4.7.2. Class Dictionary](#472-class-dictionary)
-    - [4.8. Database Design](#48-database-design)
-        - [4.8.1. Database Diagram](#481-database-diagram)
-- [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
-    - [5.1. Software Configuration Management](#51-software-configuration-management)
-        - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
-        - [5.1.2. Source Code Management](#512-source-code-management)
-        - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
-        - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-    - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
-        - [5.2.1. Sprint 1](#521-sprint-1)
-            - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
-            - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
-            - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
-            - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
-            - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-            - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-            - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-            - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-        - [5.2.2. Sprint 2](#522-sprint-2)
-            - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
-            - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
-            - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
-            - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
-            - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
-            - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
-            - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
-            - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
-        - [5.2.3. Sprint 3](#523-sprint-3)
-            - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
-            - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
-            - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
-            - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
-            - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
-            - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
-            - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
-            - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
-        - [5.2.4. Sprint 4](#524-sprint-4)
-            - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
-            - [5.2.4.2. Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
-            - [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-4)
-            - [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
-            - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
-            - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
-            - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
-            - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
+- [Objetivos SMART](#objetivos-smart)
+- [Capítulo I: Presentación](#capítulo-i-presentación)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+- [Capítulo II: Requirements Development and Software Solution Design](#capítulo-ii-requirements-development-and-software-solution-design)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+    - [2.3.5. Big Picture EventStorming](#235-big-picture-eventstorming)
+    - [2.3.6. Ubiquitous Language](#236-ubiquitous-language)
+  - [2.4. Requirements specification](#24-requirements-specification)
+    - [2.4.1. User Stories](#241-user-stories)
+    - [2.4.2. Impact Mapping](#242-impact-mapping)
+    - [2.4.3. Product Backlog](#243-product-backlog)
+  - [2.5. Strategic-Level Domain-Driven Design](#25-strategic-level-domain-driven-design)
+    - [2.5.1. EventStorming](#251-eventstorming)
+      - [2.5.1.1. Candidate Context Discovery](#2511-candidate-context-discovery)
+      - [2.5.1.2. Domain Message Flows Modeling](#2512-domain-message-flows-modeling)
+      - [2.5.1.3. Bounded Context Canvases](#2513-bounded-context-canvases)
+    - [2.5.2. Context Mapping](#252-context-mapping)
+    - [2.5.3. Software Architecture](#253-software-architecture)
+      - [2.5.3.1. Software Architecture Context Level Diagrams](#2531-software-architecture-context-level-diagrams)
+      - [2.5.3.2. Software Architecture Container Level Diagrams](#2532-software-architecture-container-level-diagrams)
+      - [2.5.3.3. Software Architecture Deployment Diagrams](#2533-software-architecture-deployment-diagrams)
+  - [2.6. Tactical-Level Domain-Driven Design](#26-tactical-level-domain-driven-design)
+- [Capítulo III: Solution UI/UX Design](#capítulo-iii-solution-uiux-design)
+  - [3.1. Product design](#31-product-design)
+    - [3.1.1. Style Guidelines](#311-style-guidelines)
+      - [3.1.1.1. General Style Guidelines](#3111-general-style-guidelines)
+    - [3.1.2. Information Architecture](#312-information-architecture)
+      - [3.1.2.1. Organization Systems](#3121-organization-systems)
+      - [3.1.2.2. Labelling Systems](#3122-labelling-systems)
+      - [3.1.2.3. SEO Tags and Meta Tags](#3123-seo-tags-and-meta-tags)
+      - [3.1.2.4. Searching Systems](#3124-searching-systems)
+      - [3.1.2.5. Navigation Systems](#3125-navigation-systems)
+    - [3.1.3. Landing Page UI Design](#313-landing-page-ui-design)
+      - [3.1.3.1. Landing Page Wireframe](#3131-landing-page-wireframe)
+      - [3.1.3.2. Landing Page Mock-up](#3132-landing-page-mock-up)
+    - [3.1.4. Mobile Applications UX/UI Design](#314-mobile-applications-uxui-design)
+      - [3.1.4.1. Mobile Applications Wireframes](#3141-mobile-applications-wireframes)
+      - [3.1.4.2. Mobile Applications Wireflow Diagrams](#3142-mobile-applications-wireflow-diagrams)
+      - [3.1.4.3. Mobile Applications Mock-ups](#3143-mobile-applications-mock-ups)
+      - [3.1.4.4. Mobile Applications User Flow Diagrams](#3144-mobile-applications-user-flow-diagrams)
+      - [3.1.4.5. Mobile Applications Prototyping](#3145-mobile-applications-prototyping)
+- [Capítulo IV: Product Implementation & Validation](#capítulo-iv-product-implementation--validation)
+  - [4. Product Implementation & Validation](#4-product-implementation--validation)
+  - [4.1. Software Configuration Management](#41-software-configuration-management)
+    - [4.1.1. Software Development Environment Configuration](#411-software-development-environment-configuration)
+    - [4.1.2. Source Code Management](#412-source-code-management)
+    - [4.1.3. Source Code Style Guide & Conventions](#413-source-code-style-guide--conventions)
+    - [4.1.4. Software Deployment Configuration](#414-software-deployment-configuration)
+  - [4.2. Landing Page & Mobile Application Implementation](#42-landing-page--mobile-application-implementation)
+    - [4.2.1. Sprint n](#421-sprint-n)
+      - [4.2.1.1. Sprint Planning n](#4211-sprint-planning-n)
+      - [4.2.1.2. Sprint Backlog n](#4212-sprint-backlog-n)
+      - [4.2.1.3. Development Evidence for Sprint Review](#4213-development-evidence-for-sprint-review)
+      - [4.2.1.4. Testing Suite Evidence for Sprint Review](#4214-testing-suite-evidence-for-sprint-review)
+      - [4.2.1.5. Execution Evidence for Sprint Review](#4215-execution-evidence-for-sprint-review)
+      - [4.2.1.6. Services Documentation Evidence for Sprint Review](#4216-services-documentation-evidence-for-sprint-review)
+      - [4.2.1.7. Software Deployment Evidence for Sprint Review](#4217-software-deployment-evidence-for-sprint-review)
+      - [4.2.1.8. Team Collaboration Insights during Sprint](#4218-team-collaboration-insights-during-sprint)
+  - [4.3. Validation Interviews](#43-validation-interviews)
+    - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
+    - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
+    - [4.3.3. Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas)
+- [Conclusiones](#conclusiones)
+  - [Conclusiones y recomendaciones.](#conclusiones-y-recomendaciones)
+- [Video App Validation](#video-app-validation)
+- [Video About the product](#video-about-the-product)
+- [Video About the team](#video-about-the-team)
+- [Glosario](#glosario)
+- [Bibliografía](#bibliografía)
+- [Anexos](#anexos)
 
-
-    - [5.3. Validation Interviews](#53-validation-interviews)
-        - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
-        - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
-        - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
-
-    - [5.4. Video About-the-Product](#54-video-about-the-product)
-
-
----
-
-## Student Outcome
+# Student Outcome
 
 ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
 <div>
@@ -287,19 +283,47 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
 
   </tbody>
 </table>
-</div>             
+</div>
 
+# Objetivos SMART
 
-# Capítulo I: Introducción
+## Delgado Carrasco, Schneider
+
+- _Pendiente de completar objetivo SMART 1._
+- _Pendiente de completar objetivo SMART 2._
+
+## Lopez Goitia, Carlos Alberto
+
+- _Pendiente de completar objetivo SMART 1._
+- _Pendiente de completar objetivo SMART 2._
+
+## Tumi Oliden, Manuel Ignacio
+
+- _Pendiente de completar objetivo SMART 1._
+- _Pendiente de completar objetivo SMART 2._
+
+## Becerra Llempen, Fabiola Dayane
+
+- _Pendiente de completar objetivo SMART 1._
+- _Pendiente de completar objetivo SMART 2._
+
+## Vasquez Goicochea, Erick Alessander
+
+- _Pendiente de completar objetivo SMART 1._
+- _Pendiente de completar objetivo SMART 2._
+
+# Capítulo I: Presentación
+
 ## 1.1. Startup Profile
+
 ### 1.1.1. Descripción de la Startup
 
-HuariqueHub es una startup dedicada a la creación de soluciones tecnológicas diseñadas para impulsar la competitividad y el crecimiento de pequeños comercios locales, con un énfasis particular en el rubro gastronómico. Su propuesta central, PuntoSabor, consiste en una plataforma movíl que vincula a los comensales con "huariques", establecimientos de cocina tradicional que destacan por su autenticidad y calidad, pero que suelen carecer de exposición en el entorno digital.
+HuariqueHub es una startup dedicada a la creación de soluciones tecnológicas diseñadas para impulsar la competitividad y el crecimiento de pequeños comercios locales, con un énfasis particular en el rubro gastronómico. Su propuesta central, PuntoSabor, consiste en una plataforma móvil que vincula a los comensales con "huariques", establecimientos de cocina tradicional que destacan por su autenticidad y calidad, pero que suelen carecer de exposición en el entorno digital.
 
 El proyecto surge para resolver la brecha de visibilidad que enfrentan estos negocios frente a las grandes cadenas en las aplicaciones convencionales. 
 
 Mediante una interfaz intuitiva, la herramienta permite a la comunidad descubrir y recomendar estos locales, validando un modelo de negocio sostenible basado en planes de visibilidad y membresías que fortalecen el ecosistema emprendedor local.
-    
+
 ### 1.1.2. Perfiles de integrantes del equipo
 
 |                             Miembro                             |                                                                                                                                                                                   .
@@ -341,7 +365,9 @@ El problema se expresa en la escasa o inexistente promoción digital de estos ne
 #### How much? (¿Cuánto?)
 Esta brecha representa no solo una oportunidad económica sin aprovechar para los dueños de huariques, sino también una pérdida del patrimonio gastronómico cultural. A escala de mercado, miles de negocios pequeños y millones de usuarios permanecen al margen del ecosistema digital gastronómico.
 
-##### 1.2.2.1. Lean UX Problem Statements
+### 1.2.2. Lean UX Process
+
+#### 1.2.2.1. Lean UX Problem Statements
 
 - Los huariques no cuentan con una plataforma digital especializada y de fácil acceso donde puedan promover su negocio, lo que restringe su capacidad para crecer y captar nuevos clientes.
 
@@ -353,7 +379,7 @@ Esta brecha representa no solo una oportunidad económica sin aprovechar para lo
 
 - Los propietarios de huariques, que habitualmente trabajan con recursos escasos, necesitan una herramienta práctica que les permita gestionar su presencia en línea sin complicaciones técnicas ni inversiones elevadas.
 
-##### 1.2.2.2. Lean UX Assumptions
+#### 1.2.2.2. Lean UX Assumptions
 #### Business Assumptions
 - Se estima que PuntoSabor logrará convocar a un número considerable de dueños de huariques que buscan mayor visibilidad digital a través de membresías o planes publicitarios.
 
@@ -378,7 +404,7 @@ Esta brecha representa no solo una oportunidad económica sin aprovechar para lo
 
 - Se estima que beneficios como la membresía y la dinámica comunitaria fomentarán que los propietarios mantengan su perfil activo y atractivo.
 
-##### 1.2.2.3. Lean UX Hypothesis Statements
+#### 1.2.2.3. Lean UX Hypothesis Statements
 
 - Creemos que ofrecer una plataforma fácil e intuitiva para descubrir huariques auténticos y económicos aumentará la cantidad de usuarios que visitan estos negocios. Sabremos que esto es cierto cuando al menos el 60% de los usuarios activos reporten haber visitado un huarique recomendado en la plataforma durante el primer mes de uso.
 
@@ -390,11 +416,11 @@ Esta brecha representa no solo una oportunidad económica sin aprovechar para lo
 
 - Creemos que la oferta de planes de membresía y publicidad atraerá a suficientes dueños de huariques para generar ingresos recurrentes sostenibles. Sabremos que esto es cierto cuando el 30% de los huariques registrados contraten al menos un plan pago durante los primeros seis meses.
 
-##### 1.2.2.4. Lean UX Canvas
+#### 1.2.2.4. Lean UX Canvas
 ![alt text](<assets/Lean UX Canvas - PuntoSabor.png>)
 
 ## 1.3. Segmentos objetivo
-##Exploradores Gastronómicos
+### Exploradores Gastronómicos
 
 - Edad: 18 a 40 años.
 
@@ -406,7 +432,7 @@ Esta brecha representa no solo una oportunidad económica sin aprovechar para lo
 
 - Beneficios buscados: Acceso a recomendaciones confiables, mapas con ubicación cercana, y sistema de reseñas para tomar decisiones informadas.
 
-##Dueños y Administradores de Huariques
+### Dueños y Administradores de Huariques
 
 - Perfil: Emprendedores y pequeños negocios de comida tradicional o casera.
 
@@ -414,8 +440,8 @@ Esta brecha representa no solo una oportunidad económica sin aprovechar para lo
 
 - Beneficios buscados: Herramienta accesible para gestionar su información en la plataforma, recibir retroalimentación valiosa y utilizar planes de membresía o publicidad para crecer.
 
+# Capítulo II: Requirements Development and Software Solution Design
 
-# Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores
 ### 2.1.1. Análisis competitivo
 
@@ -459,34 +485,34 @@ Tácticas:
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
 
-Segmento 1: Exploradores Gastronómicos (Usuarios de la app movíl)
+Segmento 1: Exploradores Gastronómicos (Usuarios de la app móvil)
 
-Objetivo: Entender sus motivaciones, comportamientos y expectativas al usar una app movíl para descubrir comida local auténtica.
+Objetivo: Entender sus motivaciones, comportamientos y expectativas al usar una app móvil para descubrir comida local auténtica.
 
 Preguntas Segmento 1:
-- ¿Con qué frecuencia usas aplicaciones movíl para buscar lugares para comer fuera de lo común?
-- ¿Cómo sueles descubrir huariques o lugares de comida poco conocidos en la movíl?
-- ¿Qué aspectos valoras más al elegir un lugar para comer usando una app movíl (precio, ubicación, reseñas, fotos, etc.)?
-- ¿Qué dificultades has tenido al usar apps movíl para buscar lugares de comida local?
-- ¿Qué te motivaría a usar una app movíl dedicada exclusivamente a huariques?
-- ¿Qué funcionalidades en la app movíl considerarías imprescindibles para usarla con regularidad?
-- ¿Qué preocupaciones o barreras tendrías al usar una app movíl para descubrir huariques?
+- ¿Con qué frecuencia usas aplicaciones móvil para buscar lugares para comer fuera de lo común?
+- ¿Cómo sueles descubrir huariques o lugares de comida poco conocidos en la móvil?
+- ¿Qué aspectos valoras más al elegir un lugar para comer usando una app móvil (precio, ubicación, reseñas, fotos, etc.)?
+- ¿Qué dificultades has tenido al usar apps móvil para buscar lugares de comida local?
+- ¿Qué te motivaría a usar una app móvil dedicada exclusivamente a huariques?
+- ¿Qué funcionalidades en la app móvil considerarías imprescindibles para usarla con regularidad?
+- ¿Qué preocupaciones o barreras tendrías al usar una app móvil para descubrir huariques?
 
-Segmento 2: Dueños y Administradores de Huariques (Usuarios que usan la app movíl para gestionar su huarique).
+Segmento 2: Dueños y Administradores de Huariques (Usuarios que usan la app móvil para gestionar su huarique).
 
-Objetivo: Entender lo que necesita y espera al utilizar la aplicación movíl para gestionar y publicitar sus huariques.
+Objetivo: Entender lo que necesita y espera al utilizar la aplicación móvil para gestionar y publicitar sus huariques.
 
 Preguntas Segmento 2:
-- ¿Actualmente usas alguna plataforma movíl o digital para promocionar tu huarique? ¿Cuál?
+- ¿Actualmente usas alguna plataforma móvil o digital para promocionar tu huarique? ¿Cuál?
 - ¿Qué retos has enfrentado al tratar de gestionar tu negocio a través de plataformas digitales?
-- ¿Qué tan cómodo te sientes usando aplicaciones movíl para actualizar la información de tu negocio?
-- ¿Qué características te harían decidirte a usar una app movíl especializada para huariques?
-- ¿Qué tipo de soporte o facilidades esperarías al usar esta app movíl para gestionar tu perfil o negocio?
+- ¿Qué tan cómodo te sientes usando aplicaciones móvil para actualizar la información de tu negocio?
+- ¿Qué características te harían decidirte a usar una app móvil especializada para huariques?
+- ¿Qué tipo de soporte o facilidades esperarías al usar esta app móvil para gestionar tu perfil o negocio?
 - ¿Qué modelo de tarifas o membresías considerarías justo para usar esta plataforma?
-- ¿Qué resultados te gustaría ver después de usar esta aplicación movíl para promocionar tu huarique?
+- ¿Qué resultados te gustaría ver después de usar esta aplicación móvil para promocionar tu huarique?
 
 ### 2.2.2. Registro de entrevistas
-### Segmento #1: Exploradores Gastronómicos (Usuarios de la app movíl)
+**Segmento #1: Exploradores Gastronómicos (Usuarios de la app móvil)**
 | Número de entrevista | Datos del entrevistado                                                                 | Evidencia de entrevista |
 |-----------------------|-----------------------------------------------------------------------------------------|--------------------------|
 | 1                     | **Nombre:**  Vitaly Baca  <br> **Edad:** 20  <br> **Distrito:** Lurin <br><br> **Resumen:** Vitaly Baca, un estudiante de 20 años que está estudiando Ingeniería de Software en la UPC, emplea estas aplicaciones durante casi todos los fines de semana, ya que le gusta salir a conocer lugares nuevos con su pareja o amigos. Encuentra la mayoría de los huariques en Instagram y TikTok siguiendo a foodies, además de buscar en Google Maps. Lo que primero aprecia es el precio, puesto que como estudiante posee un presupuesto limitado, y después las fotos y los comentarios de confianza para no terminar en un lugar inapropiado. Señala entre los obstáculos que ha tenido que afrontar que, a veces, llega a lugares que parecen abiertos pero están cerrados, y también que muchas huariques pequeñas no aparecen en las aplicaciones. Siempre que contenga críticas honestas de usuarios semejantes a él, se sentiría motivado para utilizar una aplicación exclusiva de huariques. Considera esenciales recomendaciones personalizadas, filtros según tipo de comida y precio, así como un mapa rápido e intuitivo. Sus inquietudes más importantes serían que la aplicación esté saturada de anuncios, contenga información poco confiable o incluya escasos sitios en su ciudad, lo que haría que pierda su valor. | ![Evidencia](assets/Entrevista1_Segmento1.jpeg) <br> [📂 Ver entrevista](https://drive.google.com/file/d/1NSQkOkLNAq3A-IIhc4_lm2q3UwWDaylk/view?usp=sharing) 00:00 - 05:37|
@@ -494,14 +520,14 @@ Preguntas Segmento 2:
 
 | Número de entrevista | Datos del entrevistado                                                                 | Evidencia de entrevista |
 |-----------------------|-----------------------------------------------------------------------------------------|--------------------------|
-| 2                     | **Nombre:** Sebastian del Rio  <br> **Edad:** 20  <br> **Distrito:** Chorrillos <br><br> **Resumen:** Sebastián del Río, un estudiante de 20 años que estudia Ingeniería de Software en la UTP, no tiene el hábito de emplear con regularidad aplicaciones movíl para encontrar huariques; lo hace solamente una o dos veces al mes cuando desea salir con sus amigos o experimentar algo diferente. Con frecuencia, encuentra la mayoría de los lugares a través de Google Maps, pero principalmente por sugerencias en Instagram y TikTok. Para él, lo fundamental al seleccionar un lugar es la proximidad, el precio y las imágenes y comentarios auténticos de otros clientes. Indica como mayor obstáculo el hecho de que los huariques no suelen aparecer en las aplicaciones, y que son más frecuentes los restaurantes conocidos. También menciona que la información está frecuentemente incompleta o carece de buenas imágenes. Lo incentivaría a utilizar una aplicación que sea simple y que muestre sitios verdaderos y seguros. Ten en cuenta elementos indispensables como fotografías auténticas, reseñas sinceras, un mapa con la ubicación, filtros de precio y la posibilidad de guardar favoritos. Lo que más le inquietaría es que la información no fuera confiable, que la aplicación lo dirija a lugares cerrados o de baja calidad, o que sea lenta y compleja. | ![Evidencia](assets/Entrevista2_Segmento1.jpeg) <br> [📂 Ver entrevista](https://drive.google.com/file/d/1NSQkOkLNAq3A-IIhc4_lm2q3UwWDaylk/view?usp=sharing) 05:37 - 09:56|
+| 2                     | **Nombre:** Sebastian del Rio  <br> **Edad:** 20  <br> **Distrito:** Chorrillos <br><br> **Resumen:** Sebastián del Río, un estudiante de 20 años que estudia Ingeniería de Software en la UTP, no tiene el hábito de emplear con regularidad aplicaciones móvil para encontrar huariques; lo hace solamente una o dos veces al mes cuando desea salir con sus amigos o experimentar algo diferente. Con frecuencia, encuentra la mayoría de los lugares a través de Google Maps, pero principalmente por sugerencias en Instagram y TikTok. Para él, lo fundamental al seleccionar un lugar es la proximidad, el precio y las imágenes y comentarios auténticos de otros clientes. Indica como mayor obstáculo el hecho de que los huariques no suelen aparecer en las aplicaciones, y que son más frecuentes los restaurantes conocidos. También menciona que la información está frecuentemente incompleta o carece de buenas imágenes. Lo incentivaría a utilizar una aplicación que sea simple y que muestre sitios verdaderos y seguros. Ten en cuenta elementos indispensables como fotografías auténticas, reseñas sinceras, un mapa con la ubicación, filtros de precio y la posibilidad de guardar favoritos. Lo que más le inquietaría es que la información no fuera confiable, que la aplicación lo dirija a lugares cerrados o de baja calidad, o que sea lenta y compleja. | ![Evidencia](assets/Entrevista2_Segmento1.jpeg) <br> [📂 Ver entrevista](https://drive.google.com/file/d/1NSQkOkLNAq3A-IIhc4_lm2q3UwWDaylk/view?usp=sharing) 05:37 - 09:56|
 
 
 | Número de entrevista | Datos del entrevistado                                                                 | Evidencia de entrevista |
 |-----------------------|-----------------------------------------------------------------------------------------|--------------------------|
 | 3                     | **Nombre:** Luis Fernandez  <br> **Edad:** 20  <br> **Distrito:** Pueblo Libre <br><br> **Resumen:** Luis Fernández, un estudiante de 20 años que se encuentra cursando la carrera de Ingeniería de Sistemas en la UTP, explora sitios nuevos cada semana, especialmente los fines de semana cuando está con su pareja. Se orienta por cuentas de amantes de la comida en Instagram y TikTok, guarda videos para ver más tarde y revisa críticas en Google Maps o grupos de Facebook. Para él, el precio es crucial, pero también le da importancia a la experiencia total: comentarios sobre la calidad de los alimentos y el servicio, así como imágenes de los platos. Ha enfrentado dificultades con horarios obsoletos en aplicaciones, al llegar a sitios que estaban cerrados y con la escasa visibilidad de huariques menos famosos. Lo motivaría una aplicación fiable que se centre en huariques y tenga opiniones de personas del lugar. Un mapa interactivo, sugerencias personalizadas y filtros por tipo de comida, ubicación y costo son elementos que consideras esenciales. Sus inquietudes son que la aplicación tenga demasiada publicidad, información falsa o que no ofrezca suficientes alternativas locales. | ![Evidencia](assets/Entrevista3_Segmento1.jpeg) <br> [📂 Ver entrevista](https://drive.google.com/file/d/1P5WpXLAtHH9lsgnF7tXXyMJiK7xsN05h/view?usp=sharing) 09:56 - 13:01|
 
-### Segmento #2: Dueños y Administradores de Huariques (Usuarios que usan la app web para gestionar su huarique)
+**Segmento #2: Dueños y Administradores de Huariques (Usuarios que usan la app móvil para gestionar su huarique)**
 | Número de entrevista | Datos del entrevistado                                                                 | Evidencia de entrevista |
 |-----------------------|-----------------------------------------------------------------------------------------|--------------------------|
 | 1                     | **Nombre:** Wildor Villalobos  <br> **Edad:** 28  <br> **Distrito:** Santiago de Surco <br><br> **Resumen:** Dueño de un establecimiento que vende pan con chicharrón. Utiliza Instagram y TikTok (principalmente IG Reels); las publicaciones son útiles para promociones, pero los reels generan más movimiento. Obstáculos: competencia y algoritmo, es necesario pagar para llegar a más personas. Desea que la aplicación le deje destacar su negocio y observar métricas claras (cuántas personas lo encuentran, qué tan eficaz es para atraer clientes), a través de gráficos directos y un panel sencillo. Estaría dispuesto a pagar S/ 20–50/mes si rinde igual o mejor que IG/TikTok. Objetivo: aumentar ventas. | ![Evidencia](assets/Entrevista_Wildor.jpg) <br> [📂 Ver entrevista](https://drive.google.com/file/d/1P5WpXLAtHH9lsgnF7tXXyMJiK7xsN05h/view?usp=sharing) 00:00 - 03:15|
@@ -518,12 +544,12 @@ Preguntas Segmento 2:
 
 
 ### 2.2.3. Análisis de entrevistas
-### Segmento #1: Exploradores Gastronómicos (Usuarios de la app movíl)
+**Segmento #1: Exploradores Gastronómicos (Usuarios de la app móvil)**
 ---
-### Hallazgos :
-## 👨 Vitaly Baca
+**Hallazgos:**
+**👨 Vitaly Baca**
 
-Le gusta salir con su pareja o sus amigos para conocer sitios nuevos, por lo que usa aplicaciones movíl casi todos los fines de semana. Utiliza Google Maps y sigue a foodies en Instagram y TikTok para descubrir la mayoría de huariques. Aprecia el precio por ser estudiante, pero también la fiabilidad de las fotos y los comentarios. Además de que numerosas tiendas pequeñas no aparecen en las aplicaciones, ha habido inconvenientes con locales que se muestran abiertos pero estaban cerrados.Si cuenta con críticas honestas de usuarios parecidos, se incentivaría el uso de una aplicación enfocada únicamente en huariques. Piensa que son imprescindibles los filtros de tipo de comida y precio, un mapa rápido e intuitivo y sugerencias personalizadas. Sus inquietudes son que la aplicación contenga escasa información en su ciudad, que esté llena de publicidad o que tenga datos poco fiables.
+Le gusta salir con su pareja o sus amigos para conocer sitios nuevos, por lo que usa aplicaciones móvil casi todos los fines de semana. Utiliza Google Maps y sigue a foodies en Instagram y TikTok para descubrir la mayoría de huariques. Aprecia el precio por ser estudiante, pero también la fiabilidad de las fotos y los comentarios. Además de que numerosas tiendas pequeñas no aparecen en las aplicaciones, ha habido inconvenientes con locales que se muestran abiertos pero estaban cerrados.Si cuenta con críticas honestas de usuarios parecidos, se incentivaría el uso de una aplicación enfocada únicamente en huariques. Piensa que son imprescindibles los filtros de tipo de comida y precio, un mapa rápido e intuitivo y sugerencias personalizadas. Sus inquietudes son que la aplicación contenga escasa información en su ciudad, que esté llena de publicidad o que tenga datos poco fiables.
 **Puntos clave:**
 - Usa apps de búsqueda gastronómica con frecuencia (fines de semana).  
 - Descubre lugares principalmente en **TikTok, Instagram y Google Maps**.  
@@ -534,7 +560,7 @@ Le gusta salir con su pareja o sus amigos para conocer sitios nuevos, por lo que
 - Le preocupa la **publicidad excesiva** y la **poca cobertura local**.  
 
 
-## 👨 Sebastián del Río
+**👨 Sebastián del Río**
 
 No utiliza con mucha regularidad aplicaciones para buscar huariques, solamente una o dos veces al mes cuando tiene ganas de salir con amigos o hacer algo diferente. Conoce los lugares, sobre todo en Instagram y TikTok, y de vez en cuando en Google Maps. Cuando se trata de escoger un lugar, considera principalmente las reseñas y fotos verdaderas, además del precio y la proximidad. Ha presentado como problema el que los huariques escasean en las aplicaciones, ya que se imponen los restaurantes conocidos y la información es frecuentemente incompleta o carece de fotos de calidad. Siempre que sea fácil de usar, se sentiría motivado a emplear una aplicación que realmente exhiba lugares auténticos y fiables. Para él, son indispensables fotografías auténticas, calificaciones sinceras, un mapa interactivo con la localización y filtros de precio, así como la oportunidad de guardar elementos favoritos. Su inquietud es que la información no sea fiable, que lo envíen a sitios de mala calidad o cerrados y que la aplicación sea lenta o complicada.
 
@@ -547,7 +573,7 @@ No utiliza con mucha regularidad aplicaciones para buscar huariques, solamente u
 - Imprescindibles: **fotos reales, reseñas honestas, mapa interactivo, filtros y favoritos**.  
 - Preocupaciones: **información falsa, lugares cerrados, app lenta o complicada**.  
 
-## 👨 Luis Fernández
+**👨 Luis Fernández**
 
 Cada semana busca sitios nuevos, especialmente los fines de semana con su pareja. Se orienta por las cuentas de amantes de la comida en TikTok e Instagram, guarda videos para consultarlos después y examina opiniones en Facebook y Google Maps. Valora mucho el precio, aunque también le da relevancia a la experiencia total: comentarios sobre la atención, calidad de los alimentos y fotografías de los platos. Entre los obstáculos que menciona, se encuentran los horarios de las aplicaciones desactualizados, que lo conducen a locales cerrados, y la escasa visibilidad de huariques menos populares. Se incentivaría el uso de una aplicación fiable que dé prioridad a los huariques que tengan reseñas escritas por personas del lugar. Un mapa interactivo, sugerencias personalizadas y filtros por tipo de comida, ubicación y costo son elementos que consideras esenciales. Sus inquietudes son las siguientes: que la aplicación contenga demasiada publicidad, información engañosa o no ofrezca suficientes alternativas locales.
 
@@ -569,24 +595,24 @@ Además, se repite la importancia de contar con filtros, mapas interactivos y re
 Por eso, se puede entender que existe una necesidad clara de una plataforma más confiable, enfocada en huariques y con información actualizada.
 
 ---
-### Segmento #2: Dueños y Administradores de Huariques
-## 👨 Wildor Villalobos (28 años)
+**Segmento #2: Dueños y Administradores de Huariques**
+**👨 Wildor Villalobos (28 años)**
 
 Para difundir su negocio de pan con chicharrón, emplea sobre todo **Instagram y TikTok**, aunque los **reels** son más eficaces que las publicaciones habituales. El principal desafío que afronta es la **competencia**, el obstáculo de **comprender el algoritmo** y la exigencia de destinar dinero a publicidad para obtener más visibilidad.
 
-Se siente **a gusto** al utilizar aplicaciones movíl, siempre que sean **útiles y sencillas de manejar**. Aprecia bastante las **métricas claras** acerca de cuántos clientes lo descubren y cómo llegan a su restaurante. Le agradan las interfaces sencillas, con gráficos directos y comunicación lineal.
+Se siente **a gusto** al utilizar aplicaciones móvil, siempre que sean **útiles y sencillas de manejar**. Aprecia bastante las **métricas claras** acerca de cuántos clientes lo descubren y cómo llegan a su restaurante. Le agradan las interfaces sencillas, con gráficos directos y comunicación lineal.
 
 En cuanto al **modelo de pago**, ya invierte mensualmente entre **S/ 20 y S/ 50 en Instagram**. Por lo tanto, estaría dispuesto a invertir la misma cantidad en una aplicación especializada, siempre que esta le proporcione un rendimiento igual o superior en términos de atracción de clientes. La principal expectativa que tiene es que la aplicación **eleve sus ventas** de un modo significativo.
 
 **Puntos clave:**  
 - Usa **Instagram y TikTok** (prefiere reels).  
 - Problemas: **competencia alta, algoritmos complicados, inversión en publicidad**.  
-- Cómodo con apps movíl si son **efectivas y simples**.  
+- Cómodo con apps móvil si son **efectivas y simples**.  
 - Valora **métricas claras y directas** (clientes alcanzados, interacciones, impacto real).  
 - Prefiere **interfaz simple con gráficos directos y comunicación lineal**.  
 - Dispuesto a pagar **20–50 soles/mes** si rinde igual o mejor que Instagram/TikTok.  
 - Expectativa central: que la app **genere más clientes y ventas**.  
-## 👨 Piero Tapia (26 años)
+**👨 Piero Tapia (26 años)**
 
 Propietario de un local de sándwiches. Su clientela llega sobre todo por la localización física de su negocio; hoy en día no usa plataformas web para promocionarse. Señala que tiene escaso conocimiento en redes sociales y que no dispone de un presupuesto adecuado para campañas de marketing digital, lo cual le dificulta proyectar una buena imagen online.
 
@@ -604,7 +630,7 @@ Su principal expectativa es que la aplicación le produzca **un incremento en el
 - Propone un **sistema de tarifas escalonado** (para principiantes, intermedios y avanzados).  
 - Expectativa: **Incrementar las ventas y atraer a más clientes reales**, además de la visibilidad.
 
-## 👩‍🦰 Gabriela Vasquez (23 años)
+**👩‍🦰 Gabriela Vasquez (23 años)**
 
 Propietaria de una **juguería artesanal** situada en un barrio con mucho tráfico. En la actualidad, su negocio se basa en el **boca a boca y el tránsito local**, puesto que no emplea plataformas digitales o redes sociales para hacer publicidad. Dice que no tiene mucha familiaridad con las herramientas en línea y que le parecen **poco intuitivas** las alternativas de suscribirse a aplicaciones de delivery o de pagos online.
 
@@ -648,7 +674,7 @@ Don Luis representa a los dueños de huariques y a los emprendedores pequeños q
 
 ![alt text](assets/UserTaskMatrix-PuntoSabor.jpg)
 
-Los perfiles de usuario en PuntoSabor presentan diferencias notables en sus tareas habituales, dependiendo de las necesidades y el rol de cada uno. Como exploradora gastronómica, Carla Dípes emplea la aplicación movíl de manera continua y activa para buscar huariques, leer reseñas y utilizar la función de mapas con geolocalización. Para ella, estas actividades son fundamentales para su experiencia. Por otro lado, Don Luis Pérez, propietario de huarique, no suele emplear la aplicación para buscar o ver mapas; su interés principal es actualizar la información de su huarique, tarea que lleva a cabo con frecuencia y considera esencial. Los dos individuos se comunican de vez en cuando utilizando la función de responder reseñas y compartir fotografías u opiniones, aunque Don Luis lo hace con menos frecuencia, pero sigue siendo significativo en términos de importancia.
+Los perfiles de usuario en PuntoSabor presentan diferencias notables en sus tareas habituales, dependiendo de las necesidades y el rol de cada uno. Como exploradora gastronómica, Carla Dípes emplea la aplicación móvil de manera continua y activa para buscar huariques, leer reseñas y utilizar la función de mapas con geolocalización. Para ella, estas actividades son fundamentales para su experiencia. Por otro lado, Don Luis Pérez, propietario de huarique, no suele emplear la aplicación para buscar o ver mapas; su interés principal es actualizar la información de su huarique, tarea que lleva a cabo con frecuencia y considera esencial. Los dos individuos se comunican de vez en cuando utilizando la función de responder reseñas y compartir fotografías u opiniones, aunque Don Luis lo hace con menos frecuencia, pero sigue siendo significativo en términos de importancia.
 
 Coincidencias:
 - Ambos utilizan, en menor medida, la función de responder reseñas, considerándola de importancia media.
@@ -691,7 +717,7 @@ El mapa de empatía de Don Luis muestra a un empresario con restricciones tecnol
 ![alt text](assets/EmphatyMap_DonLuisPerez.png)
 
 
-### 2.3.5. As-is Scenario Mapping
+**As-is Scenario Mapping**
 Segmento 1
 
 Con este artefacto, se ha desarrollado el As-is Scenario Mapping para la primera franja (Exploradores Gastronómicos). Este panorama muestra la manera en que los usuarios que desean descubrir huariques llevan a cabo sus actividades hoy en día, los obstáculos a los que se enfrentan al buscar alternativas económicas y auténticas, además de las sensaciones y percepciones que sienten en cada fase de su recorrido.
@@ -704,7 +730,7 @@ Con este instrumento se ha realizado el As-is Scenario Mapping para el segundo g
 
 ![alt text](assets/Segmento2_AsIs.png)
 
-## 2.4. Big Picture Event Storming
+### 2.3.5. Big Picture EventStorming
 
 Pasos para el event storming:
 
@@ -757,7 +783,7 @@ Link del miro:
 
 https://miro.com/welcomeonboard/N1ZUMVF3dkJEMXY1VTIvR0hhWisyQlFnU1VFYU1UVVFGOFNVKzdGS3FVOFJ1ZWRaNUI3L3NyMGcxNTRqSkN4bUZTZGo1N2VVbVNITTIvc3p2c1V6emNGUEprWThGdVg0SGsvRmtwSWJzTzR3dTVQVG5Hb1ZzWlRuK0tUM2hZSU9nbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=673091896888
 
-## 2.5. Ubiquitous Language
+### 2.3.6. Ubiquitous Language
 
 En esta parte se muestra el glosario de términos fundamentales del ámbito de PuntoSabor, que están escritos en inglés y acompañados de su traducción al español entre paréntesis. Cada definición tiene como objetivo que la comunicación entre todos los miembros del equipo y los interesados sea coherente y clara, así como eliminar ambigüedades y alinear el lenguaje de la empresa.
 
@@ -781,17 +807,257 @@ Glosario:
   X
 - Membership (Membresía): Plan o suscripción que permite a los propietarios obtener mayor visibilidad y beneficios dentro de la plataforma.
 
-# 5.4. Video About-the-Product
+## 2.4. Requirements specification
 
-https://drive.google.com/drive/folders/1Iqb5Lz3YxKQMyos2Oyqczd73CZMvspKV?usp=drive_link
+### 2.4.1. User Stories
+
+_Pendiente de completar._
+
+### 2.4.2. Impact Mapping
+
+_Pendiente de completar._
+
+### 2.4.3. Product Backlog
+
+_Pendiente de completar._
+
+## 2.5. Strategic-Level Domain-Driven Design
+
+### 2.5.1. EventStorming
+
+_Pendiente de completar._
+
+#### 2.5.1.1. Candidate Context Discovery
+
+_Pendiente de completar._
+
+#### 2.5.1.2. Domain Message Flows Modeling
+
+_Pendiente de completar._
+
+#### 2.5.1.3. Bounded Context Canvases
+
+_Pendiente de completar._
+
+### 2.5.2. Context Mapping
+
+_Pendiente de completar._
+
+### 2.5.3. Software Architecture
+
+#### 2.5.3.1. Software Architecture Context Level Diagrams
+
+_Pendiente de completar._
+
+#### 2.5.3.2. Software Architecture Container Level Diagrams
+
+_Pendiente de completar._
+
+#### 2.5.3.3. Software Architecture Deployment Diagrams
+
+_Pendiente de completar._
+
+## 2.6. Tactical-Level Domain-Driven Design
+
+### 2.6.x. Bounded Context: <Bounded Context Name>
+
+_Pendiente de completar._
+
+#### 2.6.x.1. Domain Layer
+
+_Pendiente de completar._
+
+#### 2.6.x.2. Interface Layer
+
+_Pendiente de completar._
+
+#### 2.6.x.3. Application Layer
+
+_Pendiente de completar._
+
+#### 2.6.x.4. Infrastructure Layer
+
+_Pendiente de completar._
+
+#### 2.6.x.5. Bounded Context Software Architecture Component Level Diagrams
+
+_Pendiente de completar._
+
+#### 2.6.x.6. Bounded Context Software Architecture Code Level Diagrams
+
+_Pendiente de completar._
+
+##### 2.6.x.6.1. Bounded Context Domain Layer Class Diagrams
+
+_Pendiente de completar._
+
+##### 2.6.x.6.2. Bounded Context Database Design Diagram
+
+_Pendiente de completar._
+
+# Capítulo III: Solution UI/UX Design
+
+## 3.1. Product design
+
+### 3.1.1. Style Guidelines
+
+#### 3.1.1.1. General Style Guidelines
+
+_Pendiente de completar._
+
+### 3.1.2. Information Architecture
+
+#### 3.1.2.1. Organization Systems
+
+_Pendiente de completar._
+
+#### 3.1.2.2. Labelling Systems
+
+_Pendiente de completar._
+
+#### 3.1.2.3. SEO Tags and Meta Tags
+
+_Pendiente de completar._
+
+#### 3.1.2.4. Searching Systems
+
+_Pendiente de completar._
+
+#### 3.1.2.5. Navigation Systems
+
+_Pendiente de completar._
+
+### 3.1.3. Landing Page UI Design
+
+#### 3.1.3.1. Landing Page Wireframe
+
+_Pendiente de completar._
+
+#### 3.1.3.2. Landing Page Mock-up
+
+_Pendiente de completar._
+
+### 3.1.4. Mobile Applications UX/UI Design
+
+#### 3.1.4.1. Mobile Applications Wireframes
+
+_Pendiente de completar._
+
+#### 3.1.4.2. Mobile Applications Wireflow Diagrams
+
+_Pendiente de completar._
+
+#### 3.1.4.3. Mobile Applications Mock-ups
+
+_Pendiente de completar._
+
+#### 3.1.4.4. Mobile Applications User Flow Diagrams
+
+_Pendiente de completar._
+
+#### 3.1.4.5. Mobile Applications Prototyping
+
+_Pendiente de completar._
+
+# Capítulo IV: Product Implementation & Validation
+
+## 4. Product Implementation & Validation
+
+_Pendiente de completar._
+
+## 4.1. Software Configuration Management
+
+### 4.1.1. Software Development Environment Configuration
+
+_Pendiente de completar._
+
+### 4.1.2. Source Code Management
+
+_Pendiente de completar._
+
+### 4.1.3. Source Code Style Guide & Conventions
+
+_Pendiente de completar._
+
+### 4.1.4. Software Deployment Configuration
+
+_Pendiente de completar._
+
+## 4.2. Landing Page & Mobile Application Implementation
+
+### 4.2.1. Sprint n
+
+#### 4.2.1.1. Sprint Planning n
+
+_Pendiente de completar._
+
+#### 4.2.1.2. Sprint Backlog n
+
+_Pendiente de completar._
+
+#### 4.2.1.3. Development Evidence for Sprint Review
+
+_Pendiente de completar._
+
+#### 4.2.1.4. Testing Suite Evidence for Sprint Review
+
+_Pendiente de completar._
+
+#### 4.2.1.5. Execution Evidence for Sprint Review
+
+_Pendiente de completar._
+
+#### 4.2.1.6. Services Documentation Evidence for Sprint Review
+
+_Pendiente de completar._
+
+#### 4.2.1.7. Software Deployment Evidence for Sprint Review
+
+_Pendiente de completar._
+
+#### 4.2.1.8. Team Collaboration Insights during Sprint
+
+_Pendiente de completar._
+
+## 4.3. Validation Interviews
+
+### 4.3.1. Diseño de Entrevistas
+
+_Pendiente de completar._
+
+### 4.3.2. Registro de Entrevistas
+
+_Pendiente de completar._
+
+### 4.3.3. Evaluaciones según heurísticas
+
+_Pendiente de completar._
 
 # Conclusiones
+
+## Conclusiones y recomendaciones.
 
 Este primer avance ha permitido establecer las bases conceptuales y analíticas del proyecto PuntoSabor. A través de la definición del problema, el análisis competitivo, las entrevistas con ambos segmentos objetivo y el needfinding, se logró comprender con mayor profundidad la realidad que enfrentan tanto los exploradores gastronómicos como los dueños de huariques en el entorno digital actual.
 
 Los hallazgos obtenidos confirman que existe una oportunidad real y concreta: los huariques carecen de representación digital adecuada, y los usuarios que buscan ese tipo de experiencia gastronómica no cuentan con herramientas diseñadas para ellos. Esta brecha valida la propuesta de PuntoSabor como solución especializada y diferenciada.
 
 Como siguiente paso, el proyecto avanzará hacia la definición de requerimientos funcionales y el diseño de la arquitectura de la solución, tomando como base todo lo trabajado en este primer avance.
+
+# Video App Validation
+
+_Pendiente de completar._
+
+# Video About the product
+
+https://drive.google.com/drive/folders/1Iqb5Lz3YxKQMyos2Oyqczd73CZMvspKV?usp=drive_link
+
+# Video About the team
+
+https://drive.google.com/drive/folders/1Iqb5Lz3YxKQMyos2Oyqczd73CZMvspKV?usp=drive_link
+
+# Glosario
+
+_Pendiente de completar._
 
 # Bibliografía
 
@@ -810,6 +1076,7 @@ Como siguiente paso, el proyecto avanzará hacia la definición de requerimiento
 - Pressman, R. (2014). Ingeniería del Software: Un Enfoque Práctico. McGraw-Hill.
 
 - Fowler, M. (2003). Patterns of Enterprise Application Architecture. Addison-Wesley.
+
 # Anexos
 
 VIDEOS DEL EQUIPO:
