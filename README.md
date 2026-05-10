@@ -856,7 +856,7 @@ A continuación, se muestra un cuadro resumen con los Epics y User Stories defin
 
 ### 2.4.2. Impact Mapping
 
-_Pendiente de insertar imagen del Impact Mapping._
+![ImpactMap](assets/ImpactmapPuntoSabor.png)
 
 ### 2.4.3. Product Backlog
 
@@ -893,63 +893,107 @@ _Pendiente de insertar imagen del Impact Mapping._
 
 ### 2.5.1. EventStorming
 
-El Big Picture EventStorming de PuntoSabor se realizó siguiendo los pasos estándar para identificar eventos de dominio, comandos, políticas, actores y bounded contexts. Se utilizó Miro como herramienta colaborativa.
-
-Link del tablero Miro: https://miro.com/welcomeonboard/N1ZUMVF3dkJEMXY1VTIvR0hhWisyQlFnU1VFYU1UVVFGOFNVKzdGS3FVOFJ1ZWRaNUI3L3NyMGcxNTRqSkN4bUZTZGo1N2VVbVNITTIvc3p2c1V6emNGUEprWThGdVg0SGsvRmtwSWJzTzR3dTVQVG5Hb1ZzWlRuK0tUM2hZSU9nbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=673091896888
+A partir del Big Picture EventStorming realizado en la sección 2.3.5, se elaboró el Design-Level EventStorming de PuntoSabor, definiendo para cada bounded context sus Aggregates, Commands, Domain Events, Policies, Invariantes y Read Models.
 
 #### 2.5.1.1. Candidate Context Discovery
 
-En esta fase se exploraron los eventos del dominio de forma libre, se organizaron en líneas de tiempo y se identificaron puntos de dolor, puntos pivote y comandos del sistema.
+Del proceso de EventStorming se identificaron los siguientes bounded contexts candidatos:
 
-**Step 1: Unstructured Exploration**
-
-![Step 1](<assets/Step 1.png>)
-
-**Step 2: Timelines**
-
-![Step 2](<assets/Step 2.png>)
-
-**Step 3: Pain Points**
-
-![Step 3.1](<assets/Step 3.1.png>)
-
-![Step 3.2](<assets/Step 3.2.png>)
-
-**Step 4: Pivotal Points**
-
-![Step 4](<assets/Step 4.png>)
-
-**Step 5: Commands**
-
-![Step 5](<assets/Step 5.png>)
+| Bounded Context | Aggregate principal | Responsabilidad |
+|---|---|---|
+| Explorer Discovery | `SearchSession` | Búsqueda y descubrimiento de huariques |
+| User Preferences | `UserPreferences` | Preferencias y consentimiento del usuario |
+| Business Listing | `BusinessListing` | Registro y publicación de huariques |
+| Subscription & Billing | `BusinessSubscription` | Planes de membresía y facturación |
+| Promotion | `Promotion` | Creación y publicación de promociones |
+| Contact & Support | `SupportRequest` | Contacto, direcciones y soporte |
 
 #### 2.5.1.2. Domain Message Flows Modeling
 
-En esta fase se modelaron las políticas, read models, sistemas externos y aggregates que forman los flujos de mensajes del dominio.
+**Flujo: Publicar un Huarique**
 
-**Step 6: Policies**
+1. `CreateListing` → `ListingCreated`
+2. `UpdateListingFields` → `ListingFieldsUpdated`
+3. `GeocodeAddress` → `AddressGeocoded` → (policy) `RunListingValidations` → `ListingValidationsPassed`
+4. `PublishListing` → `ListingPublished` → actualiza `PublicListingView`
 
-![Step 6](<assets/event 6.png>)
+**Flujo: Crear y Publicar una Promoción**
 
-**Step 7: Read Models**
+1. `CreatePromotion` → `PromotionCreated`
+2. `SetPromotionTargeting` → `PromotionTargetingSet`
+3. `SetPromotionSchedule` → `PromotionScheduleSet` → (policy) `SchedulePublish/Unpublish`
+4. `PublishPromotion` → `PromotionPublished` → (policy) `IndexPromotionForDiscovery` → actualiza `ZonePromotionsView`
 
-![Step 7](<assets/event 7.png>)
+**Invariantes transversales**
 
-**Step 8: External Systems**
-
-![Step 8](<assets/event 8.png>)
-
-**Step 9: Aggregates**
-
-![Step 9](<assets/event 9.png>)
+- Un huarique solo puede publicarse si cumple validaciones y tiene geolocalización.
+- Una promoción solo puede publicarse si existe un plan activo y el huarique está publicado.
+- Los resultados de búsqueda nunca incluyen huariques inactivos o no publicados.
+- Los comandos deben ser idempotentes para evitar duplicación de eventos.
 
 #### 2.5.1.3. Bounded Context Canvases
 
-Como resultado del EventStorming se identificaron los siguientes Bounded Contexts: Explorer Discovery, User Preferences, Business Listing, Subscription & Billing, Promotion y Contact & Support.
+**Explorer Discovery**
 
-**Step 10: Bounded Contexts**
+| Elemento | Detalle |
+|---|---|
+| Aggregate | `SearchSession` |
+| Commands | `StartSearchSession`, `ApplySearchFilter`, `OpenMap`, `SelectHuarique`, `ViewHuariqueDetail` |
+| Domain Events | `SearchSessionStarted`, `SearchPerformed`, `MapDisplayed`, `HuariqueSelected`, `HuariqueDetailViewed` |
+| Policies | `AutoSearch`, `RankingPolicy` |
+| Read Models | `SearchResultsView`, `HuariqueMiniCard` |
+| Invariantes | Solo se listan huariques con estado `PUBLISHED` y `ACTIVE`. |
 
-![Step 10](<assets/event 10.png>)
+**Business Listing**
+
+| Elemento | Detalle |
+|---|---|
+| Aggregate | `BusinessListing` |
+| Commands | `CreateListing`, `UploadListingImage`, `UpdateListingFields`, `GeocodeAddress`, `PublishListing` |
+| Domain Events | `ListingCreated`, `ListingImageUploaded`, `ListingFieldsUpdated`, `AddressGeocoded`, `ListingPublished` |
+| Policies | `RunListingValidations` |
+| Read Models | `OwnerListingDashboard`, `PublicListingView` |
+| Invariantes | No se publica un huarique sin nombre, dirección, geolocalización y dueño asignado. |
+
+**Subscription & Billing**
+
+| Elemento | Detalle |
+|---|---|
+| Aggregate | `BusinessSubscription` |
+| Commands | `SelectPlan`, `AcceptPlanTerms`, `ValidateBusinessEligibility`, `ActivatePlan`, `ChangePlan` |
+| Domain Events | `PlanSelected`, `PlanTermsAccepted`, `BusinessEligibilityValidated`, `PlanActivated`, `PlanChanged` |
+| Policies | `EnablePromotionCapabilities`, `DisablePromotionCapabilities` |
+| Read Models | `BillingHistory`, `PlanStatusView` |
+| Invariantes | Solo un `PlanActivated` habilita la creación de promociones. |
+
+**Promotion**
+
+| Elemento | Detalle |
+|---|---|
+| Aggregate | `Promotion` |
+| Commands | `CreatePromotion`, `SetPromotionTargeting`, `SetPromotionSchedule`, `PublishPromotion`, `UnpublishPromotion` |
+| Domain Events | `PromotionCreated`, `PromotionTargetingSet`, `PromotionScheduleSet`, `PromotionPublished`, `PromotionUnpublished` |
+| Policies | `IndexPromotionForDiscovery`, `SchedulePublish/Unpublish` |
+| Read Models | `ZonePromotionsView`, `OwnerPromotionsDashboard` |
+| Invariantes | Solo se publican promociones si el huarique tiene `ListingPublished` y `PlanActivated`. |
+
+**User Preferences**
+
+| Elemento | Detalle |
+|---|---|
+| Aggregate | `UserPreferences` |
+| Commands | `SetPreferredLanguage`, `SetDiscoveryPreferences`, `SavePrivacyConsent` |
+| Domain Events | `PreferredLanguageChanged`, `DiscoveryPreferencesSaved`, `PrivacyConsentRecorded` |
+| Read Models | `UserPrefView` |
+
+**Contact & Support**
+
+| Elemento | Detalle |
+|---|---|
+| Aggregate | `SupportRequest` |
+| Commands | `SubmitContactForm`, `OpenDirections`, `AcceptPrivacyConsent` |
+| Domain Events | `ContactFormSubmitted`, `DirectionsOpened`, `PrivacyConsentRecorded` |
+| Read Models | `SupportInboxView`, `ConsentLedger` |
 
 ### 2.5.2. Context Mapping
 
