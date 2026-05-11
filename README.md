@@ -1736,10 +1736,10 @@ En el caso del backend, se cuenta con una documentación publicada mediante Swag
 | Evidencia | Descripción | Enlace / Captura |
 |---|---|---|
 | Repositorio del proyecto | Repositorio donde se encuentra el código fuente del informe y/o producto. | https://github.com/HuariqueHub/report/tree/develop |
-| Backend desplegado en Swagger | Se muestra la documentación de endpoints disponible desde el navegador. | [Colocar enlace de Swagger] |
+| Backend desplegado en Swagger | Se muestra la documentación de endpoints disponible desde el navegador. | Colocar enlace de Swagger |
 | Ejecución móvil en emulador | Captura de la aplicación móvil ejecutándose desde Android Studio. | ![Login PuntoSabor](assets/login-puntosabor.jpeg) |
 | Pantalla principal de la app | Evidencia de la pantalla home con búsqueda, categorías y huariques destacados. | ![Home PuntoSabor](assets/home-puntosabor.jpeg) |
-| Commits de desarrollo | Capturas o historial de commits relacionados con la implementación. | [Insertar captura de commits] |
+| Commits de desarrollo | Capturas o historial de commits relacionados con la implementación. | ![commits](assets/commits.png) |
 
 Estas evidencias permiten demostrar que el producto no solo fue diseñado, sino también ejecutado y revisado en un entorno funcional.
 #### 4.2.1.8. Team Collaboration Insights during Sprint
