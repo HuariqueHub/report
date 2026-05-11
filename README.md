@@ -1591,7 +1591,43 @@ Ejemplos:
 
 ### 4.1.4. Software Deployment Configuration
 
-_Pendiente de completar._
+Para la configuración del despliegue de PuntoSabor, se consideraron los entornos necesarios para publicar y ejecutar tanto la landing page como la aplicación móvil. El objetivo de esta configuración es permitir que el producto pueda ser probado por los usuarios y revisado por el equipo durante el avance del proyecto.
+
+En esta etapa, la landing page se despliega como un sitio web estático, mientras que la aplicación móvil se ejecuta desde el entorno de desarrollo utilizando Android Studio. Esto permite validar la navegación, las pantallas principales y las funcionalidades implementadas durante el sprint.
+
+#### Entorno de despliegue de la Landing Page
+
+La landing page de PuntoSabor se publica mediante GitHub Pages, ya que esta herramienta permite alojar sitios estáticos de manera sencilla y accesible. Para ello, se utiliza el repositorio del proyecto, donde se almacenan los archivos HTML, CSS, JavaScript e imágenes necesarias para la presentación del producto.
+
+Pasos considerados para el despliegue:
+
+1. Subir los archivos de la landing page al repositorio de GitHub.
+2. Verificar que la estructura de archivos sea correcta.
+3. Activar GitHub Pages desde la configuración del repositorio.
+4. Seleccionar la rama correspondiente para la publicación.
+5. Validar que el sitio se visualice correctamente desde el enlace generado.
+6. Revisar que las secciones principales sean accesibles desde el navegador.
+
+#### Entorno de ejecución de la Aplicación Móvil
+
+La aplicación móvil se desarrolla utilizando Kotlin y Jetpack Compose dentro de Android Studio. Para su ejecución, se utiliza un emulador Android o un dispositivo físico conectado al equipo de desarrollo.
+
+Pasos considerados para la ejecución:
+
+1. Clonar o descargar el repositorio del proyecto.
+2. Abrir el proyecto en Android Studio.
+3. Sincronizar las dependencias de Gradle.
+4. Seleccionar un emulador o dispositivo Android.
+5. Ejecutar la aplicación desde Android Studio.
+6. Verificar el funcionamiento de las pantallas implementadas.
+
+#### Consideraciones del despliegue
+
+- La landing page debe mantenerse actualizada con la información principal del producto.
+- La aplicación móvil debe ejecutarse correctamente en el entorno de pruebas.
+- Los cambios deben registrarse mediante commits en GitHub.
+- Las evidencias del despliegue deben incluir capturas de pantalla del sitio publicado y de la aplicación en ejecución.
+- En futuras iteraciones, se podrá integrar un backend o servicios externos si el alcance del proyecto lo requiere.
 
 ## 4.2. Landing Page & Mobile Application Implementation
 
@@ -1599,35 +1635,128 @@ _Pendiente de completar._
 
 #### 4.2.1.1. Sprint Planning n
 
-_Pendiente de completar._
+En la planificación del Sprint 1 se definieron las tareas principales que el equipo debía desarrollar para avanzar con la implementación inicial del producto. Se tomaron como base las necesidades identificadas en las entrevistas, los user personas y las funcionalidades principales definidas en el backlog.
+
+El objetivo del sprint fue construir una primera versión funcional de la landing page y de la aplicación móvil, priorizando las secciones que permiten presentar el producto y representar el flujo principal de uso.
+
+| Sprint | Sprint 1 |
+|---|---|
+| Sprint Goal | Implementar la base inicial de la landing page y de la aplicación móvil de PuntoSabor. |
+| Fecha de inicio | 03 de mayo de 2026 |
+| Fecha de fin | 11 de mayo de 2026 |
+| Equipo | HuariqueHub |
+| Producto | PuntoSabor |
+
+Durante este sprint se priorizaron tareas relacionadas con la estructura visual, navegación principal, pantallas iniciales y organización del proyecto.
 
 #### 4.2.1.2. Sprint Backlog n
 
-_Pendiente de completar._
+Para el Sprint 1 se seleccionaron las historias de usuario más importantes para construir una primera versión funcional de PuntoSabor. Se priorizaron historias relacionadas con la presentación del producto, la búsqueda inicial de huariques y las primeras interacciones del usuario dentro de la aplicación móvil.
+
+Las historias seleccionadas permiten mostrar un avance inicial tanto de la landing page como de la aplicación, manteniendo relación directa con los requisitos definidos previamente en la sección de User Stories.
+
+| ID | User Story | Tipo | Epic relacionada | Responsable | Estado |
+|---|---|---|---|---|---|
+| US09 | Presentación de beneficios | Landing Page | EP04 | Becerra Llempen, Fabiola Dayane | Completado |
+| US10 | Formulario de contacto | Landing Page | EP04 | Delgado Carrasco, Schneider | Completado |
+| US01 | Búsqueda avanzada | App móvil | EP01 | Tumi Oliden, Manuel Ignacio | Completado |
+| US02 | Visualización en mapa | App móvil | EP01 | Lopez Goitia, Carlos Alberto | Completado |
+| US03 | Guardar favoritos | App móvil | EP01 | Vasquez Goicochea, Erick Alessander | Completado |
+| US04 | Registro de nuevo huarique | App móvil | EP02 | Lopez Goitia, Carlos Alberto | Completado |
+| US07 | Envío de reseñas | App móvil | EP03 | Becerra Llempen, Fabiola Dayane | Completado |
+| US15 | Registro y login seguro | App móvil | EP07 | Tumi Oliden, Manuel Ignacio | Completado |
+
+Este Sprint Backlog permitió organizar el trabajo inicial del equipo y relacionar las tareas desarrolladas con las historias de usuario ya definidas en el proyecto. De esta manera, el avance del sprint mantiene coherencia con los requisitos funcionales de PuntoSabor.
 
 #### 4.2.1.3. Development Evidence for Sprint Review
 
-_Pendiente de completar._
+En esta sección se presentan las evidencias del desarrollo realizado durante el Sprint 1. Estas evidencias muestran el avance de la aplicación móvil de PuntoSabor y la disponibilidad de servicios backend documentados mediante Swagger. Durante este sprint se implementaron pantallas principales del flujo del usuario, como inicio de sesión, búsqueda de huariques, detalle del huarique, favoritos y reseñas.
+
+| Evidencia | Descripción | Imagen / Enlace |
+|---|---|---|
+| Documentación de API en Swagger | Se evidencia el backend desplegado y documentado mediante Swagger, mostrando endpoints disponibles para huariques, usuarios, categorías, planes, promociones y reseñas. | ![Swagger API](assets/swagger-api.jpeg) |
+| Pantalla de inicio de sesión | Se implementó la pantalla de login de PuntoSabor, donde el usuario puede ingresar su correo electrónico y contraseña para acceder a la aplicación. | ![Login PuntoSabor](assets/login-puntosabor.jpeg) |
+| Pantalla principal de búsqueda | Se desarrolló la pantalla principal donde el usuario puede buscar huariques, filtrar por categorías y visualizar locales destacados cerca de su ubicación. | ![Home PuntoSabor](assets/home-puntosabor.jpeg) |
+| Detalle de huarique | Se implementó la vista de detalle de un huarique, mostrando información como categoría, dirección, teléfono, horario, descripción, valoración y acciones como llamar o ver mapa. | ![Detalle Huarique](assets/detalle-huarique.jpeg) |
+| Registro de reseña | Se agregó la funcionalidad visual para escribir una nueva reseña, permitiendo seleccionar una calificación y redactar un comentario sobre la experiencia del usuario. | ![Nueva Reseña](assets/nueva-resena.jpeg) |
+| Funcionalidad de favorito | Se evidencia la opción de marcar un huarique como favorito desde la vista de detalle, permitiendo al usuario guardar locales de interés para revisarlos posteriormente. | ![Favorito Huarique](assets/favorito-huarique.jpeg) |
 
 #### 4.2.1.4. Testing Suite Evidence for Sprint Review
 
-_Pendiente de completar._
+Para validar el funcionamiento inicial de PuntoSabor, se realizaron pruebas manuales sobre la aplicación móvil y los servicios backend documentados en Swagger. Estas pruebas permitieron revisar que las pantallas principales carguen correctamente, que la navegación funcione y que los endpoints principales estén disponibles para futuras integraciones con la aplicación.
+
+| Caso de prueba | Descripción | Resultado esperado | Resultado obtenido | Estado |
+|---|---|---|---|---|
+| TS01 | Ejecutar la aplicación móvil | La app debe abrirse correctamente desde Android Studio o un emulador. | La aplicación se ejecutó correctamente en el emulador. | Aprobado |
+| TS02 | Validar pantalla de inicio de sesión | La pantalla debe mostrar campos de correo electrónico, contraseña y botón de ingreso. | La pantalla de login se visualizó correctamente. | Aprobado |
+| TS03 | Validar pantalla principal | La pantalla principal debe mostrar búsqueda, categorías y huariques destacados. | La pantalla cargó correctamente y mostró los elementos principales. | Aprobado |
+| TS04 | Validar detalle de huarique | El usuario debe poder visualizar información del huarique seleccionado. | Se mostró el detalle con dirección, teléfono, horario, descripción, valoración y reseñas. | Aprobado |
+| TS05 | Validar registro visual de reseña | El usuario debe poder abrir el formulario para escribir una reseña. | Se mostró el modal de nueva reseña con calificación y campo de comentario. | Aprobado |
+| TS06 | Validar documentación Swagger | Swagger debe mostrar los endpoints disponibles del backend. | Se visualizaron endpoints para huariques, usuarios, categorías, planes, promociones y reseñas. | Aprobado |
+
+Las pruebas realizadas permitieron comprobar que la aplicación móvil cuenta con una primera versión funcional y que el backend se encuentra documentado para continuar con la integración en los siguientes avances.
 
 #### 4.2.1.5. Execution Evidence for Sprint Review
 
-_Pendiente de completar._
+En esta sección se muestran las evidencias de ejecución de PuntoSabor durante el Sprint 1. Estas evidencias permiten comprobar que la aplicación móvil puede ejecutarse correctamente en un emulador Android y que el backend se encuentra disponible mediante Swagger.
+
+| Evidencia | Descripción | Imagen / Enlace |
+|---|---|---|
+| Ejecución de backend en Swagger | Se evidencia el backend desplegado con endpoints disponibles para huariques, usuarios, categorías, planes, promociones y reseñas. | ![Swagger API](assets/swagger-api.jpeg) |
+| Ejecución en Android Studio | Se muestra la aplicación móvil ejecutándose en un emulador Android desde Android Studio. | ![Login PuntoSabor](assets/login-puntosabor.jpeg) |
+| Pantalla principal de la app | Se evidencia la pantalla principal de PuntoSabor, donde el usuario puede buscar huariques, visualizar categorías y revisar locales destacados. | ![Home PuntoSabor](assets/home-puntosabor.jpeg) |
+| Navegación hacia detalle | Se muestra la navegación hacia el detalle de un huarique, donde se visualiza información del local, reseñas y acciones disponibles. | ![Detalle Huarique](assets/detalle-huarique.jpeg) |
+| Registro de reseña | Se evidencia la apertura del formulario para publicar una nueva reseña con calificación y comentario. | ![Nueva Reseña](assets/nueva-resena.jpeg) |
+
+Estas evidencias respaldan que el producto cuenta con una versión ejecutable para la revisión del sprint, mostrando tanto el avance visual de la aplicación móvil como la disponibilidad inicial de servicios backend.
 
 #### 4.2.1.6. Services Documentation Evidence for Sprint Review
 
-_Pendiente de completar._
+Durante el Sprint 1 se documentaron los servicios disponibles del backend mediante Swagger. Esta documentación permite visualizar los endpoints implementados o preparados para la integración con la aplicación móvil de PuntoSabor.
+
+La documentación incluye servicios relacionados con huariques, usuarios, categorías, planes, promociones y reseñas. Esto facilita que el equipo pueda entender qué operaciones están disponibles y cómo se pueden consumir desde la aplicación en los siguientes avances.
+
+| Servicio / Componente | Descripción | Estado |
+|---|---|---|
+| Huariques | Permite buscar, crear, consultar por ID y actualizar información de huariques. | Documentado en Swagger |
+| Users | Permite buscar y crear usuarios dentro del sistema. | Documentado en Swagger |
+| Categories | Permite consultar las categorías disponibles para clasificar los huariques. | Documentado en Swagger |
+| Plans | Permite consultar los planes disponibles para propietarios de huariques. | Documentado en Swagger |
+| Promos | Permite consultar promociones disponibles dentro de la plataforma. | Documentado en Swagger |
+| Reviews | Permite consultar y crear reseñas relacionadas con los huariques. | Documentado en Swagger |
+
+Esta documentación es importante porque sirve como base para conectar la aplicación móvil con el backend, manteniendo claro qué servicios están disponibles y qué funcionalidades pueden integrarse progresivamente.
 
 #### 4.2.1.7. Software Deployment Evidence for Sprint Review
 
-_Pendiente de completar._
+Para evidenciar el despliegue del software, se consideraron capturas y enlaces que demuestran que el backend y la aplicación móvil pueden ejecutarse correctamente en sus respectivos entornos.
 
+En el caso del backend, se cuenta con una documentación publicada mediante Swagger, lo que permite revisar los endpoints disponibles desde el navegador. Para la aplicación móvil, la ejecución se realizó mediante Android Studio utilizando un emulador Android, donde se validaron las pantallas principales del flujo del usuario.
+
+| Evidencia | Descripción | Enlace / Captura |
+|---|---|---|
+| Repositorio del proyecto | Repositorio donde se encuentra el código fuente del informe y/o producto. | https://github.com/HuariqueHub/report/tree/develop |
+| Backend desplegado en Swagger | Se muestra la documentación de endpoints disponible desde el navegador. | Colocar enlace de Swagger |
+| Ejecución móvil en emulador | Captura de la aplicación móvil ejecutándose desde Android Studio. | ![Login PuntoSabor](assets/login-puntosabor.jpeg) |
+| Pantalla principal de la app | Evidencia de la pantalla home con búsqueda, categorías y huariques destacados. | ![Home PuntoSabor](assets/home-puntosabor.jpeg) |
+| Commits de desarrollo | Capturas o historial de commits relacionados con la implementación. | ![commits](assets/commits.png) |
+
+Estas evidencias permiten demostrar que el producto no solo fue diseñado, sino también ejecutado y revisado en un entorno funcional.
 #### 4.2.1.8. Team Collaboration Insights during Sprint
 
-_Pendiente de completar._
+Durante el Sprint 1, el equipo HuariqueHub trabajó de manera colaborativa para avanzar en la implementación inicial de PuntoSabor. Las tareas fueron distribuidas considerando actividades de desarrollo móvil, backend, documentación, revisión de evidencias y organización del informe.
+
+La comunicación se realizó mediante reuniones, mensajes grupales y el uso de GitHub para registrar los avances. Además, se trabajó con capturas de ejecución, documentación Swagger y evidencias del emulador para sustentar el progreso realizado durante el sprint.
+
+| Integrante | Aporte durante el sprint |
+|---|---|
+| Delgado Carrasco, Schneider | Apoyó en la documentación, revisión del informe y organización de evidencias del proyecto. |
+| Lopez Goitia, Carlos Alberto | Participó en la organización técnica del proyecto y revisión de servicios backend. |
+| Tumi Oliden, Manuel Ignacio | Apoyó en el desarrollo visual y pantallas principales de la aplicación móvil. |
+| Becerra Llempen, Fabiola Dayane | Contribuyó en la documentación, análisis de usuarios y revisión de contenido relacionado con la validación. |
+| Vasquez Goicochea, Erick Alessander | Apoyó en la documentación del capítulo de implementación, organización de evidencias, pruebas y redacción de secciones del sprint. |
+
+Como resultado, el equipo logró consolidar una primera base funcional del producto, evidenciando avances en la aplicación móvil, servicios backend y documentación del sprint.
 
 ## 4.3. Validation Interviews
 
