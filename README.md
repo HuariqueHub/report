@@ -1674,12 +1674,12 @@ En esta sección se presentan las evidencias del desarrollo realizado durante el
 
 | Evidencia | Descripción | Imagen / Enlace |
 |---|---|---|
-| Documentación de API en Swagger | Se evidencia el backend desplegado y documentado mediante Swagger, mostrando endpoints disponibles para huariques, usuarios, categorías, planes, promociones y reseñas. | ![Swagger API](assets/swagger-api.png) |
-| Pantalla de inicio de sesión | Se implementó la pantalla de login de PuntoSabor, donde el usuario puede ingresar su correo electrónico y contraseña para acceder a la aplicación. | ![Login PuntoSabor](assets/login-puntosabor.png) |
-| Pantalla principal de búsqueda | Se desarrolló la pantalla principal donde el usuario puede buscar huariques, filtrar por categorías y visualizar locales destacados cerca de su ubicación. | ![Home PuntoSabor](assets/home-puntosabor.png) |
-| Detalle de huarique | Se implementó la vista de detalle de un huarique, mostrando información como categoría, dirección, teléfono, horario, descripción, valoración y acciones como llamar o ver mapa. | ![Detalle Huarique](assets/detalle-huarique.png) |
-| Registro de reseña | Se agregó la funcionalidad visual para escribir una nueva reseña, permitiendo seleccionar una calificación y redactar un comentario sobre la experiencia del usuario. | ![Nueva Reseña](assets/nueva-resena.png) |
-| Funcionalidad de favorito | Se evidencia la opción de marcar un huarique como favorito desde la vista de detalle, permitiendo al usuario guardar locales de interés para revisarlos posteriormente. | ![Favorito Huarique](assets/favorito-huarique.png) |
+| Documentación de API en Swagger | Se evidencia el backend desplegado y documentado mediante Swagger, mostrando endpoints disponibles para huariques, usuarios, categorías, planes, promociones y reseñas. | ![Swagger API](assets/swagger-api.jpeg) |
+| Pantalla de inicio de sesión | Se implementó la pantalla de login de PuntoSabor, donde el usuario puede ingresar su correo electrónico y contraseña para acceder a la aplicación. | ![Login PuntoSabor](assets/login-puntosabor.jpeg) |
+| Pantalla principal de búsqueda | Se desarrolló la pantalla principal donde el usuario puede buscar huariques, filtrar por categorías y visualizar locales destacados cerca de su ubicación. | ![Home PuntoSabor](assets/home-puntosabor.jpeg) |
+| Detalle de huarique | Se implementó la vista de detalle de un huarique, mostrando información como categoría, dirección, teléfono, horario, descripción, valoración y acciones como llamar o ver mapa. | ![Detalle Huarique](assets/detalle-huarique.jpeg) |
+| Registro de reseña | Se agregó la funcionalidad visual para escribir una nueva reseña, permitiendo seleccionar una calificación y redactar un comentario sobre la experiencia del usuario. | ![Nueva Reseña](assets/nueva-resena.jpeg) |
+| Funcionalidad de favorito | Se evidencia la opción de marcar un huarique como favorito desde la vista de detalle, permitiendo al usuario guardar locales de interés para revisarlos posteriormente. | ![Favorito Huarique](assets/favorito-huarique.jpeg) |
 
 #### 4.2.1.4. Testing Suite Evidence for Sprint Review
 
@@ -1702,11 +1702,11 @@ En esta sección se muestran las evidencias de ejecución de PuntoSabor durante 
 
 | Evidencia | Descripción | Imagen / Enlace |
 |---|---|---|
-| Ejecución de backend en Swagger | Se evidencia el backend desplegado con endpoints disponibles para huariques, usuarios, categorías, planes, promociones y reseñas. | ![Swagger API](assets/swagger-api.png) |
-| Ejecución en Android Studio | Se muestra la aplicación móvil ejecutándose en un emulador Android desde Android Studio. | ![Login PuntoSabor](assets/login-puntosabor.png) |
-| Pantalla principal de la app | Se evidencia la pantalla principal de PuntoSabor, donde el usuario puede buscar huariques, visualizar categorías y revisar locales destacados. | ![Home PuntoSabor](assets/home-puntosabor.png) |
-| Navegación hacia detalle | Se muestra la navegación hacia el detalle de un huarique, donde se visualiza información del local, reseñas y acciones disponibles. | ![Detalle Huarique](assets/detalle-huarique.png) |
-| Registro de reseña | Se evidencia la apertura del formulario para publicar una nueva reseña con calificación y comentario. | ![Nueva Reseña](assets/nueva-resena.png) |
+| Ejecución de backend en Swagger | Se evidencia el backend desplegado con endpoints disponibles para huariques, usuarios, categorías, planes, promociones y reseñas. | ![Swagger API](assets/swagger-api.jpeg) |
+| Ejecución en Android Studio | Se muestra la aplicación móvil ejecutándose en un emulador Android desde Android Studio. | ![Login PuntoSabor](assets/login-puntosabor.jpeg) |
+| Pantalla principal de la app | Se evidencia la pantalla principal de PuntoSabor, donde el usuario puede buscar huariques, visualizar categorías y revisar locales destacados. | ![Home PuntoSabor](assets/home-puntosabor.jpeg) |
+| Navegación hacia detalle | Se muestra la navegación hacia el detalle de un huarique, donde se visualiza información del local, reseñas y acciones disponibles. | ![Detalle Huarique](assets/detalle-huarique.jpeg) |
+| Registro de reseña | Se evidencia la apertura del formulario para publicar una nueva reseña con calificación y comentario. | ![Nueva Reseña](assets/nueva-resena.jpeg) |
 
 Estas evidencias respaldan que el producto cuenta con una versión ejecutable para la revisión del sprint, mostrando tanto el avance visual de la aplicación móvil como la disponibilidad inicial de servicios backend.
 
@@ -1735,14 +1735,13 @@ En el caso del backend, se cuenta con una documentación publicada mediante Swag
 
 | Evidencia | Descripción | Enlace / Captura |
 |---|---|---|
-| Repositorio del proyecto | Repositorio donde se encuentra el código fuente del informe y/o producto. | [Colocar enlace del repositorio] |
+| Repositorio del proyecto | Repositorio donde se encuentra el código fuente del informe y/o producto. | https://github.com/HuariqueHub/report/tree/develop |
 | Backend desplegado en Swagger | Se muestra la documentación de endpoints disponible desde el navegador. | [Colocar enlace de Swagger] |
-| Ejecución móvil en emulador | Captura de la aplicación móvil ejecutándose desde Android Studio. | ![Login PuntoSabor](assets/login-puntosabor.png) |
-| Pantalla principal de la app | Evidencia de la pantalla home con búsqueda, categorías y huariques destacados. | ![Home PuntoSabor](assets/home-puntosabor.png) |
+| Ejecución móvil en emulador | Captura de la aplicación móvil ejecutándose desde Android Studio. | ![Login PuntoSabor](assets/login-puntosabor.jpeg) |
+| Pantalla principal de la app | Evidencia de la pantalla home con búsqueda, categorías y huariques destacados. | ![Home PuntoSabor](assets/home-puntosabor.jpeg) |
 | Commits de desarrollo | Capturas o historial de commits relacionados con la implementación. | [Insertar captura de commits] |
 
 Estas evidencias permiten demostrar que el producto no solo fue diseñado, sino también ejecutado y revisado en un entorno funcional.
-
 #### 4.2.1.8. Team Collaboration Insights during Sprint
 
 Durante el Sprint 1, el equipo HuariqueHub trabajó de manera colaborativa para avanzar en la implementación inicial de PuntoSabor. Las tareas fueron distribuidas considerando actividades de desarrollo móvil, backend, documentación, revisión de evidencias y organización del informe.
