@@ -22,10 +22,10 @@
 
 |             Member              |   Code    |
 |:-------------------------------:|:---------:|
+|  Becerra Llempen, Fabiola Dayane |u20171a518|
 |  Delgado Carrasco, Schneider  | u202321843 |
 |  Lopez Goitia, Carlos Alberto  | u202312700 |
 |  Tumi Oliden Manuel Ignacio  | u20241c134 |
-|  Becerra Llempen, Fabiola Dayane |u20171a518|
 |  Vasquez Goicochea Erick Alessander | u202019871 |
 
 <strong> Abril 2026</strong><br>
@@ -231,6 +231,8 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
       <td>
         <strong> AV1:</strong><br>
         Durante este trabajo realice los análisis competitivos de mercado para obtener las ventajas y encontrar oportunidades de mejora para nuestro proyecto. Asimismo, desarrolle los perfiles del user persona , user task matrix y el journey mapping con sus respectivas conclusiones. <br>
+        <strong> TB1:</strong><br>
+        En esta fase, trabajé en el diseño UX/UI de la app móvil PuntoSabor. Para ello, creé los Wireflows de aplicaciones móviles, diagramas Wireflow, maquetas, diagramas de flujo de usuario y un prototipo interactivo de la aplicación. En todo momento prioricé que la experiencia del usuario fuera accesible, intuitiva y adecuada a las expectativas de los segmentos destinatarios. Además, colaboré en documentar las evidencias del Sprint Review, que incluían pruebas de desarrollo, de testing, documentación sobre servicios y la implementación del software. Esto ayudó a preservar la coherencia tanto a nivel funcional como visual del proyecto.
         <br>
       </td>
     </tr>
