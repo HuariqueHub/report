@@ -232,7 +232,7 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
         <strong> AV1:</strong><br>
         Durante este trabajo realice los análisis competitivos de mercado para obtener las ventajas y encontrar oportunidades de mejora para nuestro proyecto. Asimismo, desarrolle los perfiles del user persona , user task matrix y el journey mapping con sus respectivas conclusiones. <br>
         <strong> TB1:</strong><br>
-        En esta fase, trabajé en el diseño UX/UI de la app móvil PuntoSabor. Para ello, creé los Wireflows de aplicaciones móviles, diagramas Wireflow, maquetas, diagramas de flujo de usuario y un prototipo interactivo de la aplicación. En todo momento prioricé que la experiencia del usuario fuera accesible, intuitiva y adecuada a las expectativas de los segmentos destinatarios. Además, colaboré en documentar las evidencias del Sprint Review, que incluían pruebas de desarrollo, de testing, documentación sobre servicios y la implementación del software. Esto ayudó a preservar la coherencia tanto a nivel funcional como visual del proyecto.
+        En esta fase, trabajé en el diseño UX/UI de la app móvil PuntoSabor. Para ello, creé los Wireflows de aplicaciones móviles, diagramas Wireflow, maquetas, diagramas de flujo de usuario y un prototipo interactivo de la aplicación. Además, colaboré en documentar las evidencias del Sprint Review, que incluían pruebas de desarrollo, de testing, documentación sobre servicios y la implementación del software. Esto ayudó a preservar la coherencia tanto a nivel funcional como visual del proyecto.
         <br>
       </td>
     </tr>
@@ -276,6 +276,8 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
       <td>
         <strong> AV1:</strong><br>
         Realice entrevistas y análisis de entrevistas para poder obtener fundamentos en la investigación. Tambien, realice un enfoque estratégico con el empathy Mapping y As-is Scenario Mapping de los segmentos obtenidos junto con el Big Picture Event Storming y Ubiquitous Language.<br>
+        <strong> TB1:</strong><br>
+Colaboré en la planificación y la organización de los entregables vinculados con el diseño y la validación de la aplicación móvil, garantizando que lo requerido funcionalmente, los flujos de navegación y la experiencia visual del sistema fueran coherentes. Asimismo, colaboré en la recolección y organización de las pruebas técnicas del Sprint Review, fomentando una comunicación precisa y coordinada al interior del equipo para alcanzar los objetivos fijados para el proyecto.
       </td>
     </tr>
   <tr>
