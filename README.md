@@ -986,8 +986,12 @@ explicación debe evidenciarse la aplicación de los principios, elementos de di
 
 ![alt text](<assets/Landing Page Mock-up.1.png>)
 
-## 4.4. Web Applications UX/UI Design
-El diseño de experiencia de usuario (UX) y de interfaz de usuario (UI) en aplicaciones web consiste en construir una experiencia digital que resulte clara, práctica y agradable para las personas que la utilizan. La UX se enfoca en identificar las necesidades y expectativas de los usuarios, diseñando flujos de navegación y estructuras de información que hagan más sencilla la interacción. En cambio, la UI aborda la parte visual de la aplicación, como el estilo de los botones, menús y la organización del contenido en pantalla. Cuando ambos enfoques se integran de forma adecuada, se logra un equilibrio entre estética y usabilidad, generando así una experiencia atractiva, funcional y memorable para los usuarios.
+## 4.4. Mobile Applications UX/UI Design
+El diseño de la interfaz de usuario (UI) y de la experiencia del usuario (UX) es un elemento esencial en el progreso de las aplicaciones web contemporáneas, puesto que facilita la creación de plataformas digitales atractivas visualmente, intuitivas y funcionales para los usuarios. El objetivo de la experiencia de usuario (UX) es entender los comportamientos, las expectativas y las necesidades de los diferentes segmentos objetivos con el fin de crear flujos de navegación que sean claros, eficaces y sencillos de usar.Por otro lado, el diseño de la interfaz de usuario (UI) se centra en los elementos visuales de la aplicación, como son la disposición del contenido, los botones, colores, íconos, tipografías y componentes interactivos que permiten al usuario interactuar con el sistema.
+
+El diseño de UX/UI de PuntoSabor tiene como objetivo brindar una experiencia accesible e intuitiva para los dueños de huariques y los exploradores gastronómicos, lo que facilita la navegación en la plataforma. Para lograrlo, se utilizó una perspectiva mobile-first, utilizando estructuras visuales sencillas, pantallas ordenadas y elementos interactivos que simplifican tareas como buscar huariques, ver mapas, publicar críticas y administrar datos de los locales.
+
+Además, se diseñó el aspecto visual de la aplicación teniendo en cuenta estándares de accesibilidad, usabilidad y consistencia, con el fin de optimizar la interacción del usuario y robustecer la identidad digital de la plataforma. Como consecuencia, se sugiere una solución balanceada entre estética y funcionalidad, que pueda proporcionar a los usuarios de la aplicación una experiencia eficaz y atractiva.
 
 ### 4.4.1. Web Applications Wireframes
 **Web applications wireframes desktop**
@@ -996,48 +1000,48 @@ El diseño de experiencia de usuario (UX) y de interfaz de usuario (UI) en aplic
 
 ![alt text](<assets/web applications wireframe desktop 2.png>)
 
-**Web applications wireframes mobile**
+**Mobile applications wireframes mobile**
 
 ![alt text](<assets/web applications wireframe mobile 1.png>)
 
 ![alt text](<assets/web applications wireframe mobile 2.png>)
 
-### 4.4.2. Web Applications Wireflow Diagrams
-Los diagramas de wireflow para aplicaciones web son representaciones visuales que muestran tanto la navegación como la estructura de una aplicación. Estos combinan características de los wireframes y de los diagramas de flujo, ofreciendo una visión clara de cómo los usuarios se desplazan por la plataforma y de qué manera interactúan con sus diferentes funciones. Su utilidad radica en detectar posibles dificultades de usabilidad y en asegurar que la experiencia del usuario sea consistente y eficiente.
-En el caso de PuntoSabor, el diagrama de wireflow ilustra los recorridos principales de sus dos tipos de usuarios: el descubridor gastronómico y el dueño de restaurante. Incluye procesos clave como la autenticación, la exploración de categorías de comida, la búsqueda de huariques cercanos, el acceso a promociones, la gestión de planes de membresía, así como funciones para editar el perfil y acceder al soporte.
+### 4.4.2. Mobile Applications Wireflow Diagrams
+Los diagramas de wireflow para aplicaciones web son representaciones gráficas que ilustran la estructura y la navegación de una aplicación. Estos integran rasgos de los diagramas de flujo y de los wireframes, proporcionando una p+erspectiva nítida acerca de cómo los usuarios navegan por la plataforma e interactúan con sus diversas funcionalidades. Su utilidad radica en identificar posibles problemas de usabilidad y garantizar que la experiencia del usuario sea coherente y eficaz. Para PuntoSabor, el diagrama de wireflow representa los recorridos esenciales de sus dos clases de usuarios: el propietario del restaurante y el explorador gastronómico. Comprende procedimientos esenciales como la autenticación, la búsqueda de huariques próximos, la exploración de categorías alimenticias, el acceso a promociones, la administración de planes de membresía y funciones para modificar el perfil y obtener asistencia.
 
 ![alt text](<assets/Wireflow Diagrams.png>)
 
-### 4.4.2. Web Applications Mock-ups
-**Web applications Mock-ups desktop**
+### 4.4.2. Mobile Applications Mock-ups
+**Mobile applications Mock-ups desktop**
 
 ![alt text](<assets/Web applications Mock-ups desktop.1.png>)
 
 ![alt text](<assets/Web applications Mock-ups desktop.2.png>)
 
-**Web applications Mock-ups mobile**
+**Mobile applications Mock-ups mobile**
 
 ![alt text](<assets/Web applications Mock-ups mobile.1.png>)
 
 ![alt text](<assets/Web applications Mock-ups mobile.2.png>)
 
-### 4.4.3. Web Applications User Flow Diagrams
-El User Flow Diagram es una representación gráfica del recorrido que sigue un usuario al interactuar con una aplicación o sitio web. En él se detalla la secuencia de acciones necesarias para cumplir una tarea concreta, lo que permite detectar posibles dificultades en el proceso y mejorar la experiencia del usuario.
+### 4.4.3. Mobile Applications User Flow Diagrams
+El User Flow Diagram es una ilustración gráfica de la secuencia que un usuario sigue al emplear una aplicación o página web. Se describe en él la serie de acciones requeridas para llevar a cabo una tarea específica, lo que posibilita identificar eventuales problemas en el procedimiento y optimizar la experiencia del usuario.
 
 Leyenda:
 
 ![alt text](<assets/Leyenda - Web Applications User Flow Diagrams.png>)
 
 Flujo de usuario:
-Empieza con el usuario ingresando la página de inicio de PuntoSabor. Aqui determina  si es "Explorador Gastronómico" o "Dueño de Restaurante"
+
+El usuario accede a la página de inicio de PuntoSabor. Aquí establece si es "Propietario de restaurante" o "Explorador gastronómico".
 
 ![alt text](<assets/Web Applications User Flow Diagrams.1.png>)
 
-Flujo de Explorador Gastronómico:El usuario con rol de Explorador Gastronómico puede acceder a un buscador para obtener información sobre huariques. En caso de no realizar una búsqueda, podrá visualizar sugerencias. 
+Flujo del explorador gastronómico: El cliente que desempeña el rol de explorador gastronómico tiene acceso a un buscador para conseguir datos acerca de los huariques. Si no se lleva a cabo una búsqueda, tendrá la posibilidad de ver sugerencias.
 
 ![alt text](<assets/Flujo de explorador.png>)
 
-Flujo de Dueño de Restaurante: El usuario con rol de Dueño de Restaurante puede acceder a su perfil, consultar y modificar su plan, así como gestionar la lista de huariques, productos y promociones. Además, tiene la opción de actualizar su perfil añadiendo o editando un huarique: cambiar el nombre, actualizar la foto, modificar la ubicación y gestionar los productos y promociones. También podrá programar una sesión de retroalimentación en una fecha determinada.
+Flujo del propietario de un restaurante: El usuario que tiene el rol de dueño de restaurante puede acceder a su perfil, modificar y revisar su plan, además de manejar la lista de huariques, productos y promociones. Asimismo, tiene la posibilidad de actualizar su perfil mediante la adición o modificación de un huarique: cambiar el nombre, actualizar la imagen, alterar la ubicación y manejar los productos y las promociones. Además, tendrá la posibilidad de organizar una sesión de retroalimentación en una fecha específica.
 
 ![alt text](<assets/Flujo de Dueño.png>)
 
@@ -1047,7 +1051,7 @@ Vista general del flujo de usuario:
 
 ![alt text](<assets/Flujo de Usuario General.png>)
 
-## 4.5. Web Applications Prototyping
+## 4.5. Mobile Applications Prototyping
 Prototipo de la aplicación web PuntoSabor en figma:
 **https://www.figma.com/design/lT88eEZFP7G86QwYXq59Lc/PuntoSabor?node-id=0-1&p=f&t=NTWZ6fdPzB6mKTpe-0**
 
