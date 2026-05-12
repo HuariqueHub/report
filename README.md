@@ -1690,15 +1690,16 @@ https://1asi0730-2520-7432-g3-fijasdev.github.io/PuntoSabor-LandingPage/
 | 26 | US26 | Featured promotions    | As a Pro owner, I want to publish promotions that appear highlighted in the listings.                         | 3 | Partial |
 
 #### 5.2.1.4. Development Evidence for Sprint Review
-Se versionó todo el trabajo (copy, diseño de secciones, CTA, testimonios y formulario con validaciones) en Git y se crearon ramas por feature con sus pull requests. Se adjuntaron capturas de antes/después en los issues correspondientes y se documentó cada componente en el repositorio.
-#### 5.2.1.5. Execution Evidence for Sprint Review
-Durante el Sprint se completaron las tareas del backlog de la landing page. Se redactó contenido, se diseñaron las secciones visuales, se añadió un CTA persistente y se implementó el formulario con validaciones. Se mostró una demo navegable en la review para validar experiencia y copy.
+Se creó una versión del trabajo completo (incluyendo el copy, la creación de secciones, el CTA, los testimonios y el formulario con validaciones) en Git; además, se generaron ramas por cada función junto a sus correspondientes solicitudes de extracción. Se documentó cada componente en el repositorio y se añadieron capturas de pantalla de antes y después a los problemas correspondientes.
+#### 5.2.1.5. Testing Suite Evidence for Sprint Review
+Las labores del backlog de la página de aterrizaje se llevaron a cabo durante el Sprint. Se compuso el contenido, se crearon las partes visuales, se incorporó un CTA constante y se puso en funcionamiento el formulario con validaciones. Para verificar la experiencia y el texto, se presentó una demostración navegable durante la revisión.
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
-Se generó documentación en Markdown describiendo estructura, componentes UI, flujos de interacción del formulario (y validaciones), y criterios de accesibilidad/responsividad. Esto alinea al equipo para los próximos sprints donde se integrarán servicios backend.
+Se elaboró documentación en Markdown que detalla la estructura, los componentes de la interfaz de usuario (UI), las validaciones y flujos de interacción del formulario, así como los principios de accesibilidad y adaptabilidad. Esto alinea al equipo para los siguientes sprints, en los que se incorporarán servicios de backend.
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
-Se desplegó la landing page en GitHub Pages (o hosting equivalente) con el contenido del Sprint: beneficios, testimonios, CTA y formulario. Se compartió el enlace para revisión, se registraron observaciones en issues y se planificaron ajustes menores visuales para el siguiente sprint.
+La página de destino se publicó en GitHub Pages (o un hospedaje similar) con el contenido del Sprint: formulario, CTA, testimonios y beneficios. Se distribuyó el enlace para su revisión, se anotaron las observaciones en los issues y se organizaron modificaciones menores de visualización para el siguiente sprint.
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint  
-El equipo trabajó de forma colaborativa con comunicación fluida (Meet/Discord). Se usaron tableros Kanban para seguimiento y ramas por feature para aislar cambios. Todos asumieron responsabilidades claras y se apoyaron mutuamente en revisiones, lo que permitió cumplir el objetivo del sprint sin bloqueos.
+El equipo colaboró entre sí y se comunicó de manera fluida (Meet/Discord). Se emplearon tableros Kanban para el seguimiento y ramas por función para separar cambios. Cada uno asumió responsabilidades claras y se ayudaron entre sí en las revisiones, lo que posibilitó alcanzar la meta del sprint sin bloqueos.
 
 ### 5.2.2. Sprint 2
 
