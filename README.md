@@ -1598,8 +1598,7 @@ erDiagram
 
 ## 5.1. Software Configuration Management
 
-En esta sección se detalla cómo se implementa, organiza y publica PuntoSabor en su estado actual (sitio estático con HTML, CSS y JavaScript). No se utiliza aún backend ni base de datos; la publicación se realiza con GitHub Pages. El objetivo es mantener la consistencia del desarrollo y dejar preparado el terreno para futuras iteraciones.
-
+Esta sección describe cómo se implementa, organiza y publica PuntoSabor en su estado actual (un sitio estático que utiliza HTML, CSS y JavaScript). La publicación se lleva a cabo mediante GitHub Pages; la base de datos y el backend no están en uso todavía. La meta es preservar la coherencia del desarrollo y preparar el camino para iteraciones subsiguientes.
 ---
 
 ### 5.1.1. Software Development Environment Configuration
@@ -1621,8 +1620,7 @@ En esta sección se detalla cómo se implementa, organiza y publica PuntoSabor e
 - `css/` (hojas de estilo)
 - `img/` u otra carpeta de recursos
 
-> Nota: En esta entrega no se ha implementado servidor, API ni base de datos.
-
+> Nota: No se han puesto en funcionamiento el servidor, la API o la base de datos en esta entrega.
 ---
 
 ### 5.1.2. Source Code Management
@@ -1660,22 +1658,22 @@ Ejemplos:
 ### 5.1.3. Source Code Style Guide & Conventions
 
 **HTML**
-- Estructura semántica: `<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`.
-- Imágenes siempre con `alt`.
-- Enlaces relativos y consistentes entre páginas.
-- Scripts JS al final del `body` cuando corresponda.
+- Estructura semántica: `<header>`, `<nav>`, `<main>`, `<section>` y `<footer>`.
+- Las imágenes siempre tienen `alt`.
+- Conexiones estables y relativas entre las páginas.
+- Scripts JS al final del `body`, cuando sea pertinente.
 
 **CSS**
-- Uso de variables CSS (`:root { --color... }`) para colores y espaciados.
-- Convención de clases en kebab-case (ej.: `.hero-title`, `.card-grid`).
-- Layout con Flexbox y/o Grid.
-- Media queries para puntos de quiebre (ej.: 960px, 760px, 560px).
-- Estados y accesibilidad: `:hover`, `:focus-visible`, contraste adecuado.
+- Utilización de variables CSS para los colores y los espaciados (`:root { --color... }`).
+- Utilizar kebab-case para la convención de clases (por ejemplo: `.hero-title`, `.card-grid`).
+- Diseño con Grid y/o Flexbox.
+- Consultas de medios para puntos de ruptura (por ejemplo: 960px, 760px, 560px).
+- Estados y accesibilidad: `:hover`, `:focus-visible`, contraste apropiado.
 
 **JavaScript**
-- `const` / `let` (evitar `var`), funciones pequeñas y claras.
-- Separar lógica de interacción del DOM cuando sea posible.
-- Uso moderado de `localStorage` solo para preferencias/estado del cliente (si aplica).
+- `let` / `const` (no usar `var`), funciones cortas y claras.
+- Cuando sea posible, diferenciar la lógica de interacción del DOM.
+- Empleo cauteloso de `localStorage` únicamente para las preferencias/estado del cliente (de ser necesario).
 
 ---
 
@@ -1683,30 +1681,30 @@ Ejemplos:
 
 **Despliegue actual — GitHub Pages (Landing + Páginas estáticas)**
 
-**Pasos:**
-1. Subir el código al repositorio (por ejemplo `puntosabor-landing`) en la rama `main`.
-2. En GitHub: ir a Settings → Pages.
-3. En Build and deployment, seleccionar Deploy from a branch.
-4. Elegir Branch: `main` y Folder: `/ (root)`. Guardar.
-5. Esperar a que GitHub procese el sitio y obtener la URL pública, por ejemplo:
+**Procedimiento:**
+1. Cargar el código en la rama `main` del repositorio (por ejemplo, `puntosabor-landing`).
+2. En GitHub: dirigirse a Pages en el menú de Settings.
+3. En "Build and deployment", elija "Deploy from a branch".
+4. Seleccionar la carpeta `/ (root)` y la rama `main`. Conservar.
+5. Por ejemplo, aguardar a que GitHub procese el sitio y conseguir la URL pública:
 ```
 https://<usuario-o-organizacion>.github.io/puntosabor-landing/
 ```
 
-Landing Page de PuntoSabor:
+Página de aterrizaje de PuntoSabor:
 
 https://1asi0730-2520-7432-g3-fijasdev.github.io/PuntoSabor-LandingPage/ 
 
-**Validación post-despliegue**
-- Probar navegación entre páginas: `index.html`, `planes.html`, `contacto.html`, `perfil.html`, `promos.html`, `zonas.html`.
-- Verificar rutas relativas a hojas de estilo, imágenes y scripts.
-- Comprobar responsive en móvil/escritorio (inspector del navegador).
-- Revisar enlaces externos y formularios (si existieran) que no dependan de backend.
+**Validación posterior al despliegue**
+- Comprobar la navegación entre las páginas: `index.html`, `planes.html`, `contacto.html`, `perfil.html`, `promos.html` y `zonas.html`.
+- Comprobar las rutas de los scripts, las hojas de estilo y las imágenes.
+- Verificar la capacidad de respuesta en escritorio y móvil (inspectores del navegador).
+- Verificar enlaces externos y formularios (si los hay) que no estén conectados con el backend.
 
-**(Futuro, cuando se añada backend/BD)**
-- Mantener frontend estático (o migrar a SPA) y publicar API por separado.
-- Añadir CI/CD con GitHub Actions y variables/secretos necesarios.
-- Documentar endpoints con Swagger/OpenAPI y pruebas con Postman.
+**(Futuro, una vez que se agregue el backend/BD)**
+- Mantener el frontend en estado estático (o migrar a SPA) y lanzar la API de forma independiente.
+- Incorporar CI/CD usando GitHub Actions y las variables/secretos requeridos.
+- Documentación de los endpoints usando Swagger/OpenAPI, además de pruebas realizadas con Postman.
 
 
 ---
