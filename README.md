@@ -943,6 +943,8 @@ En conjunto, estos sistemas garantizan que los usuarios puedan recorrer la plata
 
 ### 3.1.3. Landing Page UI Design
 
+La interfaz de la landing page es clave para el proyecto, pues constituye la primera impresión del producto. Debe ofrecer una experiencia estética y funcional que atraiga de inmediato a los visitantes y los impulse a seguir explorando.
+
 #### 3.1.3.1. Landing Page Wireframe
 
 _Pendiente de completar._
