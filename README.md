@@ -347,48 +347,12 @@ Colaboré en la planificación y la organización de los entregables vinculados 
 - _Pendiente de completar objetivo SMART 2._
 
 ## Becerra Llempen, Fabiola Dayane
+## Objetivos SMART
 
-<table>
-  <tr>
-    <td>
-      <strong>Específico (Specific):</strong><br><br>
-      Fortalecer mis habilidades en gestión de proyectos tecnológicos y marketing digital 
-      para liderar proyectos de innovación y expansión empresarial.
-    </td>
-  </tr>
-
-  <tr>
-    <td>
-      <strong>Medible (Measurable):</strong><br><br>
-      Participar en al menos 2 proyectos tecnológicos reales, asistir a 4 conferencias 
-      o eventos profesionales y aumentar en un 30% la cartera de clientes de mi agencia digital.
-    </td>
-  </tr>
-
-  <tr>
-    <td>
-      <strong>Alcanzable (Achievable):</strong><br><br>
-      Aplicar los conocimientos adquiridos durante la carrera universitaria, complementar 
-      mi formación con cursos de liderazgo y metodologías ágiles, y trabajar activamente 
-      en proyectos empresariales propios.
-    </td>
-  </tr>
-
-  <tr>
-    <td>
-      <strong>Relevante (Relevant):</strong><br><br>
-      Este objetivo contribuirá a mi crecimiento profesional y empresarial dentro del sector 
-      tecnológico y digital.
-    </td>
-  </tr>
-
-  <tr>
-    <td>
-      <strong>Tiempo (Time-bound):</strong><br><br>
-      Alcanzar esta meta en un periodo máximo de 2 años después de finalizar mi carrera universitaria.
-    </td>
-  </tr>
-</table>
+| Integrante | Objetivo SMART | Componentes SMART |
+|---|---|---|
+| **Becerra Llempen, Fabiola Dayane** | Desarrollar competencias profesionales en diseño UX/UI y desarrollo de aplicaciones móviles mediante la participación en proyectos tecnológicos y cursos especializados, con el objetivo de obtener al menos dos certificaciones relacionadas con desarrollo móvil y experiencia de usuario antes de finalizar el año 2027. | **Specific:** Mejorar habilidades en UX/UI y desarrollo móvil.<br> **Measurable:** Obtener dos certificaciones especializadas.<br> **Achievable:** A través de cursos y proyectos prácticos.<br> **Relevant:** Relacionado con Ingeniería de Software y desarrollo profesional.<br> **Time-bound:** Antes de finalizar el año 2027. |
+| **Becerra Llempen, Fabiola Dayane** | Adquirir experiencia profesional en el área de desarrollo de software y gestión de productos digitales participando en proyectos tecnológicos y prácticas profesionales, con la meta de integrarme a una empresa del sector tecnológico o fortalecer mi emprendimiento digital dentro de los próximos dos años posteriores a mi graduación. | **Specific:** Obtener experiencia en desarrollo de software y productos digitales.<br> **Measurable:** Participar en proyectos y prácticas profesionales.<br> **Achievable:** Mediante experiencia académica y laboral.<br> **Relevant:** Alineado a objetivos profesionales y tecnológicos.<br> **Time-bound:** Dentro de los próximos dos años después de graduarme. |
 
 ## Vasquez Goicochea, Erick Alessander
 
