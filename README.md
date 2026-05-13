@@ -39,8 +39,9 @@
     <th>Versión</th>
     <th>Fecha</th>
     <th>Autor</th>
-    <th>Descripción de modificación </th>
+    <th>Descripción de modificación</th>
   </tr>
+
   <tr>
     <td>AV1</td>
     <td>2026-04-20</td>
@@ -49,9 +50,8 @@
         <li>Delgado Carrasco, Schneider</li> 
         <li>Lopez Goitia, Carlos Alberto</li> 
         <li>Tumi Oliden Manuel Ignacio</li>
-        <li>Becerra Llempen Fabiola Dayane </li>
+        <li>Becerra Llempen, Fabiola Dayane</li>
         <li>Vasquez Goicochea, Erick Alessander</li>
-        <li> </li>
       </ul>
     </td>
     <td> Se han incluido los siguientes capítulos:
@@ -66,7 +66,47 @@
         <li>Conclusiones</li>
         <li>Bibliografía</li>
         <li>Anexos</li>
-        </ul></td>
+      </ul>
+    </td>
+  </tr>
+
+  <tr>
+    <td>TB1</td>
+    <td>2026-05-11</td>
+    <td>
+      <ul> 
+        <li>Delgado Carrasco, Schneider</li> 
+        <li>Lopez Goitia, Carlos Alberto</li> 
+        <li>Tumi Oliden Manuel Ignacio</li>
+        <li>Becerra Llempen, Fabiola Dayane</li>
+        <li>Vasquez Goicochea, Erick Alessander</li>
+      </ul>
+    </td>
+    <td>
+      Se han actualizado y complementado los capítulos desarrollados en la AV1. Asimismo, se han incluido los siguientes apartados:
+      <ul>
+        <li>Corrección y mejora de User Stories</li>
+        <li>Incorporación de criterios de aceptación enfocados en requisitos funcionales</li>
+        <li>Product Backlog</li>
+        <li>Strategic-Level Domain-Driven Design (DDD)</li>
+        <li>Context Mapping</li>
+        <li>Software Architecture</li>
+        <li>Capítulo IV: Mobile Applications UX/UI Design</li>
+        <li>Mobile Applications Wireflow</li>
+        <li>Mobile Applications Wireflow Diagrams</li>
+        <li>Mobile Applications Mock-ups</li>
+        <li>Mobile Applications User Flow Diagrams</li>
+        <li>Mobile Applications Prototyping</li>
+        <li>Sprint Planning</li>
+        <li>Sprint Backlog</li>
+        <li>Development Evidence for Sprint Review</li>
+        <li>Testing Suite Evidence for Sprint Review</li>
+        <li>Services Documentation Evidence for Sprint Review</li>
+        <li>Software Deployment Evidence for Sprint Review</li>
+        <li>Actualización de conclusiones</li>
+        <li>Actualización de bibliografía y anexos</li>
+      </ul>
+    </td>
   </tr>
 </table>
 
@@ -227,6 +267,8 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
       <td>
         <strong> AV1:</strong><br>
         Durante este trabajo realice los análisis competitivos de mercado para obtener las ventajas y encontrar oportunidades de mejora para nuestro proyecto. Asimismo, desarrolle los perfiles del user persona , user task matrix y el journey mapping con sus respectivas conclusiones. <br>
+        <strong> TB1:</strong><br>
+        En esta fase, trabajé en el diseño UX/UI de la app móvil PuntoSabor. Para ello, creé los Wireflows de aplicaciones móviles, diagramas Wireflow, maquetas, diagramas de flujo de usuario y un prototipo interactivo de la aplicación. Además, colaboré en documentar las evidencias del Sprint Review, que incluían pruebas de desarrollo, de testing, documentación sobre servicios y la implementación del software. Esto ayudó a preservar la coherencia tanto a nivel funcional como visual del proyecto.
         <br>
       </td>
     </tr>
@@ -270,6 +312,8 @@ ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamen
       <td>
         <strong> AV1:</strong><br>
         Realice entrevistas y análisis de entrevistas para poder obtener fundamentos en la investigación. Tambien, realice un enfoque estratégico con el empathy Mapping y As-is Scenario Mapping de los segmentos obtenidos junto con el Big Picture Event Storming y Ubiquitous Language.<br>
+        <strong> TB1:</strong><br>
+Colaboré en la planificación y la organización de los entregables vinculados con el diseño y la validación de la aplicación móvil, garantizando que lo requerido funcionalmente, los flujos de navegación y la experiencia visual del sistema fueran coherentes. Asimismo, colaboré en la recolección y organización de las pruebas técnicas del Sprint Review, fomentando una comunicación precisa y coordinada al interior del equipo para alcanzar los objetivos fijados para el proyecto.
       </td>
     </tr>
   <tr>
