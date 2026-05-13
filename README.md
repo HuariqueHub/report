@@ -1786,9 +1786,9 @@ Pasos considerados para la ejecución:
 
 ## 4.2. Landing Page & Mobile Application Implementation
 
-### 4.2.1. Sprint n
+### 4.2.1. Sprint 1
 
-#### 4.2.1.1. Sprint Planning n
+#### 4.2.1.1. Sprint Planning 1
 
 En la planificación del Sprint 1 se definieron las tareas principales que el equipo debía desarrollar para avanzar con la implementación inicial del producto. Se tomaron como base las necesidades identificadas en las entrevistas, los user personas y las funcionalidades principales definidas en el backlog.
 
@@ -1804,22 +1804,13 @@ El objetivo del sprint fue construir una primera versión funcional de la landin
 
 Durante este sprint se priorizaron tareas relacionadas con la estructura visual, navegación principal, pantallas iniciales y organización del proyecto.
 
-#### 4.2.1.2. Sprint Backlog n
+#### 4.2.1.2. Sprint Backlog 1
 
 Para el Sprint 1 se seleccionaron las historias de usuario más importantes para construir una primera versión funcional de PuntoSabor. Se priorizaron historias relacionadas con la presentación del producto, la búsqueda inicial de huariques y las primeras interacciones del usuario dentro de la aplicación móvil.
 
 Las historias seleccionadas permiten mostrar un avance inicial tanto de la landing page como de la aplicación, manteniendo relación directa con los requisitos definidos previamente en la sección de User Stories.
 
-| ID | User Story | Tipo | Epic relacionada | Responsable | Estado |
-|---|---|---|---|---|---|
-| US09 | Presentación de beneficios | Landing Page | EP04 | Becerra Llempen, Fabiola Dayane | Completado |
-| US10 | Formulario de contacto | Landing Page | EP04 | Delgado Carrasco, Schneider | Completado |
-| US01 | Búsqueda avanzada | App móvil | EP01 | Tumi Oliden, Manuel Ignacio | Completado |
-| US02 | Visualización en mapa | App móvil | EP01 | Lopez Goitia, Carlos Alberto | Completado |
-| US03 | Guardar favoritos | App móvil | EP01 | Vasquez Goicochea, Erick Alessander | Completado |
-| US04 | Registro de nuevo huarique | App móvil | EP02 | Lopez Goitia, Carlos Alberto | Completado |
-| US07 | Envío de reseñas | App móvil | EP03 | Becerra Llempen, Fabiola Dayane | Completado |
-| US15 | Registro y login seguro | App móvil | EP07 | Tumi Oliden, Manuel Ignacio | Completado |
+![alt text](assets/sprint1.png)
 
 Este Sprint Backlog permitió organizar el trabajo inicial del equipo y relacionar las tareas desarrolladas con las historias de usuario ya definidas en el proyecto. De esta manera, el avance del sprint mantiene coherencia con los requisitos funcionales de PuntoSabor.
 
@@ -1911,21 +1902,9 @@ La comunicación se realizó mediante reuniones, mensajes grupales y el uso de G
 | Becerra Llempen, Fabiola Dayane | Contribuyó en la documentación, análisis de usuarios y revisión de contenido relacionado con la validación. |
 | Vasquez Goicochea, Erick Alessander | Apoyó en la documentación del capítulo de implementación, organización de evidencias, pruebas y redacción de secciones del sprint. |
 
+
+
 Como resultado, el equipo logró consolidar una primera base funcional del producto, evidenciando avances en la aplicación móvil, servicios backend y documentación del sprint.
-
-## 4.3. Validation Interviews
-
-### 4.3.1. Diseño de Entrevistas
-
-_Pendiente de completar._
-
-### 4.3.2. Registro de Entrevistas
-
-_Pendiente de completar._
-
-### 4.3.3. Evaluaciones según heurísticas
-
-_Pendiente de completar._
 
 # Conclusiones
 
