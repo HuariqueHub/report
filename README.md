@@ -39,8 +39,9 @@
     <th>Versión</th>
     <th>Fecha</th>
     <th>Autor</th>
-    <th>Descripción de modificación </th>
+    <th>Descripción de modificación</th>
   </tr>
+
   <tr>
     <td>AV1</td>
     <td>2026-04-20</td>
@@ -49,9 +50,8 @@
         <li>Delgado Carrasco, Schneider</li> 
         <li>Lopez Goitia, Carlos Alberto</li> 
         <li>Tumi Oliden Manuel Ignacio</li>
-        <li>Becerra Llempen Fabiola Dayane </li>
+        <li>Becerra Llempen, Fabiola Dayane</li>
         <li>Vasquez Goicochea, Erick Alessander</li>
-        <li> </li>
       </ul>
     </td>
     <td> Se han incluido los siguientes capítulos:
@@ -66,7 +66,47 @@
         <li>Conclusiones</li>
         <li>Bibliografía</li>
         <li>Anexos</li>
-        </ul></td>
+      </ul>
+    </td>
+  </tr>
+
+  <tr>
+    <td>TB1</td>
+    <td>2026-05-11</td>
+    <td>
+      <ul> 
+        <li>Delgado Carrasco, Schneider</li> 
+        <li>Lopez Goitia, Carlos Alberto</li> 
+        <li>Tumi Oliden Manuel Ignacio</li>
+        <li>Becerra Llempen, Fabiola Dayane</li>
+        <li>Vasquez Goicochea, Erick Alessander</li>
+      </ul>
+    </td>
+    <td>
+      Se han actualizado y complementado los capítulos desarrollados en la AV1. Asimismo, se han incluido los siguientes apartados:
+      <ul>
+        <li>Corrección y mejora de User Stories</li>
+        <li>Incorporación de criterios de aceptación enfocados en requisitos funcionales</li>
+        <li>Product Backlog</li>
+        <li>Strategic-Level Domain-Driven Design (DDD)</li>
+        <li>Context Mapping</li>
+        <li>Software Architecture</li>
+        <li>Capítulo IV: Mobile Applications UX/UI Design</li>
+        <li>Mobile Applications Wireflow</li>
+        <li>Mobile Applications Wireflow Diagrams</li>
+        <li>Mobile Applications Mock-ups</li>
+        <li>Mobile Applications User Flow Diagrams</li>
+        <li>Mobile Applications Prototyping</li>
+        <li>Sprint Planning</li>
+        <li>Sprint Backlog</li>
+        <li>Development Evidence for Sprint Review</li>
+        <li>Testing Suite Evidence for Sprint Review</li>
+        <li>Services Documentation Evidence for Sprint Review</li>
+        <li>Software Deployment Evidence for Sprint Review</li>
+        <li>Actualización de conclusiones</li>
+        <li>Actualización de bibliografía y anexos</li>
+      </ul>
+    </td>
   </tr>
 </table>
 
