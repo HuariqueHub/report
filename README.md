@@ -1930,7 +1930,35 @@ https://drive.google.com/drive/folders/1Iqb5Lz3YxKQMyos2Oyqczd73CZMvspKV?usp=dri
 
 # Glosario
 
-_Pendiente de completar._
+- **Huarique:** Establecimiento gastronómico local, generalmente pequeño o familiar, reconocido por ofrecer comida auténtica, tradicional y accesible.
+
+- **Explorador gastronómico:** Usuario interesado en descubrir nuevos lugares de comida, especialmente huariques poco conocidos, económicos y con buenas recomendaciones.
+
+- **Dueño de huarique:** Propietario o administrador de un negocio gastronómico local que busca aumentar la visibilidad de su establecimiento mediante la plataforma.
+
+- **PuntoSabor:** Aplicación móvil propuesta por HuariqueHub para conectar a usuarios con huariques cercanos, permitiendo consultar información, reseñas, promociones y ubicación.
+
+- **Landing Page:** Página web informativa que presenta la propuesta de valor de PuntoSabor, sus beneficios y medios de contacto.
+
+- **Reseña:** Comentario o valoración realizada por un usuario sobre su experiencia en un huarique.
+
+- **Favorito:** Función que permite al usuario guardar un huarique de interés para consultarlo posteriormente.
+
+- **Promoción destacada:** Publicación o beneficio especial ofrecido por un huarique para atraer mayor atención dentro de la plataforma.
+
+- **Membresía:** Plan de pago dirigido a dueños de huariques que desean obtener mayor visibilidad o beneficios adicionales dentro de PuntoSabor.
+
+- **Geolocalización:** Función que permite identificar la ubicación del usuario o de los huariques para facilitar la búsqueda de locales cercanos.
+
+- **Wireframe:** Representación básica de una pantalla que muestra la distribución de los elementos antes del diseño visual final.
+
+- **Mock-up:** Diseño visual más detallado de una pantalla, incluyendo colores, tipografía, imágenes y componentes gráficos.
+
+- **Prototipo:** Simulación interactiva de la aplicación que permite probar la navegación y el flujo entre pantallas.
+
+- **Sprint:** Periodo corto de trabajo en el que el equipo desarrolla y documenta un conjunto específico de funcionalidades del proyecto.
+
+- **Sprint Backlog:** Lista de historias de usuario y tareas seleccionadas para ser trabajadas durante un sprint.
 
 # Bibliografía
 
