@@ -1179,7 +1179,7 @@ _Pendiente de completar._
 
 #### 4.2.1.5. Execution Evidence for Sprint Review
 
-_Pendiente de completar._
+Durante el Sprint se completaron las tareas del backlog de la landing page. Se redactó contenido, se diseñaron las secciones visuales, se añadió un CTA persistente y se implementó el formulario con validaciones. Se mostró una demo navegable en la review para validar experiencia y copy.
 
 #### 4.2.1.6. Services Documentation Evidence for Sprint Review
 
