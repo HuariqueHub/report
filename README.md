@@ -1916,10 +1916,6 @@ Los hallazgos obtenidos confirman que existe una oportunidad real y concreta: lo
 
 Como siguiente paso, el proyecto avanzará hacia la definición de requerimientos funcionales y el diseño de la arquitectura de la solución, tomando como base todo lo trabajado en este primer avance.
 
-# Video App Validation
-
-_Pendiente de completar._
-
 # Video About the product
 
 https://drive.google.com/drive/folders/1Iqb5Lz3YxKQMyos2Oyqczd73CZMvspKV?usp=drive_link
