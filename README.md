@@ -1005,7 +1005,11 @@ Landing Page para Mobile Web Browse
 
 #### 3.1.3.2. Landing Page Mock-up
 
-_Pendiente de completar._
+Esta sección presenta y explica los Mock-ups del Landing Page, tanto en su versión para Desktop Web Browser como Mobile Web Browser. En la propuesta y la explicación debe evidenciarse la aplicación de los principios, elementos de diseño, diseño inclusivo y arquitectura de información, así como el Design System establecido para los productos digitales.
+
+![alt text](assets/app_landing5.png)
+
+![alt text](assets/app_landing6.png)
 
 ### 3.1.4. Mobile Applications UX/UI Design
 
