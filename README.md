@@ -348,8 +348,8 @@ Colaboré en la planificación y la organización de los entregables vinculados 
 
 ## Becerra Llempen, Fabiola Dayane
 
-Específico (Specific):
-Para dirigir proyectos de innovación y ampliación de la empresa, es necesario mejorar mis habilidades en administración de proyectos tecnológicos y marketing digital.
+<td>Específico (Specific):</td>
+<td>Para dirigir proyectos de innovación y ampliación de la empresa, es necesario mejorar mis habilidades en administración de proyectos tecnológicos y marketing digital.</td>
 Medible (Measurable):
 Tomar parte en al menos dos proyectos tecnológicos auténticos, asistir a cuatro conferencias o eventos de carácter profesional y elevar la cartera de clientes de mi agencia digital en un 30%.
 Alcanzable (Achievable):
