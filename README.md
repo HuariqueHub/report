@@ -244,6 +244,8 @@ ABET - EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamente
         <strong> AV1:</strong><br>
         Identifiqué con claridad la problemática central de nuestra startup, definí los segmentos a los que está dirigida y realicé la investigación necesaria para establecer los requisitos de la aplicación web. Además, llevé a cabo una entrevista con un usuario representativo del público objetivo.
         <br>
+        <strong> TB1:</strong><br>
+        Participé en el diseño visual y experiencia de usuario del proyecto mediante la elaboración del Landing Page UI Design, Wireframes y Mock-ups tanto para la Landing Page como para la aplicación móvil. Asimismo, desarrollé los prototipos interactivos de la aplicación, validando la navegación y flujo de interacción entre pantallas. Finalmente, contribuí en la sección Execution Evidence for Sprint Review documentando los avances funcionales y evidencias visuales del sistema implementado.<br>
       </td>
       <td rowspan="5">El equipo se comunicó de forma clara y estructurada, aportando conjuntamente al análisis técnico y estratégico del proyecto.</td>
     </tr>
@@ -290,6 +292,8 @@ ABET - EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamente
       <td>
         <strong> AV1:</strong><br>
         Como parte de las user stories, apoye en el desarrollo, su contexto y antecedentes; tambien realice algunos puntos del lean UX; realicé un análisis competitivo y definí los segmentos del público objetivo respaldados con datos estadísticos.<br>
+        <strong> TB1:</strong><br>
+        Contribuí en el diseño de la experiencia visual y navegación del sistema mediante la elaboración del Landing Page UI Design, así como los Wireframes y Mock-ups de la Landing Page y de la aplicación móvil. También participé en el desarrollo de prototipos interactivos para validar la interacción entre pantallas y la experiencia del usuario. Finalmente, apoyé en la sección Execution Evidence for Sprint Review, documentando evidencias visuales y avances funcionales realizados durante el Sprint.<br>
       </td>
       <td rowspan="6">La comunicación escrita se realizó con claridad, ajustando el contenido según las necesidades tanto de públicos técnicos como de lectores no especializados.</td>
     </tr>
