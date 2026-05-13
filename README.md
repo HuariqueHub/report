@@ -947,7 +947,17 @@ La interfaz de la landing page es clave para el proyecto, pues constituye la pri
 
 #### 3.1.3.1. Landing Page Wireframe
 
-_Pendiente de completar._
+Landing Page para Desktop Web Browser
+
+![alt text](<assets/app_landing1.png>)
+
+![alt text](assets/app_landing2.png)
+
+Landing Page para Mobile Web Browse
+
+![alt text](assets/app_landing3.png)
+
+![alt text](assets/app_landing4.png)
 
 #### 3.1.3.2. Landing Page Mock-up
 
