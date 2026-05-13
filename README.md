@@ -1598,7 +1598,7 @@ Representación esquemática de la estructura y flujo de navegación de la aplic
 
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
 
-![alt text](assets/Wireflow_Diagrams.png)
+![alt text](assets/Mobiledesign.png)
 
 #### 3.1.4.3. Mobile Applications Mock-ups
 
