@@ -184,7 +184,7 @@ Evidencias de colaboración:
 
 # Student Outcome
 
-ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
+ABET - EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
 <div>
 <table>
   <thead>
@@ -400,7 +400,7 @@ Esta brecha representa no solo una oportunidad económica sin aprovechar para lo
 
 - Se asume que los propietarios o administradores de huariques valorarán y encontrarán sencillo el proceso de registrar y gestionar su negocio dentro de la app, con miras a aumentar su visibilidad.
 
-- Se espera que estos usuarios proporcionen información completa y actualizada —fotos, especialidades, precios— para enriquecer la experiencia de quienes los visiten.
+- Se espera que estos usuarios proporcionen información completa y actualizada —fotos, especialidades, precios-para enriquecer la experiencia de quienes los visiten.
 
 - Se estima que beneficios como la membresía y la dinámica comunitaria fomentarán que los propietarios mantengan su perfil activo y atractivo.
 
@@ -530,7 +530,7 @@ Preguntas Segmento 2:
 **Segmento #2: Dueños y Administradores de Huariques (Usuarios que usan la app móvil para gestionar su huarique)**
 | Número de entrevista | Datos del entrevistado                                                                 | Evidencia de entrevista |
 |-----------------------|-----------------------------------------------------------------------------------------|--------------------------|
-| 1                     | **Nombre:** Wildor Villalobos  <br> **Edad:** 28  <br> **Distrito:** Santiago de Surco <br><br> **Resumen:** Dueño de un establecimiento que vende pan con chicharrón. Utiliza Instagram y TikTok (principalmente IG Reels); las publicaciones son útiles para promociones, pero los reels generan más movimiento. Obstáculos: competencia y algoritmo, es necesario pagar para llegar a más personas. Desea que la aplicación le deje destacar su negocio y observar métricas claras (cuántas personas lo encuentran, qué tan eficaz es para atraer clientes), a través de gráficos directos y un panel sencillo. Estaría dispuesto a pagar S/ 20–50/mes si rinde igual o mejor que IG/TikTok. Objetivo: aumentar ventas. | ![Evidencia](assets/Entrevista_Wildor.jpg) <br> [📂 Ver entrevista](https://drive.google.com/file/d/1P5WpXLAtHH9lsgnF7tXXyMJiK7xsN05h/view?usp=sharing) 00:00 - 03:15|
+| 1                     | **Nombre:** Wildor Villalobos  <br> **Edad:** 28  <br> **Distrito:** Santiago de Surco <br><br> **Resumen:** Dueño de un establecimiento que vende pan con chicharrón. Utiliza Instagram y TikTok (principalmente IG Reels); las publicaciones son útiles para promociones, pero los reels generan más movimiento. Obstáculos: competencia y algoritmo, es necesario pagar para llegar a más personas. Desea que la aplicación le deje destacar su negocio y observar métricas claras (cuántas personas lo encuentran, qué tan eficaz es para atraer clientes), a través de gráficos directos y un panel sencillo. Estaría dispuesto a pagar S/ 20-50/mes si rinde igual o mejor que IG/TikTok. Objetivo: aumentar ventas. | ![Evidencia](assets/Entrevista_Wildor.jpg) <br> [📂 Ver entrevista](https://drive.google.com/file/d/1P5WpXLAtHH9lsgnF7tXXyMJiK7xsN05h/view?usp=sharing) 00:00 - 03:15|
 
 
 | Número de entrevista | Datos del entrevistado                                                                 | Evidencia de entrevista |
@@ -565,7 +565,7 @@ Le gusta salir con su pareja o sus amigos para conocer sitios nuevos, por lo que
 No utiliza con mucha regularidad aplicaciones para buscar huariques, solamente una o dos veces al mes cuando tiene ganas de salir con amigos o hacer algo diferente. Conoce los lugares, sobre todo en Instagram y TikTok, y de vez en cuando en Google Maps. Cuando se trata de escoger un lugar, considera principalmente las reseñas y fotos verdaderas, además del precio y la proximidad. Ha presentado como problema el que los huariques escasean en las aplicaciones, ya que se imponen los restaurantes conocidos y la información es frecuentemente incompleta o carece de fotos de calidad. Siempre que sea fácil de usar, se sentiría motivado a emplear una aplicación que realmente exhiba lugares auténticos y fiables. Para él, son indispensables fotografías auténticas, calificaciones sinceras, un mapa interactivo con la localización y filtros de precio, así como la oportunidad de guardar elementos favoritos. Su inquietud es que la información no sea fiable, que lo envíen a sitios de mala calidad o cerrados y que la aplicación sea lenta o complicada.
 
 **Puntos clave:**
-- Usa apps **esporádicamente** (1–2 veces al mes).  
+- Usa apps **esporádicamente** (1-2 veces al mes).  
 - Descubre huariques en **redes sociales** y a veces en Google Maps.  
 - Valora **fotos, reseñas reales, precio y cercanía**.  
 - Problemas: **huariques invisibles, info incompleta y fotos deficientes**.  
@@ -610,7 +610,7 @@ En cuanto al **modelo de pago**, ya invierte mensualmente entre **S/ 20 y S/ 50 
 - Cómodo con apps móvil si son **efectivas y simples**.  
 - Valora **métricas claras y directas** (clientes alcanzados, interacciones, impacto real).  
 - Prefiere **interfaz simple con gráficos directos y comunicación lineal**.  
-- Dispuesto a pagar **20–50 soles/mes** si rinde igual o mejor que Instagram/TikTok.  
+- Dispuesto a pagar **20-50 soles/mes** si rinde igual o mejor que Instagram/TikTok.  
 - Expectativa central: que la app **genere más clientes y ventas**.  
 **👨 Piero Tapia (26 años)**
 
@@ -1510,7 +1510,7 @@ Para PuntoSabor se han definido elementos SEO orientados principalmente a la Lan
 - **Title:** PuntoSabor | Descubre huariques auténticos cerca de ti.
 - **Meta Description:** PuntoSabor conecta a exploradores gastronómicos con huariques auténticos y económicos, ofreciendo reseñas confiables, mapas interactivos y promociones exclusivas.
 - **Meta Keywords:** huariques, comida peruana, gastronomía local, reseñas, recomendaciones, restaurantes pequeños, comida auténtica.
-- **Author:** HuariqueHub – Startup PuntoSabor.
+- **Author:** HuariqueHub - Startup PuntoSabor.
 
 **ASO Elements para aplicación móvil:**
 
@@ -1649,32 +1649,32 @@ Ejemplos:
 
 ### 4.1.3. Source Code Style Guide & Conventions
 
-**Landing Page — HTML**
+**Landing Page -HTML**
 - Estructura semántica: `<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`.
 - Imágenes siempre con `alt`.
 - Enlaces relativos y consistentes entre páginas.
 - Scripts JS al final del `body` cuando corresponda.
 
-**Landing Page — CSS**
+**Landing Page -CSS**
 - Uso de variables CSS (`:root { --color... }`) para colores y espaciados.
 - Convención de clases en kebab-case (ej.: `.hero-title`, `.card-grid`).
 - Layout con Flexbox y/o Grid.
 - Media queries para puntos de quiebre (ej.: 960px, 760px, 560px).
 - Estados y accesibilidad: `:hover`, `:focus-visible`, contraste adecuado.
 
-**Landing Page — JavaScript**
+**Landing Page -JavaScript**
 - `const` / `let` (evitar `var`), funciones pequeñas y claras.
 - Separar lógica de interacción del DOM cuando sea posible.
 - Uso moderado de `localStorage` solo para preferencias/estado del cliente (si aplica).
 
-**Backend — C# / .NET 8**
+**Backend -C# / .NET 8**
 - Nombres en PascalCase para clases, métodos y propiedades.
 - Estructura de capas: Domain, Application, Infrastructure, Presentation.
 - Inyección de dependencias mediante el contenedor DI nativo de .NET.
 - Métodos asíncronos con `async/await` (Task/Task<T>) para operaciones I/O.
 - Documentación con comentarios XML (`///`) en métodos y clases públicas.
 
-**Aplicación Móvil — Kotlin / Jetpack Compose**
+**Aplicación Móvil -Kotlin / Jetpack Compose**
 - Variables y funciones en camelCase; clases y Composables en PascalCase.
 - Composables pequeños, reutilizables y sin estado cuando sea posible.
 - Navegación centralizada mediante `AppNavigation.kt` con Jetpack Compose Navigation.
