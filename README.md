@@ -1619,7 +1619,7 @@ Representación esquemática de la estructura y flujo de navegación de la aplic
 
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
 
-![alt text](assets/app_WireflowDiagrams.png)
+![alt text](assets/Wireflow_Diagrams.png)
 
 #### 3.1.4.3. Mobile Applications Mock-ups
 
@@ -1629,8 +1629,7 @@ Representaciones visuales de alta fidelidad que integran la identidad de marca, 
 ![alt text](assets/app_mock2.png)
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
 
-![alt text](assets/app_WebApplicationsUserFlowDiagrams.png)
-_Pendiente de completar._
+![alt text](assets/Flujo_de_Usuario_Web_Applications_User_Flow_Diagrams.png)
 
 #### 3.1.4.5. Mobile Applications Prototyping
 
