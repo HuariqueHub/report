@@ -1017,7 +1017,11 @@ El diseño de experiencia de usuario (UX) e interfaz de usuario (UI) en aplicaci
 
 #### 3.1.4.1. Mobile Applications Wireframes
 
-_Pendiente de completar._
+Representación esquemática de la estructura y flujo de navegación de la aplicación móvil, diseñada para definir la jerarquía de información y la disposición de los elementos antes de su implementación visual.
+
+![alt text](assets/app_wire1.png)
+
+![alt text](assets/app_wire2.png)
 
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
 
