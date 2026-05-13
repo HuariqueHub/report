@@ -348,15 +348,15 @@ Colaboré en la planificación y la organización de los entregables vinculados 
 
 ## Becerra Llempen, Fabiola Dayane
 
-# Específico (Specific):
+Específico (Specific):
 Para dirigir proyectos de innovación y ampliación de la empresa, es necesario mejorar mis habilidades en administración de proyectos tecnológicos y marketing digital.
-# Medible (Measurable):
+Medible (Measurable):
 Tomar parte en al menos dos proyectos tecnológicos auténticos, asistir a cuatro conferencias o eventos de carácter profesional y elevar la cartera de clientes de mi agencia digital en un 30%.
-# Alcanzable (Achievable):
+Alcanzable (Achievable):
 Utilizar lo aprendido en la universidad, mejorar mi formación con cursos de liderazgo y gestión ágil, así como laborar activamente en proyectos de negocios propios.
-# Relevante (Relevant):
+Relevante (Relevant):
 Este objetivo favorecerá mi desarrollo como empresaria y profesional en el ámbito tecnológico y digital.
-# Tiempo (Time-bound):
+Tiempo (Time-bound):
 Alcanzar esta meta en un lapso de tiempo no mayor a 2 años después de culminar mis estudios universitarios.
 
 ## Vasquez Goicochea, Erick Alessander
