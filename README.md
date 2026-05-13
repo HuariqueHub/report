@@ -348,16 +348,45 @@ Colaboré en la planificación y la organización de los entregables vinculados 
 
 ## Becerra Llempen, Fabiola Dayane
 
-<td>Específico (Specific):</td>
-<td>Para dirigir proyectos de innovación y ampliación de la empresa, es necesario mejorar mis habilidades en administración de proyectos tecnológicos y marketing digital.</td>
-Medible (Measurable):
-Tomar parte en al menos dos proyectos tecnológicos auténticos, asistir a cuatro conferencias o eventos de carácter profesional y elevar la cartera de clientes de mi agencia digital en un 30%.
-Alcanzable (Achievable):
-Utilizar lo aprendido en la universidad, mejorar mi formación con cursos de liderazgo y gestión ágil, así como laborar activamente en proyectos de negocios propios.
-Relevante (Relevant):
-Este objetivo favorecerá mi desarrollo como empresaria y profesional en el ámbito tecnológico y digital.
-Tiempo (Time-bound):
-Alcanzar esta meta en un lapso de tiempo no mayor a 2 años después de culminar mis estudios universitarios.
+<tr>
+  <td><strong>Específico (Specific):</strong></td>
+  <td>
+    Fortalecer mis habilidades en gestión de proyectos tecnológicos y marketing digital 
+    para liderar proyectos de innovación y expansión empresarial.
+  </td>
+</tr>
+
+<tr>
+  <td><strong>Medible (Measurable):</strong></td>
+  <td>
+    Participar en al menos 2 proyectos tecnológicos reales, asistir a 4 conferencias 
+    o eventos profesionales y aumentar en un 30% la cartera de clientes de mi agencia digital.
+  </td>
+</tr>
+
+<tr>
+  <td><strong>Alcanzable (Achievable):</strong></td>
+  <td>
+    Aplicar los conocimientos adquiridos durante la carrera universitaria, complementar 
+    mi formación con cursos de liderazgo y metodologías ágiles, y trabajar activamente 
+    en proyectos empresariales propios.
+  </td>
+</tr>
+
+<tr>
+  <td><strong>Relevante (Relevant):</strong></td>
+  <td>
+    Este objetivo contribuirá a mi crecimiento profesional y empresarial dentro del sector 
+    tecnológico y digital.
+  </td>
+</tr>
+
+<tr>
+  <td><strong>Tiempo (Time-bound):</strong></td>
+  <td>
+    Alcanzar esta meta en un periodo máximo de 2 años después de finalizar mi carrera universitaria.
+  </td>
+</tr>
 
 ## Vasquez Goicochea, Erick Alessander
 
