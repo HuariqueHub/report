@@ -1029,7 +1029,11 @@ _Pendiente de completar._
 
 #### 3.1.4.3. Mobile Applications Mock-ups
 
-_Pendiente de completar._
+Representaciones visuales de alta fidelidad que integran la identidad de marca, incluyendo la paleta de colores, tipografía e iconografía final, para simular la apariencia real y estética de la interfaz en dispositivos móviles.
+
+![alt text](assets/app_mock1.png)
+
+![alt text](assets/app_mock2.png)
 
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
 
