@@ -400,7 +400,7 @@ Esta brecha representa no solo una oportunidad económica sin aprovechar para lo
 
 - Se asume que los propietarios o administradores de huariques valorarán y encontrarán sencillo el proceso de registrar y gestionar su negocio dentro de la app, con miras a aumentar su visibilidad.
 
-- Se espera que estos usuarios proporcionen información completa y actualizada —fotos, especialidades, precios-para enriquecer la experiencia de quienes los visiten.
+- Se espera que estos usuarios proporcionen información completa y actualizada-fotos, especialidades, precios-para enriquecer la experiencia de quienes los visiten.
 
 - Se estima que beneficios como la membresía y la dinámica comunitaria fomentarán que los propietarios mantengan su perfil activo y atractivo.
 
