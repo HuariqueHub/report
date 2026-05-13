@@ -1406,26 +1406,118 @@ Pantallas móviles: ContactoScreen, DireccionesScreen.
 
 ## 3.1. Product design
 
+El diseño del producto de PuntoSabor busca ofrecer una experiencia clara, accesible y coherente tanto para los usuarios que desean descubrir huariques como para los propietarios que buscan promocionar sus negocios.
+
+Esta sección presenta los lineamientos visuales, la arquitectura de información, el diseño de la Landing Page y la propuesta UX/UI de la aplicación móvil, asegurando una navegación sencilla y alineada con la propuesta de valor del producto.
+
 ### 3.1.1. Style Guidelines
+
+Los "Style Guidelines" de la aplicación móvil PuntoSabor definen las directrices visuales y de diseño que permiten mantener una experiencia coherente, clara y fácil de usar en todas las pantallas de la app. Estos lineamientos establecen criterios sobre colores, tipografía, espaciado, componentes visuales e identidad gráfica, asegurando que la aplicación sea intuitiva tanto para los usuarios que buscan huariques como para los propietarios que gestionan sus negocios.
 
 #### 3.1.1.1. General Style Guidelines
 
-_Pendiente de completar._
+##### Branding
+
+Para el desarrollo de la identidad visual de PuntoSabor, se definió un estilo orientado a transmitir cercanía, autenticidad y confianza. La marca busca reflejar el valor de los huariques dentro de la gastronomía local, destacándolos como espacios accesibles, tradicionales y con identidad propia.
+
+El logotipo de PuntoSabor representa la idea de descubrimiento gastronómico mediante elementos asociados a la ubicación y la comida local. Su propuesta visual permite que los usuarios relacionen rápidamente la aplicación con la búsqueda de huariques cercanos, recomendaciones confiables y experiencias culinarias auténticas.
+
+La identidad gráfica utiliza una apariencia cálida, amigable y moderna, pensada para conectar tanto con los exploradores gastronómicos como con los propietarios de huariques. De esta manera, PuntoSabor mantiene una imagen coherente con su propósito: facilitar la visibilidad de pequeños negocios gastronómicos mediante una aplicación móvil sencilla y accesible.
+
+![alt text](assets/LogoPuntoSabor.png)
+
+##### Typography
+
+Para la tipografía de PuntoSabor, se seleccionó una combinación que prioriza la legibilidad, la modernidad y la claridad dentro de la aplicación móvil. La tipografía Poppins se utiliza principalmente en títulos y encabezados, ya que aporta un estilo amigable y permite resaltar información importante para el usuario.
+
+Para textos descriptivos, botones, formularios y elementos de la interfaz, se emplea Inter, debido a su buena lectura en pantallas móviles y su apariencia ordenada. Esta combinación permite que la app mantenga una experiencia visual coherente, accesible y fácil de navegar.
+
+A continuación, se detallan las tipografías adoptadas para PuntoSabor considerando color, peso, tamaño, interlineado y alineación:
+
+![alt text](assets/Typography.png)
+
+##### Colors
+
+La paleta de colores de PuntoSabor fue definida para transmitir autenticidad, cercanía y dinamismo dentro de la aplicación móvil. Los tonos principales, asociados al rojo, verde y amarillo, buscan representar el sabor, la frescura y la identidad gastronómica local de los huariques.
+
+Estos colores se aplican de forma estratégica en botones, íconos, estados, fondos y elementos destacados de la interfaz, permitiendo guiar la atención del usuario y mantener una experiencia visual amigable, moderna y coherente en todas las pantallas de la app.
+
+![alt text](assets/colors.png)
+
+##### Spacing
+
+El sistema de espaciado de PuntoSabor está diseñado para mantener una interfaz móvil limpia, ordenada y fácil de navegar. La separación entre elementos permite mejorar la lectura, evitar la saturación visual y facilitar la interacción táctil del usuario.
+
+Para conservar consistencia en las pantallas de la aplicación, se utiliza una escala modular basada en 8dp, adecuada para interfaces móviles. Esta escala permite definir márgenes, paddings y separaciones entre componentes de manera uniforme.
+
+![alt text](assets/spacing.png)
+
 
 ### 3.1.2. Information Architecture
 
+La arquitectura de información de PuntoSabor se diseñó para que los usuarios puedan encontrar fácilmente las funciones principales de la aplicación móvil, como buscar huariques, revisar información del local, consultar reseñas, guardar favoritos y gestionar un negocio.
+
+La organización del contenido busca reducir la carga cognitiva y facilitar una navegación intuitiva, clara y rápida. De esta manera, la aplicación mantiene una experiencia coherente con su propuesta de valor: conectar a los usuarios con huariques auténticos y ayudar a los propietarios a mejorar su visibilidad digital.
+
 #### 3.1.2.1. Organization Systems
 
-_Pendiente de completar._
+En PuntoSabor se aplican distintos sistemas de organización para que la información dentro de la aplicación móvil sea clara, ordenada y fácil de encontrar.
+
+**Organización jerárquica (Visual Hierarchy):**  
+En las pantallas principales de la app se prioriza la información más importante para el usuario, como el buscador de huariques, las recomendaciones destacadas, la ubicación cercana y las reseñas. Esto permite que el usuario identifique rápidamente las acciones principales.
+
+**Organización secuencial (Step-by-step):**  
+Procesos como el registro de un huarique, la edición de información del negocio o la publicación de datos del local siguen una secuencia paso a paso. De esta manera, los propietarios pueden completar sus tareas sin dificultad.
+
+**Organización por tópicos:**  
+Los huariques se agrupan según criterios como tipo de comida, ubicación, rango de precios, valoraciones y promociones. Esto facilita que los usuarios filtren y encuentren opciones según sus preferencias.
+
+**Organización según audiencia:**  
+La aplicación considera dos tipos principales de usuarios: exploradores gastronómicos y dueños de huariques. Por ello, las funciones y contenidos se organizan de acuerdo con sus necesidades: búsqueda y descubrimiento para los comensales, y gestión de negocio para los propietarios.
+
 
 #### 3.1.2.2. Labelling Systems
 
-_Pendiente de completar._
+El sistema de etiquetado de **PuntoSabor** prioriza la claridad, simplicidad y consistencia dentro de la aplicación móvil. Para ello, se utilizan palabras cortas y directas que permiten al usuario comprender rápidamente cada sección o acción disponible.
+
+En la aplicación móvil se consideran etiquetas principales como:
+
+- Inicio
+- Explorar
+- Huariques
+- Favoritos
+- Reseñas
+- Promociones
+- Perfil
+
+Además, los botones de acción utilizan textos claros con verbos directos, como:
+
+- Buscar huariques
+- Ver detalles
+- Guardar favorito
+- Dejar reseña
+- Registrar negocio
+- Editar información
+
+Estas etiquetas permiten que tanto los exploradores gastronómicos como los propietarios de huariques interactúen con la aplicación de manera sencilla, manteniendo coherencia con los objetivos de la plataforma.
 
 #### 3.1.2.3. SEO Tags and Meta Tags
 
-_Pendiente de completar._
+Para PuntoSabor se han definido elementos SEO orientados principalmente a la Landing Page, ya que esta será el punto de entrada público para atraer usuarios y propietarios interesados en la plataforma. Estos elementos ayudan a mejorar la visibilidad del producto en motores de búsqueda y mantienen coherencia con la propuesta de valor de la marca.
 
+**SEO Tags para Landing Page:**
+
+- **Title:** PuntoSabor | Descubre huariques auténticos cerca de ti.
+- **Meta Description:** PuntoSabor conecta a exploradores gastronómicos con huariques auténticos y económicos, ofreciendo reseñas confiables, mapas interactivos y promociones exclusivas.
+- **Meta Keywords:** huariques, comida peruana, gastronomía local, reseñas, recomendaciones, restaurantes pequeños, comida auténtica.
+- **Author:** HuariqueHub – Startup PuntoSabor.
+
+**ASO Elements para aplicación móvil:**
+
+- **App Title:** PuntoSabor
+- **App Subtitle:** Descubre huariques auténticos cerca de ti.
+- **App Keywords:** huariques, comida local, restaurantes, comida peruana, reseñas, promociones, gastronomía.
+- **App Description:** PuntoSabor es una aplicación móvil que permite descubrir huariques cercanos, consultar reseñas, guardar favoritos y conocer promociones de pequeños negocios gastronómicos locales.
 #### 3.1.2.4. Searching Systems
 
 La aplicación móvil de HuariqueHub ofrece sistemas de búsqueda diseñados para que el usuario encuentre lo que necesita sin esfuerzo:
