@@ -1013,6 +1013,8 @@ Esta sección presenta y explica los Mock-ups del Landing Page, tanto en su vers
 
 ### 3.1.4. Mobile Applications UX/UI Design
 
+El diseño de experiencia de usuario (UX) e interfaz de usuario (UI) en aplicaciones móviles se centra en crear una interacción fluida y optimizada para entornos táctiles y dispositivos portátiles. La UX prioriza la usabilidad en movimiento, diseñando arquitecturas de información y flujos de navegación simplificados que responden a los gestos naturales del usuario. Por otro lado, la UI define la identidad visual mediante la creación de componentes adaptables, tipografías legibles y una paleta de colores coherente que garantiza la claridad en pantallas de diversos tamaños. La integración de ambos aspectos permite desarrollar una aplicación intuitiva, estéticamente profesional y capaz de ofrecer una respuesta rápida y eficiente a las necesidades del usuario final.
+
 #### 3.1.4.1. Mobile Applications Wireframes
 
 _Pendiente de completar._
