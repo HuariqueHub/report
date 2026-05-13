@@ -1041,7 +1041,8 @@ _Pendiente de completar._
 
 #### 3.1.4.5. Mobile Applications Prototyping
 
-_Pendiente de completar._
+Prototipo de la aplicación móvil PuntoSabor en figma:
+https://www.figma.com/design/lT88eEZFP7G86QwYXq59Lc/PuntoSabor?node-id=0-1&p=f&t=NTWZ6fdPzB6mKTpe-0
 
 # Capítulo IV: Product Implementation & Validation
 
