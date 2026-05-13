@@ -1585,20 +1585,33 @@ En conjunto, estos sistemas garantizan que los usuarios puedan recorrer la plata
 
 
 ### 3.1.3. Landing Page UI Design
+La interfaz de la landing page es clave para el proyecto, pues constituye la primera impresión del producto. Debe ofrecer una experiencia estética y funcional que atraiga de inmediato a los visitantes y los impulse a seguir explorando
 
 #### 3.1.3.1. Landing Page Wireframe
+Landing Page para Desktop Web Browser
+![alt text](assets/wireframe40.png)
+![alt text](assets/wireframe42.png)
 
-_Pendiente de completar._
+Landing Page para Mobile Web Browse
+
+![alt text](assets/wireframe38.png)
+![alt text](assets/wireframe39.png)
 
 #### 3.1.3.2. Landing Page Mock-up
 
-_Pendiente de completar._
+Esta sección presenta y explica los Mock-ups del Landing Page, tanto en su versión para Desktop Web Browser como Mobile Web Browser. En la propuesta y la explicación debe evidenciarse la aplicación de los principios, elementos de diseño, diseño inclusivo y arquitectura de información, así como el Design System establecido para los productos digitales.
+![alt text](assets/wireframe43.png)
+![alt text](assets/wireframe45.png)
 
 ### 3.1.4. Mobile Applications UX/UI Design
 
-#### 3.1.4.1. Mobile Applications Wireframes
+El diseño de experiencia de usuario (UX) e interfaz de usuario (UI) en aplicaciones móviles se centra en crear una interacción fluida y optimizada para entornos táctiles y dispositivos portátiles. La UX prioriza la usabilidad en movimiento, diseñando arquitecturas de información y flujos de navegación simplificados que responden a los gestos naturales del usuario. Por otro lado, la UI define la identidad visual mediante la creación de componentes adaptables, tipografías legibles y una paleta de colores coherente que garantiza la claridad en pantallas de diversos tamaños. La integración de ambos aspectos permite desarrollar una aplicación intuitiva, estéticamente profesional y capaz de ofrecer una respuesta rápida y eficiente a las necesidades del usuario final.
 
-_Pendiente de completar._
+#### 3.1.4.1. Mobile Applications Wireframes
+Representación esquemática de la estructura y flujo de navegación de la aplicación móvil, diseñada para definir la jerarquía de información y la disposición de los elementos antes de su implementación visual.
+
+![alt text](assets/mobileapplicationwireframe1.png)
+![alt text](assets/mobileapplicationwireframe2.png)
 
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
 
@@ -1606,15 +1619,16 @@ _Pendiente de completar._
 
 #### 3.1.4.3. Mobile Applications Mock-ups
 
-_Pendiente de completar._
-
+Representaciones visuales de alta fidelidad que integran la identidad de marca, incluyendo la paleta de colores, tipografía e iconografía final, para simular la apariencia real y estética de la interfaz en dispositivos móviles.
+![alt text](assets/mobileapplicationmockups1.png)
+![alt text](assets/mobileapplicationmockups2.png)
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
 
 _Pendiente de completar._
 
 #### 3.1.4.5. Mobile Applications Prototyping
 
-_Pendiente de completar._
+Prototipo de la aplicación móvil PuntoSabor en figma: https://www.figma.com/design/lT88eEZFP7G86QwYXq59Lc/PuntoSabor?node-id=0-1&p=f&t=NTWZ6fdPzB6mKTpe-0
 
 # Capítulo IV: Product Implementation & Validation
 
