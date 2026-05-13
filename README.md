@@ -252,6 +252,8 @@ ABET - EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamente
       <td>
         <strong> AV1:</strong><br>
         Realicé entrevistas para la extracción de requisitos críticos y definí la arquitectura del sistema bajo el enfoque de Domain-Driven Design (DDD), documentando la estructura mediante diagramas de contexto, contenedores y componentes.<br>
+        <strong> TB1:</strong><br>
+        Participé en la corrección de las User Stories, Product Backlog y criterios de aceptación, alineándolos con los requisitos funcionales del proyecto. Además, apoyé en el desarrollo del backend, la Landing Page y la aplicación móvil de PuntoSabor.<br>
       </td>
     </tr>
     <tr>
@@ -296,6 +298,8 @@ ABET - EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamente
       <td>
         <strong> AV1:</strong><br>
         Diseñé instrumentos de entrevista estructurados para validar las decisiones arquitectónicas y propuse soluciones técnicas fundamentadas en una investigación previa, asegurando que el proyecto mantuviera un enfoque sólido y justificado.<br>
+        <strong> TB1:</strong><br>
+        Colaboré en la organización del Sprint 1, la documentación de evidencias y el avance técnico del backend, la Landing Page y la app móvil, contribuyendo a una mejor coordinación del equipo para la entrega TB1.<br>
         <br>
       </td>
     </tr>
@@ -313,7 +317,7 @@ ABET - EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamente
         <strong> AV1:</strong><br>
         Realice entrevistas y análisis de entrevistas para poder obtener fundamentos en la investigación. Tambien, realice un enfoque estratégico con el empathy Mapping y As-is Scenario Mapping de los segmentos obtenidos junto con el Big Picture Event Storming y Ubiquitous Language.<br>
         <strong> TB1:</strong><br>
-Colaboré en la planificación y la organización de los entregables vinculados con el diseño y la validación de la aplicación móvil, garantizando que lo requerido funcionalmente, los flujos de navegación y la experiencia visual del sistema fueran coherentes. Asimismo, colaboré en la recolección y organización de las pruebas técnicas del Sprint Review, fomentando una comunicación precisa y coordinada al interior del equipo para alcanzar los objetivos fijados para el proyecto.
+        Colaboré en la planificación y la organización de los entregables vinculados con el diseño y la validación de la aplicación móvil, garantizando que lo requerido funcionalmente, los flujos de navegación y la experiencia visual del sistema fueran coherentes. Asimismo, colaboré en la recolección y organización de las pruebas técnicas del Sprint Review, fomentando una comunicación precisa y coordinada al interior del equipo para alcanzar los objetivos fijados para el proyecto.
       </td>
     </tr>
   <tr>
@@ -329,35 +333,15 @@ Colaboré en la planificación y la organización de los entregables vinculados 
 </table>
 </div>
 
-# Objetivos SMART
-
-## Delgado Carrasco, Schneider
-
-- _Pendiente de completar objetivo SMART 1._
-- _Pendiente de completar objetivo SMART 2._
-
-## Lopez Goitia, Carlos Alberto
-
-- _Pendiente de completar objetivo SMART 1._
-- _Pendiente de completar objetivo SMART 2._
-
-## Tumi Oliden, Manuel Ignacio
-
-- _Pendiente de completar objetivo SMART 1._
-- _Pendiente de completar objetivo SMART 2._
-
-## Becerra Llempen, Fabiola Dayane
 ## Objetivos SMART
 
 | Integrante | Objetivo SMART | Componentes SMART |
 |---|---|---|
 | **Becerra Llempen, Fabiola Dayane** | Con el objetivo de conseguir un mínimo de dos certificaciones vinculadas a la experiencia del usuario y al desarrollo móvil antes de que termine 2027, es necesario adquirir habilidades profesionales en diseño UX/UI y desarrollo de aplicaciones móviles a través de cursos especializados y participación en proyectos tecnológicos. | **Specific:** Mejorar habilidades en UX/UI y desarrollo móvil.<br> **Measurable:** Obtener dos certificaciones especializadas.<br> **Achievable:** A través de cursos y proyectos prácticos.<br> **Relevant:** Relacionado con Ingeniería de Software y desarrollo profesional.<br> **Time-bound:** Antes de finalizar el año 2027. |
 | **Becerra Llempen, Fabiola Dayane** | Mi objetivo es obtener experiencia laboral en el ámbito de la gestión de productos digitales y el desarrollo de software, a través de participar en proyectos tecnológicos y prácticas profesionales. En los dos años posteriores a mi graduación, busco incorporarme a una compañía del sector tecnológico o reforzar mi negocio digital. | **Specific:** Obtener experiencia en desarrollo de software y productos digitales.<br> **Measurable:** Participar en proyectos y prácticas profesionales.<br> **Achievable:** Mediante experiencia académica y laboral.<br> **Relevant:** Alineado a objetivos profesionales y tecnológicos.<br> **Time-bound:** Dentro de los próximos dos años después de graduarme. |
+| **Lopez Goitia, Carlos Alberto** | Con el objetivo de fortalecer mi perfil profesional como desarrollador de software, en un plazo de 6 meses después de egresar desarrollaré un proyecto funcional que integre frontend, backend y base de datos, utilizando tecnologías como Node.js, PHP, Apache, MySQL y Azure. El resultado será evidenciado mediante la publicación del proyecto en GitHub con documentación técnica. | **Specific:** Desarrollar un proyecto funcional con frontend, backend y base de datos.<br> **Measurable:** Publicar el proyecto en GitHub con documentación técnica.<br> **Achievable:** Mediante práctica constante y uso de Node.js, PHP, Apache, MySQL, Azure y GitHub.<br> **Relevant:** Relacionado con Ingeniería de Software y desarrollo profesional.<br> **Time-bound:** En un plazo de 6 meses después de egresar. |
+| **Lopez Goitia, Carlos Alberto** | Mi objetivo es iniciar mi inserción profesional en el sector tecnológico mediante la postulación a oportunidades laborales o prácticas relacionadas con desarrollo móvil, backend, frontend, UX/UI, cloud, QA o ciberseguridad. En un plazo de 3 meses después de egresar, postularé como mínimo a 10 ofertas y mejoraré mi CV, portafolio y repositorios en GitHub. | **Specific:** Postular a oportunidades laborales o prácticas en áreas tecnológicas.<br> **Measurable:** Postular como mínimo a 10 ofertas.<br> **Achievable:** Mediante la actualización de mi CV, portafolio y proyectos en GitHub.<br> **Relevant:** Alineado con mi desarrollo profesional en Ingeniería de Software.<br> **Time-bound:** En un plazo de 3 meses después de egresar. |
 
-## Vasquez Goicochea, Erick Alessander
-
-- _Pendiente de completar objetivo SMART 1._
-- _Pendiente de completar objetivo SMART 2._
 
 # Capítulo I: Presentación
 
