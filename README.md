@@ -1589,19 +1589,22 @@ La interfaz de la landing page es clave para el proyecto, pues constituye la pri
 
 #### 3.1.3.1. Landing Page Wireframe
 Landing Page para Desktop Web Browser
-![alt text](assets/wireframe40.png)
-![alt text](assets/wireframe42.png)
+![alt text](<assets/app_landing1.png>)
+
+![alt text](assets/app_landing2.png)
 
 Landing Page para Mobile Web Browse
 
-![alt text](assets/wireframe38.png)
-![alt text](assets/wireframe39.png)
+![alt text](assets/app_landing3.png)
+
+![alt text](assets/app_landing4.png)
 
 #### 3.1.3.2. Landing Page Mock-up
 
 Esta sección presenta y explica los Mock-ups del Landing Page, tanto en su versión para Desktop Web Browser como Mobile Web Browser. En la propuesta y la explicación debe evidenciarse la aplicación de los principios, elementos de diseño, diseño inclusivo y arquitectura de información, así como el Design System establecido para los productos digitales.
-![alt text](assets/wireframe43.png)
-![alt text](assets/wireframe45.png)
+![alt text](assets/app_landing5.png)
+
+![alt text](assets/app_landing6.png)
 
 ### 3.1.4. Mobile Applications UX/UI Design
 
@@ -1610,8 +1613,9 @@ El diseño de experiencia de usuario (UX) e interfaz de usuario (UI) en aplicaci
 #### 3.1.4.1. Mobile Applications Wireframes
 Representación esquemática de la estructura y flujo de navegación de la aplicación móvil, diseñada para definir la jerarquía de información y la disposición de los elementos antes de su implementación visual.
 
-![alt text](assets/mobileapplicationwireframe1.png)
-![alt text](assets/mobileapplicationwireframe2.png)
+![alt text](assets/app_wire1.png)
+
+![alt text](assets/app_wire2.png)
 
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
 
@@ -1620,8 +1624,9 @@ _Pendiente de completar._
 #### 3.1.4.3. Mobile Applications Mock-ups
 
 Representaciones visuales de alta fidelidad que integran la identidad de marca, incluyendo la paleta de colores, tipografía e iconografía final, para simular la apariencia real y estética de la interfaz en dispositivos móviles.
-![alt text](assets/mobileapplicationmockups1.png)
-![alt text](assets/mobileapplicationmockups2.png)
+![alt text](assets/app_mock1.png)
+
+![alt text](assets/app_mock2.png)
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
 
 _Pendiente de completar._
