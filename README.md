@@ -299,6 +299,8 @@ ABET - EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamente
   <td>
     <strong> AV1:</strong><br>
     Apoyé en la revisión del contenido del capítulo 2, mejorando la redacción para que sea más clara y entendible. Además, reforcé el análisis en las secciones de competidores y entrevistas para que reflejen mejor las necesidades de los usuarios.<br>
+  <strong> TB1:</strong><br>
+    Durante esta etapa participé en la documentación del Capítulo IV, especialmente en las secciones de implementación y validación del producto. Completé evidencias del Sprint Review relacionadas con el desarrollo, documentación de serviciOS. Además, organicé capturas de la aplicación móvil y del backend en Swagger para sustentar los avances realizados durante el sprint.
   </td>
 </tr>
     <tr>
@@ -350,7 +352,8 @@ ABET - EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamente
     <td>
       <strong> AV1:</strong><br>
       Colaboré con el equipo revisando y mejorando la claridad del documento, asegurando que el contenido sea comprensible tanto para lectores técnicos como no técnicos. También apoyé en la organización de la información del capítulo 2 para mantener coherencia en el análisis.<br>
-    </td>
+  <strong> TB1:</strong><br>
+    Colaboré en la organización de las evidencias del Sprint 1, revisando que la información del capítulo estuviera clara y alineada con el avance real del proyecto. También apoyé en la documentación de pruebas, ejecución, servicios y despliegue, manteniendo coherencia entre las capturas, los textos del informe y las funcionalidades desarrolladas en PuntoSabor.
   </tr>
     <tr>
 
@@ -370,7 +373,8 @@ ABET - EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamente
 | **Delgado Carrasco, Schneider Carlos Alberto** | Mi meta es integrarme al sector tecnológico como desarrollador de software, participando en entornos de trabajo colaborativos y proyectos relacionados con aplicaciones móviles y sistemas digitales. Busco adquirir experiencia profesional que me permita asumir mayores responsabilidades técnicas y mejorar mis capacidades de resolución de problemas en un periodo máximo de dos años después de culminar la carrera.| **Specific:** Incorporarse al sector tecnológico como desarrollador de software. <br>**Measurable:** Participar en proyectos tecnológicos y asumir responsabilidades técnicas. <br>**Achievable:** Gracias a la formación académica y experiencia obtenida en proyectos. <br>**Relevant:** Vinculado al crecimiento profesional en Ingeniería de Software. <br>**Time-bound:** En un periodo máximo de dos años después de finalizar la carrera.|
 | **Tumi Oliden, Manuel Ignacio** | Con el objetivo de fortalecer mi perfil profesional como desarrollador de aplicaciones móviles, en un plazo de 6 meses después de egresar culminaré un curso especializado en Kotlin, Flutter o React Native y desarrollaré una aplicación móvil funcional como evidencia de aprendizaje. | **Specific:** Fortalecer habilidades en desarrollo de aplicaciones móviles.<br> **Measurable:** Culminar un curso especializado y desarrollar una app funcional.<br> **Achievable:** Mediante cursos online, práctica constante y proyectos personales.<br> **Relevant:** Relacionado con Ingeniería de Software y desarrollo móvil.<br> **Time-bound:** En un plazo de 6 meses después de egresar. |
 | **Tumi Oliden, Manuel Ignacio** | Mi objetivo es construir un portafolio profesional orientado al desarrollo de software, documentando al menos dos proyectos en GitHub que incluyan buenas prácticas de programación, control de versiones y documentación técnica. Este objetivo será alcanzado durante el primer año posterior a mi egreso. | **Specific:** Construir un portafolio profesional con proyectos de software.<br> **Measurable:** Documentar al menos dos proyectos en GitHub.<br> **Achievable:** Mediante proyectos académicos, personales o colaborativos.<br> **Relevant:** Alineado con mi crecimiento profesional en Ingeniería de Software.<br> **Time-bound:** Durante el primer año posterior a mi egreso. |
-
+| **Vasquez Goicochea Erick Alessander** | Mi objetivo es seguir mejorando mis conocimientos en desarrollo de aplicaciones móviles y en la documentación de proyectos de software, participando en trabajos académicos y proyectos personales. Además, quiero aprender a utilizar mejor herramientas como GitHub y Android Studio mientras desarrollo una aplicación funcional antes de terminar este ciclo. | **Specific:** Mejorar conocimientos en desarrollo móvil y documentación de software.<br> **Measurable:** Desarrollar una aplicación funcional y participar en proyectos colaborativos.<br> **Achievable:** Mediante práctica constante y participación en proyectos académicos.<br> **Relevant:** Relacionado con Ingeniería de Software y crecimiento profesional.<br> **Time-bound:** Antes de finalizar este ciclo. |
+| **Vasquez Goicochea Erick Alessander** | Mi meta es ir construyendo un portafolio personal relacionado con desarrollo de software y aplicaciones móviles, subiendo proyectos a GitHub y organizando mejor la documentación y evidencias de cada trabajo realizado. Espero avanzar en este objetivo durante los próximos años de la carrera. | **Specific:** Construir un portafolio personal de proyectos de software.<br> **Measurable:** Publicar proyectos y documentación en GitHub.<br> **Achievable:** A través de proyectos académicos y personales.<br> **Relevant:** Vinculado al desarrollo profesional en Ingeniería de Software.<br> **Time-bound:** Durante los próximos años de formación universitaria. |
 
 # Capítulo I: Presentación
 
