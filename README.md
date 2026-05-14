@@ -1936,7 +1936,7 @@ También se avanzó en el diseño UX/UI móvil mediante wireframes, mock-ups, wi
 
 En la parte de implementación, se documentó el Sprint 1 con evidencias de desarrollo, pruebas, ejecución, servicios y despliegue. Esto demuestra que el proyecto ya cuenta con una primera base funcional y organizada para continuar su desarrollo.
 
-Como recomendación, se debe completar la información pendiente del informe, reforzar las evidencias de colaboración en GitHub, ampliar las pruebas funcionales y avanzar con la validación de la aplicación con usuarios reales.
+Como recomendación, se debe mejorar la organización del Sprint Backlog, mantener actualizadas las evidencias de avance por cada integrante y asegurar que las funcionalidades principales de la aplicación móvil estén correctamente documentadas con capturas, enlaces y pruebas de ejecución.
 
 # Video About the product
 
