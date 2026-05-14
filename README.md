@@ -251,112 +251,106 @@ ABET - EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamente
     </tr>
   </thead>
   <tbody>
-    <!-- Criterio 1 -->
     <tr>
       <td rowspan="5">Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
       <td>Delgado Carrasco, Schneider</td>
       <td>
-        <strong> AV1:</strong><br>
-        Identifiqué con claridad la problemática central de nuestra startup, definí los segmentos a los que está dirigida y realicé la investigación necesaria para establecer los requisitos de la aplicación web. Además, llevé a cabo una entrevista con un usuario representativo del público objetivo.
-        <br>
-        <strong> TB1:</strong><br>
-        Participé en el diseño visual y experiencia de usuario del proyecto mediante la elaboración del Landing Page UI Design, Wireframes y Mock-ups tanto para la Landing Page como para la aplicación móvil. Asimismo, desarrollé los prototipos interactivos de la aplicación, validando la navegación y flujo de interacción entre pantallas. Finalmente, contribuí en la sección Execution Evidence for Sprint Review documentando los avances funcionales y evidencias visuales del sistema implementado.<br>
+        <strong>AV1:</strong><br>
+        Identifiqué con claridad la problemática central de nuestra startup, definí los segmentos a los que está dirigida y realicé la investigación necesaria para establecer los requisitos de la aplicación web. Además, llevé a cabo una entrevista con un usuario representativo del público objetivo.<br>
+        <strong>TB1:</strong><br>
+        Participé en el diseño visual y experiencia de usuario del proyecto mediante la elaboración del Landing Page UI Design, Wireframes y Mock-ups tanto para la Landing Page como para la aplicación móvil. Asimismo, desarrollé los prototipos interactivos de la aplicación, validando la navegación y flujo de interacción entre pantallas. Finalmente, contribuí en la sección Execution Evidence for Sprint Review documentando los avances funcionales y evidencias visuales del sistema implementado.
       </td>
-      <td rowspan="5">El equipo se comunicó de forma clara y estructurada, aportando conjuntamente al análisis técnico y estratégico del proyecto.</td>
+      <td rowspan="5">
+        <strong>AV1:</strong> El equipo se comunicó de forma clara y estructurada, aportando conjuntamente al análisis técnico y estratégico del proyecto.<br><br>
+        <strong>TB1:</strong> Durante el TB1, el equipo consolidó su liderazgo conjunto al distribuir responsabilidades técnicas y de diseño de manera equilibrada, logrando integrar los entregables de UX/UI, backend y documentación en un producto coherente. La coordinación efectiva entre roles permitió cumplir con los objetivos del Sprint Review y demostrar capacidad para trabajar de forma colaborativa frente a entregas de mayor complejidad.
+      </td>
     </tr>
     <tr>
       <td>Lopez Goitia, Carlos Alberto</td>
       <td>
-        <strong> AV1:</strong><br>
+        <strong>AV1:</strong><br>
         Realicé entrevistas para la extracción de requisitos críticos y definí la arquitectura del sistema bajo el enfoque de Domain-Driven Design (DDD), documentando la estructura mediante diagramas de contexto, contenedores y componentes.<br>
-        <strong> TB1:</strong><br>
-        Participé en la corrección de las User Stories, Product Backlog y criterios de aceptación, alineándolos con los requisitos funcionales del proyecto. Además, apoyé en el desarrollo del backend, la Landing Page y la aplicación móvil de PuntoSabor.<br>
+        <strong>TB1:</strong><br>
+        Participé en la corrección de las User Stories, Product Backlog y criterios de aceptación, alineándolos con los requisitos funcionales del proyecto. Además, apoyé en el desarrollo del backend, la Landing Page y la aplicación móvil de PuntoSabor.
       </td>
     </tr>
     <tr>
       <td>Tumi Oliden, Manuel Ignacio</td>
       <td>
-        <strong> AV1:</strong><br>
-        Durante esta etapa redacté el análisis de antecedentes y problemática mediante las 5W's y 2H's, identificando los principales grupos afectados: propietarios de huariques y usuarios que buscan gastronomía local auténtica. Asimismo,  desarrollé los Lean UX Problem Statements, las Business y User Assumptions, y los Lean UX Hypothesis Statements con sus respectivos criterios de validación, estableciendo así las bases para la dirección estratégica del producto.<br>
+        <strong>AV1:</strong><br>
+        Durante esta etapa redacté el análisis de antecedentes y problemática mediante las 5W's y 2H's, identificando los principales grupos afectados: propietarios de huariques y usuarios que buscan gastronomía local auténtica. Asimismo, desarrollé los Lean UX Problem Statements, las Business y User Assumptions, y los Lean UX Hypothesis Statements con sus respectivos criterios de validación, estableciendo así las bases para la dirección estratégica del producto.<br>
         <strong>TB1:</strong><br>
-         Desarrollé las secciones de Searching Systems y Navigation Systems,  definiendo cómo los usuarios podrán buscar información y desplazarse dentro de la aplicación móvil de PuntoSabor de forma clara y ordenada.
-        <br>
-        <br>
+        Desarrollé las secciones de Searching Systems y Navigation Systems, definiendo cómo los usuarios podrán buscar información y desplazarse dentro de la aplicación móvil de PuntoSabor de forma clara y ordenada.
       </td>
     </tr>
     <tr>
       <td>Becerra Llempen, Fabiola Dayane</td>
       <td>
-        <strong> AV1:</strong><br>
-        Durante este trabajo realice los análisis competitivos de mercado para obtener las ventajas y encontrar oportunidades de mejora para nuestro proyecto. Asimismo, desarrolle los perfiles del user persona , user task matrix y el journey mapping con sus respectivas conclusiones. <br>
-        <strong> TB1:</strong><br>
+        <strong>AV1:</strong><br>
+        Durante este trabajo realicé los análisis competitivos de mercado para obtener las ventajas y encontrar oportunidades de mejora para nuestro proyecto. Asimismo, desarrollé los perfiles del user persona, user task matrix y el journey mapping con sus respectivas conclusiones.<br>
+        <strong>TB1:</strong><br>
         En esta fase, trabajé en el diseño UX/UI de la app móvil PuntoSabor. Para ello, creé los Wireflows de aplicaciones móviles, diagramas Wireflow, maquetas, diagramas de flujo de usuario y un prototipo interactivo de la aplicación. Además, colaboré en documentar las evidencias del Sprint Review, que incluían pruebas de desarrollo, de testing, documentación sobre servicios y la implementación del software. Esto ayudó a preservar la coherencia tanto a nivel funcional como visual del proyecto.
-        <br>
       </td>
     </tr>
     <tr>
-  <td>Vasquez Goicochea Erick Alessander</td>
-  <td>
-    <strong> AV1:</strong><br>
-    Apoyé en la revisión del contenido del capítulo 2, mejorando la redacción para que sea más clara y entendible. Además, reforcé el análisis en las secciones de competidores y entrevistas para que reflejen mejor las necesidades de los usuarios.<br>
-  <strong> TB1:</strong><br>
-    Durante esta etapa participé en la documentación del Capítulo IV, especialmente en las secciones de implementación y validación del producto. Completé evidencias del Sprint Review relacionadas con el desarrollo, documentación de serviciOS. Además, organicé capturas de la aplicación móvil y del backend en Swagger para sustentar los avances realizados durante el sprint.
-  </td>
-</tr>
-    <tr>
+      <td>Vasquez Goicochea, Erick Alessander</td>
+      <td>
+        <strong>AV1:</strong><br>
+        Apoyé en la revisión del contenido del capítulo 2, mejorando la redacción para que sea más clara y entendible. Además, reforcé el análisis en las secciones de competidores y entrevistas para que reflejen mejor las necesidades de los usuarios.<br>
+        <strong>TB1:</strong><br>
+        Durante esta etapa participé en la documentación del Capítulo IV, especialmente en las secciones de implementación y validación del producto. Completé evidencias del Sprint Review relacionadas con el desarrollo y documentación de servicios. Además, organicé capturas de la aplicación móvil y del backend en Swagger para sustentar los avances realizados durante el sprint.
+      </td>
     </tr>
-    <!-- Criterio 2 -->
     <tr>
-      <td rowspan="6">Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos</td>
+      <td rowspan="5">Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos</td>
       <td>Delgado Carrasco, Schneider</td>
       <td>
-        <strong> AV1:</strong><br>
-        Como parte de las user stories, apoye en el desarrollo, su contexto y antecedentes; tambien realice algunos puntos del lean UX; realicé un análisis competitivo y definí los segmentos del público objetivo respaldados con datos estadísticos.<br>
-        <strong> TB1:</strong><br>
-        Contribuí en el diseño de la experiencia visual y navegación del sistema mediante la elaboración del Landing Page UI Design, así como los Wireframes y Mock-ups de la Landing Page y de la aplicación móvil. También participé en el desarrollo de prototipos interactivos para validar la interacción entre pantallas y la experiencia del usuario. Finalmente, apoyé en la sección Execution Evidence for Sprint Review, documentando evidencias visuales y avances funcionales realizados durante el Sprint.<br>
+        <strong>AV1:</strong><br>
+        Como parte de las user stories, apoyé en el desarrollo, su contexto y antecedentes; también realicé algunos puntos del Lean UX; realicé un análisis competitivo y definí los segmentos del público objetivo respaldados con datos estadísticos.<br>
+        <strong>TB1:</strong><br>
+        Contribuí en el diseño de la experiencia visual y navegación del sistema mediante la elaboración del Landing Page UI Design, así como los Wireframes y Mock-ups de la Landing Page y de la aplicación móvil. También participé en el desarrollo de prototipos interactivos para validar la interacción entre pantallas y la experiencia del usuario. Finalmente, apoyé en la sección Execution Evidence for Sprint Review, documentando evidencias visuales y avances funcionales realizados durante el Sprint.
       </td>
-      <td rowspan="6">La comunicación escrita se realizó con claridad, ajustando el contenido según las necesidades tanto de públicos técnicos como de lectores no especializados.</td>
+      <td rowspan="5">
+        <strong>AV1:</strong> La comunicación escrita se realizó con claridad, ajustando el contenido según las necesidades tanto de públicos técnicos como de lectores no especializados.<br><br>
+        <strong>TB1:</strong> En el TB1, el equipo logró establecer un entorno de trabajo inclusivo y bien planificado, definiendo metas claras para cada Sprint y distribuyendo las tareas según las fortalezas de cada integrante. La organización de los entregables, la documentación técnica y el cumplimiento de los objetivos del Sprint Review evidencian la capacidad del equipo para coordinar esfuerzos, mantener una comunicación efectiva y alcanzar los resultados esperados dentro de los plazos establecidos.
+      </td>
     </tr>
     <tr>
       <td>Lopez Goitia, Carlos Alberto</td>
       <td>
-        <strong> AV1:</strong><br>
+        <strong>AV1:</strong><br>
         Diseñé instrumentos de entrevista estructurados para validar las decisiones arquitectónicas y propuse soluciones técnicas fundamentadas en una investigación previa, asegurando que el proyecto mantuviera un enfoque sólido y justificado.<br>
-        <strong> TB1:</strong><br>
-        Colaboré en la organización del Sprint 1, la documentación de evidencias y el avance técnico del backend, la Landing Page y la app móvil, contribuyendo a una mejor coordinación del equipo para la entrega TB1.<br>
-        <br>
+        <strong>TB1:</strong><br>
+        Colaboré en la organización del Sprint 1, la documentación de evidencias y el avance técnico del backend, la Landing Page y la app móvil, contribuyendo a una mejor coordinación del equipo para la entrega TB1.
       </td>
     </tr>
     <tr>
-      <td>Tumi Oliden Manuel Ignacio</td>
+      <td>Tumi Oliden, Manuel Ignacio</td>
       <td>
-        <strong> AV1:</strong><br>
+        <strong>AV1:</strong><br>
         Me encargué de redactar las secciones de antecedentes, problemática y supuestos del proyecto, adaptando el lenguaje según el destinatario: un enfoque analítico para la documentación técnica del equipo y un enfoque estratégico para los Lean UX Statements e Hypothesis, asegurando que el contenido fuera claro y coherente para todos los involucrados.<br>
-       <strong>TB1:</strong><br>
-        Documenté las secciones de Product Implementation & Validation y Software Configuration Management, incluyendo la configuración del entorno de desarrollo, la gestión del código fuente y las convenciones de estilo del proyecto.
-        <br>
-        <br>
+        <strong>TB1:</strong><br>
+        Documenté las secciones de Product Implementation &amp; Validation y Software Configuration Management, incluyendo la configuración del entorno de desarrollo, la gestión del código fuente y las convenciones de estilo del proyecto.
       </td>
     </tr>
     <tr>
-      <td> Becerra Llempen, Fabiola Dayane </td>
+      <td>Becerra Llempen, Fabiola Dayane</td>
       <td>
-        <strong> AV1:</strong><br>
-        Realice entrevistas y análisis de entrevistas para poder obtener fundamentos en la investigación. Tambien, realice un enfoque estratégico con el empathy Mapping y As-is Scenario Mapping de los segmentos obtenidos junto con el Big Picture Event Storming y Ubiquitous Language.<br>
-        <strong> TB1:</strong><br>
+        <strong>AV1:</strong><br>
+        Realicé entrevistas y análisis de entrevistas para poder obtener fundamentos en la investigación. También, realicé un enfoque estratégico con el Empathy Mapping y As-is Scenario Mapping de los segmentos obtenidos junto con el Big Picture Event Storming y Ubiquitous Language.<br>
+        <strong>TB1:</strong><br>
         Colaboré en la planificación y la organización de los entregables vinculados con el diseño y la validación de la aplicación móvil, garantizando que lo requerido funcionalmente, los flujos de navegación y la experiencia visual del sistema fueran coherentes. Asimismo, colaboré en la recolección y organización de las pruebas técnicas del Sprint Review, fomentando una comunicación precisa y coordinada al interior del equipo para alcanzar los objetivos fijados para el proyecto.
       </td>
     </tr>
-  <tr>
-    <td>Vasquez Goicochea Erick Alessander</td>
-    <td>
-      <strong> AV1:</strong><br>
-      Colaboré con el equipo revisando y mejorando la claridad del documento, asegurando que el contenido sea comprensible tanto para lectores técnicos como no técnicos. También apoyé en la organización de la información del capítulo 2 para mantener coherencia en el análisis.<br>
-  <strong> TB1:</strong><br>
-    Colaboré en la organización de las evidencias del Sprint 1, revisando que la información del capítulo estuviera clara y alineada con el avance real del proyecto. También apoyé en la documentación de pruebas, ejecución, servicios y despliegue, manteniendo coherencia entre las capturas, los textos del informe y las funcionalidades desarrolladas en PuntoSabor.
-  </tr>
     <tr>
-
+      <td>Vasquez Goicochea, Erick Alessander</td>
+      <td>
+        <strong>AV1:</strong><br>
+        Colaboré con el equipo revisando y mejorando la claridad del documento, asegurando que el contenido sea comprensible tanto para lectores técnicos como no técnicos. También apoyé en la organización de la información del capítulo 2 para mantener coherencia en el análisis.<br>
+        <strong>TB1:</strong><br>
+        Colaboré en la organización de las evidencias del Sprint 1, revisando que la información del capítulo estuviera clara y alineada con el avance real del proyecto. También apoyé en la documentación de pruebas, ejecución, servicios y despliegue, manteniendo coherencia entre las capturas, los textos del informe y las funcionalidades desarrolladas en PuntoSabor.
+      </td>
+    </tr>
   </tbody>
 </table>
 </div>
