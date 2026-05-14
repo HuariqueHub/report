@@ -112,15 +112,30 @@
 
 # Project Report Collaboration Insights
 
-URL del repositorio del informe: _Pendiente de colocar._
+URL del repositorio del informe: https://github.com/HuariqueHub/report/tree/main
 
 Para la entrega AV1, el equipo elaboró el informe de manera colaborativa en formato Markdown, organizando los aportes por secciones asignadas y registrando las modificaciones mediante commits en GitHub.
 
 Evidencias de colaboración:
 
-- Captura de commits del repositorio del informe: _Pendiente de insertar._
-- Captura de contributors/insights de GitHub: _Pendiente de insertar._
-- Resumen de participación por integrante: _Pendiente de completar._
+- Captura de commits del repositorio del informe:
+
+
+![alt text](image-1.png)
+
+- Captura de contributors/insights de GitHub:
+
+![alt text](image.png)
+
+- Resumen de participación por integrante:
+
+| Integrante | Participación |
+|---|---|
+| Delgado Carrasco, Schneider | Apoyó en wireframes, mock-ups, prototipos y evidencias visuales. |
+| Lopez Goitia, Carlos Alberto | Actualizó la estructura del informe, Style Guidelines, Information Architecture y Trello. |
+| Tumi Oliden, Manuel Ignacio | Documentó sistemas de búsqueda, navegación y configuración del proyecto. |
+| Becerra Llempen, Fabiola Dayane | Apoyó en flujos móviles, evidencias de desarrollo, testing y servicios. |
+| Vasquez Goicochea, Erick Alessander | Documentó Sprint Planning, Sprint Backlog, despliegue y colaboración del equipo. |
 
 # Contenido
 
@@ -261,6 +276,9 @@ ABET - EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamente
       <td>
         <strong> AV1:</strong><br>
         Durante esta etapa redacté el análisis de antecedentes y problemática mediante las 5W's y 2H's, identificando los principales grupos afectados: propietarios de huariques y usuarios que buscan gastronomía local auténtica. Asimismo,  desarrollé los Lean UX Problem Statements, las Business y User Assumptions, y los Lean UX Hypothesis Statements con sus respectivos criterios de validación, estableciendo así las bases para la dirección estratégica del producto.<br>
+        <strong>TB1:</strong><br>
+         Desarrollé las secciones de Searching Systems y Navigation Systems,  definiendo cómo los usuarios podrán buscar información y desplazarse dentro de la aplicación móvil de PuntoSabor de forma clara y ordenada.
+        <br>
         <br>
       </td>
     </tr>
@@ -308,6 +326,9 @@ ABET - EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamente
       <td>
         <strong> AV1:</strong><br>
         Me encargué de redactar las secciones de antecedentes, problemática y supuestos del proyecto, adaptando el lenguaje según el destinatario: un enfoque analítico para la documentación técnica del equipo y un enfoque estratégico para los Lean UX Statements e Hypothesis, asegurando que el contenido fuera claro y coherente para todos los involucrados.<br>
+       <strong>TB1:</strong><br>
+        Documenté las secciones de Product Implementation & Validation y Software Configuration Management, incluyendo la configuración del entorno de desarrollo, la gestión del código fuente y las convenciones de estilo del proyecto.
+        <br>
         <br>
       </td>
     </tr>
@@ -341,6 +362,8 @@ ABET - EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamente
 | **Becerra Llempen, Fabiola Dayane** | Mi objetivo es obtener experiencia laboral en el ámbito de la gestión de productos digitales y el desarrollo de software, a través de participar en proyectos tecnológicos y prácticas profesionales. En los dos años posteriores a mi graduación, busco incorporarme a una compañía del sector tecnológico o reforzar mi negocio digital. | **Specific:** Obtener experiencia en desarrollo de software y productos digitales.<br> **Measurable:** Participar en proyectos y prácticas profesionales.<br> **Achievable:** Mediante experiencia académica y laboral.<br> **Relevant:** Alineado a objetivos profesionales y tecnológicos.<br> **Time-bound:** Dentro de los próximos dos años después de graduarme. |
 | **Lopez Goitia, Carlos Alberto** | Con el objetivo de fortalecer mi perfil profesional como desarrollador de software, en un plazo de 6 meses después de egresar desarrollaré un proyecto funcional que integre frontend, backend y base de datos, utilizando tecnologías como Node.js, PHP, Apache, MySQL y Azure. El resultado será evidenciado mediante la publicación del proyecto en GitHub con documentación técnica. | **Specific:** Desarrollar un proyecto funcional con frontend, backend y base de datos.<br> **Measurable:** Publicar el proyecto en GitHub con documentación técnica.<br> **Achievable:** Mediante práctica constante y uso de Node.js, PHP, Apache, MySQL, Azure y GitHub.<br> **Relevant:** Relacionado con Ingeniería de Software y desarrollo profesional.<br> **Time-bound:** En un plazo de 6 meses después de egresar. |
 | **Lopez Goitia, Carlos Alberto** | Mi objetivo es iniciar mi inserción profesional en el sector tecnológico mediante la postulación a oportunidades laborales o prácticas relacionadas con desarrollo móvil, backend, frontend, UX/UI, cloud, QA o ciberseguridad. En un plazo de 3 meses después de egresar, postularé como mínimo a 10 ofertas y mejoraré mi CV, portafolio y repositorios en GitHub. | **Specific:** Postular a oportunidades laborales o prácticas en áreas tecnológicas.<br> **Measurable:** Postular como mínimo a 10 ofertas.<br> **Achievable:** Mediante la actualización de mi CV, portafolio y proyectos en GitHub.<br> **Relevant:** Alineado con mi desarrollo profesional en Ingeniería de Software.<br> **Time-bound:** En un plazo de 3 meses después de egresar. |
+| **Tumi Oliden, Manuel Ignacio** | Con el objetivo de fortalecer mi perfil profesional como desarrollador de aplicaciones móviles, en un plazo de 6 meses después de egresar culminaré un curso especializado en Kotlin, Flutter o React Native y desarrollaré una aplicación móvil funcional como evidencia de aprendizaje. | **Specific:** Fortalecer habilidades en desarrollo de aplicaciones móviles.<br> **Measurable:** Culminar un curso especializado y desarrollar una app funcional.<br> **Achievable:** Mediante cursos online, práctica constante y proyectos personales.<br> **Relevant:** Relacionado con Ingeniería de Software y desarrollo móvil.<br> **Time-bound:** En un plazo de 6 meses después de egresar. |
+| **Tumi Oliden, Manuel Ignacio** | Mi objetivo es construir un portafolio profesional orientado al desarrollo de software, documentando al menos dos proyectos en GitHub que incluyan buenas prácticas de programación, control de versiones y documentación técnica. Este objetivo será alcanzado durante el primer año posterior a mi egreso. | **Specific:** Construir un portafolio profesional con proyectos de software.<br> **Measurable:** Documentar al menos dos proyectos en GitHub.<br> **Achievable:** Mediante proyectos académicos, personales o colaborativos.<br> **Relevant:** Alineado con mi crecimiento profesional en Ingeniería de Software.<br> **Time-bound:** Durante el primer año posterior a mi egreso. |
 
 
 # Capítulo I: Presentación
