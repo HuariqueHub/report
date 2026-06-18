@@ -108,6 +108,31 @@
       </ul>
     </td>
   </tr>
+
+  <tr>
+    <td>AV2</td>
+    <td>2026-06-18</td>
+    <td>
+      <ul>
+        <li>Delgado Carrasco, Schneider</li>
+        <li>Lopez Goitia, Carlos Alberto</li>
+        <li>Tumi Oliden Manuel Ignacio</li>
+        <li>Becerra Llempen, Fabiola Dayane</li>
+        <li>Vasquez Goicochea, Erick Alessander</li>
+      </ul>
+    </td>
+    <td>
+      Se atendió la retroalimentación del AV1 y se prepararon los artefactos para el AV2. Principales cambios:
+      <ul>
+        <li>Mejora del Problem Statement (5W2H y Lean UX Problem Statements reformulados)</li>
+        <li>Adecuación de las User Stories a la plantilla oficial (columnas Usuario, Prioridad y Epic; definición de Epics EP01–EP10)</li>
+        <li>Product Backlog vinculado al documento y a la herramienta de gestión (Trello), con captura y URL pública</li>
+        <li>Roadmap de Sprints hasta la entrega del Trabajo Final (Sprint 1, 2 y 3)</li>
+        <li>Backend 100% desplegado en sitio público con documentación (URL de Swagger en Railway)</li>
+        <li>Actualización de conclusiones, bibliografía y anexos</li>
+      </ul>
+    </td>
+  </tr>
 </table>
 
 # Project Report Collaboration Insights
@@ -224,6 +249,15 @@ Evidencias de colaboración:
       - [4.2.1.6. Services Documentation Evidence for Sprint Review](#4216-services-documentation-evidence-for-sprint-review)
       - [4.2.1.7. Software Deployment Evidence for Sprint Review](#4217-software-deployment-evidence-for-sprint-review)
       - [4.2.1.8. Team Collaboration Insights during Sprint](#4218-team-collaboration-insights-during-sprint)
+    - [4.2.2. Sprint 2](#422-sprint-2)
+      - [4.2.2.1. Sprint Planning 2](#4221-sprint-planning-2)
+      - [4.2.2.2. Sprint Backlog 2](#4222-sprint-backlog-2)
+      - [4.2.2.3. Development Evidence for Sprint Review](#4223-development-evidence-for-sprint-review)
+      - [4.2.2.4. Testing Suite Evidence for Sprint Review](#4224-testing-suite-evidence-for-sprint-review)
+      - [4.2.2.5. Execution Evidence for Sprint Review](#4225-execution-evidence-for-sprint-review)
+      - [4.2.2.6. Services Documentation Evidence for Sprint Review](#4226-services-documentation-evidence-for-sprint-review)
+      - [4.2.2.7. Software Deployment Evidence for Sprint Review](#4227-software-deployment-evidence-for-sprint-review)
+      - [4.2.2.8. Team Collaboration Insights during Sprint](#4228-team-collaboration-insights-during-sprint-2)
   - [4.3. Validation Interviews](#43-validation-interviews)
     - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
     - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
@@ -427,15 +461,19 @@ Esta brecha representa no solo una oportunidad económica sin aprovechar para lo
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-- Los propietarios de huariques necesitan una plataforma digital especializada que les permita promocionar sus negocios de manera sencilla y accesible, debido a que actualmente tienen poca visibilidad frente a restaurantes y cadenas con mayor presencia en aplicaciones convencionales.
+Cada enunciado sigue la estructura estandarizada de Lean UX: **situación actual → problema observado → consecuencia para el segmento → reencuadre como oportunidad**. De esta forma el problema queda delimitado, asociado a un segmento concreto y verificable, en lugar de presentarse como una necesidad general.
 
-- Los exploradores gastronómicos necesitan una herramienta confiable para descubrir huariques auténticos, cercanos y económicos, debido a que las plataformas actuales no priorizan este tipo de establecimientos ni siempre muestran información completa o actualizada.
+**Problem Statement 1 — Explorador gastronómico**
 
-- Los usuarios necesitan contar con reseñas, calificaciones y fotografías reales de los huariques, debido a que la falta de información confiable dificulta la toma de decisiones al momento de elegir un lugar para comer.
+Las plataformas gastronómicas actuales (Google Maps, delivery, redes sociales) fueron diseñadas para conectar a las personas con lugares para comer. Sin embargo, hemos observado que estas plataformas priorizan restaurantes y cadenas con mayor inversión publicitaria, por lo que los huariques auténticos, cercanos y económicos quedan poco visibles o con información incompleta y desactualizada. Esto provoca que el explorador gastronómico invierta tiempo y no confíe en lo que encuentra al momento de elegir dónde comer. **¿Cómo podríamos ayudar a los exploradores gastronómicos a descubrir huariques auténticos y cercanos, con información confiable que respalde su decisión?**
 
-- Los dueños de huariques necesitan gestionar la información de su negocio sin procesos técnicos complejos, debido a que muchos cuentan con recursos limitados y poca experiencia en herramientas digitales.
+**Problem Statement 2 — Dueño o administrador de huarique**
 
-- PuntoSabor necesita diferenciarse de las aplicaciones gastronómicas tradicionales mediante una propuesta enfocada en huariques, comunidad y visibilidad local, debido a que las plataformas existentes favorecen principalmente a restaurantes conocidos o cadenas comerciales.
+Las herramientas de promoción digital existentes fueron pensadas para negocios con presupuesto y experiencia técnica. Hemos observado que la mayoría de los dueños de huariques cuenta con recursos limitados y poca familiaridad con estas herramientas, por lo que no logran mantener su negocio visible ni actualizado en el entorno digital. Esto provoca que pierdan oportunidades de captar nuevos clientes frente a competidores con mayor presencia. **¿Cómo podríamos permitir que los dueños de huariques publiquen y gestionen su negocio de forma sencilla, sin procesos técnicos complejos, para aumentar su visibilidad?**
+
+**Problem Statement 3 — Plataforma PuntoSabor (negocio)**
+
+El mercado de aplicaciones gastronómicas está dominado por propuestas generalistas centradas en restaurantes y cadenas conocidas. Hemos observado que ningún actor relevante se especializa en huariques ni construye comunidad alrededor de la comida local auténtica, por lo que existe un segmento desatendido tanto de usuarios como de pequeños negocios. Esto representa una oportunidad de diferenciación y de generación de ingresos recurrentes que hoy nadie está capturando. **¿Cómo podríamos posicionar a PuntoSabor como la plataforma de referencia para descubrir huariques, mediante comunidad, visibilidad local y un modelo de membresías accesible?**
 
 #### 1.2.2.2. Lean UX Assumptions
 #### Business Assumptions
@@ -869,44 +907,72 @@ Glosario:
 
 ### 2.4.1. User Stories
 
-En esta sección se presentan los requisitos definidos para PuntoSabor, expresados mediante User Stories y Epics. Cada User Story incluye criterios de aceptación claros y comprobables, redactados en tiempo presente y tercera persona, siguiendo la estructura Gherkin (Given-When-Then). Se considera tanto la experiencia del usuario en la aplicación móvil como aspectos técnicos del desarrollo, incluyendo historias técnicas para el RESTful API.
+En esta sección se presentan los requisitos definidos para PuntoSabor, expresados mediante User Stories y Epics. La tabla sigue la **plantilla oficial del enunciado**, dedicando una fila a cada Epic y a cada User Story, con las columnas **Story ID, Usuario, Prioridad, Epic, Título, Descripción y Criterios de Aceptación**. Cada User Story incluye criterios de aceptación claros y comprobables, redactados en tiempo presente y tercera persona, siguiendo la estructura Gherkin (Given-When-Then). Se consideran User Stories de la aplicación móvil, del sitio web estático (Landing Page, rol *Visitante*) y **Technical Stories** para el RESTful API (rol *Developer*).
 
-A continuación, se muestra un cuadro resumen con los Epics y User Stories definidos, sus descripciones, criterios de aceptación y relaciones entre ellos.
+La prioridad se expresa como **Alta / Media / Baja** según el valor para el negocio y su contribución al flujo principal, criterio que se mantiene coherente con el orden del Product Backlog (sección [2.4.3](#243-product-backlog)).
 
-| Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
-|-----------------|--------|-------------|-------------------------|---------------------------|
-| US01 | Filtrar huariques | Como usuario, quiero filtrar huariques por ubicación, tipo de comida y precio para encontrar opciones acordes a mis preferencias. | **Escenario 1:** Dado que el usuario selecciona filtros válidos, Cuando ejecuta la búsqueda, Entonces el sistema muestra solo los huariques que coinciden con los filtros aplicados. <br><br> **Escenario 2:** Dado que no existen huariques que coincidan con los filtros, Cuando el usuario ejecuta la búsqueda, Entonces el sistema muestra un mensaje indicando que no se encontraron resultados. <br><br> **Escenario 3:** Dado que el usuario no selecciona filtros, Cuando ejecuta la búsqueda, Entonces el sistema muestra la lista general de huariques disponibles. | EP01 |
-| US02 | Visualizar huariques en mapa | Como usuario, quiero visualizar la ubicación de los huariques en un mapa para identificar fácilmente cómo llegar a ellos. | **Escenario 1:** Dado que el usuario accede a la vista de mapa, Cuando la pantalla termina de cargar, Entonces el sistema muestra los huariques mediante marcadores de ubicación. <br><br> **Escenario 2:** Dado que el usuario selecciona un marcador del mapa, Cuando pulsa sobre este, Entonces el sistema muestra un resumen con nombre, dirección y calificación del huarique. | EP01 |
-| US03 | Guardar huariques favoritos | Como usuario, quiero guardar huariques como favoritos para consultarlos nuevamente de forma rápida. | **Escenario 1:** Dado que el usuario selecciona la opción de favorito en un huarique, Cuando confirma la acción, Entonces el sistema agrega el huarique a su lista de favoritos. <br><br> **Escenario 2:** Dado que el usuario accede a la sección de favoritos, Cuando la pantalla carga, Entonces el sistema muestra los huariques guardados previamente. | EP01 |
-| US04 | Registrar un nuevo huarique | Como dueño, quiero registrar un nuevo huarique con información básica para que aparezca en la plataforma. | **Escenario 1:** Dado que el dueño completa todos los campos obligatorios con datos válidos, Cuando envía el formulario, Entonces el sistema registra el huarique correctamente. <br><br> **Escenario 2:** Dado que el dueño deja campos obligatorios vacíos, Cuando intenta registrar el huarique, Entonces el sistema solicita completar los datos faltantes. | EP02 |
-| US05 | Actualizar información del huarique | Como dueño, quiero actualizar la información de mi huarique para mantener sus datos correctos y vigentes. | **Escenario 1:** Dado que el dueño modifica datos válidos del huarique, Cuando guarda los cambios, Entonces el sistema actualiza la información correctamente. <br><br> **Escenario 2:** Dado que el dueño ingresa información incompleta o inválida, Cuando intenta guardar los cambios, Entonces el sistema muestra un mensaje de validación. | EP02 |
-| US06 | Gestionar contenido multimedia | Como dueño, quiero subir fotos y videos de mi huarique para mostrar mejor mi negocio a los usuarios. | **Escenario 1:** Dado que el dueño selecciona un archivo permitido, Cuando lo sube al perfil del huarique, Entonces el sistema almacena y muestra el contenido multimedia. <br><br> **Escenario 2:** Dado que el dueño selecciona un archivo no permitido, Cuando intenta subirlo, Entonces el sistema muestra un mensaje indicando los formatos aceptados. | EP02 |
-| US07 | Publicar reseñas | Como usuario, quiero publicar una reseña y calificación sobre un huarique para compartir mi experiencia con otros usuarios. | **Escenario 1:** Dado que el usuario completa la reseña y selecciona una calificación válida, Cuando confirma el envío, Entonces el sistema publica la reseña en el perfil del huarique. <br><br> **Escenario 2:** Dado que el usuario ya publicó una reseña sobre el mismo huarique, Cuando intenta publicar otra, Entonces el sistema impide el registro duplicado. | EP03 |
-| US08 | Moderar reseñas inapropiadas | Como sistema, quiero detectar reseñas inapropiadas para evitar contenido ofensivo dentro de la plataforma. | **Escenario 1:** Dado que una reseña contiene lenguaje ofensivo, Cuando el usuario intenta publicarla, Entonces el sistema bloquea la publicación o la marca para revisión. | EP03 |
-| US09 | Mostrar beneficios en la landing page | Como visitante, quiero ver los beneficios de PuntoSabor en la landing page para comprender el valor de la plataforma. | **Escenario 1:** Dado que el visitante accede a la landing page, Cuando la página termina de cargar, Entonces el sistema muestra los beneficios principales para usuarios y dueños de huariques. | EP04 |
-| US10 | Enviar consultas desde el formulario de contacto | Como visitante, quiero enviar consultas mediante un formulario de contacto para comunicarme con el equipo de PuntoSabor. | **Escenario 1:** Dado que el visitante completa correctamente todos los campos requeridos, Cuando envía el formulario, Entonces el sistema registra la consulta y muestra una confirmación. <br><br> **Escenario 2:** Dado que el visitante deja campos obligatorios vacíos, Cuando intenta enviar el formulario, Entonces el sistema solicita completar los datos faltantes. | EP04 |
-| US11 | Configurar notificaciones | Como usuario, quiero activar o desactivar notificaciones para recibir solo la información que me interesa. | **Escenario 1:** Dado que el usuario modifica sus preferencias de notificación, Cuando guarda los cambios, Entonces el sistema actualiza la configuración seleccionada. | EP05 |
-| US12 | Recibir notificaciones de nuevas reseñas | Como dueño, quiero recibir alertas cuando mi huarique reciba nuevas reseñas para responder oportunamente a los usuarios. | **Escenario 1:** Dado que un usuario publica una reseña aprobada, Cuando la reseña queda registrada, Entonces el sistema notifica al dueño del huarique. | EP05 |
-| US13 | Consultar huariques mediante API | Como developer, quiero consultar huariques mediante filtros en la API para integrar la búsqueda con la aplicación móvil. | **Escenario 1:** Dado que la petición contiene parámetros válidos, Cuando la API procesa la solicitud, Entonces devuelve los huariques que cumplen los criterios enviados. <br><br> **Escenario 2:** Dado que la petición contiene parámetros inválidos, Cuando la API procesa la solicitud, Entonces devuelve un mensaje de error claro. | EP06 |
-| US14 | Registrar y actualizar huariques mediante API | Como developer, quiero crear y actualizar huariques mediante la API para gestionar la información desde los productos digitales. | **Escenario 1:** Dado que la petición contiene datos válidos, Cuando la API procesa el registro, Entonces crea el huarique y devuelve una respuesta exitosa. <br><br> **Escenario 2:** Dado que la petición contiene datos válidos de actualización, Cuando la API procesa la solicitud, Entonces actualiza la información del huarique. | EP06 |
-| US15 | Registrar e iniciar sesión de forma segura | Como usuario, quiero crear una cuenta e iniciar sesión con credenciales seguras para acceder a mi perfil. | **Escenario 1:** Dado que el usuario ingresa datos válidos de registro, Cuando envía el formulario, Entonces el sistema crea la cuenta correctamente. <br><br> **Escenario 2:** Dado que el usuario ingresa credenciales válidas, Cuando inicia sesión, Entonces el sistema le permite acceder a su cuenta. <br><br> **Escenario 3:** Dado que el usuario ingresa credenciales incorrectas, Cuando intenta iniciar sesión, Entonces el sistema muestra un mensaje de error. <br><br> **Escenario 4:** Dado que el usuario deja campos vacíos, Cuando intenta continuar, Entonces el sistema solicita completar los datos requeridos. | EP07 |
-| US16 | Recuperar contraseña | Como usuario, quiero recuperar mi contraseña para volver a acceder a mi cuenta en caso de olvido. | **Escenario 1:** Dado que el usuario ingresa un correo registrado, Cuando solicita la recuperación, Entonces el sistema envía instrucciones para restablecer la contraseña. <br><br> **Escenario 2:** Dado que el usuario ingresa un correo no registrado, Cuando solicita la recuperación, Entonces el sistema muestra un mensaje informativo. | EP07 |
-| US17 | Guardar preferencias del usuario | Como usuario, quiero guardar mis preferencias de cocina, presupuesto y ubicación para recibir recomendaciones personalizadas. | **Escenario 1:** Dado que el usuario ingresa preferencias válidas, Cuando confirma la configuración, Entonces el sistema guarda las preferencias en su perfil. <br><br> **Escenario 2:** Dado que el usuario tiene preferencias guardadas, Cuando accede a recomendaciones, Entonces el sistema muestra huariques relacionados con esos criterios. | EP08 |
-| US18 | Sugerir huariques automáticamente | Como usuario, quiero recibir sugerencias de huariques basadas en mi historial para descubrir opciones relacionadas con mis intereses. | **Escenario 1:** Dado que el usuario tiene historial de búsquedas o favoritos, Cuando accede a recomendaciones, Entonces el sistema muestra huariques similares. <br><br> **Escenario 2:** Dado que el usuario no tiene historial, Cuando accede a recomendaciones, Entonces el sistema muestra huariques populares de la zona. | EP08 |
-| US19 | Recomendar huariques cercanos | Como usuario, quiero recibir recomendaciones de huariques cercanos a mi ubicación para encontrar opciones próximas. | **Escenario 1:** Dado que el usuario concede permiso de ubicación, Cuando accede a la sección “Cerca de mí”, Entonces el sistema muestra huariques dentro del radio definido. <br><br> **Escenario 2:** Dado que el usuario no concede permiso de ubicación, Cuando accede a la sección, Entonces el sistema solicita permisos o permite una búsqueda manual. | EP08 |
-| US20 | Verificar horarios de huariques | Como usuario, quiero ver si el horario de un huarique fue confirmado recientemente para evitar información desactualizada. | **Escenario 1:** Dado que el dueño actualizó el horario recientemente, Cuando el usuario entra al perfil del huarique, Entonces el sistema muestra la etiqueta “Horario verificado”. <br><br> **Escenario 2:** Dado que no existen actualizaciones recientes, Cuando el usuario entra al perfil, Entonces el sistema muestra la etiqueta “Horario no verificado”. | EP09 |
-| US21 | Reportar información incorrecta | Como usuario, quiero reportar datos incorrectos de un huarique para contribuir a mantener actualizada la información. | **Escenario 1:** Dado que el usuario detecta información incorrecta, Cuando envía un reporte, Entonces el sistema registra el reporte para revisión. <br><br> **Escenario 2:** Dado que el reporte fue revisado y corregido, Cuando el usuario consulta el huarique, Entonces el sistema muestra la información actualizada. | EP09 |
-| US22 | Mostrar estado abierto o cerrado | Como sistema, quiero mostrar si un huarique está abierto o cerrado para orientar mejor la decisión del usuario. | **Escenario 1:** Dado que el sistema cuenta con información reciente del horario, Cuando el usuario accede al perfil, Entonces muestra el estado “Abierto ahora” o “Cerrado”. <br><br> **Escenario 2:** Dado que no hay datos suficientes para validar el estado, Cuando el usuario accede al perfil, Entonces muestra el aviso “Estado no confirmado”. | EP09 |
-| US23 | Seleccionar planes de membresía | Como dueño, quiero elegir entre planes de membresía con distintos beneficios para aumentar la visibilidad de mi huarique. | **Escenario 1:** Dado que el dueño selecciona un plan disponible, Cuando confirma la elección, Entonces el sistema activa la membresía correspondiente. <br><br> **Escenario 2:** Dado que el dueño solicita cambiar de plan, Cuando confirma la modificación, Entonces el sistema programa el cambio para el siguiente periodo disponible. | EP10 |
-| US24 | Pagar suscripción | Como dueño, quiero pagar mi membresía mediante tarjeta o billetera digital para mantener activo mi plan. | **Escenario 1:** Dado que el dueño ingresa datos de pago válidos, Cuando confirma la operación, Entonces el sistema registra el pago y activa la suscripción. <br><br> **Escenario 2:** Dado que el dueño ingresa datos de pago inválidos, Cuando confirma la operación, Entonces el sistema muestra un mensaje de error y no activa la suscripción. | EP10 |
-| US25 | Descargar comprobantes de pago | Como dueño, quiero descargar comprobantes mensuales de mis pagos para llevar control contable de mi membresía. | **Escenario 1:** Dado que el dueño accede a la sección de facturación, Cuando selecciona un mes con pago registrado, Entonces el sistema permite descargar el comprobante correspondiente. <br><br> **Escenario 2:** Dado que existe un pago pendiente o fallido, Cuando el dueño revisa la facturación, Entonces el sistema muestra un aviso de pago pendiente. | EP10 |
-| US26 | Publicar promociones destacadas | Como dueño Pro, quiero publicar promociones destacadas para aumentar la visibilidad de mi huarique en los listados. | **Escenario 1:** Dado que el dueño Pro configura una promoción con fechas y cupos válidos, Cuando la publica, Entonces el sistema la muestra como destacada en los listados. <br><br> **Escenario 2:** Dado que la promoción alcanza su fecha de finalización, Cuando el usuario revisa los listados, Entonces el sistema deja de mostrarla como promoción activa. | EP10 |
+**Definición de Epics**
+
+| Story ID | Usuario | Prioridad | Epic | Título | Descripción | Criterios de Aceptación |
+|---|---|---|---|---|---|---|
+| EP01 | — | Alta | EP01 | Descubrimiento de huariques | Agrupa las funcionalidades que permiten a los usuarios buscar, ubicar y guardar huariques. | N/A (Epic) |
+| EP02 | — | Alta | EP02 | Gestión de huariques | Permite a los dueños registrar, actualizar y enriquecer la información de sus huariques. | N/A (Epic) |
+| EP03 | — | Alta | EP03 | Reseñas y calificaciones | Reúne la publicación, calificación y moderación de reseñas sobre los huariques. | N/A (Epic) |
+| EP04 | — | Alta | EP04 | Landing Page | Sitio web estático que presenta la propuesta de valor y permite el contacto con el equipo. | N/A (Epic) |
+| EP05 | — | Baja | EP05 | Notificaciones | Gestión de alertas y preferencias de notificación para usuarios y dueños. | N/A (Epic) |
+| EP06 | — | Alta | EP06 | API RESTful (Technical Stories) | Servicios backend que exponen las operaciones para los productos digitales. | N/A (Epic) |
+| EP07 | — | Alta | EP07 | Autenticación y gestión de cuenta | Registro, inicio de sesión y recuperación de credenciales de forma segura. | N/A (Epic) |
+| EP08 | — | Media | EP08 | Recomendaciones y preferencias | Personalización de la experiencia a partir de preferencias e historial del usuario. | N/A (Epic) |
+| EP09 | — | Media | EP09 | Información y estado del huarique | Mantiene actualizada y confiable la información operativa (horarios, estado, reportes). | N/A (Epic) |
+| EP10 | — | Media | EP10 | Membresías, pagos y promociones | Modelo de ingresos: planes, pagos, comprobantes y promociones destacadas. | N/A (Epic) |
+
+**User Stories y Technical Stories**
+
+| Story ID | Usuario | Prioridad | Epic | Título | Descripción | Criterios de Aceptación |
+|---|---|---|---|---|---|---|
+| US01 | Usuario | Alta | EP01 | Filtrar huariques | Como usuario, quiero filtrar huariques por ubicación, tipo de comida y precio para encontrar opciones acordes a mis preferencias. | **Escenario 1:** Dado que el usuario selecciona filtros válidos, Cuando ejecuta la búsqueda, Entonces el sistema muestra solo los huariques que coinciden con los filtros aplicados. <br><br> **Escenario 2:** Dado que no existen huariques que coincidan con los filtros, Cuando el usuario ejecuta la búsqueda, Entonces el sistema muestra un mensaje indicando que no se encontraron resultados. <br><br> **Escenario 3:** Dado que el usuario no selecciona filtros, Cuando ejecuta la búsqueda, Entonces el sistema muestra la lista general de huariques disponibles. |
+| US02 | Usuario | Alta | EP01 | Visualizar huariques en mapa | Como usuario, quiero visualizar la ubicación de los huariques en un mapa para identificar fácilmente cómo llegar a ellos. | **Escenario 1:** Dado que el usuario accede a la vista de mapa, Cuando la pantalla termina de cargar, Entonces el sistema muestra los huariques mediante marcadores de ubicación. <br><br> **Escenario 2:** Dado que el usuario selecciona un marcador del mapa, Cuando pulsa sobre este, Entonces el sistema muestra un resumen con nombre, dirección y calificación del huarique. |
+| US03 | Usuario | Media | EP01 | Guardar huariques favoritos | Como usuario, quiero guardar huariques como favoritos para consultarlos nuevamente de forma rápida. | **Escenario 1:** Dado que el usuario selecciona la opción de favorito en un huarique, Cuando confirma la acción, Entonces el sistema agrega el huarique a su lista de favoritos. <br><br> **Escenario 2:** Dado que el usuario accede a la sección de favoritos, Cuando la pantalla carga, Entonces el sistema muestra los huariques guardados previamente. |
+| US04 | Dueño | Alta | EP02 | Registrar un nuevo huarique | Como dueño, quiero registrar un nuevo huarique con información básica para que aparezca en la plataforma. | **Escenario 1:** Dado que el dueño completa todos los campos obligatorios con datos válidos, Cuando envía el formulario, Entonces el sistema registra el huarique correctamente. <br><br> **Escenario 2:** Dado que el dueño deja campos obligatorios vacíos, Cuando intenta registrar el huarique, Entonces el sistema solicita completar los datos faltantes. |
+| US05 | Dueño | Media | EP02 | Actualizar información del huarique | Como dueño, quiero actualizar la información de mi huarique para mantener sus datos correctos y vigentes. | **Escenario 1:** Dado que el dueño modifica datos válidos del huarique, Cuando guarda los cambios, Entonces el sistema actualiza la información correctamente. <br><br> **Escenario 2:** Dado que el dueño ingresa información incompleta o inválida, Cuando intenta guardar los cambios, Entonces el sistema muestra un mensaje de validación. |
+| US06 | Dueño | Media | EP02 | Gestionar contenido multimedia | Como dueño, quiero subir fotos y videos de mi huarique para mostrar mejor mi negocio a los usuarios. | **Escenario 1:** Dado que el dueño selecciona un archivo permitido, Cuando lo sube al perfil del huarique, Entonces el sistema almacena y muestra el contenido multimedia. <br><br> **Escenario 2:** Dado que el dueño selecciona un archivo no permitido, Cuando intenta subirlo, Entonces el sistema muestra un mensaje indicando los formatos aceptados. |
+| US07 | Usuario | Alta | EP03 | Publicar reseñas | Como usuario, quiero publicar una reseña y calificación sobre un huarique para compartir mi experiencia con otros usuarios. | **Escenario 1:** Dado que el usuario completa la reseña y selecciona una calificación válida, Cuando confirma el envío, Entonces el sistema publica la reseña en el perfil del huarique. <br><br> **Escenario 2:** Dado que el usuario ya publicó una reseña sobre el mismo huarique, Cuando intenta publicar otra, Entonces el sistema impide el registro duplicado. |
+| US08 | Sistema | Media | EP03 | Moderar reseñas inapropiadas | Como sistema, quiero detectar reseñas inapropiadas para evitar contenido ofensivo dentro de la plataforma. | **Escenario 1:** Dado que una reseña contiene lenguaje ofensivo, Cuando el usuario intenta publicarla, Entonces el sistema bloquea la publicación o la marca para revisión. |
+| US09 | Visitante | Alta | EP04 | Mostrar beneficios en la landing page | Como visitante, quiero ver los beneficios de PuntoSabor en la landing page para comprender el valor de la plataforma. | **Escenario 1:** Dado que el visitante accede a la landing page, Cuando la página termina de cargar, Entonces el sistema muestra los beneficios principales para usuarios y dueños de huariques. |
+| US10 | Visitante | Media | EP04 | Enviar consultas desde el formulario de contacto | Como visitante, quiero enviar consultas mediante un formulario de contacto para comunicarme con el equipo de PuntoSabor. | **Escenario 1:** Dado que el visitante completa correctamente todos los campos requeridos, Cuando envía el formulario, Entonces el sistema registra la consulta y muestra una confirmación. <br><br> **Escenario 2:** Dado que el visitante deja campos obligatorios vacíos, Cuando intenta enviar el formulario, Entonces el sistema solicita completar los datos faltantes. |
+| US11 | Usuario | Baja | EP05 | Configurar notificaciones | Como usuario, quiero activar o desactivar notificaciones para recibir solo la información que me interesa. | **Escenario 1:** Dado que el usuario modifica sus preferencias de notificación, Cuando guarda los cambios, Entonces el sistema actualiza la configuración seleccionada. |
+| US12 | Dueño | Baja | EP05 | Recibir notificaciones de nuevas reseñas | Como dueño, quiero recibir alertas cuando mi huarique reciba nuevas reseñas para responder oportunamente a los usuarios. | **Escenario 1:** Dado que un usuario publica una reseña aprobada, Cuando la reseña queda registrada, Entonces el sistema notifica al dueño del huarique. |
+| US13 | Developer | Alta | EP06 | Consultar huariques mediante API | Como developer, quiero consultar huariques mediante filtros en la API para integrar la búsqueda con la aplicación móvil. | **Escenario 1:** Dado que la petición contiene parámetros válidos, Cuando la API procesa la solicitud, Entonces devuelve los huariques que cumplen los criterios enviados. <br><br> **Escenario 2:** Dado que la petición contiene parámetros inválidos, Cuando la API procesa la solicitud, Entonces devuelve un mensaje de error claro. |
+| US14 | Developer | Alta | EP06 | Registrar y actualizar huariques mediante API | Como developer, quiero crear y actualizar huariques mediante la API para gestionar la información desde los productos digitales. | **Escenario 1:** Dado que la petición contiene datos válidos, Cuando la API procesa el registro, Entonces crea el huarique y devuelve una respuesta exitosa. <br><br> **Escenario 2:** Dado que la petición contiene datos válidos de actualización, Cuando la API procesa la solicitud, Entonces actualiza la información del huarique. |
+| US15 | Usuario | Alta | EP07 | Registrar e iniciar sesión de forma segura | Como usuario, quiero crear una cuenta e iniciar sesión con credenciales seguras para acceder a mi perfil. | **Escenario 1:** Dado que el usuario ingresa datos válidos de registro, Cuando envía el formulario, Entonces el sistema crea la cuenta correctamente. <br><br> **Escenario 2:** Dado que el usuario ingresa credenciales válidas, Cuando inicia sesión, Entonces el sistema le permite acceder a su cuenta. <br><br> **Escenario 3:** Dado que el usuario ingresa credenciales incorrectas, Cuando intenta iniciar sesión, Entonces el sistema muestra un mensaje de error. <br><br> **Escenario 4:** Dado que el usuario deja campos vacíos, Cuando intenta continuar, Entonces el sistema solicita completar los datos requeridos. |
+| US16 | Usuario | Media | EP07 | Recuperar contraseña | Como usuario, quiero recuperar mi contraseña para volver a acceder a mi cuenta en caso de olvido. | **Escenario 1:** Dado que el usuario ingresa un correo registrado, Cuando solicita la recuperación, Entonces el sistema envía instrucciones para restablecer la contraseña. <br><br> **Escenario 2:** Dado que el usuario ingresa un correo no registrado, Cuando solicita la recuperación, Entonces el sistema muestra un mensaje informativo. |
+| US17 | Usuario | Media | EP08 | Guardar preferencias del usuario | Como usuario, quiero guardar mis preferencias de cocina, presupuesto y ubicación para recibir recomendaciones personalizadas. | **Escenario 1:** Dado que el usuario ingresa preferencias válidas, Cuando confirma la configuración, Entonces el sistema guarda las preferencias en su perfil. <br><br> **Escenario 2:** Dado que el usuario tiene preferencias guardadas, Cuando accede a recomendaciones, Entonces el sistema muestra huariques relacionados con esos criterios. |
+| US18 | Usuario | Baja | EP08 | Sugerir huariques automáticamente | Como usuario, quiero recibir sugerencias de huariques basadas en mi historial para descubrir opciones relacionadas con mis intereses. | **Escenario 1:** Dado que el usuario tiene historial de búsquedas o favoritos, Cuando accede a recomendaciones, Entonces el sistema muestra huariques similares. <br><br> **Escenario 2:** Dado que el usuario no tiene historial, Cuando accede a recomendaciones, Entonces el sistema muestra huariques populares de la zona. |
+| US19 | Usuario | Media | EP08 | Recomendar huariques cercanos | Como usuario, quiero recibir recomendaciones de huariques cercanos a mi ubicación para encontrar opciones próximas. | **Escenario 1:** Dado que el usuario concede permiso de ubicación, Cuando accede a la sección “Cerca de mí”, Entonces el sistema muestra huariques dentro del radio definido. <br><br> **Escenario 2:** Dado que el usuario no concede permiso de ubicación, Cuando accede a la sección, Entonces el sistema solicita permisos o permite una búsqueda manual. |
+| US20 | Usuario | Baja | EP09 | Verificar horarios de huariques | Como usuario, quiero ver si el horario de un huarique fue confirmado recientemente para evitar información desactualizada. | **Escenario 1:** Dado que el dueño actualizó el horario recientemente, Cuando el usuario entra al perfil del huarique, Entonces el sistema muestra la etiqueta “Horario verificado”. <br><br> **Escenario 2:** Dado que no existen actualizaciones recientes, Cuando el usuario entra al perfil, Entonces el sistema muestra la etiqueta “Horario no verificado”. |
+| US21 | Usuario | Baja | EP09 | Reportar información incorrecta | Como usuario, quiero reportar datos incorrectos de un huarique para contribuir a mantener actualizada la información. | **Escenario 1:** Dado que el usuario detecta información incorrecta, Cuando envía un reporte, Entonces el sistema registra el reporte para revisión. <br><br> **Escenario 2:** Dado que el reporte fue revisado y corregido, Cuando el usuario consulta el huarique, Entonces el sistema muestra la información actualizada. |
+| US22 | Sistema | Media | EP09 | Mostrar estado abierto o cerrado | Como sistema, quiero mostrar si un huarique está abierto o cerrado para orientar mejor la decisión del usuario. | **Escenario 1:** Dado que el sistema cuenta con información reciente del horario, Cuando el usuario accede al perfil, Entonces muestra el estado “Abierto ahora” o “Cerrado”. <br><br> **Escenario 2:** Dado que no hay datos suficientes para validar el estado, Cuando el usuario accede al perfil, Entonces muestra el aviso “Estado no confirmado”. |
+| US23 | Dueño | Media | EP10 | Seleccionar planes de membresía | Como dueño, quiero elegir entre planes de membresía con distintos beneficios para aumentar la visibilidad de mi huarique. | **Escenario 1:** Dado que el dueño selecciona un plan disponible, Cuando confirma la elección, Entonces el sistema activa la membresía correspondiente. <br><br> **Escenario 2:** Dado que el dueño solicita cambiar de plan, Cuando confirma la modificación, Entonces el sistema programa el cambio para el siguiente periodo disponible. |
+| US24 | Dueño | Media | EP10 | Pagar suscripción | Como dueño, quiero pagar mi membresía mediante tarjeta o billetera digital para mantener activo mi plan. | **Escenario 1:** Dado que el dueño ingresa datos de pago válidos, Cuando confirma la operación, Entonces el sistema registra el pago y activa la suscripción. <br><br> **Escenario 2:** Dado que el dueño ingresa datos de pago inválidos, Cuando confirma la operación, Entonces el sistema muestra un mensaje de error y no activa la suscripción. |
+| US25 | Dueño | Baja | EP10 | Descargar comprobantes de pago | Como dueño, quiero descargar comprobantes mensuales de mis pagos para llevar control contable de mi membresía. | **Escenario 1:** Dado que el dueño accede a la sección de facturación, Cuando selecciona un mes con pago registrado, Entonces el sistema permite descargar el comprobante correspondiente. <br><br> **Escenario 2:** Dado que existe un pago pendiente o fallido, Cuando el dueño revisa la facturación, Entonces el sistema muestra un aviso de pago pendiente. |
+| US26 | Dueño Pro | Media | EP10 | Publicar promociones destacadas | Como dueño Pro, quiero publicar promociones destacadas para aumentar la visibilidad de mi huarique en los listados. | **Escenario 1:** Dado que el dueño Pro configura una promoción con fechas y cupos válidos, Cuando la publica, Entonces el sistema la muestra como destacada en los listados. <br><br> **Escenario 2:** Dado que la promoción alcanza su fecha de finalización, Cuando el usuario revisa los listados, Entonces el sistema deja de mostrarla como promoción activa. |
 
 ### 2.4.2. Impact Mapping
 
 ![ImpactMap](assets/ImpactmapPuntoSabor.png)
 
 ### 2.4.3. Product Backlog
+
+El Product Backlog reúne las User Stories de la sección [2.4.1](#241-user-stories) con su estimación en Story Points y su priorización. El orden lo determina el **valor para el negocio** y la contribución al flujo principal de descubrimiento de huariques; por ello, las historias de descubrimiento y presentación del producto (incluida la Landing Page, considerada desde el primer sprint) se ubican antes que las de seguridad o configuración, evitando el error de iniciar el backlog con autenticación.
+
+**Documento del Product Backlog y herramienta de gestión del avance.** El backlog se mantiene de forma viva en **Trello**, herramienta indicada para el control del proyecto, donde cada User Story es una tarjeta con su estimación, prioridad, responsable y estado (To-Do / In-Process / To-Review / Done). La tabla siguiente es la exportación de referencia de ese tablero al informe.
+
+- **Tablero de Trello (Product Backlog y control de sprints):** `https://trello.com/b/<ID-DEL-TABLERO>/puntosabor-product-backlog` _(reemplazar por la URL pública real del tablero del equipo)._
+- **Repositorio del informe (documento del backlog en Markdown):** <https://github.com/HuariqueHub/report>
+
+![Tablero de Product Backlog en Trello](assets/trello-product-backlog.png)
+
+<!-- TODO equipo: reemplazar la URL del tablero por la pública real y agregar la captura assets/trello-product-backlog.png del board completo. -->
 
 | # Orden | User Story ID | Título | Descripción | Story Points (1 / 2 / 3 / 5 / 8) |
 |---------|---------------|--------|-------------|----------------------------------|
@@ -936,6 +1002,20 @@ A continuación, se muestra un cuadro resumen con los Epics y User Stories defin
 | 24 | US24 | Pagar suscripción | Como dueño, quiero pagar mi membresía mediante tarjeta o billetera digital para mantener activo mi plan. | 5 |
 | 25 | US25 | Descargar comprobantes de pago | Como dueño, quiero descargar comprobantes mensuales de mis pagos para llevar control contable de mi membresía. | 3 |
 | 26 | US26 | Publicar promociones destacadas | Como dueño Pro, quiero publicar promociones destacadas para aumentar la visibilidad de mi huarique en los listados. | 3 |
+
+**Suma total estimada del backlog:** 89 Story Points.
+
+#### Roadmap de Sprints hasta la entrega del Trabajo Final
+
+El desarrollo se organiza en tres sprints alineados con los hitos del curso, hasta la entrega del Trabajo Final (TB2, semana 15). Cada sprint toma del Product Backlog las User Stories de mayor prioridad y valor para el negocio, manteniendo la Landing Page presente desde el primer sprint. La gestión y el seguimiento del avance de cada sprint se realiza en el mismo tablero de Trello indicado arriba.
+
+| Sprint | Entrega asociada | Periodo (semanas) | Objetivo (Sprint Goal) | User Stories planificadas |
+|---|---|---|---|---|
+| **Sprint 1** | TB1 (Semana 7) | Sem. 5 – 7 | Construir la base inicial de la Landing Page y de la aplicación móvil (presentación del producto, descubrimiento y primeras interacciones). | US09, US10, US01, US02, US03, US04, US07, US15 |
+| **Sprint 2** | AV2 (Semana 12) | Sem. 8 – 12 | Completar el flujo principal de la app conectado al backend desplegado (autenticación real, gestión de huariques por el dueño, reseñas y servicios de la API). | US13, US14, US05, US06, US16, US17, US19, US23 |
+| **Sprint 3** | TB2 (Semana 15) | Sem. 13 – 15 | Cerrar el producto con monetización y funcionalidades de soporte a la decisión (membresías y pagos, promociones, estado/horarios y notificaciones). | US24, US25, US26, US20, US21, US22, US11, US12, US18 |
+
+> Nota: la distribución de User Stories por sprint es la planificación vigente y puede ajustarse en cada Sprint Planning según el velocity real del equipo. El detalle de ejecución de cada sprint se documenta en el [Capítulo IV](#capítulo-iv-product-implementation--validation).
 
 ## 2.5. Strategic-Level Domain-Driven Design
 
@@ -1672,7 +1752,9 @@ Estructura:
 - Lenguaje: C#
 - IDE: Visual Studio 2022 o Visual Studio Code con extensión C#.
 - Control de versiones: Git + GitHub.
-- Plataforma de despliegue: Railway.
+- Plataforma de despliegue: Railway (contenedor Docker + base de datos MySQL 8).
+- **URL pública del backend:** <https://huariquehub-backend.up.railway.app>
+- **Documentación de la API (Swagger / OpenAPI):** <https://huariquehub-backend.up.railway.app/swagger>
 
 **Aplicación Móvil (HuariqueHub-App)**
 - Lenguaje: Kotlin
@@ -1898,7 +1980,7 @@ En el caso del backend, se cuenta con una documentación publicada mediante Swag
 | Evidencia | Descripción | Enlace / Captura |
 |---|---|---|
 | Repositorio del proyecto | Repositorio donde se encuentra el código fuente del informe y/o producto. | https://github.com/HuariqueHub/report/tree/develop |
-| Backend desplegado en Swagger | Se muestra la documentación de endpoints disponible desde el navegador. | Colocar enlace de Swagger |
+| Backend desplegado en Swagger | Se muestra la documentación de endpoints disponible desde el navegador (backend 100% desplegado en sitio público). | <https://huariquehub-backend.up.railway.app/swagger> |
 | Ejecución móvil en emulador | Captura de la aplicación móvil ejecutándose desde Android Studio. | ![Login PuntoSabor](assets/login-puntosabor.jpeg) |
 | Pantalla principal de la app | Evidencia de la pantalla home con búsqueda, categorías y huariques destacados. | ![Home PuntoSabor](assets/home-puntosabor.jpeg) |
 | Commits de desarrollo | Capturas o historial de commits relacionados con la implementación. | ![commits](assets/commits.png) |
@@ -1921,6 +2003,142 @@ La comunicación se realizó mediante reuniones, mensajes grupales y el uso de G
 
 
 Como resultado, el equipo logró consolidar una primera base funcional del producto, evidenciando avances en la aplicación móvil, servicios backend y documentación del sprint.
+
+### 4.2.2. Sprint 2
+
+El Sprint 2 corresponde a la entrega AV2 y se centró en **conectar el flujo principal de la aplicación con el backend desplegado al 100% en un sitio público**. Mientras que el Sprint 1 entregó las pantallas core y el backend documentado, el Sprint 2 integró ambos productos: la aplicación móvil consume ahora los servicios reales de la API (autenticación con JWT, descubrimiento de huariques, reseñas y gestión de huariques por parte del dueño), validando de extremo a extremo el flujo del usuario y del propietario.
+
+#### 4.2.2.1. Sprint Planning 2
+
+En la planificación del Sprint 2 se acordó priorizar la **integración real entre la aplicación móvil y el backend** publicado en Railway, así como completar las operaciones del propietario (registro y edición de huariques) y las Technical Stories de la API que sustentan dichas funcionalidades. El equipo tomó del Product Backlog las User Stories de mayor valor para consolidar el flujo principal.
+
+| Sprint # | Sprint 2 |
+|---|---|
+| **Sprint Planning Background** | |
+| Date | 2026-05-25 |
+| Time | 07:00 PM |
+| Location | Reunión virtual (Discord) |
+| Prepared By | Tumi Oliden, Manuel Ignacio |
+| Attendees | Delgado Carrasco, Schneider / Lopez Goitia, Carlos Alberto / Tumi Oliden, Manuel Ignacio / Becerra Llempen, Fabiola Dayane / Vasquez Goicochea, Erick Alessander |
+| **Sprint 1 Review Summary** | El Sprint 1 entregó las pantallas core de la app y el backend documentado en Swagger, pero la aplicación operaba con datos locales y sin integración real con los servicios. El Product Owner solicitó priorizar la conexión efectiva del flujo principal con el backend desplegado. |
+| **Sprint 1 Retrospective Summary** | El equipo identificó como acierto la organización por capas (DDD) y como oportunidad de mejora la necesidad de validar tempranamente los contratos de la API (rutas, verbos y campos) para evitar incompatibilidades entre la app y el backend. |
+| **Sprint Goal & User Stories** | |
+| Sprint 2 Goal | *Our focus is on connecting the PuntoSabor mobile experience to the public deployed backend. We believe it delivers a real, end-to-end flow —authentication, huarique discovery, reviews and owner management— to explorers and huarique owners. This will be confirmed when a user can register, log in, browse and review huariques, and an owner can publish and edit a huarique consuming the live API, without local mock data.* |
+| Sprint 2 Velocity | 32 Story Points |
+| Sum of Story Points | 32 Story Points (US13, US14, US04, US05, US06, US16, US17, US23) |
+
+#### 4.2.2.2. Sprint Backlog 2
+
+El objetivo principal del Sprint 2 fue habilitar el flujo principal de PuntoSabor consumiendo el backend real. La gestión del avance se realizó en el tablero de **Trello** del equipo (mismo board del Product Backlog), donde cada tarea se movió por los estados To-Do → In-Process → To-Review → Done.
+
+- **Tablero de Trello (Sprint 2):** `https://trello.com/b/<ID-DEL-TABLERO>/puntosabor-product-backlog` _(reemplazar por la URL pública real del board)._
+
+![Tablero del Sprint 2 en Trello](assets/trello-sprint2.png)
+
+<!-- TODO equipo: agregar la captura assets/trello-sprint2.png del board del Sprint 2. -->
+
+| Sprint | User Story | | Work-Item / Task | | Estimación (h) | Asignado a | Estado |
+|---|---|---|---|---|---|---|---|
+| | **Id** | **Title** | **Id** | **Title** | | | |
+| Sprint 2 | US15 | Autenticación segura | T-01 | Conectar login/registro al endpoint `/auth/login` y `/users` con JWT y persistir token | 5 | Tumi Oliden, Manuel Ignacio | Done |
+| Sprint 2 | US13 | Consultar huariques (API) | T-02 | Integrar `GET /huariques` y `/categories` en la pantalla Home con filtro y búsqueda | 4 | Lopez Goitia, Carlos Alberto | Done |
+| Sprint 2 | US07 | Publicar reseñas | T-03 | Integrar `GET/POST /reviews` en el detalle del huarique | 4 | Becerra Llempen, Fabiola Dayane | Done |
+| Sprint 2 | US04 | Registrar huarique | T-04 | Conectar el formulario de creación a `POST /huariques` enviando `categoryId` | 5 | Vasquez Goicochea, Erick Alessander | Done |
+| Sprint 2 | US05 | Actualizar huarique | T-05 | Conectar la edición a `PATCH /huariques/{id}` (corrección de verbo) | 3 | Vasquez Goicochea, Erick Alessander | Done |
+| Sprint 2 | US14 | API de huariques (Technical) | T-06 | Verificar contratos request/response de `/huariques` (crear, editar, eliminar) | 4 | Delgado Carrasco, Schneider | Done |
+| Sprint 2 | US23 | Planes de membresía | T-07 | Mostrar planes desde `GET /plans` en la pantalla de suscripción | 3 | Lopez Goitia, Carlos Alberto | Done |
+| Sprint 2 | US17 | Preferencias del usuario | T-08 | Persistencia local de sesión y preferencias del usuario | 4 | Tumi Oliden, Manuel Ignacio | To-Review |
+
+Este Sprint Backlog vincula cada tarea con su User Story y con el endpoint del backend que la sustenta, asegurando la trazabilidad entre los requisitos, el Product Backlog y la implementación.
+
+#### 4.2.2.3. Development Evidence for Sprint Review
+
+Durante el Sprint 2 el desarrollo se concentró en la **capa de integración** de la aplicación móvil cross-platform (Flutter) con la API REST. Se implementó un cliente HTTP con interceptor de autenticación que adjunta el token JWT a las peticiones, y se conectaron las pantallas del flujo principal a los servicios reales. Como parte de la revisión se detectaron y corrigieron incompatibilidades de contrato entre la app y el backend.
+
+| # | Componente / Archivo | Cambio realizado | Endpoint del backend |
+|---|---|---|---|
+| 1 | `core/network/api_client.dart` | Cliente Dio con `baseUrl` al backend en Railway e interceptor que adjunta `Authorization: Bearer <token>`. | `https://huariquehub-backend.up.railway.app` |
+| 2 | `data/services/auth_service.dart` | Login con persistencia del JWT; el registro ahora realiza **auto-login** para obtener y guardar el token (antes el registro no persistía token). | `POST /auth/login`, `POST /users` |
+| 3 | `data/services/huarique_service.dart` | Listado, detalle, creación y **edición** de huariques. Se corrigió el verbo de actualización de `PUT` a **`PATCH`** y se agregó la carga de categorías. | `GET/POST /huariques`, `PATCH /huariques/{id}`, `GET /categories` |
+| 4 | `features/owner/create_edit_huarique_screen.dart` | El formulario del propietario ahora envía `categoryId` (requerido por el backend) resolviéndolo desde las categorías reales. | `POST /huariques`, `PATCH /huariques/{id}` |
+| 5 | `features/home/home_screen.dart` | Las categorías de filtrado se derivan de los datos reales del backend, evitando filtros vacíos. | `GET /huariques` |
+| 6 | `features/home/huarique_detail_screen.dart` | Detalle del huarique con lectura y publicación de reseñas reales. | `GET/POST /reviews` |
+
+**Bugs corregidos en la revisión (Code Review del Sprint):**
+
+- **Verbo HTTP incorrecto al editar:** la app usaba `PUT /huariques/{id}`, pero el backend expone `PATCH`. La edición fallaba; se corrigió a `PATCH`.
+- **Falta de `categoryId` al crear/editar:** el backend exige `categoryId` (entero); la app solo enviaba el nombre de la categoría. Se agregó la resolución de `categoryId` a partir de las categorías reales.
+- **Token ausente tras el registro:** `POST /users` no devuelve token; se añadió un auto-login posterior al registro para habilitar las operaciones autenticadas.
+
+#### 4.2.2.4. Testing Suite Evidence for Sprint Review
+
+Para validar la integración se ejecutaron pruebas de extremo a extremo sobre la aplicación móvil conectada al backend público y pruebas de contrato directamente contra los endpoints (verificando códigos de estado y cuerpos de respuesta).
+
+| Caso de prueba | Descripción | Resultado esperado | Resultado obtenido | Estado |
+|---|---|---|---|---|
+| TS07 | Registro + auto-login | El usuario se registra y queda autenticado con token persistido. | La cuenta se crea y la sesión queda activa con JWT. | Aprobado |
+| TS08 | Login con credenciales válidas | `POST /auth/login` devuelve usuario y token. | Respuesta `200` con token JWT. | Aprobado |
+| TS09 | Listar huariques | `GET /huariques` devuelve la lista para la pantalla Home. | Respuesta `200` con 21 huariques sembrados. | Aprobado |
+| TS10 | Filtrar por categoría | Los chips de categoría muestran solo huariques existentes. | El filtro corresponde a las categorías reales del backend. | Aprobado |
+| TS11 | Crear huarique (dueño) | `POST /huariques` con `categoryId` crea el local. | Respuesta `201` con el huarique creado. | Aprobado |
+| TS12 | Editar huarique (dueño) | `PATCH /huariques/{id}` actualiza campos. | Respuesta `200` con los datos actualizados. | Aprobado |
+| TS13 | Leer reseñas | `GET /reviews?huariqueId={id}` devuelve las reseñas. | Respuesta `200` con las reseñas del huarique. | Aprobado |
+| TS14 | Publicar reseña | `POST /reviews` registra una nueva reseña. | Respuesta `201` con la reseña creada. | Aprobado |
+
+#### 4.2.2.5. Execution Evidence for Sprint Review
+
+En esta sección se evidencia la ejecución del flujo principal de PuntoSabor con la aplicación móvil consumiendo el backend público. El flujo validado abarca: registro/inicio de sesión, descubrimiento y búsqueda de huariques, detalle con reseñas, y gestión de huariques por parte del propietario.
+
+| Evidencia | Descripción | Imagen / Enlace |
+|---|---|---|
+| Backend público en ejecución (Swagger) | Documentación interactiva de la API desplegada al 100% en sitio público. | <https://huariquehub-backend.up.railway.app/swagger> |
+| Flujo de autenticación | Registro e inicio de sesión reales contra `/auth/login` y `/users`. | ![Login PuntoSabor](assets/login-puntosabor.jpeg) |
+| Descubrimiento de huariques | Home con datos reales, búsqueda y filtro por categorías. | ![Home PuntoSabor](assets/home-puntosabor.jpeg) |
+| Detalle y reseñas | Detalle del huarique con reseñas leídas y publicadas vía API. | ![Detalle Huarique](assets/detalle-huarique.jpeg) |
+| Gestión del propietario | Creación y edición de un huarique consumiendo el backend. | ![Nueva Reseña](assets/nueva-resena.jpeg) |
+
+#### 4.2.2.6. Services Documentation Evidence for Sprint Review
+
+El backend se encuentra **desplegado al 100% en un sitio público con su documentación** mediante Swagger/OpenAPI. La tabla siguiente resume los endpoints integrados y consumidos por la aplicación durante el Sprint 2.
+
+| Servicio | Endpoints | Uso en la app | Estado |
+|---|---|---|---|
+| Auth | `POST /auth/login` | Inicio de sesión y obtención del JWT. | Integrado |
+| Users | `POST /users`, `GET /users` | Registro de usuarios (consumer/owner). | Integrado |
+| Huariques | `GET /huariques`, `GET /huariques/{id}`, `POST /huariques`, `PATCH /huariques/{id}`, `DELETE /huariques/{id}` | Descubrimiento, detalle y gestión por el dueño. | Integrado |
+| Categories | `GET /categories` | Categorías para filtros y para `categoryId` al crear/editar. | Integrado |
+| Reviews | `GET /reviews`, `POST /reviews` | Lectura y publicación de reseñas. | Integrado |
+| Plans | `GET /plans` | Planes en la pantalla de suscripción. | Integrado |
+| Promos | `GET /promos`, `POST /promos` | Promociones del propietario. | Documentado |
+| Subscriptions | `GET /subscriptions`, `POST /subscriptions` | Suscripción a planes de membresía. | Documentado |
+
+- **Documentación pública de la API:** <https://huariquehub-backend.up.railway.app/swagger>
+
+#### 4.2.2.7. Software Deployment Evidence for Sprint Review
+
+Para el Sprint 2, el backend quedó **desplegado al 100% en Railway** (contenedor Docker + base de datos MySQL 8) accesible públicamente, con su documentación Swagger disponible desde el navegador. La aplicación móvil se ejecuta apuntando a dicha URL pública, por lo que el flujo principal funciona sin depender del entorno local.
+
+| Evidencia | Descripción | Enlace / Captura |
+|---|---|---|
+| Backend desplegado (público) | URL pública del backend en Railway. | <https://huariquehub-backend.up.railway.app> |
+| Documentación de la API | Swagger/OpenAPI accesible desde el navegador. | <https://huariquehub-backend.up.railway.app/swagger> |
+| Repositorio del backend | Código fuente del backend (.NET 8 / C#). | <https://github.com/HuariqueHub/HuariqueHub-Backend> |
+| Repositorio de la app móvil | Código fuente de la aplicación cross-platform (Flutter). | <https://github.com/HuariqueHub/HuariqueHub-AppFlutter> |
+| Commits del Sprint 2 | Historial de commits de la integración. | ![commits](assets/commits.png) |
+
+#### 4.2.2.8. Team Collaboration Insights during Sprint 2
+
+Durante el Sprint 2, el equipo trabajó de forma coordinada para integrar la aplicación con el backend desplegado. La comunicación se realizó mediante reuniones virtuales y el tablero de Trello, donde se dio seguimiento al avance de cada tarea. El uso de Conventional Commits y ramas `feature/*` permitió mantener la trazabilidad de los cambios.
+
+| Integrante | Aporte durante el Sprint 2 |
+|---|---|
+| Delgado Carrasco, Schneider | Verificación de contratos de la API y revisión de las evidencias de servicios. |
+| Lopez Goitia, Carlos Alberto | Integración del descubrimiento (Home, búsqueda, categorías) y de los planes de membresía. |
+| Tumi Oliden, Manuel Ignacio | Integración de autenticación (login/registro con JWT) y persistencia de sesión. |
+| Becerra Llempen, Fabiola Dayane | Integración del detalle del huarique y del módulo de reseñas. |
+| Vasquez Goicochea, Erick Alessander | Integración de la gestión del propietario (crear/editar huarique) y documentación del sprint. |
+
+Como resultado, el equipo consolidó el **flujo principal de PuntoSabor funcionando de extremo a extremo** contra el backend público, cumpliendo las consideraciones del AV2 respecto al despliegue del backend al 100% y la demostración de las funcionalidades core de la aplicación.
 
 # Conclusiones
 
