@@ -975,12 +975,11 @@ El Product Backlog reúne las User Stories de la sección [2.4.1](#241-user-stor
 
 **Documento del Product Backlog y herramienta de gestión del avance.** El backlog se mantiene de forma viva en **Trello**, herramienta indicada para el control del proyecto, donde cada User Story es una tarjeta con su estimación, prioridad, responsable y estado (To-Do / In-Process / To-Review / Done). La tabla siguiente es la exportación de referencia de ese tablero al informe.
 
-- **Tablero de Trello (Product Backlog y control de sprints):** `https://trello.com/b/<ID-DEL-TABLERO>/puntosabor-product-backlog` _(reemplazar por la URL pública real del tablero del equipo)._
+- **Tablero de Trello (Product Backlog y control de sprints):** 
+https://trello.com/invite/b/6a3b6709fd34f6edb2cc21af/ATTI7be4b37d5e727ef6f2e8092804bf2c3192D51CB7/puntosabor-app
 - **Repositorio del informe (documento del backlog en Markdown):** <https://github.com/HuariqueHub/report>
 
-![Tablero de Product Backlog en Trello](assets/trello-product-backlog.png)
-
-<!-- TODO equipo: reemplazar la URL del tablero por la pública real y agregar la captura assets/trello-product-backlog.png del board completo. -->
+![Tablero de Product Backlog en Trello](assets/trello_sprint2.png)
 
 | # Orden | User Story ID | Título | Descripción | Story Points (1 / 2 / 3 / 5 / 8) |
 |---------|---------------|--------|-------------|----------------------------------|
@@ -2039,9 +2038,11 @@ En la planificación del Sprint 2 se acordó priorizar la integración real entr
 
 El objetivo principal del Sprint 2 fue habilitar el flujo completo de PuntoSabor conectado al backend real, incorporando funcionalidades de gestión del propietario, preferencias, notificaciones, membresías y promociones. La gestión del avance se realizó en el tablero de Trello del equipo, donde cada tarea se movió por los estados To-Do → In-Process → To-Review → Done.
 
-- **Tablero de Trello (Sprint 2):** `[URL pública del tablero Trello]`
+- **Tablero de Trello (Sprint 2):** https://trello.com/invite/b/6a3b6709fd34f6edb2cc21af/ATTI7be4b37d5e727ef6f2e8092804bf2c3192D51CB7/puntosabor-app
 
-![Tablero del Sprint 2 en Trello](assets/trello-sprint2.png)
+Tablero del Sprint 2 en Trello
+
+![alt text](assets/trello_sprint2.png)
 
 | Sprint # | User Story | | Work-Item / Task | | | | |
 |---|---|---|---|---|---|---|---|
