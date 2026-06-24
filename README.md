@@ -139,28 +139,27 @@
 
 URL del repositorio del informe: https://github.com/HuariqueHub/report/tree/main
 
-Para la entrega AV1, el equipo elaboró el informe de manera colaborativa en formato Markdown, organizando los aportes por secciones asignadas y registrando las modificaciones mediante commits en GitHub.
+Para la entrega AV2, el equipo continuó trabajando de forma colaborativa en formato Markdown, registrando los aportes mediante commits en GitHub.
 
 Evidencias de colaboración:
 
 - Captura de commits del repositorio del informe:
 
-
-![alt text](image-1.png)
+![alt text](assets/commitSprint2.png)
 
 - Captura de contributors/insights de GitHub:
 
-![alt text](image.png)
+![alt text](assets/contributorssp2.png)
 
 - Resumen de participación por integrante:
 
 | Integrante | Participación |
 |---|---|
-| Delgado Carrasco, Schneider | Apoyó en wireframes, mock-ups, prototipos y evidencias visuales. |
-| Lopez Goitia, Carlos Alberto | Actualizó la estructura del informe, Style Guidelines, Information Architecture y Trello. |
-| Tumi Oliden, Manuel Ignacio | Documentó sistemas de búsqueda, navegación y configuración del proyecto. |
-| Becerra Llempen, Fabiola Dayane | Apoyó en flujos móviles, evidencias de desarrollo, testing y servicios. |
-| Vasquez Goicochea, Erick Alessander | Documentó Sprint Planning, Sprint Backlog, despliegue y colaboración del equipo. |
+| Delgado Carrasco, Schneider | Verificó contratos de la API y consolidó las evidencias de servicios del Sprint 2. |
+| Lopez Goitia, Carlos Alberto | Actualizó la estructura del informe para el AV2, integró el módulo de descubrimiento (Home, búsqueda, categorías) y los planes de membresía. |
+| Tumi Oliden, Manuel Ignacio | Documentó la integración de autenticación con JWT y la persistencia de sesión en la aplicación móvil. |
+| Becerra Llempen, Fabiola Dayane | Documentó la integración del detalle del huarique, el módulo de reseñas y las evidencias de validación. |
+| Vasquez Goicochea, Erick Alessander | Documentó el Sprint Planning 2, Sprint Backlog 2, evidencias de despliegue y colaboración del equipo. |
 
 # Contenido
 
