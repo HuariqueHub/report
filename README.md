@@ -1737,6 +1737,8 @@ Representaciones visuales de alta fidelidad que integran la identidad de marca, 
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
 
 ![alt text](assets/userflow_diagrams.png)
+![alt text](assets/userflow1.png)
+![alt text](assets/userflow2.png)
 
 #### 3.1.4.5. Mobile Applications Prototyping
 
