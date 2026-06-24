@@ -6,7 +6,7 @@
 
 <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
 <strong>Ingeniería de Software</strong><br>
-<strong>Periodo: 2026-1</strong><br>
+<strong>Periodo: 202610</strong><br>
 <strong>Curso: 1ACC0238 - Aplicaciones para Dispositivos Móviles</strong><br>
 <strong>NRC: 3248</strong><br>
 <strong>Docente: David Gerardo Quevedo Velasco</strong><br>
@@ -240,9 +240,9 @@ Evidencias de colaboración:
     - [4.1.3. Source Code Style Guide & Conventions](#413-source-code-style-guide--conventions)
     - [4.1.4. Software Deployment Configuration](#414-software-deployment-configuration)
   - [4.2. Landing Page & Mobile Application Implementation](#42-landing-page--mobile-application-implementation)
-    - [4.2.1. Sprint n](#421-sprint-n)
-      - [4.2.1.1. Sprint Planning n](#4211-sprint-planning-n)
-      - [4.2.1.2. Sprint Backlog n](#4212-sprint-backlog-n)
+    - [4.2.1. Sprint 1](#421-sprint-1)
+      - [4.2.1.1. Sprint Planning 1](#4211-sprint-planning-1)
+      - [4.2.1.2. Sprint Backlog 1](#4212-sprint-backlog-1)
       - [4.2.1.3. Development Evidence for Sprint Review](#4213-development-evidence-for-sprint-review)
       - [4.2.1.4. Testing Suite Evidence for Sprint Review](#4214-testing-suite-evidence-for-sprint-review)
       - [4.2.1.5. Execution Evidence for Sprint Review](#4215-execution-evidence-for-sprint-review)
@@ -418,7 +418,7 @@ ABET - EAC - Student Outcome 7 Criterio: La capacidad de adquirir y aplicar nuev
 | Integrante | Objetivo SMART | Componentes SMART |
 |---|---|---|
 | **Becerra Llempen, Fabiola Dayane** | Con el objetivo de conseguir un mínimo de dos certificaciones vinculadas a la experiencia del usuario y al desarrollo móvil antes de que termine 2027, es necesario adquirir habilidades profesionales en diseño UX/UI y desarrollo de aplicaciones móviles a través de cursos especializados y participación en proyectos tecnológicos. | **Specific:** Mejorar habilidades en UX/UI y desarrollo móvil.<br> **Measurable:** Obtener dos certificaciones especializadas.<br> **Achievable:** A través de cursos y proyectos prácticos.<br> **Relevant:** Relacionado con Ingeniería de Software y desarrollo profesional.<br> **Time-bound:** Antes de finalizar el año 2027. |
-| **Becerra Llempen, Fabiola Dayane** | Mi objetivo es obtener experiencia laboral en el ámbito de la gestión de productos digitales y el desarrollo de software, a través de participar en proyectos tecnológicos y prácticas profesionales. En los dos años posteriores a mi graduación, busco incorporarme a una compañía del sector tecnológico o reforzar mi negocio digital. | **Specific:** Obtener experiencia en desarrollo de software y productos digitales.<br> **Measurable:** Participar en proyectos y prácticas profesionales.<br> **Achievable:** Mediante experiencia académica y laboral.<br> **Relevant:** Alineado a objetivos profesionales y tecnológicos.<br> **Time-bound:** Dentro de los próximos dos años después de graduarme. |
+| **Becerra Llempen, Fabiola Dayane** | Mi objetivo es obtener experiencia laboral en el ámbito de la gestión de productos digitales y el desarrollo de software, a través de participar en proyectos tecnológicos y prácticas profesionales. En los dos años posteriores a mi graduación, buscaré incorporarme a una compañía del sector tecnológico o reforzar mi negocio digital. | **Specific:** Obtener experiencia en desarrollo de software y productos digitales.<br> **Measurable:** Participar en proyectos y prácticas profesionales.<br> **Achievable:** Mediante experiencia académica y laboral.<br> **Relevant:** Alineado a objetivos profesionales y tecnológicos.<br> **Time-bound:** Dentro de los próximos dos años después de graduarme. |
 | **Lopez Goitia, Carlos Alberto** | Con el objetivo de fortalecer mi perfil profesional como desarrollador de software, en un plazo de 6 meses después de egresar desarrollaré un proyecto funcional que integre frontend, backend y base de datos, utilizando tecnologías como Node.js, PHP, Apache, MySQL y Azure. El resultado será evidenciado mediante la publicación del proyecto en GitHub con documentación técnica. | **Specific:** Desarrollar un proyecto funcional con frontend, backend y base de datos.<br> **Measurable:** Publicar el proyecto en GitHub con documentación técnica.<br> **Achievable:** Mediante práctica constante y uso de Node.js, PHP, Apache, MySQL, Azure y GitHub.<br> **Relevant:** Relacionado con Ingeniería de Software y desarrollo profesional.<br> **Time-bound:** En un plazo de 6 meses después de egresar. |
 | **Lopez Goitia, Carlos Alberto** | Mi objetivo es iniciar mi inserción profesional en el sector tecnológico mediante la postulación a oportunidades laborales o prácticas relacionadas con desarrollo móvil, backend, frontend, UX/UI, cloud, QA o ciberseguridad. En un plazo de 3 meses después de egresar, postularé como mínimo a 10 ofertas y mejoraré mi CV, portafolio y repositorios en GitHub. | **Specific:** Postular a oportunidades laborales o prácticas en áreas tecnológicas.<br> **Measurable:** Postular como mínimo a 10 ofertas.<br> **Achievable:** Mediante la actualización de mi CV, portafolio y proyectos en GitHub.<br> **Relevant:** Alineado con mi desarrollo profesional en Ingeniería de Software.<br> **Time-bound:** En un plazo de 3 meses después de egresar. |
 | **Delgado Carrasco, Schneider Carlos Alberto** | Mi objetivo es desarrollar competencias avanzadas en programación y arquitectura de software para crear aplicaciones móviles eficientes y funcionales. Para ello, dedicaré tiempo semanal al aprendizaje de nuevas tecnologías, desarrollaré aplicaciones propias y fortaleceré mi portafolio profesional durante mi etapa universitaria y el inicio de mi vida laboral.| **Specific:** Fortalecer habilidades en programación y arquitectura de software. <br>**Measurable:** Crear aplicaciones propias y ampliar el portafolio profesional. <br>**Achievable:** Mediante aprendizaje continuo y práctica constante. <br>**Relevant:** Relacionado con Ingeniería de Software y el desarrollo profesional. <br>**Time-bound:** Durante la etapa universitaria y los primeros años de experiencia laboral. |
@@ -2198,7 +2198,7 @@ El video incluye la demostración de los siguientes flujos: registro e inicio de
 
 ![Video App Validation](assets/video-app-validation.png)
 
-**URL del video:** [URL del video de validación]
+**URL del video:** https://drive.google.com/drive/folders/1Iqb5Lz3YxKQMyos2Oyqczd73CZMvspKV?usp=sharing
 
 **Duración:** [HH:MM]
 
@@ -2208,13 +2208,9 @@ El video incluye la demostración de los siguientes flujos: registro e inicio de
 
 En esta sección se presenta la primera versión del video About-the-Product de PuntoSabor, orientado a los visitantes del Landing Page y usuarios potenciales de la aplicación.
 
-El video resume el modelo de negocio de HuariqueHub, las características principales de PuntoSabor y los beneficios para cada segmento objetivo: exploradores gastronómicos que buscan huariques auténticos y económicos, y propietarios de huariques que desean aumentar su visibilidad digital de forma sencilla y accesible.
-
 ![Video About the Product](assets/video-about-product.png)
 
 **URL del video (OneDrive):** https://drive.google.com/drive/folders/1Iqb5Lz3YxKQMyos2Oyqczd73CZMvspKV?usp=drive_link
-
-**URL del video (YouTube):** [URL de YouTube]
 
 **Duración:** 1-2 minutos
 
@@ -2222,15 +2218,9 @@ El video resume el modelo de negocio de HuariqueHub, las características princi
 
 # Video About the team
 
-En esta sección se presenta la primera versión del video About-the-Team de HuariqueHub, que resume el proceso de trabajo realizado por el equipo durante el ciclo de vida del proyecto.
-
-El video incluye escenas de sesiones de trabajo colaborativo, narración del proceso de desarrollo y el testimonio ante cámara de cada integrante describiendo sus actividades realizadas, el logro del Student Outcome 7 y las competencias de desarrollo móvil adquiridas durante el proyecto.
-
 ![Video About the Team](assets/video-about-team.png)
 
-**URL del video (OneDrive):** https://drive.google.com/drive/folders/1Iqb5Lz3YxKQMyos2Oyqczd73CZMvspKV?usp=drive_link
-
-**URL del video (YouTube):** [URL de YouTube]
+**URL del video (OneDrive):** https://drive.google.com/drive/folders/1Iqb5Lz3YxKQMyos2Oyqczd73CZMvspKV?usp=sharing
 
 **Duración:** [HH:MM]
 
