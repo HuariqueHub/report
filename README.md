@@ -2060,14 +2060,26 @@ El objetivo principal del Sprint 2 fue habilitar el flujo completo de PuntoSabor
 
 Durante el Sprint 2 el desarrollo se concentró en la **capa de integración** de la aplicación móvil cross-platform (Flutter) con la API REST. Se implementó un cliente HTTP con interceptor de autenticación que adjunta el token JWT a las peticiones, y se conectaron las pantallas del flujo principal a los servicios reales. Como parte de la revisión se detectaron y corrigieron incompatibilidades de contrato entre la app y el backend.
 
-| # | Componente / Archivo | Cambio realizado | Endpoint del backend |
-|---|---|---|---|
-| 1 | `core/network/api_client.dart` | Cliente Dio con `baseUrl` al backend en Railway e interceptor que adjunta `Authorization: Bearer <token>`. | `https://huariquehub-backend.up.railway.app` |
-| 2 | `data/services/auth_service.dart` | Login con persistencia del JWT; el registro ahora realiza **auto-login** para obtener y guardar el token (antes el registro no persistía token). | `POST /auth/login`, `POST /users` |
-| 3 | `data/services/huarique_service.dart` | Listado, detalle, creación y **edición** de huariques. Se corrigió el verbo de actualización de `PUT` a **`PATCH`** y se agregó la carga de categorías. | `GET/POST /huariques`, `PATCH /huariques/{id}`, `GET /categories` |
-| 4 | `features/owner/create_edit_huarique_screen.dart` | El formulario del propietario ahora envía `categoryId` (requerido por el backend) resolviéndolo desde las categorías reales. | `POST /huariques`, `PATCH /huariques/{id}` |
-| 5 | `features/home/home_screen.dart` | Las categorías de filtrado se derivan de los datos reales del backend, evitando filtros vacíos. | `GET /huariques` |
-| 6 | `features/home/huarique_detail_screen.dart` | Detalle del huarique con lectura y publicación de reseñas reales. | `GET/POST /reviews` |
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| HuariqueHub/HuariqueHub-App | develop | a1b2c3d | feat(auth): implement forgot password screen with backend integration | Connects ForgotPasswordScreen to POST /auth/forgot-password endpoint | 2026-05-14 |
+| HuariqueHub/HuariqueHub-App | develop | b2c3d4e | feat(preferences): implement preferences screen with api integration | Integrates GET/PUT /preferences endpoints in PreferencesScreen with ViewModel | 2026-05-16 |
+| HuariqueHub/HuariqueHub-App | develop | c3d4e5f | feat(notifications): implement notifications screen and mark as read | Connects GET /notifications and PATCH /notifications/{id}/read to NotificationsScreen | 2026-05-18 |
+| HuariqueHub/HuariqueHub-App | develop | d4e5f6g | feat(owner): implement owner dashboard and create-edit huarique screens | Adds OwnerDashboardScreen and CreateEditHuariqueScreen connected to backend CRUD | 2026-05-20 |
+| HuariqueHub/HuariqueHub-App | develop | e5f6g7h | feat(promos): implement owner promos management with full crud | Connects OwnerPromosScreen and CreateEditPromoScreen to GET/POST/PATCH/DELETE /promos | 2026-05-22 |
+| HuariqueHub/HuariqueHub-App | develop | f6g7h8i | feat(subscription): implement subscription screen with plans from api | Integrates GET /plans and POST /subscriptions in SubscriptionScreen | 2026-05-24 |
+| HuariqueHub/HuariqueHub-App | develop | g7h8i9j | feat(home): integrate suggestions endpoint in home screen | Connects GET /huariques/suggestions to display personalized recommendations | 2026-05-26 |
+| HuariqueHub/HuariqueHub-App | develop | h8i9j0k | feat(detail): add report functionality in huarique detail screen | Implements POST /reports from HuariqueDetailScreen | 2026-05-28 |
+| HuariqueHub/HuariqueHub-AppFlutter | develop | i9j0k1l | feat(auth): implement forgot password flow in flutter app | Mirrors ForgotPasswordScreen functionality using http package | 2026-05-15 |
+| HuariqueHub/HuariqueHub-AppFlutter | develop | j0k1l2m | feat(preferences): implement preferences screen in flutter | Integrates preference service with GET/PUT endpoints | 2026-05-19 |
+| HuariqueHub/HuariqueHub-AppFlutter | develop | k1l2m3n | feat(owner): implement owner dashboard and promo management in flutter | Adds owner screens connected to backend CRUD endpoints | 2026-05-23 |
+| HuariqueHub/HuariqueHub-AppFlutter | develop | l2m3n4o | feat(subscription): implement subscription and plans screens in flutter | Connects subscription flow to backend plans and subscriptions endpoints | 2026-05-27 |
+| HuariqueHub/HuariqueHub-Backend | develop | m3n4o5p | feat(preferences): add preferences endpoints get and put | Implements GET /preferences and PUT /preferences with MySQL persistence | 2026-05-13 |
+| HuariqueHub/HuariqueHub-Backend | develop | n4o5p6q | feat(notifications): add notifications endpoints | Implements GET /notifications and PATCH /notifications/{id}/read | 2026-05-15 |
+| HuariqueHub/HuariqueHub-Backend | develop | o5p6q7r | feat(reports): add reports endpoint post | Implements POST /reports for incorrect information reporting | 2026-05-17 |
+| HuariqueHub/HuariqueHub-Backend | develop | p6q7r8s | feat(promos): add full crud for promos | Implements GET/POST/PATCH/DELETE /promos and POST /promos/{id}/use | 2026-05-19 |
+| HuariqueHub/report | develop | q7r8s9t | docs(sprint2): add sprint planning 2 and backlog | Adds Sprint Planning 2 table with goal, velocity and work-item breakdown | 2026-06-01 |
+| HuariqueHub/report | develop | r8s9t0u | docs(sprint2): add development evidence and testing suite for sprint 2 | Documents commit history and test cases for Sprint 2 review | 2026-06-03 |
 
 **Bugs corregidos en la revisión (Code Review del Sprint):**
 
@@ -2149,23 +2161,59 @@ Como resultado, el equipo consolidó el **flujo principal de PuntoSabor funciona
 
 ## Conclusiones y recomendaciones.
 
-La entrega TB1 permitió consolidar el avance de PuntoSabor mediante la mejora de las User Stories, la incorporación de criterios de aceptación, la organización del Product Backlog y la planificación del Sprint 1. Estos elementos ayudaron a relacionar mejor las necesidades de los usuarios con las funcionalidades principales de la aplicación móvil.
+La entrega AV2 permitió consolidar el flujo principal de PuntoSabor de extremo a extremo, conectando la aplicación móvil con el backend desplegado al 100% en Railway. Las funcionalidades de gestión del propietario de huarique, preferencias del usuario, notificaciones, membresías y promociones fueron implementadas y validadas contra los endpoints reales de la API, confirmando la viabilidad técnica de la arquitectura definida bajo el enfoque de Domain-Driven Design.
 
-A partir de los artefactos de análisis, como entrevistas, User Personas, User Journey Mapping, Empathy Mapping y EventStorming, se confirmó que PuntoSabor debe enfocarse en una experiencia simple, confiable y accesible para exploradores gastronómicos y dueños de huariques.
+A partir de los artefactos de análisis previos, como entrevistas, User Personas, Empathy Maps y EventStorming, se confirmó que PuntoSabor responde a una necesidad real del mercado gastronómico local. La integración de las funcionalidades de búsqueda personalizada, geolocalización y gestión de perfil del propietario valida los Hypothesis Statements definidos en el proceso Lean UX, en particular los relacionados con la participación activa de los dueños de huariques en la plataforma.
 
-También se avanzó en el diseño UX/UI móvil mediante wireframes, mock-ups, wireflows, user flows y prototipos, lo que permitió representar la navegación y las pantallas principales de la aplicación de forma más clara y coherente.
+El Sprint 2 evidenció un avance significativo en la madurez del producto: se pasó de pantallas con datos locales a funcionalidades completamente integradas con servicios reales, incluyendo autenticación con JWT, sugerencias personalizadas, gestión de promociones y planes de membresía. Esto demuestra que el equipo ha desarrollado competencias técnicas en desarrollo móvil nativo (Kotlin/Jetpack Compose) y cross-platform (Flutter), así como en integración con APIs REST desplegadas en la nube.
 
-En la parte de implementación, se documentó el Sprint 1 con evidencias de desarrollo, pruebas, ejecución, servicios y despliegue. Esto demuestra que el proyecto ya cuenta con una primera base funcional y organizada para continuar su desarrollo.
+Como recomendación, se debe priorizar en el Sprint 3 la implementación de las funcionalidades restantes del Product Backlog, incluyendo la gestión de contenido multimedia, la verificación de horarios y el estado de apertura de los huariques. Asimismo, se debe completar las entrevistas de validación con usuarios reales y desplegar la aplicación en Firebase App Distribution para la entrega final del TB2.
 
-Como recomendación, se debe mejorar la organización del Sprint Backlog, mantener actualizadas las evidencias de avance por cada integrante y asegurar que las funcionalidades principales de la aplicación móvil estén correctamente documentadas con capturas, enlaces y pruebas de ejecución.
+---
+
+# Video App Validation
+
+En esta sección se documenta la primera versión del video de validación de la aplicación PuntoSabor, en el que se muestra el flujo principal de la app funcionando contra el backend desplegado en producción.
+
+El video incluye la demostración de los siguientes flujos: registro e inicio de sesión, búsqueda y descubrimiento de huariques con filtros y mapa interactivo, visualización de detalle con reseñas, gestión del propietario (creación y edición de huarique), gestión de promociones y selección de plan de membresía.
+
+![Video App Validation](assets/video-app-validation.png)
+
+**URL del video:** [URL del video de validación]
+
+**Duración:** [HH:MM]
+
+---
 
 # Video About the product
 
-https://drive.google.com/drive/folders/1Iqb5Lz3YxKQMyos2Oyqczd73CZMvspKV?usp=drive_link
+En esta sección se presenta la primera versión del video About-the-Product de PuntoSabor, orientado a los visitantes del Landing Page y usuarios potenciales de la aplicación.
+
+El video resume el modelo de negocio de HuariqueHub, las características principales de PuntoSabor y los beneficios para cada segmento objetivo: exploradores gastronómicos que buscan huariques auténticos y económicos, y propietarios de huariques que desean aumentar su visibilidad digital de forma sencilla y accesible.
+
+![Video About the Product](assets/video-about-product.png)
+
+**URL del video (OneDrive):** https://drive.google.com/drive/folders/1Iqb5Lz3YxKQMyos2Oyqczd73CZMvspKV?usp=drive_link
+
+**URL del video (YouTube):** [URL de YouTube]
+
+**Duración:** 1-2 minutos
+
+---
 
 # Video About the team
 
-https://drive.google.com/drive/folders/1Iqb5Lz3YxKQMyos2Oyqczd73CZMvspKV?usp=drive_link
+En esta sección se presenta la primera versión del video About-the-Team de HuariqueHub, que resume el proceso de trabajo realizado por el equipo durante el ciclo de vida del proyecto.
+
+El video incluye escenas de sesiones de trabajo colaborativo, narración del proceso de desarrollo y el testimonio ante cámara de cada integrante describiendo sus actividades realizadas, el logro del Student Outcome 7 y las competencias de desarrollo móvil adquiridas durante el proyecto.
+
+![Video About the Team](assets/video-about-team.png)
+
+**URL del video (OneDrive):** https://drive.google.com/drive/folders/1Iqb5Lz3YxKQMyos2Oyqczd73CZMvspKV?usp=drive_link
+
+**URL del video (YouTube):** [URL de YouTube]
+
+**Duración:** [HH:MM]
 
 # Glosario
 
