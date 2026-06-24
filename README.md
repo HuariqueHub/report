@@ -1738,7 +1738,11 @@ Representaciones visuales de alta fidelidad que integran la identidad de marca, 
 ![alt text](assets/userflow_diagrams.png)
 ![alt text](assets/userflow1.png)
 ![alt text](assets/userflow2.png)
+
+Descubridor Gastronimico
 ![alt text](assets/usuario.png)
+
+Dueño de restaurante
 ![alt text](assets/dueñorestaurant.png)
 
 #### 3.1.4.5. Mobile Applications Prototyping
