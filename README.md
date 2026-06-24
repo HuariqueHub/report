@@ -1,5 +1,3 @@
-# Carátula
-
 <div align="center">
 
 <img alt="upc-logo" src="assets/upc_logo.png" width="200"/><br>
