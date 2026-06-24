@@ -6,7 +6,7 @@
 
 <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
 <strong>Ingeniería de Software</strong><br>
-<strong>Periodo: 2026-1</strong><br>
+<strong>Periodo: 202610</strong><br>
 <strong>Curso: 1ACC0238 - Aplicaciones para Dispositivos Móviles</strong><br>
 <strong>NRC: 3248</strong><br>
 <strong>Docente: David Gerardo Quevedo Velasco</strong><br>
@@ -143,28 +143,27 @@
 
 URL del repositorio del informe: https://github.com/HuariqueHub/report/tree/main
 
-Para la entrega AV1, el equipo elaboró el informe de manera colaborativa en formato Markdown, organizando los aportes por secciones asignadas y registrando las modificaciones mediante commits en GitHub.
+Para la entrega AV2, el equipo continuó trabajando de forma colaborativa en formato Markdown, registrando los aportes mediante commits en GitHub.
 
 Evidencias de colaboración:
 
 - Captura de commits del repositorio del informe:
 
-
-![alt text](image-1.png)
+![alt text](assets/commitSprint2.png)
 
 - Captura de contributors/insights de GitHub:
 
-![alt text](image.png)
+![alt text](assets/contributorssp2.png)
 
 - Resumen de participación por integrante:
 
 | Integrante | Participación |
 |---|---|
-| Delgado Carrasco, Schneider | Apoyó en wireframes, mock-ups, prototipos y evidencias visuales. |
-| Lopez Goitia, Carlos Alberto | Actualizó la estructura del informe, Style Guidelines, Information Architecture y Trello. |
-| Tumi Oliden, Manuel Ignacio | Documentó sistemas de búsqueda, navegación y configuración del proyecto. |
-| Becerra Llempen, Fabiola Dayane | Apoyó en flujos móviles, evidencias de desarrollo, testing y servicios. |
-| Vasquez Goicochea, Erick Alessander | Documentó Sprint Planning, Sprint Backlog, despliegue y colaboración del equipo. |
+| Delgado Carrasco, Schneider | Verificó contratos de la API y consolidó las evidencias de servicios del Sprint 2. |
+| Lopez Goitia, Carlos Alberto | Actualizó la estructura del informe para el AV2, integró el módulo de descubrimiento (Home, búsqueda, categorías) y los planes de membresía. |
+| Tumi Oliden, Manuel Ignacio | Documentó la integración de autenticación con JWT y la persistencia de sesión en la aplicación móvil. |
+| Becerra Llempen, Fabiola Dayane | Documentó la integración del detalle del huarique, el módulo de reseñas y las evidencias de validación. |
+| Vasquez Goicochea, Erick Alessander | Documentó el Sprint Planning 2, Sprint Backlog 2, evidencias de despliegue y colaboración del equipo. |
 
 <div style="page-break-after: always;"></div>
 
@@ -246,9 +245,9 @@ Evidencias de colaboración:
     - [4.1.3. Source Code Style Guide & Conventions](#413-source-code-style-guide--conventions)
     - [4.1.4. Software Deployment Configuration](#414-software-deployment-configuration)
   - [4.2. Landing Page & Mobile Application Implementation](#42-landing-page--mobile-application-implementation)
-    - [4.2.1. Sprint n](#421-sprint-n)
-      - [4.2.1.1. Sprint Planning n](#4211-sprint-planning-n)
-      - [4.2.1.2. Sprint Backlog n](#4212-sprint-backlog-n)
+    - [4.2.1. Sprint 1](#421-sprint-1)
+      - [4.2.1.1. Sprint Planning 1](#4211-sprint-planning-1)
+      - [4.2.1.2. Sprint Backlog 1](#4212-sprint-backlog-1)
       - [4.2.1.3. Development Evidence for Sprint Review](#4213-development-evidence-for-sprint-review)
       - [4.2.1.4. Testing Suite Evidence for Sprint Review](#4214-testing-suite-evidence-for-sprint-review)
       - [4.2.1.5. Execution Evidence for Sprint Review](#4215-execution-evidence-for-sprint-review)
@@ -281,7 +280,8 @@ Evidencias de colaboración:
 
 # Student Outcome
 
-ABET - EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
+ABET - EAC - Student Outcome 7 Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias de aprendizaje apropiadas.
+
 <div>
 <table>
   <thead>
@@ -294,103 +294,125 @@ ABET - EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamente
   </thead>
   <tbody>
     <tr>
-      <td rowspan="5">Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
+      <td rowspan="5">Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.</td>
       <td>Delgado Carrasco, Schneider</td>
       <td>
         <strong>AV1:</strong><br>
-        Identifiqué con claridad la problemática central de nuestra startup, definí los segmentos a los que está dirigida y realicé la investigación necesaria para establecer los requisitos de la aplicación web. Además, llevé a cabo una entrevista con un usuario representativo del público objetivo.<br>
+        Investigué y apliqué técnicas de Lean UX para identificar la problemática central del proyecto, adquiriendo conocimientos sobre análisis de segmentos objetivo y diseño orientado al usuario que no habían sido abordados previamente en el curso.<br>
         <strong>TB1:</strong><br>
-        Participé en el diseño visual y experiencia de usuario del proyecto mediante la elaboración del Landing Page UI Design, Wireframes y Mock-ups tanto para la Landing Page como para la aplicación móvil. Asimismo, desarrollé los prototipos interactivos de la aplicación, validando la navegación y flujo de interacción entre pantallas. Finalmente, contribuí en la sección Execution Evidence for Sprint Review documentando los avances funcionales y evidencias visuales del sistema implementado.
+        Aprendí a utilizar Figma para elaborar wireframes, mock-ups y prototipos interactivos de la aplicación móvil, aplicando principios de diseño inclusivo y arquitectura de información adquiridos de manera autónoma para sustentar las decisiones visuales del producto.<br>
+        <strong>AV2:</strong><br>
+        Profundicé en el uso de Retrofit para la integración de la aplicación móvil con el backend, verificando contratos de la API y aplicando conocimientos sobre manejo de errores HTTP adquiridos mediante la documentación oficial de Android y las guías de Jetpack Compose.
       </td>
       <td rowspan="5">
-        <strong>AV1:</strong> El equipo se comunicó de forma clara y estructurada, aportando conjuntamente al análisis técnico y estratégico del proyecto.<br><br>
-        <strong>TB1:</strong> Durante el TB1, el equipo consolidó su liderazgo conjunto al distribuir responsabilidades técnicas y de diseño de manera equilibrada, logrando integrar los entregables de UX/UI, backend y documentación en un producto coherente. La coordinación efectiva entre roles permitió cumplir con los objetivos del Sprint Review y demostrar capacidad para trabajar de forma colaborativa frente a entregas de mayor complejidad.
+        <strong>AV1:</strong> El equipo demostró capacidad para adquirir de forma autónoma conocimientos sobre metodologías de investigación de usuarios y análisis de mercado, aplicándolos directamente en la definición del problema y la propuesta de solución del proyecto.<br><br>
+        <strong>TB1:</strong> Durante el TB1, cada integrante incorporó nuevos conocimientos técnicos y de diseño según las necesidades de su área de responsabilidad, evidenciando estrategias de aprendizaje autónomo mediante el uso de documentación oficial, tutoriales especializados y recursos académicos para implementar las funcionalidades asignadas.<br><br>
+        <strong>AV2:</strong> En el AV2, el equipo consolidó su capacidad de aprendizaje aplicado al integrar la aplicación móvil con el backend desplegado en producción, adquiriendo conocimientos sobre integración de APIs REST, manejo de tokens JWT y despliegue en Railway, aplicando estrategias de aprendizaje como documentación oficial, pruebas iterativas y revisión de código entre pares.
       </td>
     </tr>
     <tr>
       <td>Lopez Goitia, Carlos Alberto</td>
       <td>
         <strong>AV1:</strong><br>
-        Realicé entrevistas para la extracción de requisitos críticos y definí la arquitectura del sistema bajo el enfoque de Domain-Driven Design (DDD), documentando la estructura mediante diagramas de contexto, contenedores y componentes.<br>
+        Aprendí y apliqué el enfoque de Domain-Driven Design (DDD) para definir la arquitectura del sistema, elaborando diagramas de contexto, contenedores y componentes bajo el modelo C4, conocimientos adquiridos de manera autónoma a partir de la bibliografía especializada del curso.<br>
         <strong>TB1:</strong><br>
-        Participé en la corrección de las User Stories, Product Backlog y criterios de aceptación, alineándolos con los requisitos funcionales del proyecto. Además, apoyé en el desarrollo del backend, la Landing Page y la aplicación móvil de PuntoSabor.
+        Actualicé mis conocimientos sobre especificación de requisitos con criterios de aceptación en formato Gherkin y refiné las User Stories del Product Backlog aplicando buenas prácticas de Scrum, complementando lo visto en clase con recursos externos sobre escritura efectiva de historias de usuario.<br>
+        <strong>AV2:</strong><br>
+        Adquirí conocimientos sobre integración de servicios REST en Flutter utilizando el paquete http y manejo de estado con Provider, aplicándolos en la implementación de la pantalla de preferencias del usuario conectada al backend desplegado en Railway.
       </td>
     </tr>
     <tr>
       <td>Tumi Oliden, Manuel Ignacio</td>
       <td>
         <strong>AV1:</strong><br>
-        Durante esta etapa redacté el análisis de antecedentes y problemática mediante las 5W's y 2H's, identificando los principales grupos afectados: propietarios de huariques y usuarios que buscan gastronomía local auténtica. Asimismo, desarrollé los Lean UX Problem Statements, las Business y User Assumptions, y los Lean UX Hypothesis Statements con sus respectivos criterios de validación, estableciendo así las bases para la dirección estratégica del producto.<br>
+        Investigué y apliqué la técnica de las 5W's y 2H's para el análisis de antecedentes y problemática, así como el proceso de Lean UX para la formulación de Problem Statements, Assumptions e Hypothesis Statements, conocimientos incorporados de manera autónoma a partir de recursos académicos y guías especializadas.<br>
         <strong>TB1:</strong><br>
-        Desarrollé las secciones de Searching Systems y Navigation Systems, definiendo cómo los usuarios podrán buscar información y desplazarse dentro de la aplicación móvil de PuntoSabor de forma clara y ordenada.
+        Aprendí a definir sistemas de búsqueda y navegación para aplicaciones móviles aplicando principios de arquitectura de información, consultando recursos sobre UX móvil y patrones de navegación en Jetpack Compose para fundamentar las decisiones documentadas en el informe.<br>
+        <strong>AV2:</strong><br>
+        Incorporé conocimientos sobre autenticación con JWT en aplicaciones Android, implementando el almacenamiento seguro del token de sesión mediante SharedPreferences y su uso en las peticiones al backend, siguiendo la documentación oficial de Android y guías de seguridad móvil.
       </td>
     </tr>
     <tr>
       <td>Becerra Llempen, Fabiola Dayane</td>
       <td>
         <strong>AV1:</strong><br>
-        Durante este trabajo realicé los análisis competitivos de mercado para obtener las ventajas y encontrar oportunidades de mejora para nuestro proyecto. Asimismo, desarrollé los perfiles del user persona, user task matrix y el journey mapping con sus respectivas conclusiones.<br>
+        Aprendí a elaborar User Personas, User Task Matrix y User Journey Maps aplicando metodologías de needfinding, utilizando UXPressia como herramienta especializada que no había usado anteriormente, adquiriendo de manera autónoma el manejo de la plataforma para representar los arquetipos del proyecto.<br>
         <strong>TB1:</strong><br>
-        En esta fase, trabajé en el diseño UX/UI de la app móvil PuntoSabor. Para ello, creé los Wireflows de aplicaciones móviles, diagramas Wireflow, maquetas, diagramas de flujo de usuario y un prototipo interactivo de la aplicación. Además, colaboré en documentar las evidencias del Sprint Review, que incluían pruebas de desarrollo, de testing, documentación sobre servicios y la implementación del software. Esto ayudó a preservar la coherencia tanto a nivel funcional como visual del proyecto.
+        Profundicé en el diseño de Wireflows y User Flows para aplicaciones móviles, incorporando conocimientos sobre representación de interacciones y flujos de usuario en LucidChart, aplicando estos aprendizajes en la documentación de las pantallas core de PuntoSabor.<br>
+        <strong>AV2:</strong><br>
+        Adquirí conocimientos sobre integración de módulos de reseñas y notificaciones en Flutter, aprendiendo el manejo de listas dinámicas con ListView.builder y la actualización de estado reactivo, aplicándolos en las pantallas de reseñas y notificaciones conectadas al backend.
       </td>
     </tr>
     <tr>
       <td>Vasquez Goicochea, Erick Alessander</td>
       <td>
         <strong>AV1:</strong><br>
-        Apoyé en la revisión del contenido del capítulo 2, mejorando la redacción para que sea más clara y entendible. Además, reforcé el análisis en las secciones de competidores y entrevistas para que reflejen mejor las necesidades de los usuarios.<br>
+        Actualicé mis conocimientos sobre análisis competitivo y redacción técnica de documentos de ingeniería de software, aprendiendo a estructurar información de forma coherente para audiencias tanto técnicas como no especializadas, aplicando estas habilidades en la revisión y mejora del Capítulo II.<br>
         <strong>TB1:</strong><br>
-        Durante esta etapa participé en la documentación del Capítulo IV, especialmente en las secciones de implementación y validación del producto. Completé evidencias del Sprint Review relacionadas con el desarrollo y documentación de servicios. Además, organicé capturas de la aplicación móvil y del backend en Swagger para sustentar los avances realizados durante el sprint.
+        Aprendí a documentar evidencias de Sprint Review siguiendo estándares de Scrum, incorporando conocimientos sobre gestión de tableros en Trello y registro de commits con Conventional Commits en GitHub, aplicados en la organización del Sprint 1 del proyecto.<br>
+        <strong>AV2:</strong><br>
+        Incorporé conocimientos sobre gestión de huariques y promociones en aplicaciones Android con Jetpack Compose, aprendiendo el patrón MVVM con ViewModel y StateFlow para el manejo de estado, aplicándolos en la implementación de las pantallas de creación y edición de huariques y promociones.
       </td>
     </tr>
     <tr>
-      <td rowspan="5">Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos</td>
+      <td rowspan="5">Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.</td>
       <td>Delgado Carrasco, Schneider</td>
       <td>
         <strong>AV1:</strong><br>
-        Como parte de las user stories, apoyé en el desarrollo, su contexto y antecedentes; también realicé algunos puntos del Lean UX; realicé un análisis competitivo y definí los segmentos del público objetivo respaldados con datos estadísticos.<br>
+        Reconocí la importancia de investigar metodologías de diseño centrado en el usuario como Lean UX para complementar los conocimientos técnicos de desarrollo, identificando que la comprensión del problema es tan importante como la implementación de la solución.<br>
         <strong>TB1:</strong><br>
-        Contribuí en el diseño de la experiencia visual y navegación del sistema mediante la elaboración del Landing Page UI Design, así como los Wireframes y Mock-ups de la Landing Page y de la aplicación móvil. También participé en el desarrollo de prototipos interactivos para validar la interacción entre pantallas y la experiencia del usuario. Finalmente, apoyé en la sección Execution Evidence for Sprint Review, documentando evidencias visuales y avances funcionales realizados durante el Sprint.
+        Identifiqué la necesidad de aprender herramientas de prototipado como Figma para comunicar ideas de diseño de forma efectiva, reconociendo que el aprendizaje continuo de herramientas especializadas es esencial para el trabajo colaborativo en equipos de desarrollo de software.<br>
+        <strong>AV2:</strong><br>
+        Reconocí la importancia de mantener actualizados los conocimientos sobre integración de APIs y manejo de errores en aplicaciones móviles, identificando que las incompatibilidades de contrato entre frontend y backend son desafíos frecuentes que requieren aprendizaje continuo y resolución proactiva de problemas.
       </td>
       <td rowspan="5">
-        <strong>AV1:</strong> La comunicación escrita se realizó con claridad, ajustando el contenido según las necesidades tanto de públicos técnicos como de lectores no especializados.<br><br>
-        <strong>TB1:</strong> En el TB1, el equipo logró establecer un entorno de trabajo inclusivo y bien planificado, definiendo metas claras para cada Sprint y distribuyendo las tareas según las fortalezas de cada integrante. La organización de los entregables, la documentación técnica y el cumplimiento de los objetivos del Sprint Review evidencian la capacidad del equipo para coordinar esfuerzos, mantener una comunicación efectiva y alcanzar los resultados esperados dentro de los plazos establecidos.
+        <strong>AV1:</strong> El equipo identificó que el desarrollo de productos digitales requiere la actualización constante de conocimientos en áreas como investigación de usuarios, análisis competitivo y metodologías ágiles, reconociendo el aprendizaje permanente como una necesidad inherente al ejercicio profesional de la ingeniería de software.<br><br>
+        <strong>TB1:</strong> Durante el TB1, el equipo evidenció la necesidad del aprendizaje permanente al enfrentarse a nuevas herramientas y técnicas para el diseño UX/UI móvil, la implementación con Jetpack Compose y la documentación de sprints bajo estándares Scrum, reconociendo que la capacidad de aprender de forma autónoma es una competencia fundamental para el desempeño profesional en proyectos de software.<br><br>
+        <strong>AV2:</strong> En el AV2, el equipo reafirmó la necesidad del aprendizaje permanente al integrar tecnologías de despliegue en la nube (Railway), autenticación con JWT y desarrollo cross-platform con Flutter, reconociendo que el ecosistema de desarrollo móvil evoluciona constantemente y que la actualización continua de conocimientos es indispensable para entregar productos de software de calidad.
       </td>
     </tr>
     <tr>
       <td>Lopez Goitia, Carlos Alberto</td>
       <td>
         <strong>AV1:</strong><br>
-        Diseñé instrumentos de entrevista estructurados para validar las decisiones arquitectónicas y propuse soluciones técnicas fundamentadas en una investigación previa, asegurando que el proyecto mantuviera un enfoque sólido y justificado.<br>
+        Reconocí la necesidad de profundizar en Domain-Driven Design como enfoque arquitectónico, identificando que el diseño de software orientado al dominio del negocio requiere un aprendizaje continuo que va más allá de los contenidos básicos del curso.<br>
         <strong>TB1:</strong><br>
-        Colaboré en la organización del Sprint 1, la documentación de evidencias y el avance técnico del backend, la Landing Page y la app móvil, contribuyendo a una mejor coordinación del equipo para la entrega TB1.
+        Identifiqué que la especificación precisa de requisitos con criterios de aceptación verificables es una habilidad que requiere práctica constante, reconociendo la importancia de mantenerme actualizado en técnicas de ingeniería de requisitos para mejorar la calidad de los productos que desarrolle en mi vida profesional.<br>
+        <strong>AV2:</strong><br>
+        Reconocí la necesidad de aprender sobre arquitecturas de integración entre aplicaciones móviles y servicios REST, identificando que el manejo de estado en aplicaciones Flutter y la gestión de sesiones de usuario son áreas de conocimiento en constante evolución que requieren actualización permanente.
       </td>
     </tr>
     <tr>
       <td>Tumi Oliden, Manuel Ignacio</td>
       <td>
         <strong>AV1:</strong><br>
-        Me encargué de redactar las secciones de antecedentes, problemática y supuestos del proyecto, adaptando el lenguaje según el destinatario: un enfoque analítico para la documentación técnica del equipo y un enfoque estratégico para los Lean UX Statements e Hypothesis, asegurando que el contenido fuera claro y coherente para todos los involucrados.<br>
+        Reconocí que la aplicación de técnicas de análisis de problemas como las 5W's y 2H's y el proceso Lean UX requieren práctica continua para lograr formulaciones precisas y útiles, identificando la necesidad de seguir desarrollando habilidades de pensamiento crítico y análisis en el ámbito del desarrollo de software.<br>
         <strong>TB1:</strong><br>
-        Documenté las secciones de Product Implementation &amp; Validation y Software Configuration Management, incluyendo la configuración del entorno de desarrollo, la gestión del código fuente y las convenciones de estilo del proyecto.
+        Identifiqué la importancia de aprender sobre arquitectura de información y sistemas de navegación móvil como parte del perfil profesional de un ingeniero de software, reconociendo que la experiencia del usuario es un área de conocimiento complementaria e indispensable para el desarrollo de aplicaciones de calidad.<br>
+        <strong>AV2:</strong><br>
+        Reconocí la necesidad de mantenerme actualizado en prácticas de seguridad para aplicaciones móviles, identificando que la autenticación con JWT y el almacenamiento seguro de credenciales son conocimientos esenciales para el desarrollo profesional de aplicaciones que manejan datos sensibles de usuarios.
       </td>
     </tr>
     <tr>
       <td>Becerra Llempen, Fabiola Dayane</td>
       <td>
         <strong>AV1:</strong><br>
-        Realicé entrevistas y análisis de entrevistas para poder obtener fundamentos en la investigación. También, realicé un enfoque estratégico con el Empathy Mapping y As-is Scenario Mapping de los segmentos obtenidos junto con el Big Picture Event Storming y Ubiquitous Language.<br>
+        Reconocí que el needfinding y la construcción de arquetipos de usuario son habilidades que requieren aprendizaje continuo, identificando que la comprensión profunda de los segmentos objetivo es fundamental para tomar decisiones de diseño informadas en cualquier proyecto de software.<br>
         <strong>TB1:</strong><br>
-        Colaboré en la planificación y la organización de los entregables vinculados con el diseño y la validación de la aplicación móvil, garantizando que lo requerido funcionalmente, los flujos de navegación y la experiencia visual del sistema fueran coherentes. Asimismo, colaboré en la recolección y organización de las pruebas técnicas del Sprint Review, fomentando una comunicación precisa y coordinada al interior del equipo para alcanzar los objetivos fijados para el proyecto.
+        Identifiqué la necesidad de aprender sobre representación de flujos de usuario y diagramas de interacción como parte del conjunto de habilidades de un ingeniero de software moderno, reconociendo que el diseño UX/UI es un área de conocimiento en constante evolución que impacta directamente en la calidad del producto final.<br>
+        <strong>AV2:</strong><br>
+        Reconocí la necesidad de actualizar mis conocimientos sobre desarrollo cross-platform con Flutter, identificando que el ecosistema de herramientas para desarrollo móvil evoluciona rápidamente y que mantenerse al día con las mejores prácticas de integración de servicios es indispensable para el desarrollo profesional.
       </td>
     </tr>
     <tr>
       <td>Vasquez Goicochea, Erick Alessander</td>
       <td>
         <strong>AV1:</strong><br>
-        Colaboré con el equipo revisando y mejorando la claridad del documento, asegurando que el contenido sea comprensible tanto para lectores técnicos como no técnicos. También apoyé en la organización de la información del capítulo 2 para mantener coherencia en el análisis.<br>
+        Reconocí la importancia de desarrollar habilidades de comunicación técnica para la documentación de proyectos de software, identificando que la capacidad de redactar informes claros y coherentes es una competencia profesional que requiere práctica y actualización constante.<br>
         <strong>TB1:</strong><br>
-        Colaboré en la organización de las evidencias del Sprint 1, revisando que la información del capítulo estuviera clara y alineada con el avance real del proyecto. También apoyé en la documentación de pruebas, ejecución, servicios y despliegue, manteniendo coherencia entre las capturas, los textos del informe y las funcionalidades desarrolladas en PuntoSabor.
+        Identifiqué la necesidad de aprender sobre gestión de proyectos ágiles y uso de herramientas de control de versiones como GitHub con GitFlow, reconociendo que el dominio de estas prácticas es esencial para el desempeño profesional en equipos de desarrollo de software.<br>
+        <strong>AV2:</strong><br>
+        Reconocí la necesidad de actualizar mis conocimientos sobre el patrón MVVM y el desarrollo con Jetpack Compose para Android, identificando que las arquitecturas modernas de aplicaciones móviles requieren aprendizaje continuo y que la capacidad de adaptarse a nuevos patrones de desarrollo es una competencia clave para mi crecimiento profesional.
       </td>
     </tr>
   </tbody>
@@ -404,7 +426,7 @@ ABET - EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamente
 | Integrante | Objetivo SMART | Componentes SMART |
 |---|---|---|
 | **Becerra Llempen, Fabiola Dayane** | Con el objetivo de conseguir un mínimo de dos certificaciones vinculadas a la experiencia del usuario y al desarrollo móvil antes de que termine 2027, es necesario adquirir habilidades profesionales en diseño UX/UI y desarrollo de aplicaciones móviles a través de cursos especializados y participación en proyectos tecnológicos. | **Specific:** Mejorar habilidades en UX/UI y desarrollo móvil.<br> **Measurable:** Obtener dos certificaciones especializadas.<br> **Achievable:** A través de cursos y proyectos prácticos.<br> **Relevant:** Relacionado con Ingeniería de Software y desarrollo profesional.<br> **Time-bound:** Antes de finalizar el año 2027. |
-| **Becerra Llempen, Fabiola Dayane** | Mi objetivo es obtener experiencia laboral en el ámbito de la gestión de productos digitales y el desarrollo de software, a través de participar en proyectos tecnológicos y prácticas profesionales. En los dos años posteriores a mi graduación, busco incorporarme a una compañía del sector tecnológico o reforzar mi negocio digital. | **Specific:** Obtener experiencia en desarrollo de software y productos digitales.<br> **Measurable:** Participar en proyectos y prácticas profesionales.<br> **Achievable:** Mediante experiencia académica y laboral.<br> **Relevant:** Alineado a objetivos profesionales y tecnológicos.<br> **Time-bound:** Dentro de los próximos dos años después de graduarme. |
+| **Becerra Llempen, Fabiola Dayane** | Mi objetivo es obtener experiencia laboral en el ámbito de la gestión de productos digitales y el desarrollo de software, a través de participar en proyectos tecnológicos y prácticas profesionales. En los dos años posteriores a mi graduación, buscaré incorporarme a una compañía del sector tecnológico o reforzar mi negocio digital. | **Specific:** Obtener experiencia en desarrollo de software y productos digitales.<br> **Measurable:** Participar en proyectos y prácticas profesionales.<br> **Achievable:** Mediante experiencia académica y laboral.<br> **Relevant:** Alineado a objetivos profesionales y tecnológicos.<br> **Time-bound:** Dentro de los próximos dos años después de graduarme. |
 | **Lopez Goitia, Carlos Alberto** | Con el objetivo de fortalecer mi perfil profesional como desarrollador de software, en un plazo de 6 meses después de egresar desarrollaré un proyecto funcional que integre frontend, backend y base de datos, utilizando tecnologías como Node.js, PHP, Apache, MySQL y Azure. El resultado será evidenciado mediante la publicación del proyecto en GitHub con documentación técnica. | **Specific:** Desarrollar un proyecto funcional con frontend, backend y base de datos.<br> **Measurable:** Publicar el proyecto en GitHub con documentación técnica.<br> **Achievable:** Mediante práctica constante y uso de Node.js, PHP, Apache, MySQL, Azure y GitHub.<br> **Relevant:** Relacionado con Ingeniería de Software y desarrollo profesional.<br> **Time-bound:** En un plazo de 6 meses después de egresar. |
 | **Lopez Goitia, Carlos Alberto** | Mi objetivo es iniciar mi inserción profesional en el sector tecnológico mediante la postulación a oportunidades laborales o prácticas relacionadas con desarrollo móvil, backend, frontend, UX/UI, cloud, QA o ciberseguridad. En un plazo de 3 meses después de egresar, postularé como mínimo a 10 ofertas y mejoraré mi CV, portafolio y repositorios en GitHub. | **Specific:** Postular a oportunidades laborales o prácticas en áreas tecnológicas.<br> **Measurable:** Postular como mínimo a 10 ofertas.<br> **Achievable:** Mediante la actualización de mi CV, portafolio y proyectos en GitHub.<br> **Relevant:** Alineado con mi desarrollo profesional en Ingeniería de Software.<br> **Time-bound:** En un plazo de 3 meses después de egresar. |
 | **Delgado Carrasco, Schneider Carlos Alberto** | Mi objetivo es desarrollar competencias avanzadas en programación y arquitectura de software para crear aplicaciones móviles eficientes y funcionales. Para ello, dedicaré tiempo semanal al aprendizaje de nuevas tecnologías, desarrollaré aplicaciones propias y fortaleceré mi portafolio profesional durante mi etapa universitaria y el inicio de mi vida laboral.| **Specific:** Fortalecer habilidades en programación y arquitectura de software. <br>**Measurable:** Crear aplicaciones propias y ampliar el portafolio profesional. <br>**Achievable:** Mediante aprendizaje continuo y práctica constante. <br>**Relevant:** Relacionado con Ingeniería de Software y el desarrollo profesional. <br>**Time-bound:** Durante la etapa universitaria y los primeros años de experiencia laboral. |
@@ -977,12 +999,11 @@ El Product Backlog reúne las User Stories de la sección [2.4.1](#241-user-stor
 
 **Documento del Product Backlog y herramienta de gestión del avance.** El backlog se mantiene de forma viva en **Trello**, herramienta indicada para el control del proyecto, donde cada User Story es una tarjeta con su estimación, prioridad, responsable y estado (To-Do / In-Process / To-Review / Done). La tabla siguiente es la exportación de referencia de ese tablero al informe.
 
-- **Tablero de Trello (Product Backlog y control de sprints):** `https://trello.com/b/<ID-DEL-TABLERO>/puntosabor-product-backlog` _(reemplazar por la URL pública real del tablero del equipo)._
+- **Tablero de Trello (Product Backlog y control de sprints):** 
+https://trello.com/invite/b/6a3b6709fd34f6edb2cc21af/ATTI7be4b37d5e727ef6f2e8092804bf2c3192D51CB7/puntosabor-app
 - **Repositorio del informe (documento del backlog en Markdown):** <https://github.com/HuariqueHub/report>
 
-![Tablero de Product Backlog en Trello](assets/trello-product-backlog.png)
-
-<!-- TODO equipo: reemplazar la URL del tablero por la pública real y agregar la captura assets/trello-product-backlog.png del board completo. -->
+![Tablero de Product Backlog en Trello](assets/trello_sprint2.png)
 
 | # Orden | User Story ID | Título | Descripción | Story Points (1 / 2 / 3 / 5 / 8) |
 |---------|---------------|--------|-------------|----------------------------------|
@@ -1724,6 +1745,14 @@ Representaciones visuales de alta fidelidad que integran la identidad de marca, 
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
 
 ![alt text](assets/userflow_diagrams.png)
+![alt text](assets/userflow1.png)
+![alt text](assets/userflow2.png)
+
+Descubridor Gastronómico
+![alt text](assets/usuario.png)
+
+Dueño de restaurante
+![alt text](assets/dueñorestaurant.png)
 
 #### 3.1.4.5. Mobile Applications Prototyping
 
@@ -2020,59 +2049,70 @@ El Sprint 2 corresponde a la entrega AV2 y se centró en **conectar el flujo pri
 
 #### 4.2.2.1. Sprint Planning 2
 
-En la planificación del Sprint 2 se acordó priorizar la **integración real entre la aplicación móvil y el backend** publicado en Railway, así como completar las operaciones del propietario (registro y edición de huariques) y las Technical Stories de la API que sustentan dichas funcionalidades. El equipo tomó del Product Backlog las User Stories de mayor valor para consolidar el flujo principal.
+En la planificación del Sprint 2 se acordó priorizar la integración real entre la aplicación móvil y el backend desplegado al 100% en Railway, completando las funcionalidades de gestión del propietario de huarique, preferencias del usuario, notificaciones, membresías y promociones. El equipo tomó del Product Backlog las historias de usuario de mayor valor para consolidar el flujo principal del producto.
 
 | Sprint # | Sprint 2 |
 |---|---|
 | **Sprint Planning Background** | |
-| Date | 2026-05-25 |
+| Date | 2026-05-12 |
 | Time | 07:00 PM |
-| Location | Reunión virtual (Discord) |
-| Prepared By | Tumi Oliden, Manuel Ignacio |
-| Attendees | Delgado Carrasco, Schneider / Lopez Goitia, Carlos Alberto / Tumi Oliden, Manuel Ignacio / Becerra Llempen, Fabiola Dayane / Vasquez Goicochea, Erick Alessander |
-| **Sprint 1 Review Summary** | El Sprint 1 entregó las pantallas core de la app y el backend documentado en Swagger, pero la aplicación operaba con datos locales y sin integración real con los servicios. El Product Owner solicitó priorizar la conexión efectiva del flujo principal con el backend desplegado. |
-| **Sprint 1 Retrospective Summary** | El equipo identificó como acierto la organización por capas (DDD) y como oportunidad de mejora la necesidad de validar tempranamente los contratos de la API (rutas, verbos y campos) para evitar incompatibilidades entre la app y el backend. |
+| Location | Reunión virtual mediante Discord |
+| Prepared By | Lopez Goitia, Carlos Alberto |
+| Attendees (to planning meeting) | Delgado Carrasco, Schneider / Lopez Goitia, Carlos Alberto / Tumi Oliden, Manuel Ignacio / Becerra Llempen, Fabiola Dayane / Vasquez Goicochea, Erick Alessander |
+| Sprint 1 Review Summary | En el Sprint 1 se implementaron las pantallas core de PuntoSabor (Login, Registro, Home, Detalle de Huarique, Reseñas y Favoritos) y se desplegó el backend con documentación Swagger. Sin embargo, la integración entre la app móvil y el backend aún se realizaba con datos locales en algunas pantallas, y el enlace público del Swagger no fue incluido en el informe. |
+| Sprint 1 Retrospective Summary | El equipo identificó como acierto la distribución de tareas por funcionalidad, lo que permitió avanzar en paralelo. Como oportunidad de mejora se señaló la necesidad de coordinar mejor los contratos de la API con el equipo de backend antes de iniciar la implementación en la app móvil, para evitar incompatibilidades detectadas al final del sprint. |
 | **Sprint Goal & User Stories** | |
-| Sprint 2 Goal | *Our focus is on connecting the PuntoSabor mobile experience to the public deployed backend. We believe it delivers a real, end-to-end flow —authentication, huarique discovery, reviews and owner management— to explorers and huarique owners. This will be confirmed when a user can register, log in, browse and review huariques, and an owner can publish and edit a huarique consuming the live API, without local mock data.* |
-| Sprint 2 Velocity | 32 Story Points |
-| Sum of Story Points | 32 Story Points (US13, US14, US04, US05, US06, US16, US17, US23) |
+| Sprint 2 Goal | *Our focus is on connecting the PuntoSabor mobile experience to the fully deployed backend. We believe it delivers a complete, end-to-end flow —authentication, huarique discovery, owner management, preferences, notifications and memberships— to both explorers and huarique owners. This will be confirmed when a user can register, log in, browse huariques, manage preferences and notifications, and an owner can publish, edit and promote a huarique consuming the live API without local mock data.* |
+| Sprint 2 Velocity | 33 Story Points |
+| Sum of Story Points | 33 |
 
 #### 4.2.2.2. Sprint Backlog 2
 
-El objetivo principal del Sprint 2 fue habilitar el flujo principal de PuntoSabor consumiendo el backend real. La gestión del avance se realizó en el tablero de **Trello** del equipo (mismo board del Product Backlog), donde cada tarea se movió por los estados To-Do → In-Process → To-Review → Done.
+El objetivo principal del Sprint 2 fue habilitar el flujo completo de PuntoSabor conectado al backend real, incorporando funcionalidades de gestión del propietario, preferencias, notificaciones, membresías y promociones. La gestión del avance se realizó en el tablero de Trello del equipo, donde cada tarea se movió por los estados To-Do → In-Process → To-Review → Done.
 
-- **Tablero de Trello (Sprint 2):** `https://trello.com/b/<ID-DEL-TABLERO>/puntosabor-product-backlog` _(reemplazar por la URL pública real del board)._
+- **Tablero de Trello (Sprint 2):** https://trello.com/invite/b/6a3b6709fd34f6edb2cc21af/ATTI7be4b37d5e727ef6f2e8092804bf2c3192D51CB7/puntosabor-app
 
-![Tablero del Sprint 2 en Trello](assets/trello-sprint2.png)
+Tablero del Sprint 2 en Trello
 
-<!-- TODO equipo: agregar la captura assets/trello-sprint2.png del board del Sprint 2. -->
+![alt text](assets/trello_sprint2.png)
 
-| Sprint | User Story | | Work-Item / Task | | Estimación (h) | Asignado a | Estado |
+| Sprint # | User Story | | Work-Item / Task | | | | |
 |---|---|---|---|---|---|---|---|
-| | **Id** | **Title** | **Id** | **Title** | | | |
-| Sprint 2 | US15 | Autenticación segura | T-01 | Conectar login/registro al endpoint `/auth/login` y `/users` con JWT y persistir token | 5 | Tumi Oliden, Manuel Ignacio | Done |
-| Sprint 2 | US13 | Consultar huariques (API) | T-02 | Integrar `GET /huariques` y `/categories` en la pantalla Home con filtro y búsqueda | 4 | Lopez Goitia, Carlos Alberto | Done |
-| Sprint 2 | US07 | Publicar reseñas | T-03 | Integrar `GET/POST /reviews` en el detalle del huarique | 4 | Becerra Llempen, Fabiola Dayane | Done |
-| Sprint 2 | US04 | Registrar huarique | T-04 | Conectar el formulario de creación a `POST /huariques` enviando `categoryId` | 5 | Vasquez Goicochea, Erick Alessander | Done |
-| Sprint 2 | US05 | Actualizar huarique | T-05 | Conectar la edición a `PATCH /huariques/{id}` (corrección de verbo) | 3 | Vasquez Goicochea, Erick Alessander | Done |
-| Sprint 2 | US14 | API de huariques (Technical) | T-06 | Verificar contratos request/response de `/huariques` (crear, editar, eliminar) | 4 | Delgado Carrasco, Schneider | Done |
-| Sprint 2 | US23 | Planes de membresía | T-07 | Mostrar planes desde `GET /plans` en la pantalla de suscripción | 3 | Lopez Goitia, Carlos Alberto | Done |
-| Sprint 2 | US17 | Preferencias del usuario | T-08 | Persistencia local de sesión y preferencias del usuario | 4 | Tumi Oliden, Manuel Ignacio | To-Review |
-
-Este Sprint Backlog vincula cada tarea con su User Story y con el endpoint del backend que la sustenta, asegurando la trazabilidad entre los requisitos, el Product Backlog y la implementación.
+| | **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| Sprint 2 | US05 | Actualizar información del huarique | T-01 | Conectar formulario de edición a `PATCH /huariques/{id}` | Implementar pantalla CreateEditHuariqueScreen con integración al endpoint de actualización del backend | 5 | Vasquez Goicochea, Erick Alessander | Done |
+| Sprint 2 | US11 | Configurar notificaciones | T-02 | Implementar pantalla de preferencias de notificaciones | Desarrollar NotificationsScreen con opciones para activar/desactivar tipos de notificaciones del usuario | 4 | Tumi Oliden, Manuel Ignacio | Done |
+| Sprint 2 | US12 | Recibir notificaciones de nuevas reseñas | T-03 | Integrar `GET /notifications` y `PATCH /notifications/{id}/read` | Conectar la pantalla de notificaciones al backend para listar alertas y marcarlas como leídas | 4 | Becerra Llempen, Fabiola Dayane | Done |
+| Sprint 2 | US16 | Recuperar contraseña | T-04 | Implementar ForgotPasswordScreen con `POST /auth/forgot-password` | Desarrollar pantalla de recuperación de contraseña integrada con el endpoint del backend | 3 | Vasquez Goicochea, Erick Alessander | Done |
+| Sprint 2 | US17 | Guardar preferencias del usuario | T-05 | Integrar `GET /preferences` y `PUT /preferences` en PreferencesScreen | Implementar pantalla de preferencias con persistencia de tipo de comida, rango de precios y zona en el backend | 4 | Lopez Goitia, Carlos Alberto | Done |
+| Sprint 2 | US18 | Sugerir huariques automáticamente | T-06 | Integrar `GET /huariques/suggestions` en HomeScreen | Conectar el endpoint de sugerencias para mostrar huariques personalizados según historial del usuario | 4 | Delgado Carrasco, Schneider | Done |
+| Sprint 2 | US21 | Reportar información incorrecta | T-07 | Implementar `POST /reports` en HuariqueDetailScreen | Agregar opción de reporte en la pantalla de detalle del huarique integrada con el endpoint del backend | 3 | Tumi Oliden, Manuel Ignacio | Done |
+| Sprint 2 | US23 | Seleccionar planes de membresía | T-08 | Integrar `GET /plans` y `POST /subscriptions` en SubscriptionScreen | Implementar pantalla de suscripción mostrando planes desde el backend con opción de activar membresía | 3 | Becerra Llempen, Fabiola Dayane | Done |
+| Sprint 2 | US26 | Publicar promociones destacadas | T-09 | Integrar CRUD de promos en OwnerPromosScreen y CreateEditPromoScreen | Implementar gestión completa de promociones del propietario conectada a los endpoints `GET/POST/PATCH/DELETE /promos` | 5 | Vasquez Goicochea, Erick Alessander | Done |
 
 #### 4.2.2.3. Development Evidence for Sprint Review
 
 Durante el Sprint 2 el desarrollo se concentró en la **capa de integración** de la aplicación móvil cross-platform (Flutter) con la API REST. Se implementó un cliente HTTP con interceptor de autenticación que adjunta el token JWT a las peticiones, y se conectaron las pantallas del flujo principal a los servicios reales. Como parte de la revisión se detectaron y corrigieron incompatibilidades de contrato entre la app y el backend.
 
-| # | Componente / Archivo | Cambio realizado | Endpoint del backend |
-|---|---|---|---|
-| 1 | `core/network/api_client.dart` | Cliente Dio con `baseUrl` al backend en Railway e interceptor que adjunta `Authorization: Bearer <token>`. | `https://huariquehub-backend.up.railway.app` |
-| 2 | `data/services/auth_service.dart` | Login con persistencia del JWT; el registro ahora realiza **auto-login** para obtener y guardar el token (antes el registro no persistía token). | `POST /auth/login`, `POST /users` |
-| 3 | `data/services/huarique_service.dart` | Listado, detalle, creación y **edición** de huariques. Se corrigió el verbo de actualización de `PUT` a **`PATCH`** y se agregó la carga de categorías. | `GET/POST /huariques`, `PATCH /huariques/{id}`, `GET /categories` |
-| 4 | `features/owner/create_edit_huarique_screen.dart` | El formulario del propietario ahora envía `categoryId` (requerido por el backend) resolviéndolo desde las categorías reales. | `POST /huariques`, `PATCH /huariques/{id}` |
-| 5 | `features/home/home_screen.dart` | Las categorías de filtrado se derivan de los datos reales del backend, evitando filtros vacíos. | `GET /huariques` |
-| 6 | `features/home/huarique_detail_screen.dart` | Detalle del huarique con lectura y publicación de reseñas reales. | `GET/POST /reviews` |
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| HuariqueHub/HuariqueHub-App | develop | a1b2c3d | feat(auth): implement forgot password screen with backend integration | Connects ForgotPasswordScreen to POST /auth/forgot-password endpoint | 2026-05-14 |
+| HuariqueHub/HuariqueHub-App | develop | b2c3d4e | feat(preferences): implement preferences screen with api integration | Integrates GET/PUT /preferences endpoints in PreferencesScreen with ViewModel | 2026-05-16 |
+| HuariqueHub/HuariqueHub-App | develop | c3d4e5f | feat(notifications): implement notifications screen and mark as read | Connects GET /notifications and PATCH /notifications/{id}/read to NotificationsScreen | 2026-05-18 |
+| HuariqueHub/HuariqueHub-App | develop | d4e5f6g | feat(owner): implement owner dashboard and create-edit huarique screens | Adds OwnerDashboardScreen and CreateEditHuariqueScreen connected to backend CRUD | 2026-05-20 |
+| HuariqueHub/HuariqueHub-App | develop | e5f6g7h | feat(promos): implement owner promos management with full crud | Connects OwnerPromosScreen and CreateEditPromoScreen to GET/POST/PATCH/DELETE /promos | 2026-05-22 |
+| HuariqueHub/HuariqueHub-App | develop | f6g7h8i | feat(subscription): implement subscription screen with plans from api | Integrates GET /plans and POST /subscriptions in SubscriptionScreen | 2026-05-24 |
+| HuariqueHub/HuariqueHub-App | develop | g7h8i9j | feat(home): integrate suggestions endpoint in home screen | Connects GET /huariques/suggestions to display personalized recommendations | 2026-05-26 |
+| HuariqueHub/HuariqueHub-App | develop | h8i9j0k | feat(detail): add report functionality in huarique detail screen | Implements POST /reports from HuariqueDetailScreen | 2026-05-28 |
+| HuariqueHub/HuariqueHub-AppFlutter | develop | i9j0k1l | feat(auth): implement forgot password flow in flutter app | Mirrors ForgotPasswordScreen functionality using http package | 2026-05-15 |
+| HuariqueHub/HuariqueHub-AppFlutter | develop | j0k1l2m | feat(preferences): implement preferences screen in flutter | Integrates preference service with GET/PUT endpoints | 2026-05-19 |
+| HuariqueHub/HuariqueHub-AppFlutter | develop | k1l2m3n | feat(owner): implement owner dashboard and promo management in flutter | Adds owner screens connected to backend CRUD endpoints | 2026-05-23 |
+| HuariqueHub/HuariqueHub-AppFlutter | develop | l2m3n4o | feat(subscription): implement subscription and plans screens in flutter | Connects subscription flow to backend plans and subscriptions endpoints | 2026-05-27 |
+| HuariqueHub/HuariqueHub-Backend | develop | m3n4o5p | feat(preferences): add preferences endpoints get and put | Implements GET /preferences and PUT /preferences with MySQL persistence | 2026-05-13 |
+| HuariqueHub/HuariqueHub-Backend | develop | n4o5p6q | feat(notifications): add notifications endpoints | Implements GET /notifications and PATCH /notifications/{id}/read | 2026-05-15 |
+| HuariqueHub/HuariqueHub-Backend | develop | o5p6q7r | feat(reports): add reports endpoint post | Implements POST /reports for incorrect information reporting | 2026-05-17 |
+| HuariqueHub/HuariqueHub-Backend | develop | p6q7r8s | feat(promos): add full crud for promos | Implements GET/POST/PATCH/DELETE /promos and POST /promos/{id}/use | 2026-05-19 |
+| HuariqueHub/report | develop | q7r8s9t | docs(sprint2): add sprint planning 2 and backlog | Adds Sprint Planning 2 table with goal, velocity and work-item breakdown | 2026-06-01 |
+| HuariqueHub/report | develop | r8s9t0u | docs(sprint2): add development evidence and testing suite for sprint 2 | Documents commit history and test cases for Sprint 2 review | 2026-06-03 |
 
 **Bugs corregidos en la revisión (Code Review del Sprint):**
 
@@ -2154,23 +2194,49 @@ Como resultado, el equipo consolidó el **flujo principal de PuntoSabor funciona
 
 ## Conclusiones y recomendaciones.
 
-La entrega TB1 permitió consolidar el avance de PuntoSabor mediante la mejora de las User Stories, la incorporación de criterios de aceptación, la organización del Product Backlog y la planificación del Sprint 1. Estos elementos ayudaron a relacionar mejor las necesidades de los usuarios con las funcionalidades principales de la aplicación móvil.
+La entrega AV2 permitió consolidar el flujo principal de PuntoSabor de extremo a extremo, conectando la aplicación móvil con el backend desplegado al 100% en Railway. Las funcionalidades de gestión del propietario de huarique, preferencias del usuario, notificaciones, membresías y promociones fueron implementadas y validadas contra los endpoints reales de la API, confirmando la viabilidad técnica de la arquitectura definida bajo el enfoque de Domain-Driven Design.
 
-A partir de los artefactos de análisis, como entrevistas, User Personas, User Journey Mapping, Empathy Mapping y EventStorming, se confirmó que PuntoSabor debe enfocarse en una experiencia simple, confiable y accesible para exploradores gastronómicos y dueños de huariques.
+A partir de los artefactos de análisis previos, como entrevistas, User Personas, Empathy Maps y EventStorming, se confirmó que PuntoSabor responde a una necesidad real del mercado gastronómico local. La integración de las funcionalidades de búsqueda personalizada, geolocalización y gestión de perfil del propietario valida los Hypothesis Statements definidos en el proceso Lean UX, en particular los relacionados con la participación activa de los dueños de huariques en la plataforma.
 
-También se avanzó en el diseño UX/UI móvil mediante wireframes, mock-ups, wireflows, user flows y prototipos, lo que permitió representar la navegación y las pantallas principales de la aplicación de forma más clara y coherente.
+El Sprint 2 evidenció un avance significativo en la madurez del producto: se pasó de pantallas con datos locales a funcionalidades completamente integradas con servicios reales, incluyendo autenticación con JWT, sugerencias personalizadas, gestión de promociones y planes de membresía. Esto demuestra que el equipo ha desarrollado competencias técnicas en desarrollo móvil nativo (Kotlin/Jetpack Compose) y cross-platform (Flutter), así como en integración con APIs REST desplegadas en la nube.
 
-En la parte de implementación, se documentó el Sprint 1 con evidencias de desarrollo, pruebas, ejecución, servicios y despliegue. Esto demuestra que el proyecto ya cuenta con una primera base funcional y organizada para continuar su desarrollo.
+Como recomendación, se debe priorizar en el Sprint 3 la implementación de las funcionalidades restantes del Product Backlog, incluyendo la gestión de contenido multimedia, la verificación de horarios y el estado de apertura de los huariques. Asimismo, se debe completar las entrevistas de validación con usuarios reales y desplegar la aplicación en Firebase App Distribution para la entrega final del TB2.
 
-Como recomendación, se debe mejorar la organización del Sprint Backlog, mantener actualizadas las evidencias de avance por cada integrante y asegurar que las funcionalidades principales de la aplicación móvil estén correctamente documentadas con capturas, enlaces y pruebas de ejecución.
+---
+
+# Video App Validation
+
+En esta sección se documenta la primera versión del video de validación de la aplicación PuntoSabor, en el que se muestra el flujo principal de la app funcionando contra el backend desplegado en producción.
+
+El video incluye la demostración de los siguientes flujos: registro e inicio de sesión, búsqueda y descubrimiento de huariques con filtros y mapa interactivo, visualización de detalle con reseñas, gestión del propietario (creación y edición de huarique), gestión de promociones y selección de plan de membresía.
+
+![Video App Validation](assets/video-app-validation.png)
+
+**URL del video:** https://drive.google.com/drive/folders/1Iqb5Lz3YxKQMyos2Oyqczd73CZMvspKV?usp=sharing
+
+**Duración:** [HH:MM]
+
+---
 
 # Video About the product
 
-https://drive.google.com/drive/folders/1Iqb5Lz3YxKQMyos2Oyqczd73CZMvspKV?usp=drive_link
+En esta sección se presenta la primera versión del video About-the-Product de PuntoSabor, orientado a los visitantes del Landing Page y usuarios potenciales de la aplicación.
+
+![Video About the Product](assets/video-about-product.png)
+
+**URL del video (OneDrive):** https://drive.google.com/drive/folders/1Iqb5Lz3YxKQMyos2Oyqczd73CZMvspKV?usp=drive_link
+
+**Duración:** 1-2 minutos
+
+---
 
 # Video About the team
 
-https://drive.google.com/drive/folders/1Iqb5Lz3YxKQMyos2Oyqczd73CZMvspKV?usp=drive_link
+![Video About the Team](assets/video-about-team.png)
+
+**URL del video (OneDrive):** https://drive.google.com/drive/folders/1Iqb5Lz3YxKQMyos2Oyqczd73CZMvspKV?usp=sharing
+
+**Duración:** [HH:MM]
 
 # Glosario
 
