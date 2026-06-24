@@ -2208,11 +2208,10 @@ En esta sección se documenta la primera versión del video de validación de la
 
 El video incluye la demostración de los siguientes flujos: registro e inicio de sesión, búsqueda y descubrimiento de huariques con filtros y mapa interactivo, visualización de detalle con reseñas, gestión del propietario (creación y edición de huarique), gestión de promociones y selección de plan de membresía.
 
-![Video App Validation](assets/video-app-validation.png)
-
+![alt text](assets/appvalidation.png)
 **URL del video:** https://drive.google.com/drive/folders/1Iqb5Lz3YxKQMyos2Oyqczd73CZMvspKV?usp=sharing
 
-**Duración:** [HH:MM]
+**Duración:** [08:38]
 
 ---
 
@@ -2220,21 +2219,21 @@ El video incluye la demostración de los siguientes flujos: registro e inicio de
 
 En esta sección se presenta la primera versión del video About-the-Product de PuntoSabor, orientado a los visitantes del Landing Page y usuarios potenciales de la aplicación.
 
-![Video About the Product](assets/video-about-product.png)
+![alt text](assets/abautProduct.png)
 
 **URL del video (OneDrive):** https://drive.google.com/drive/folders/1Iqb5Lz3YxKQMyos2Oyqczd73CZMvspKV?usp=drive_link
 
-**Duración:** 1-2 minutos
+**Duración:** 2 minutos
 
 ---
 
 # Video About the team
 
-![Video About the Team](assets/video-about-team.png)
+![alt text](assets/abautteam.png)
 
 **URL del video (OneDrive):** https://drive.google.com/drive/folders/1Iqb5Lz3YxKQMyos2Oyqczd73CZMvspKV?usp=sharing
 
-**Duración:** [HH:MM]
+**Duración:** [08:48]
 
 # Glosario
 
