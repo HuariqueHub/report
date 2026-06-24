@@ -2018,46 +2018,43 @@ El Sprint 2 corresponde a la entrega AV2 y se centró en **conectar el flujo pri
 
 #### 4.2.2.1. Sprint Planning 2
 
-En la planificación del Sprint 2 se acordó priorizar la **integración real entre la aplicación móvil y el backend** publicado en Railway, así como completar las operaciones del propietario (registro y edición de huariques) y las Technical Stories de la API que sustentan dichas funcionalidades. El equipo tomó del Product Backlog las User Stories de mayor valor para consolidar el flujo principal.
+En la planificación del Sprint 2 se acordó priorizar la integración real entre la aplicación móvil y el backend desplegado al 100% en Railway, completando las funcionalidades de gestión del propietario de huarique, preferencias del usuario, notificaciones, membresías y promociones. El equipo tomó del Product Backlog las historias de usuario de mayor valor para consolidar el flujo principal del producto.
 
 | Sprint # | Sprint 2 |
 |---|---|
 | **Sprint Planning Background** | |
-| Date | 2026-05-25 |
+| Date | 2026-05-12 |
 | Time | 07:00 PM |
-| Location | Reunión virtual (Discord) |
-| Prepared By | Tumi Oliden, Manuel Ignacio |
-| Attendees | Delgado Carrasco, Schneider / Lopez Goitia, Carlos Alberto / Tumi Oliden, Manuel Ignacio / Becerra Llempen, Fabiola Dayane / Vasquez Goicochea, Erick Alessander |
-| **Sprint 1 Review Summary** | El Sprint 1 entregó las pantallas core de la app y el backend documentado en Swagger, pero la aplicación operaba con datos locales y sin integración real con los servicios. El Product Owner solicitó priorizar la conexión efectiva del flujo principal con el backend desplegado. |
-| **Sprint 1 Retrospective Summary** | El equipo identificó como acierto la organización por capas (DDD) y como oportunidad de mejora la necesidad de validar tempranamente los contratos de la API (rutas, verbos y campos) para evitar incompatibilidades entre la app y el backend. |
+| Location | Reunión virtual mediante Discord |
+| Prepared By | Lopez Goitia, Carlos Alberto |
+| Attendees (to planning meeting) | Delgado Carrasco, Schneider / Lopez Goitia, Carlos Alberto / Tumi Oliden, Manuel Ignacio / Becerra Llempen, Fabiola Dayane / Vasquez Goicochea, Erick Alessander |
+| Sprint 1 Review Summary | En el Sprint 1 se implementaron las pantallas core de PuntoSabor (Login, Registro, Home, Detalle de Huarique, Reseñas y Favoritos) y se desplegó el backend con documentación Swagger. Sin embargo, la integración entre la app móvil y el backend aún se realizaba con datos locales en algunas pantallas, y el enlace público del Swagger no fue incluido en el informe. |
+| Sprint 1 Retrospective Summary | El equipo identificó como acierto la distribución de tareas por funcionalidad, lo que permitió avanzar en paralelo. Como oportunidad de mejora se señaló la necesidad de coordinar mejor los contratos de la API con el equipo de backend antes de iniciar la implementación en la app móvil, para evitar incompatibilidades detectadas al final del sprint. |
 | **Sprint Goal & User Stories** | |
-| Sprint 2 Goal | *Our focus is on connecting the PuntoSabor mobile experience to the public deployed backend. We believe it delivers a real, end-to-end flow —authentication, huarique discovery, reviews and owner management— to explorers and huarique owners. This will be confirmed when a user can register, log in, browse and review huariques, and an owner can publish and edit a huarique consuming the live API, without local mock data.* |
-| Sprint 2 Velocity | 32 Story Points |
-| Sum of Story Points | 32 Story Points (US13, US14, US04, US05, US06, US16, US17, US23) |
+| Sprint 2 Goal | *Our focus is on connecting the PuntoSabor mobile experience to the fully deployed backend. We believe it delivers a complete, end-to-end flow —authentication, huarique discovery, owner management, preferences, notifications and memberships— to both explorers and huarique owners. This will be confirmed when a user can register, log in, browse huariques, manage preferences and notifications, and an owner can publish, edit and promote a huarique consuming the live API without local mock data.* |
+| Sprint 2 Velocity | 33 Story Points |
+| Sum of Story Points | 33 |
 
 #### 4.2.2.2. Sprint Backlog 2
 
-El objetivo principal del Sprint 2 fue habilitar el flujo principal de PuntoSabor consumiendo el backend real. La gestión del avance se realizó en el tablero de **Trello** del equipo (mismo board del Product Backlog), donde cada tarea se movió por los estados To-Do → In-Process → To-Review → Done.
+El objetivo principal del Sprint 2 fue habilitar el flujo completo de PuntoSabor conectado al backend real, incorporando funcionalidades de gestión del propietario, preferencias, notificaciones, membresías y promociones. La gestión del avance se realizó en el tablero de Trello del equipo, donde cada tarea se movió por los estados To-Do → In-Process → To-Review → Done.
 
-- **Tablero de Trello (Sprint 2):** `https://trello.com/b/<ID-DEL-TABLERO>/puntosabor-product-backlog` _(reemplazar por la URL pública real del board)._
+- **Tablero de Trello (Sprint 2):** `[URL pública del tablero Trello]`
 
 ![Tablero del Sprint 2 en Trello](assets/trello-sprint2.png)
 
-<!-- TODO equipo: agregar la captura assets/trello-sprint2.png del board del Sprint 2. -->
-
-| Sprint | User Story | | Work-Item / Task | | Estimación (h) | Asignado a | Estado |
+| Sprint # | User Story | | Work-Item / Task | | | | |
 |---|---|---|---|---|---|---|---|
-| | **Id** | **Title** | **Id** | **Title** | | | |
-| Sprint 2 | US15 | Autenticación segura | T-01 | Conectar login/registro al endpoint `/auth/login` y `/users` con JWT y persistir token | 5 | Tumi Oliden, Manuel Ignacio | Done |
-| Sprint 2 | US13 | Consultar huariques (API) | T-02 | Integrar `GET /huariques` y `/categories` en la pantalla Home con filtro y búsqueda | 4 | Lopez Goitia, Carlos Alberto | Done |
-| Sprint 2 | US07 | Publicar reseñas | T-03 | Integrar `GET/POST /reviews` en el detalle del huarique | 4 | Becerra Llempen, Fabiola Dayane | Done |
-| Sprint 2 | US04 | Registrar huarique | T-04 | Conectar el formulario de creación a `POST /huariques` enviando `categoryId` | 5 | Vasquez Goicochea, Erick Alessander | Done |
-| Sprint 2 | US05 | Actualizar huarique | T-05 | Conectar la edición a `PATCH /huariques/{id}` (corrección de verbo) | 3 | Vasquez Goicochea, Erick Alessander | Done |
-| Sprint 2 | US14 | API de huariques (Technical) | T-06 | Verificar contratos request/response de `/huariques` (crear, editar, eliminar) | 4 | Delgado Carrasco, Schneider | Done |
-| Sprint 2 | US23 | Planes de membresía | T-07 | Mostrar planes desde `GET /plans` en la pantalla de suscripción | 3 | Lopez Goitia, Carlos Alberto | Done |
-| Sprint 2 | US17 | Preferencias del usuario | T-08 | Persistencia local de sesión y preferencias del usuario | 4 | Tumi Oliden, Manuel Ignacio | To-Review |
-
-Este Sprint Backlog vincula cada tarea con su User Story y con el endpoint del backend que la sustenta, asegurando la trazabilidad entre los requisitos, el Product Backlog y la implementación.
+| | **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| Sprint 2 | US05 | Actualizar información del huarique | T-01 | Conectar formulario de edición a `PATCH /huariques/{id}` | Implementar pantalla CreateEditHuariqueScreen con integración al endpoint de actualización del backend | 5 | Vasquez Goicochea, Erick Alessander | Done |
+| Sprint 2 | US11 | Configurar notificaciones | T-02 | Implementar pantalla de preferencias de notificaciones | Desarrollar NotificationsScreen con opciones para activar/desactivar tipos de notificaciones del usuario | 4 | Tumi Oliden, Manuel Ignacio | Done |
+| Sprint 2 | US12 | Recibir notificaciones de nuevas reseñas | T-03 | Integrar `GET /notifications` y `PATCH /notifications/{id}/read` | Conectar la pantalla de notificaciones al backend para listar alertas y marcarlas como leídas | 4 | Becerra Llempen, Fabiola Dayane | Done |
+| Sprint 2 | US16 | Recuperar contraseña | T-04 | Implementar ForgotPasswordScreen con `POST /auth/forgot-password` | Desarrollar pantalla de recuperación de contraseña integrada con el endpoint del backend | 3 | Vasquez Goicochea, Erick Alessander | Done |
+| Sprint 2 | US17 | Guardar preferencias del usuario | T-05 | Integrar `GET /preferences` y `PUT /preferences` en PreferencesScreen | Implementar pantalla de preferencias con persistencia de tipo de comida, rango de precios y zona en el backend | 4 | Lopez Goitia, Carlos Alberto | Done |
+| Sprint 2 | US18 | Sugerir huariques automáticamente | T-06 | Integrar `GET /huariques/suggestions` en HomeScreen | Conectar el endpoint de sugerencias para mostrar huariques personalizados según historial del usuario | 4 | Delgado Carrasco, Schneider | Done |
+| Sprint 2 | US21 | Reportar información incorrecta | T-07 | Implementar `POST /reports` en HuariqueDetailScreen | Agregar opción de reporte en la pantalla de detalle del huarique integrada con el endpoint del backend | 3 | Tumi Oliden, Manuel Ignacio | Done |
+| Sprint 2 | US23 | Seleccionar planes de membresía | T-08 | Integrar `GET /plans` y `POST /subscriptions` en SubscriptionScreen | Implementar pantalla de suscripción mostrando planes desde el backend con opción de activar membresía | 3 | Becerra Llempen, Fabiola Dayane | Done |
+| Sprint 2 | US26 | Publicar promociones destacadas | T-09 | Integrar CRUD de promos en OwnerPromosScreen y CreateEditPromoScreen | Implementar gestión completa de promociones del propietario conectada a los endpoints `GET/POST/PATCH/DELETE /promos` | 5 | Vasquez Goicochea, Erick Alessander | Done |
 
 #### 4.2.2.3. Development Evidence for Sprint Review
 
