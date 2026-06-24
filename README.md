@@ -2006,6 +2006,37 @@ Como resultado, el equipo logró consolidar una primera base funcional del produ
 
 ### 4.2.2. Sprint 2
 
+<<<<<<< HEAD
+#### 4.2.2.1. Sprint Planning 2
+En la planificación del Sprint 2 se definieron las tareas principales orientadas a ampliar las funcionalidades de PuntoSabor, incorporando la gestión de perfil del dueño, preferencias del usuario, notificaciones, membresías y promociones. Se tomaron como base los resultados del Sprint 1 y las historias de usuario pendientes del backlog.
+
+El objetivo del sprint fue integrar las funcionalidades de gestión avanzada tanto para exploradores gastronómicos como para dueños de huariques, conectando la aplicación móvil con los endpoints del backend desplegado.
+
+| Sprint | Sprint 2 |
+|---|---|
+| Sprint Goal | Implementar las funcionalidades de gestión de perfil, preferencias, notificaciones, membresías y promociones en la aplicación móvil de PuntoSabor. |
+| Fecha de inicio | 12 de mayo de 2026 |
+| Fecha de fin | 08 de junio de 2026 |
+| Equipo | HuariqueHub |
+| Producto | PuntoSabor |
+
+Durante este sprint se priorizaron tareas relacionadas con la gestión del dueño de huarique, recuperación de contraseña, preferencias del usuario, notificaciones, planes de membresía, promociones y reporte de información incorrecta.
+
+#### 4.2.2.2. Sprint Backlog 2
+
+#### 4.2.2.3. Development Evidence for Sprint Review
+
+#### 4.2.2.4. Testing Suite Evidence for Sprint Review
+
+#### 4.2.2.5. Execution Evidence for Sprint Review
+
+#### 4.2.2.6. Services Documentation Evidence for Sprint Review
+
+#### 4.2.2.7. Software Deployment Evidence for Sprint Review
+
+#### 4.2.2.8. Team Collaboration Insights during Sprint
+
+=======
 El Sprint 2 corresponde a la entrega AV2 y se centró en **conectar el flujo principal de la aplicación con el backend desplegado al 100% en un sitio público**. Mientras que el Sprint 1 entregó las pantallas core y el backend documentado, el Sprint 2 integró ambos productos: la aplicación móvil consume ahora los servicios reales de la API (autenticación con JWT, descubrimiento de huariques, reseñas y gestión de huariques por parte del dueño), validando de extremo a extremo el flujo del usuario y del propietario.
 
 #### 4.2.2.1. Sprint Planning 2
@@ -2139,6 +2170,7 @@ Durante el Sprint 2, el equipo trabajó de forma coordinada para integrar la apl
 | Vasquez Goicochea, Erick Alessander | Integración de la gestión del propietario (crear/editar huarique) y documentación del sprint. |
 
 Como resultado, el equipo consolidó el **flujo principal de PuntoSabor funcionando de extremo a extremo** contra el backend público, cumpliendo las consideraciones del AV2 respecto al despliegue del backend al 100% y la demostración de las funcionalidades core de la aplicación.
+>>>>>>> 0b6b6de5d34142aa7a9eb85d66a0b679afea2fcd
 
 # Conclusiones
 
