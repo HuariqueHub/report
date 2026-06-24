@@ -1739,7 +1739,7 @@ Representaciones visuales de alta fidelidad que integran la identidad de marca, 
 ![alt text](assets/userflow1.png)
 ![alt text](assets/userflow2.png)
 
-Descubridor Gastronimico
+Descubridor Gastronómico
 ![alt text](assets/usuario.png)
 
 Dueño de restaurante
