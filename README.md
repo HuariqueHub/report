@@ -32,6 +32,8 @@
 
 </div>
 
+<div style="page-break-after: always;"></div>
+
 # Registro de Versiones del Informe
 
 <table>
@@ -135,6 +137,8 @@
   </tr>
 </table>
 
+<div style="page-break-after: always;"></div>
+
 # Project Report Collaboration Insights
 
 URL del repositorio del informe: https://github.com/HuariqueHub/report/tree/main
@@ -160,6 +164,8 @@ Evidencias de colaboración:
 | Tumi Oliden, Manuel Ignacio | Documentó la integración de autenticación con JWT y la persistencia de sesión en la aplicación móvil. |
 | Becerra Llempen, Fabiola Dayane | Documentó la integración del detalle del huarique, el módulo de reseñas y las evidencias de validación. |
 | Vasquez Goicochea, Erick Alessander | Documentó el Sprint Planning 2, Sprint Backlog 2, evidencias de despliegue y colaboración del equipo. |
+
+<div style="page-break-after: always;"></div>
 
 # Contenido
 
@@ -269,6 +275,8 @@ Evidencias de colaboración:
 - [Glosario](#glosario)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
+
+<div style="page-break-after: always;"></div>
 
 # Student Outcome
 
@@ -411,6 +419,7 @@ ABET - EAC - Student Outcome 7 Criterio: La capacidad de adquirir y aplicar nuev
 </table>
 </div>
 
+<div style="page-break-after: always;"></div>
 
 ## Objetivos SMART
 
@@ -2133,10 +2142,10 @@ En esta sección se evidencia la ejecución del flujo principal de PuntoSabor co
 | Evidencia | Descripción | Imagen / Enlace |
 |---|---|---|
 | Backend público en ejecución (Swagger) | Documentación interactiva de la API desplegada al 100% en sitio público. | <https://huariquehub-backend.up.railway.app/swagger> |
-| Flujo de autenticación | Registro e inicio de sesión reales contra `/auth/login` y `/users`. | ![Login PuntoSabor](assets/login-puntosabor.jpeg) |
-| Descubrimiento de huariques | Home con datos reales, búsqueda y filtro por categorías. | ![Home PuntoSabor](assets/home-puntosabor.jpeg) |
-| Detalle y reseñas | Detalle del huarique con reseñas leídas y publicadas vía API. | ![Detalle Huarique](assets/detalle-huarique.jpeg) |
-| Gestión del propietario | Creación y edición de un huarique consumiendo el backend. | ![Nueva Reseña](assets/nueva-resena.jpeg) |
+| Flujo de autenticación | Registro e inicio de sesión reales contra `/auth/login` y `/users`. | ![Login PuntoSabor](assets/HuariqueHub-Login.PNG) ![Login PuntoSabor](assets/HuariqueHub-UsersBackend.PNG) |
+| Descubrimiento de huariques | Home con datos reales, búsqueda y filtro por categorías. | ![Home PuntoSabor](assets/HuariqueHub-FirstPage.PNG) |
+| Detalle y reseñas | Detalle del huarique con reseñas leídas y publicadas vía API. | ![Detalle Huarique](assets/HuariqueHub-Reviews.PNG) ![Detalle Huarique](assets/HuariqueHub-ReviewsBackend.PNG) |
+| Gestión del propietario | Creación y edición de un huarique consumiendo el backend. | ![Crear Huarique](assets/HuariqueHub-DuenhoLocal.PNG) ![Crear Huarique](assets/HuariqueHub-DuenhoLocalPublicado.PNG) ![Crear Huarique](assets/HuariqueHub-LocalBackend.PNG) |
 
 #### 4.2.2.6. Services Documentation Evidence for Sprint Review
 
