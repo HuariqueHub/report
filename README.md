@@ -1754,7 +1754,7 @@ Dueño de restaurante
 
 #### 3.1.4.5. Mobile Applications Prototyping
 
-Prototipo de la aplicación móvil PuntoSabor en figma: https://www.figma.com/design/lT88eEZFP7G86QwYXq59Lc/PuntoSabor?node-id=0-1&p=f&t=NTWZ6fdPzB6mKTpe-0
+Prototipo de la aplicación móvil PuntoSabor en figma: https://www.figma.com/proto/lT88eEZFP7G86QwYXq59Lc/PuntoSabor?node-id=479-3247&t=ye1K7Dvu4kkj6fuI-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=60%3A349&show-proto-sidebar=1
 
 # Capítulo IV: Product Implementation & Validation
 
