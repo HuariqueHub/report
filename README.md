@@ -2221,7 +2221,7 @@ En esta sección se presenta la primera versión del video About-the-Product de 
 
 ![alt text](assets/abautProduct.png)
 
-**URL del video (OneDrive):** https://drive.google.com/drive/folders/1Iqb5Lz3YxKQMyos2Oyqczd73CZMvspKV?usp=drive_link
+**URL del video:** https://drive.google.com/drive/folders/1Iqb5Lz3YxKQMyos2Oyqczd73CZMvspKV?usp=drive_link
 
 **Duración:** 2 minutos
 
@@ -2231,7 +2231,7 @@ En esta sección se presenta la primera versión del video About-the-Product de 
 
 ![alt text](assets/abautteam.png)
 
-**URL del video (OneDrive):** https://drive.google.com/drive/folders/1Iqb5Lz3YxKQMyos2Oyqczd73CZMvspKV?usp=sharing
+**URL del video:** https://drive.google.com/drive/folders/1Iqb5Lz3YxKQMyos2Oyqczd73CZMvspKV?usp=sharing
 
 **Duración:** [08:48]
 
