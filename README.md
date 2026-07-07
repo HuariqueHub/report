@@ -986,6 +986,7 @@ La prioridad se expresa como **Alta / Media / Baja** según el valor para el neg
 | US24 | Dueño | Media | EP10 | Pagar suscripción | Como dueño, quiero pagar mi membresía mediante tarjeta o billetera digital para mantener activo mi plan. | **Escenario 1:** Dado que el dueño ingresa datos de pago válidos, Cuando confirma la operación, Entonces el sistema registra el pago y activa la suscripción. <br><br> **Escenario 2:** Dado que el dueño ingresa datos de pago inválidos, Cuando confirma la operación, Entonces el sistema muestra un mensaje de error y no activa la suscripción. |
 | US25 | Dueño | Baja | EP10 | Descargar comprobantes de pago | Como dueño, quiero descargar comprobantes mensuales de mis pagos para llevar control contable de mi membresía. | **Escenario 1:** Dado que el dueño accede a la sección de facturación, Cuando selecciona un mes con pago registrado, Entonces el sistema permite descargar el comprobante correspondiente. <br><br> **Escenario 2:** Dado que existe un pago pendiente o fallido, Cuando el dueño revisa la facturación, Entonces el sistema muestra un aviso de pago pendiente. |
 | US26 | Dueño Pro | Media | EP10 | Publicar promociones destacadas | Como dueño Pro, quiero publicar promociones destacadas para aumentar la visibilidad de mi huarique en los listados. | **Escenario 1:** Dado que el dueño Pro configura una promoción con fechas y cupos válidos, Cuando la publica, Entonces el sistema la muestra como destacada en los listados. <br><br> **Escenario 2:** Dado que la promoción alcanza su fecha de finalización, Cuando el usuario revisa los listados, Entonces el sistema deja de mostrarla como promoción activa. |
+| US27 | Usuario | Media | EP07 | Gestionar cuenta y perfil | Como usuario, quiero ver mi perfil, actualizar mi nombre y eliminar mi cuenta para tener control sobre mis datos personales. | **Escenario 1:** Dado que el usuario accede a su perfil, Cuando la pantalla carga, Entonces el sistema muestra su nombre, correo y rol. <br><br> **Escenario 2:** Dado que el usuario edita su nombre con un valor válido, Cuando guarda los cambios, Entonces el sistema actualiza el nombre y lo refleja en la sesión. <br><br> **Escenario 3:** Dado que el usuario confirma la eliminación de su cuenta, Cuando acepta la acción, Entonces el sistema elimina la cuenta y cierra la sesión. |
 
 ### 2.4.2. Impact Mapping
 
@@ -1031,8 +1032,9 @@ https://trello.com/invite/b/6a3b6709fd34f6edb2cc21af/ATTI7be4b37d5e727ef6f2e8092
 | 24 | US24 | Pagar suscripción | Como dueño, quiero pagar mi membresía mediante tarjeta o billetera digital para mantener activo mi plan. | 5 |
 | 25 | US25 | Descargar comprobantes de pago | Como dueño, quiero descargar comprobantes mensuales de mis pagos para llevar control contable de mi membresía. | 3 |
 | 26 | US26 | Publicar promociones destacadas | Como dueño Pro, quiero publicar promociones destacadas para aumentar la visibilidad de mi huarique en los listados. | 3 |
+| 27 | US27 | Gestionar cuenta y perfil | Como usuario, quiero ver mi perfil, actualizar mi nombre y eliminar mi cuenta para tener control sobre mis datos personales. | 3 |
 
-**Suma total estimada del backlog:** 89 Story Points.
+**Suma total estimada del backlog:** 92 Story Points.
 
 #### Roadmap de Sprints hasta la entrega del Trabajo Final
 
@@ -2153,6 +2155,7 @@ El backend se encuentra **desplegado al 100% en un sitio público con su documen
 |---|---|---|---|
 | Auth | `POST /auth/login` | Inicio de sesión y obtención del JWT. | Integrado |
 | Users | `POST /users`, `GET /users` | Registro de usuarios (consumer/owner). | Integrado |
+| Profile (cuenta) | `GET /auth/users/{id}`, `PATCH /auth/users/{id}`, `DELETE /auth/users/{id}` | Ver perfil, editar nombre y eliminar cuenta desde la pantalla de perfil (US27). | Integrado |
 | Huariques | `GET /huariques`, `GET /huariques/{id}`, `POST /huariques`, `PATCH /huariques/{id}`, `DELETE /huariques/{id}` | Descubrimiento, detalle y gestión por el dueño. | Integrado |
 | Categories | `GET /categories` | Categorías para filtros y para `categoryId` al crear/editar. | Integrado |
 | Reviews | `GET /reviews`, `POST /reviews` | Lectura y publicación de reseñas. | Integrado |
@@ -2188,6 +2191,8 @@ Durante el Sprint 2, el equipo trabajó de forma coordinada para integrar la apl
 
 Como resultado, el equipo consolidó el **flujo principal de PuntoSabor funcionando de extremo a extremo** contra el backend público, cumpliendo las consideraciones del AV2 respecto al despliegue del backend al 100% y la demostración de las funcionalidades core de la aplicación.
 
+<div style="page-break-after: always;"></div>
+
 # Conclusiones
 
 ## Conclusiones y recomendaciones.
@@ -2202,6 +2207,8 @@ Como recomendación, se debe priorizar en el Sprint 3 la implementación de las 
 
 ---
 
+<div style="page-break-after: always;"></div>
+
 # Video App Validation
 
 En esta sección se documenta la primera versión del video de validación de la aplicación PuntoSabor, en el que se muestra el flujo principal de la app funcionando contra el backend desplegado en producción.
@@ -2215,6 +2222,8 @@ El video incluye la demostración de los siguientes flujos: registro e inicio de
 
 ---
 
+<div style="page-break-after: always;"></div>
+
 # Video About the product
 
 En esta sección se presenta la primera versión del video About-the-Product de PuntoSabor, orientado a los visitantes del Landing Page y usuarios potenciales de la aplicación.
@@ -2227,6 +2236,8 @@ En esta sección se presenta la primera versión del video About-the-Product de 
 
 ---
 
+<div style="page-break-after: always;"></div>
+
 # Video About the team
 
 ![alt text](assets/abautteam.png)
@@ -2234,6 +2245,9 @@ En esta sección se presenta la primera versión del video About-the-Product de 
 **URL del video:** https://drive.google.com/drive/folders/1Iqb5Lz3YxKQMyos2Oyqczd73CZMvspKV?usp=sharing
 
 **Duración:** [08:48]
+
+
+<div style="page-break-after: always;"></div>
 
 # Glosario
 
@@ -2267,6 +2281,8 @@ En esta sección se presenta la primera versión del video About-the-Product de 
 
 - **Sprint Backlog:** Lista de historias de usuario y tareas seleccionadas para ser trabajadas durante un sprint.
 
+<div style="page-break-after: always;"></div>
+
 # Bibliografía
 
 - Brown, A., & Evans, E. (2004). Domain-Driven Design: Tackling Complexity in the Heart of Software. Addison-Wesley.
@@ -2284,6 +2300,8 @@ En esta sección se presenta la primera versión del video About-the-Product de 
 - Pressman, R. (2014). Ingeniería del Software: Un Enfoque Práctico. McGraw-Hill.
 
 - Fowler, M. (2003). Patterns of Enterprise Application Architecture. Addison-Wesley.
+
+<div style="page-break-after: always;"></div>
 
 # Anexos
 
