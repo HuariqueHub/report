@@ -331,138 +331,160 @@ ABET - EAC - Student Outcome 7 Criterio: La capacidad de adquirir y aplicar nuev
 
 <div>
 <table>
-  <thead>
-    <tr>
-      <th>Criterio específico</th>
-      <th>Nombre</th>
-      <th>Acciones realizadas</th>
-      <th>Conclusiones</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td rowspan="5">Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.</td>
-      <td>Delgado Carrasco, Schneider</td>
-      <td>
-        <strong>AV1:</strong><br>
-        Investigué y apliqué técnicas de Lean UX para identificar la problemática central del proyecto, adquiriendo conocimientos sobre análisis de segmentos objetivo y diseño orientado al usuario que no habían sido abordados previamente en el curso.<br>
-        <strong>TB1:</strong><br>
-        Aprendí a utilizar Figma para elaborar wireframes, mock-ups y prototipos interactivos de la aplicación móvil, aplicando principios de diseño inclusivo y arquitectura de información adquiridos de manera autónoma para sustentar las decisiones visuales del producto.<br>
-        <strong>AV2:</strong><br>
-        Profundicé en el uso de Retrofit para la integración de la aplicación móvil con el backend, verificando contratos de la API y aplicando conocimientos sobre manejo de errores HTTP adquiridos mediante la documentación oficial de Android y las guías de Jetpack Compose.
-      </td>
-      <td rowspan="5">
-        <strong>AV1:</strong> El equipo demostró capacidad para adquirir de forma autónoma conocimientos sobre metodologías de investigación de usuarios y análisis de mercado, aplicándolos directamente en la definición del problema y la propuesta de solución del proyecto.<br><br>
-        <strong>TB1:</strong> Durante el TB1, cada integrante incorporó nuevos conocimientos técnicos y de diseño según las necesidades de su área de responsabilidad, evidenciando estrategias de aprendizaje autónomo mediante el uso de documentación oficial, tutoriales especializados y recursos académicos para implementar las funcionalidades asignadas.<br><br>
-        <strong>AV2:</strong> En el AV2, el equipo consolidó su capacidad de aprendizaje aplicado al integrar la aplicación móvil con el backend desplegado en producción, adquiriendo conocimientos sobre integración de APIs REST, manejo de tokens JWT y despliegue en Railway, aplicando estrategias de aprendizaje como documentación oficial, pruebas iterativas y revisión de código entre pares.
-      </td>
-    </tr>
-    <tr>
-      <td>Lopez Goitia, Carlos Alberto</td>
-      <td>
-        <strong>AV1:</strong><br>
-        Aprendí y apliqué el enfoque de Domain-Driven Design (DDD) para definir la arquitectura del sistema, elaborando diagramas de contexto, contenedores y componentes bajo el modelo C4, conocimientos adquiridos de manera autónoma a partir de la bibliografía especializada del curso.<br>
-        <strong>TB1:</strong><br>
-        Actualicé mis conocimientos sobre especificación de requisitos con criterios de aceptación en formato Gherkin y refiné las User Stories del Product Backlog aplicando buenas prácticas de Scrum, complementando lo visto en clase con recursos externos sobre escritura efectiva de historias de usuario.<br>
-        <strong>AV2:</strong><br>
-        Adquirí conocimientos sobre integración de servicios REST en Flutter utilizando el paquete http y manejo de estado con Provider, aplicándolos en la implementación de la pantalla de preferencias del usuario conectada al backend desplegado en Railway.
-      </td>
-    </tr>
-    <tr>
-      <td>Tumi Oliden, Manuel Ignacio</td>
-      <td>
-        <strong>AV1:</strong><br>
-        Investigué y apliqué la técnica de las 5W's y 2H's para el análisis de antecedentes y problemática, así como el proceso de Lean UX para la formulación de Problem Statements, Assumptions e Hypothesis Statements, conocimientos incorporados de manera autónoma a partir de recursos académicos y guías especializadas.<br>
-        <strong>TB1:</strong><br>
-        Aprendí a definir sistemas de búsqueda y navegación para aplicaciones móviles aplicando principios de arquitectura de información, consultando recursos sobre UX móvil y patrones de navegación en Jetpack Compose para fundamentar las decisiones documentadas en el informe.<br>
-        <strong>AV2:</strong><br>
-        Incorporé conocimientos sobre autenticación con JWT en aplicaciones Android, implementando el almacenamiento seguro del token de sesión mediante SharedPreferences y su uso en las peticiones al backend, siguiendo la documentación oficial de Android y guías de seguridad móvil.
-      </td>
-    </tr>
-    <tr>
-      <td>Becerra Llempen, Fabiola Dayane</td>
-      <td>
-        <strong>AV1:</strong><br>
-        Aprendí a elaborar User Personas, User Task Matrix y User Journey Maps aplicando metodologías de needfinding, utilizando UXPressia como herramienta especializada que no había usado anteriormente, adquiriendo de manera autónoma el manejo de la plataforma para representar los arquetipos del proyecto.<br>
-        <strong>TB1:</strong><br>
-        Profundicé en el diseño de Wireflows y User Flows para aplicaciones móviles, incorporando conocimientos sobre representación de interacciones y flujos de usuario en LucidChart, aplicando estos aprendizajes en la documentación de las pantallas core de PuntoSabor.<br>
-        <strong>AV2:</strong><br>
-        Adquirí conocimientos sobre integración de módulos de reseñas y notificaciones en Flutter, aprendiendo el manejo de listas dinámicas con ListView.builder y la actualización de estado reactivo, aplicándolos en las pantallas de reseñas y notificaciones conectadas al backend.
-      </td>
-    </tr>
-    <tr>
-      <td>Vasquez Goicochea, Erick Alessander</td>
-      <td>
-        <strong>AV1:</strong><br>
-        Actualicé mis conocimientos sobre análisis competitivo y redacción técnica de documentos de ingeniería de software, aprendiendo a estructurar información de forma coherente para audiencias tanto técnicas como no especializadas, aplicando estas habilidades en la revisión y mejora del Capítulo II.<br>
-        <strong>TB1:</strong><br>
-        Aprendí a documentar evidencias de Sprint Review siguiendo estándares de Scrum, incorporando conocimientos sobre gestión de tableros en Trello y registro de commits con Conventional Commits en GitHub, aplicados en la organización del Sprint 1 del proyecto.<br>
-        <strong>AV2:</strong><br>
-        Incorporé conocimientos sobre gestión de huariques y promociones en aplicaciones Android con Jetpack Compose, aprendiendo el patrón MVVM con ViewModel y StateFlow para el manejo de estado, aplicándolos en la implementación de las pantallas de creación y edición de huariques y promociones.
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="5">Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.</td>
-      <td>Delgado Carrasco, Schneider</td>
-      <td>
-        <strong>AV1:</strong><br>
-        Reconocí la importancia de investigar metodologías de diseño centrado en el usuario como Lean UX para complementar los conocimientos técnicos de desarrollo, identificando que la comprensión del problema es tan importante como la implementación de la solución.<br>
-        <strong>TB1:</strong><br>
-        Identifiqué la necesidad de aprender herramientas de prototipado como Figma para comunicar ideas de diseño de forma efectiva, reconociendo que el aprendizaje continuo de herramientas especializadas es esencial para el trabajo colaborativo en equipos de desarrollo de software.<br>
-        <strong>AV2:</strong><br>
-        Reconocí la importancia de mantener actualizados los conocimientos sobre integración de APIs y manejo de errores en aplicaciones móviles, identificando que las incompatibilidades de contrato entre frontend y backend son desafíos frecuentes que requieren aprendizaje continuo y resolución proactiva de problemas.
-      </td>
-      <td rowspan="5">
-        <strong>AV1:</strong> El equipo identificó que el desarrollo de productos digitales requiere la actualización constante de conocimientos en áreas como investigación de usuarios, análisis competitivo y metodologías ágiles, reconociendo el aprendizaje permanente como una necesidad inherente al ejercicio profesional de la ingeniería de software.<br><br>
-        <strong>TB1:</strong> Durante el TB1, el equipo evidenció la necesidad del aprendizaje permanente al enfrentarse a nuevas herramientas y técnicas para el diseño UX/UI móvil, la implementación con Jetpack Compose y la documentación de sprints bajo estándares Scrum, reconociendo que la capacidad de aprender de forma autónoma es una competencia fundamental para el desempeño profesional en proyectos de software.<br><br>
-        <strong>AV2:</strong> En el AV2, el equipo reafirmó la necesidad del aprendizaje permanente al integrar tecnologías de despliegue en la nube (Railway), autenticación con JWT y desarrollo cross-platform con Flutter, reconociendo que el ecosistema de desarrollo móvil evoluciona constantemente y que la actualización continua de conocimientos es indispensable para entregar productos de software de calidad.
-      </td>
-    </tr>
-    <tr>
-      <td>Lopez Goitia, Carlos Alberto</td>
-      <td>
-        <strong>AV1:</strong><br>
-        Reconocí la necesidad de profundizar en Domain-Driven Design como enfoque arquitectónico, identificando que el diseño de software orientado al dominio del negocio requiere un aprendizaje continuo que va más allá de los contenidos básicos del curso.<br>
-        <strong>TB1:</strong><br>
-        Identifiqué que la especificación precisa de requisitos con criterios de aceptación verificables es una habilidad que requiere práctica constante, reconociendo la importancia de mantenerme actualizado en técnicas de ingeniería de requisitos para mejorar la calidad de los productos que desarrolle en mi vida profesional.<br>
-        <strong>AV2:</strong><br>
-        Reconocí la necesidad de aprender sobre arquitecturas de integración entre aplicaciones móviles y servicios REST, identificando que el manejo de estado en aplicaciones Flutter y la gestión de sesiones de usuario son áreas de conocimiento en constante evolución que requieren actualización permanente.
-      </td>
-    </tr>
-    <tr>
-      <td>Tumi Oliden, Manuel Ignacio</td>
-      <td>
-        <strong>AV1:</strong><br>
-        Reconocí que la aplicación de técnicas de análisis de problemas como las 5W's y 2H's y el proceso Lean UX requieren práctica continua para lograr formulaciones precisas y útiles, identificando la necesidad de seguir desarrollando habilidades de pensamiento crítico y análisis en el ámbito del desarrollo de software.<br>
-        <strong>TB1:</strong><br>
-        Identifiqué la importancia de aprender sobre arquitectura de información y sistemas de navegación móvil como parte del perfil profesional de un ingeniero de software, reconociendo que la experiencia del usuario es un área de conocimiento complementaria e indispensable para el desarrollo de aplicaciones de calidad.<br>
-        <strong>AV2:</strong><br>
-        Reconocí la necesidad de mantenerme actualizado en prácticas de seguridad para aplicaciones móviles, identificando que la autenticación con JWT y el almacenamiento seguro de credenciales son conocimientos esenciales para el desarrollo profesional de aplicaciones que manejan datos sensibles de usuarios.
-      </td>
-    </tr>
-    <tr>
-      <td>Becerra Llempen, Fabiola Dayane</td>
-      <td>
-        <strong>AV1:</strong><br>
-        Reconocí que el needfinding y la construcción de arquetipos de usuario son habilidades que requieren aprendizaje continuo, identificando que la comprensión profunda de los segmentos objetivo es fundamental para tomar decisiones de diseño informadas en cualquier proyecto de software.<br>
-        <strong>TB1:</strong><br>
-        Identifiqué la necesidad de aprender sobre representación de flujos de usuario y diagramas de interacción como parte del conjunto de habilidades de un ingeniero de software moderno, reconociendo que el diseño UX/UI es un área de conocimiento en constante evolución que impacta directamente en la calidad del producto final.<br>
-        <strong>AV2:</strong><br>
-        Reconocí la necesidad de actualizar mis conocimientos sobre desarrollo cross-platform con Flutter, identificando que el ecosistema de herramientas para desarrollo móvil evoluciona rápidamente y que mantenerse al día con las mejores prácticas de integración de servicios es indispensable para el desarrollo profesional.
-      </td>
-    </tr>
-    <tr>
-      <td>Vasquez Goicochea, Erick Alessander</td>
-      <td>
-        <strong>AV1:</strong><br>
-        Reconocí la importancia de desarrollar habilidades de comunicación técnica para la documentación de proyectos de software, identificando que la capacidad de redactar informes claros y coherentes es una competencia profesional que requiere práctica y actualización constante.<br>
-        <strong>TB1:</strong><br>
-        Identifiqué la necesidad de aprender sobre gestión de proyectos ágiles y uso de herramientas de control de versiones como GitHub con GitFlow, reconociendo que el dominio de estas prácticas es esencial para el desempeño profesional en equipos de desarrollo de software.<br>
-        <strong>AV2:</strong><br>
-        Reconocí la necesidad de actualizar mis conocimientos sobre el patrón MVVM y el desarrollo con Jetpack Compose para Android, identificando que las arquitecturas modernas de aplicaciones móviles requieren aprendizaje continuo y que la capacidad de adaptarse a nuevos patrones de desarrollo es una competencia clave para mi crecimiento profesional.
-      </td>
-    </tr>
-  </tbody>
+<thead>
+<tr>
+<th>Criterio específico</th>
+<th>Nombre</th>
+<th>Acciones realizadas</th>
+<th>Conclusiones</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="5">Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.</td>
+<td>Delgado Carrasco, Schneider</td>
+<td>
+<strong>AV1:</strong><br>
+Investigué y apliqué técnicas de Lean UX para identificar la problemática central del proyecto, adquiriendo conocimientos sobre análisis de segmentos objetivo y diseño orientado al usuario que no habían sido abordados previamente en el curso.<br>
+<strong>TB1:</strong><br>
+Aprendí a utilizar Figma para elaborar wireframes, mock-ups y prototipos interactivos de la aplicación móvil, aplicando principios de diseño inclusivo y arquitectura de información adquiridos de manera autónoma para sustentar las decisiones visuales del producto.<br>
+<strong>AV2:</strong><br>
+Profundicé en el uso de Retrofit para la integración de la aplicación móvil con el backend, verificando contratos de la API y aplicando conocimientos sobre manejo de errores HTTP adquiridos mediante la documentación oficial de Android y las guías de Jetpack Compose.<br>
+<strong>TB2:</strong><br>
+Actualicé mis conocimientos sobre validación final de servicios backend y documentación técnica, revisando contratos de la API mediante Swagger y consolidando evidencias del Sprint 3 para demostrar el funcionamiento de los endpoints desplegados públicamente.
+</td>
+<td rowspan="5">
+<strong>AV1:</strong> El equipo demostró capacidad para adquirir de forma autónoma conocimientos sobre metodologías de investigación de usuarios y análisis de mercado, aplicándolos directamente en la definición del problema y la propuesta de solución del proyecto.<br><br>
+<strong>TB1:</strong> Durante el TB1, cada integrante incorporó nuevos conocimientos técnicos y de diseño según las necesidades de su área de responsabilidad, evidenciando estrategias de aprendizaje autónomo mediante el uso de documentación oficial, tutoriales especializados y recursos académicos para implementar las funcionalidades asignadas.<br><br>
+<strong>AV2:</strong> En el AV2, el equipo consolidó su capacidad de aprendizaje aplicado al integrar la aplicación móvil con el backend desplegado en producción, adquiriendo conocimientos sobre integración de APIs REST, manejo de tokens JWT y despliegue en Railway, aplicando estrategias de aprendizaje como documentación oficial, pruebas iterativas y revisión de código entre pares.<br><br>
+<strong>TB2:</strong> En la entrega TB2, el equipo consolidó la versión final del producto aplicando nuevos conocimientos relacionados con validación de funcionalidades, documentación de servicios, despliegue de software y preparación de evidencias para el Release Review. Esto permitió demostrar que los aprendizajes adquiridos durante el ciclo fueron aplicados en la implementación final de PuntoSabor.
+</td>
+</tr>
+<tr>
+<td>Lopez Goitia, Carlos Alberto</td>
+<td>
+<strong>AV1:</strong><br>
+Aprendí y apliqué el enfoque de Domain-Driven Design (DDD) para definir la arquitectura del sistema, elaborando diagramas de contexto, contenedores y componentes bajo el modelo C4, conocimientos adquiridos de manera autónoma a partir de la bibliografía especializada del curso.<br>
+<strong>TB1:</strong><br>
+Actualicé mis conocimientos sobre especificación de requisitos con criterios de aceptación en formato Gherkin y refiné las User Stories del Product Backlog aplicando buenas prácticas de Scrum, complementando lo visto en clase con recursos externos sobre escritura efectiva de historias de usuario.<br>
+<strong>AV2:</strong><br>
+Adquirí conocimientos sobre integración de servicios REST en Flutter utilizando el paquete http y manejo de estado con Provider, aplicándolos en la implementación de la pantalla de preferencias del usuario conectada al backend desplegado en Railway.<br>
+<strong>TB2:</strong><br>
+Fortalecí mis conocimientos sobre organización de entregables finales y documentación de implementación, actualizando la estructura del informe para incluir el Sprint 3, las evidencias de despliegue y la consolidación de las funcionalidades finales de la aplicación móvil.
+</td>
+</tr>
+<tr>
+<td>Tumi Oliden, Manuel Ignacio</td>
+<td>
+<strong>AV1:</strong><br>
+Investigué y apliqué la técnica de las 5W's y 2H's para el análisis de antecedentes y problemática, así como el proceso de Lean UX para la formulación de Problem Statements, Assumptions e Hypothesis Statements, conocimientos incorporados de manera autónoma a partir de recursos académicos y guías especializadas.<br>
+<strong>TB1:</strong><br>
+Aprendí a definir sistemas de búsqueda y navegación para aplicaciones móviles aplicando principios de arquitectura de información, consultando recursos sobre UX móvil y patrones de navegación en Jetpack Compose para fundamentar las decisiones documentadas en el informe.<br>
+<strong>AV2:</strong><br>
+Incorporé conocimientos sobre autenticación con JWT en aplicaciones Android, implementando el almacenamiento seguro del token de sesión mediante SharedPreferences y su uso en las peticiones al backend, siguiendo la documentación oficial de Android y guías de seguridad móvil.<br>
+<strong>TB2:</strong><br>
+Actualicé mis conocimientos sobre validación de flujos principales de una aplicación móvil, revisando el funcionamiento de la autenticación, la persistencia de sesión y la interacción entre las pantallas finales y los servicios desplegados.
+</td>
+</tr>
+<tr>
+<td>Becerra Llempen, Fabiola Dayane</td>
+<td>
+<strong>AV1:</strong><br>
+Aprendí a elaborar User Personas, User Task Matrix y User Journey Maps aplicando metodologías de needfinding, utilizando UXPressia como herramienta especializada que no había usado anteriormente, adquiriendo de manera autónoma el manejo de la plataforma para representar los arquetipos del proyecto.<br>
+<strong>TB1:</strong><br>
+Profundicé en el diseño de Wireflows y User Flows para aplicaciones móviles, incorporando conocimientos sobre representación de interacciones y flujos de usuario en LucidChart, aplicando estos aprendizajes en la documentación de las pantallas core de PuntoSabor.<br>
+<strong>AV2:</strong><br>
+Adquirí conocimientos sobre integración de módulos de reseñas y notificaciones en Flutter, aprendiendo el manejo de listas dinámicas con ListView.builder y la actualización de estado reactivo, aplicándolos en las pantallas de reseñas y notificaciones conectadas al backend.<br>
+<strong>TB2:</strong><br>
+Reforcé mis conocimientos sobre validación de experiencia de usuario y revisión heurística, documentando evidencias de uso de la aplicación final, capturas de pantallas implementadas y observaciones relacionadas con la navegación y facilidad de uso de PuntoSabor.
+</td>
+</tr>
+<tr>
+<td>Vasquez Goicochea, Erick Alessander</td>
+<td>
+<strong>AV1:</strong><br>
+Actualicé mis conocimientos sobre análisis competitivo y redacción técnica de documentos de ingeniería de software, aprendiendo a estructurar información de forma coherente para audiencias tanto técnicas como no especializadas, aplicando estas habilidades en la revisión y mejora del Capítulo II.<br>
+<strong>TB1:</strong><br>
+Aprendí a documentar evidencias de Sprint Review siguiendo estándares de Scrum, incorporando conocimientos sobre gestión de tableros en Trello y registro de commits con Conventional Commits en GitHub, aplicados en la organización del Sprint 1 del proyecto.<br>
+<strong>AV2:</strong><br>
+Incorporé conocimientos sobre gestión de huariques y promociones en aplicaciones Android con Jetpack Compose, aprendiendo el patrón MVVM con ViewModel y StateFlow para el manejo de estado, aplicándolos en la implementación de las pantallas de creación y edición de huariques y promociones.<br>
+<strong>TB2:</strong><br>
+Actualicé mis conocimientos sobre gestión de entregas finales bajo Scrum, documentando el Sprint Planning 3, Sprint Backlog 3, evidencias de colaboración, despliegue y validación del producto para sustentar el cierre del proyecto en la etapa de Release Review.
+</td>
+</tr>
+<tr>
+<td rowspan="5">Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.</td>
+<td>Delgado Carrasco, Schneider</td>
+<td>
+<strong>AV1:</strong><br>
+Reconocí la importancia de investigar metodologías de diseño centrado en el usuario como Lean UX para complementar los conocimientos técnicos de desarrollo, identificando que la comprensión del problema es tan importante como la implementación de la solución.<br>
+<strong>TB1:</strong><br>
+Identifiqué la necesidad de aprender herramientas de prototipado como Figma para comunicar ideas de diseño de forma efectiva, reconociendo que el aprendizaje continuo de herramientas especializadas es esencial para el trabajo colaborativo en equipos de desarrollo de software.<br>
+<strong>AV2:</strong><br>
+Reconocí la importancia de mantener actualizados los conocimientos sobre integración de APIs y manejo de errores en aplicaciones móviles, identificando que las incompatibilidades de contrato entre frontend y backend son desafíos frecuentes que requieren aprendizaje continuo y resolución proactiva de problemas.<br>
+<strong>TB2:</strong><br>
+Reconocí que la etapa final de un proyecto requiere seguir aprendiendo sobre validación, documentación y despliegue, ya que no basta con implementar funcionalidades, sino que también es necesario demostrar su correcto funcionamiento mediante evidencias claras y verificables.
+</td>
+<td rowspan="5">
+<strong>AV1:</strong> El equipo identificó que el desarrollo de productos digitales requiere la actualización constante de conocimientos en áreas como investigación de usuarios, análisis competitivo y metodologías ágiles, reconociendo el aprendizaje permanente como una necesidad inherente al ejercicio profesional de la ingeniería de software.<br><br>
+<strong>TB1:</strong> Durante el TB1, el equipo evidenció la necesidad del aprendizaje permanente al enfrentarse a nuevas herramientas y técnicas para el diseño UX/UI móvil, la implementación con Jetpack Compose y la documentación de sprints bajo estándares Scrum, reconociendo que la capacidad de aprender de forma autónoma es una competencia fundamental para el desempeño profesional en proyectos de software.<br><br>
+<strong>AV2:</strong> En el AV2, el equipo reafirmó la necesidad del aprendizaje permanente al integrar tecnologías de despliegue en la nube (Railway), autenticación con JWT y desarrollo cross-platform con Flutter, reconociendo que el ecosistema de desarrollo móvil evoluciona constantemente y que la actualización continua de conocimientos es indispensable para entregar productos de software de calidad.<br><br>
+<strong>TB2:</strong> En la TB2, el equipo reconoció que el aprendizaje permanente es fundamental para cerrar correctamente un producto de software, ya que fue necesario adaptar conocimientos sobre validación final, evidencias de sprint, despliegue, documentación técnica y presentación del producto. Esta experiencia permitió reforzar la importancia de aprender de manera continua para responder a los requerimientos de una entrega profesional.
+</td>
+</tr>
+<tr>
+<td>Lopez Goitia, Carlos Alberto</td>
+<td>
+<strong>AV1:</strong><br>
+Reconocí la necesidad de profundizar en Domain-Driven Design como enfoque arquitectónico, identificando que el diseño de software orientado al dominio del negocio requiere un aprendizaje continuo que va más allá de los contenidos básicos del curso.<br>
+<strong>TB1:</strong><br>
+Identifiqué que la especificación precisa de requisitos con criterios de aceptación verificables es una habilidad que requiere práctica constante, reconociendo la importancia de mantenerme actualizado en técnicas de ingeniería de requisitos para mejorar la calidad de los productos que desarrolle en mi vida profesional.<br>
+<strong>AV2:</strong><br>
+Reconocí la necesidad de aprender sobre arquitecturas de integración entre aplicaciones móviles y servicios REST, identificando que el manejo de estado en aplicaciones Flutter y la gestión de sesiones de usuario son áreas de conocimiento en constante evolución que requieren actualización permanente.<br>
+<strong>TB2:</strong><br>
+Reconocí la importancia de aprender a organizar y presentar una entrega final de software, identificando que la documentación, las evidencias de implementación y la trazabilidad de los sprints son aspectos necesarios para demostrar el avance real de un proyecto.
+</td>
+</tr>
+<tr>
+<td>Tumi Oliden, Manuel Ignacio</td>
+<td>
+<strong>AV1:</strong><br>
+Reconocí que la aplicación de técnicas de análisis de problemas como las 5W's y 2H's y el proceso Lean UX requieren práctica continua para lograr formulaciones precisas y útiles, identificando la necesidad de seguir desarrollando habilidades de pensamiento crítico y análisis en el ámbito del desarrollo de software.<br>
+<strong>TB1:</strong><br>
+Identifiqué la importancia de aprender sobre arquitectura de información y sistemas de navegación móvil como parte del perfil profesional de un ingeniero de software, reconociendo que la experiencia del usuario es un área de conocimiento complementaria e indispensable para el desarrollo de aplicaciones de calidad.<br>
+<strong>AV2:</strong><br>
+Reconocí la necesidad de mantenerme actualizado en prácticas de seguridad para aplicaciones móviles, identificando que la autenticación con JWT y el almacenamiento seguro de credenciales son conocimientos esenciales para el desarrollo profesional de aplicaciones que manejan datos sensibles de usuarios.<br>
+<strong>TB2:</strong><br>
+Reconocí que la validación de flujos finales exige aprendizaje constante, debido a que una aplicación puede funcionar por partes, pero necesita ser revisada de extremo a extremo para asegurar una experiencia estable antes de su presentación final.
+</td>
+</tr>
+<tr>
+<td>Becerra Llempen, Fabiola Dayane</td>
+<td>
+<strong>AV1:</strong><br>
+Reconocí que el needfinding y la construcción de arquetipos de usuario son habilidades que requieren aprendizaje continuo, identificando que la comprensión profunda de los segmentos objetivo es fundamental para tomar decisiones de diseño informadas en cualquier proyecto de software.<br>
+<strong>TB1:</strong><br>
+Identifiqué la necesidad de aprender sobre representación de flujos de usuario y diagramas de interacción como parte del conjunto de habilidades de un ingeniero de software moderno, reconociendo que el diseño UX/UI es un área de conocimiento en constante evolución que impacta directamente en la calidad del producto final.<br>
+<strong>AV2:</strong><br>
+Reconocí la necesidad de actualizar mis conocimientos sobre desarrollo cross-platform con Flutter, identificando que el ecosistema de herramientas para desarrollo móvil evoluciona rápidamente y que mantenerse al día con las mejores prácticas de integración de servicios es indispensable para el desarrollo profesional.<br>
+<strong>TB2:</strong><br>
+Reconocí que la evaluación de la experiencia del usuario no termina con el diseño inicial, sino que debe continuar durante la implementación final, revisando pantallas, navegación y posibles problemas de uso para mejorar la calidad del producto.
+</td>
+</tr>
+<tr>
+<td>Vasquez Goicochea, Erick Alessander</td>
+<td>
+<strong>AV1:</strong><br>
+Reconocí la importancia de desarrollar habilidades de comunicación técnica para la documentación de proyectos de software, identificando que la capacidad de redactar informes claros y coherentes es una competencia profesional que requiere práctica y actualización constante.<br>
+<strong>TB1:</strong><br>
+Identifiqué la necesidad de aprender sobre gestión de proyectos ágiles y uso de herramientas de control de versiones como GitHub con GitFlow, reconociendo que el dominio de estas prácticas es esencial para el desempeño profesional en equipos de desarrollo de software.<br>
+<strong>AV2:</strong><br>
+Reconocí la necesidad de actualizar mis conocimientos sobre el patrón MVVM y el desarrollo con Jetpack Compose para Android, identificando que las arquitecturas modernas de aplicaciones móviles requieren aprendizaje continuo y que la capacidad de adaptarse a nuevos patrones de desarrollo es una competencia clave para mi crecimiento profesional.<br>
+<strong>TB2:</strong><br>
+Reconocí que la gestión de una entrega final requiere aprendizaje permanente en organización, control de versiones, evidencias y comunicación técnica, ya que estos elementos permiten sustentar el trabajo realizado por el equipo y facilitar la revisión del proyecto.
+</td>
+</tr>
+</tbody>
 </table>
 </div>
 
