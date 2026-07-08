@@ -54,14 +54,15 @@
         <li>Vasquez Goicochea, Erick Alessander</li>
       </ul>
     </td>
-    <td> Se han incluido los siguientes capítulos:
-        <ul>
-          <li>Carátula</li>
-          <li>Registro de Versiónes del informe</li>
-          <li>Project Report Collaboration Insights</li>
-          <li>Contenido</li>
-          <li>Student Outcome</li>
-          <li>Capítulo I: Presentación</li>
+    <td>
+      Se han incluido los siguientes capítulos:
+      <ul>
+        <li>Carátula</li>
+        <li>Registro de Versiones del informe</li>
+        <li>Project Report Collaboration Insights</li>
+        <li>Contenido</li>
+        <li>Student Outcome</li>
+        <li>Capítulo I: Presentación</li>
         <li>Capítulo II: Requirements Development and Software Solution Design</li>
         <li>Conclusiones</li>
         <li>Bibliografía</li>
@@ -124,12 +125,51 @@
     <td>
       Se atendió la retroalimentación del AV1 y se prepararon los artefactos para el AV2. Principales cambios:
       <ul>
-        <li>Mejora del Problem Statement (5W2H y Lean UX Problem Statements reformulados)</li>
-        <li>Adecuación de las User Stories a la plantilla oficial (columnas Usuario, Prioridad y Epic; definición de Epics EP01–EP10)</li>
-        <li>Product Backlog vinculado al documento y a la herramienta de gestión (Trello), con captura y URL pública</li>
-        <li>Roadmap de Sprints hasta la entrega del Trabajo Final (Sprint 1, 2 y 3)</li>
-        <li>Backend 100% desplegado en sitio público con documentación (URL de Swagger en Railway)</li>
+        <li>Mejora del Problem Statement mediante la reformulación del 5W2H y Lean UX Problem Statements</li>
+        <li>Adecuación de las User Stories a la plantilla oficial, incluyendo las columnas Usuario, Prioridad y Epic</li>
+        <li>Definición y organización de Epics EP01–EP10</li>
+        <li>Product Backlog vinculado al documento y a la herramienta de gestión Trello, con captura y URL pública</li>
+        <li>Roadmap de Sprints hasta la entrega del Trabajo Final, considerando Sprint 1, Sprint 2 y Sprint 3</li>
+        <li>Backend desplegado en un sitio público con documentación mediante Swagger en Railway</li>
         <li>Actualización de conclusiones, bibliografía y anexos</li>
+      </ul>
+    </td>
+  </tr>
+
+  <tr>
+    <td>TB2</td>
+    <td>2026-07-08</td>
+    <td>
+      <ul>
+        <li>Delgado Carrasco, Schneider</li>
+        <li>Lopez Goitia, Carlos Alberto</li>
+        <li>Tumi Oliden Manuel Ignacio</li>
+        <li>Becerra Llempen, Fabiola Dayane</li>
+        <li>Vasquez Goicochea, Erick Alessander</li>
+      </ul>
+    </td>
+    <td>
+      Se desarrolló y consolidó la versión final del informe para la entrega TB2 - Release Review. Principales cambios:
+      <ul>
+        <li>Actualización del Registro de Versiones del Informe</li>
+        <li>Actualización de Project Report Collaboration Insights</li>
+        <li>Actualización de la sección Student Outcome</li>
+        <li>Corrección y mejora de los artefactos previamente presentados</li>
+        <li>Inclusión del Capítulo IV: Product Implementation &amp; Validation</li>
+        <li>Presentación del desarrollo y evidencias correspondientes al Sprint 3</li>
+        <li>Actualización final del Product Backlog y Sprint Backlog</li>
+        <li>Inclusión de evidencias de implementación para el Sprint Review</li>
+        <li>Inclusión de evidencias de pruebas para el Sprint Review</li>
+        <li>Inclusión de evidencias de documentación de servicios mediante Swagger</li>
+        <li>Inclusión de evidencias de despliegue del software</li>
+        <li>Evidencia del Landing Page desplegado</li>
+        <li>Evidencia del backend desplegado al 100% en un sitio público con su documentación</li>
+        <li>Evidencia del despliegue de la aplicación móvil mediante Firebase App Distribution u otro servicio similar</li>
+        <li>Inclusión de la versión final del video de validación de la aplicación</li>
+        <li>Inclusión de la versión final del video About-the-Product</li>
+        <li>Inclusión de la versión final del video About-the-Team</li>
+        <li>Actualización final de conclusiones</li>
+        <li>Actualización final de bibliografía y anexos</li>
       </ul>
     </td>
   </tr>
