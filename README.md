@@ -2488,6 +2488,32 @@ Asimismo, el entrevistado valoró positivamente la opción de guardar favoritos 
 
 En síntesis, la entrevista permitió confirmar que PuntoSabor responde a una necesidad real del segmento, ya que facilita el descubrimiento de huariques y brinda información relevante para tomar decisiones. Además, se identificó como oportunidad de mejora la incorporación de filtros más específicos y una mayor cantidad de imágenes por local.
 
+
+**Entrevista 02**
+
+**Nombres:** Cucho 
+
+**Apellidos:** Suarez 
+
+**Edad:** 20 años
+
+**Distrito:** Comas
+
+**Evidencia de la reunión:**
+
+![Evidencia entrevista validación segmento 1](assets/seg-1-cucho.png)
+
+
+**Resumen de la entrevista:**
+
+La entrevista se realizó a un usuario perteneciente al segmento de exploradores gastronómicos, quien revisó la versión final de PuntoSabor y comentó su experiencia al interactuar con los principales flujos de la aplicación. El entrevistado indicó que la propuesta le parece útil porque permite encontrar huariques de una manera más ordenada, evitando depender únicamente de recomendaciones en redes sociales o búsquedas poco precisas en otras plataformas.
+
+Durante la validación, señaló que la pantalla principal es fácil de entender y que las categorías ayudan a explorar diferentes opciones de comida local. También consideró importante que el detalle del huarique incluya información como fotos, ubicación, horarios, estado de apertura, reseñas y promociones, ya que estos elementos le permiten tomar una decisión con mayor confianza antes de visitar un local.
+
+Asimismo, mencionó que la opción de guardar favoritos resulta práctica para recordar lugares que le interesan y visitarlos posteriormente. Como aspecto positivo, destacó que PuntoSabor se enfoque específicamente en huariques, ya que esto permite descubrir negocios que normalmente no aparecen con facilidad en aplicaciones más generales. Como mejora, sugirió incorporar filtros más específicos, como precio, distancia o calificación, para encontrar opciones de manera más rápida.
+
+En síntesis, la entrevista permitió validar que PuntoSabor cumple con una necesidad del segmento, ya que facilita el descubrimiento de huariques auténticos y brinda información relevante para decidir dónde comer. Además, se identificó que la aplicación puede mejorar aún más si se agregan filtros avanzados y mayor cantidad de contenido visual en los perfiles de los locales.
+
 #### Segmento 02: Dueño o administrador de huarique
 
 **Entrevista 02**
@@ -2514,6 +2540,32 @@ El participante consideró útil que la aplicación permita mostrar información
 Respecto a los planes de membresía, el entrevistado indicó que podrían ser atractivos siempre que ofrezcan beneficios claros, como mayor visibilidad, aparición destacada o acceso a herramientas para promocionar el negocio. Además, recomendó que la aplicación mantenga una interfaz simple para los dueños, ya que muchos pequeños negocios no tienen experiencia utilizando plataformas digitales complejas.
 
 En conclusión, la entrevista permitió validar que PuntoSabor puede ser una herramienta útil para los dueños de huariques, ya que les brinda un espacio especializado para promocionar su negocio. Como oportunidad de mejora, se identificó la necesidad de incluir métricas simples, como cantidad de vistas, interacciones o clics en el perfil del huarique, para que los propietarios puedan medir el impacto de su presencia en la plataforma.
+
+
+**Entrevista 02**
+
+**Nombres:** Luis 
+
+**Apellidos:** Diaz
+
+**Edad:** 20 años
+
+**Distrito:** Comas
+
+**Evidencia de la reunión:**
+
+![Evidencia entrevista validación segmento 2](assets/seg-2-luis.png)
+
+
+**Resumen de la entrevista:**
+
+La entrevista se realizó a una persona perteneciente al segmento de dueños o administradores de huariques, con el objetivo de validar si PuntoSabor representa una herramienta útil para promocionar negocios gastronómicos locales. Durante la presentación de la aplicación, el entrevistado indicó que la propuesta le parece interesante porque está dirigida a pequeños negocios que muchas veces no cuentan con suficiente presencia digital o no tienen los recursos para competir con restaurantes más grandes.
+
+El participante consideró positivo que la aplicación permita mostrar información del negocio, como ubicación, fotos, horarios, estado de apertura, reseñas y promociones. Según su opinión, estos datos ayudan a que los clientes conozcan mejor el local antes de visitarlo y generan mayor confianza. También señaló que las promociones pueden ser una función importante para atraer nuevos clientes y dar mayor movimiento al negocio en determinados días u horarios.
+
+Respecto a los planes de membresía, el entrevistado mencionó que podrían ser útiles siempre que los beneficios sean claros y estén relacionados con una mayor visibilidad dentro de la aplicación. Además, destacó que la plataforma debe mantenerse sencilla, ya que muchos dueños de huariques no están acostumbrados a utilizar herramientas digitales complejas para gestionar su negocio.
+
+En conclusión, la entrevista permitió validar que PuntoSabor puede aportar valor al segmento de dueños de huariques, ya que ofrece un espacio especializado para promocionar sus negocios y conectar con nuevos clientes. Como oportunidad de mejora, se identificó la necesidad de incluir información más clara sobre los beneficios de cada plan y, en futuras mejoras, agregar métricas simples como visualizaciones, interacciones o visitas al perfil del huarique.
 
 ### 4.3.3. Evaluaciones según heurísticas
 
