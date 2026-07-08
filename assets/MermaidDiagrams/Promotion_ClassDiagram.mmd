@@ -1,0 +1,61 @@
+classDiagram
+direction TB
+
+class PromotionApplicationService {
+  +createPromotion(huariqueId: UUID, content: PromotionDTO) PromotionDTO
+  +publishPromotion(id: UUID) void
+  +unpublishPromotion(id: UUID, reason: string) void
+}
+PromotionApplicationService --> PromotionPublishingService
+PromotionApplicationService --> IPromotionRepository
+PromotionApplicationService --> SchedulerAdapter
+
+class PromotionPublishingService {
+  +canPublish(p: Promotion) bool
+  +scheduleUnpublish(p: Promotion) void
+}
+
+class Promotion {
+  +UUID promotionId
+  +UUID huariqueId
+  +string content
+  +PromotionSchedule schedule
+  +PromotionTargeting targeting
+  +PromotionStatus status
+  +publish() void
+  +unpublish(reason: string) void
+}
+Promotion --> PromotionSchedule
+Promotion --> PromotionTargeting
+Promotion --> PromotionStatus
+
+class PromotionSchedule {
+  -datetime startAt
+  -datetime endAt
+}
+class PromotionTargeting {
+  -List~string~ zones
+  -List~string~ tags
+}
+class PromotionStatus {
+  <<enumeration>>
+  DRAFT
+  PUBLISHED
+  UNPUBLISHED
+}
+
+class IPromotionRepository {
+  +save(p: Promotion) void
+  +getById(id: UUID) Promotion
+  +findActive() List~Promotion~
+}
+class PromotionRepositorySQL {
+  +save(p: Promotion) void
+  +getById(id: UUID) Promotion
+  +findActive() List~Promotion~
+}
+PromotionRepositorySQL ..|> IPromotionRepository
+
+class SchedulerAdapter {
+  +scheduleAt(promotionId: UUID, at: datetime, action: string) void
+}

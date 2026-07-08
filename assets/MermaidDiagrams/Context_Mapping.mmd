@@ -1,0 +1,15 @@
+graph LR
+  SB["Subscription & Billing\n(Plans & payments)"]
+  BL["Business Listing\n(Huarique registry)"]
+  ED["Explorer Discovery\n(Search & browse)"]
+  PR["Promotion\n(Offers & campaigns)"]
+  UP["User Preferences\n(Profile & settings)"]
+  CS["Contact & Support\n(Forms & directions)"]
+
+  SB -->|"Customer-Supplier [U→D]\nvalidation"| BL
+  SB -->|"Customer-Supplier [U→D]\nmembership gate"| PR
+  BL -->|"OHS/PL [U→D]\nlisting data"| ED
+  BL -->|"Customer-Supplier [U→D]\npermission to publish"| PR
+  UP -->|"OHS/PL [U→D]\npreference filters"| ED
+  PR -->|"ACL [U→D]\npromotion feed"| ED
+  CS -.->|"Conformist\nuser identity"| UP

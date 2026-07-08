@@ -1,45 +1,47 @@
-# report
-
 <div align="center">
-
-<h3>Universidad Peruana de Ciencias Aplicadas</h3>
 
 <img alt="upc-logo" src="assets/upc_logo.png" width="200"/><br>
 
-<strong>Ingeniería de Software - 2026-1</strong><br>
-<strong>1ACC0238 - Aplicaciones para Dispositivos Móviles</strong><br>
+<strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
+<strong>Ingeniería de Software</strong><br>
+<strong>Periodo: 202610</strong><br>
+<strong>Curso: 1ACC0238 - Aplicaciones para Dispositivos Móviles</strong><br>
 <strong>NRC: 3248</strong><br>
-<strong>Profesor: David Gerardo Quevedo Velasco</strong><br>
+<strong>Docente: David Gerardo Quevedo Velasco</strong><br>
 
-<br><strong>Informe del Trabajo Final</strong><br><br>
+<br><strong>Informe de Trabajo Final</strong><br><br>
 
 <strong>Startup: HuariqueHub</strong><br>
 <strong>Producto: PuntoSabor</strong><br>
 
+<br>
 
+<strong>Relación de integrantes en orden alfabético por apellido</strong>
 
-### Team Members:
+| Código | Apellidos y nombres |
+|:------:|:--------------------|
+| u20171a518 | Becerra Llempen, Fabiola Dayane |
+| u202321843 | Delgado Carrasco, Schneider |
+| u202312700 | Lopez Goitia, Carlos Alberto |
+| u20241c134 | Tumi Oliden, Manuel Ignacio |
+| u202019871 | Vasquez Goicochea, Erick Alessander |
 
-|             Member              |   Code    |
-|:-------------------------------:|:---------:|
-|  Delgado Carrasco, Schneider  | u202321843 |
-|  Lopez Goitia, Carlos Alberto  | u202312700 |
-|  Tumi Oliden Manuel Ignacio  | u20241c134 |
-|  Becerra Llempen, Fabiola Dayane |u20171a518|
-|  Vasquez Goicochea Erick Alessander | u202019871 |
+<strong>Abril 2026</strong><br>
 
-<strong> Abril 2026</strong><br>
 </div>
+
+<div style="page-break-after: always;"></div>
 
 # Registro de Versiones del Informe
 
 <table>
   <tr>
-    <th>Version</th>
+    <th>Versión</th>
     <th>Fecha</th>
     <th>Autor</th>
-    <th>Descripción de modificación </th>
+    <th>Descripción de modificación</th>
   </tr>
+
   <tr>
     <td>AV1</td>
     <td>2026-04-20</td>
@@ -48,258 +50,473 @@
         <li>Delgado Carrasco, Schneider</li> 
         <li>Lopez Goitia, Carlos Alberto</li> 
         <li>Tumi Oliden Manuel Ignacio</li>
-        <li>Becerra Llempen Fabiola Dayane </li>
+        <li>Becerra Llempen, Fabiola Dayane</li>
         <li>Vasquez Goicochea, Erick Alessander</li>
-        <li> </li>
       </ul>
     </td>
-    <td> Se han incluído los siguientes capítulos:
-        <ul>
-          <li>Carátula</li>
-          <li>Registro de Versiones del informe</li>
-          <li>Project Report Collaboration Insights</li>
-          <li>Contenido</li>
-          <li>Student Outcome</li>
-          <li>Capítulo I: Presentación</li>
-        <li>Capítulo II: Requirements Development and Sotware Solution Design</li>
+    <td>
+      Se han incluido los siguientes capítulos:
+      <ul>
+        <li>Carátula</li>
+        <li>Registro de Versiones del informe</li>
+        <li>Project Report Collaboration Insights</li>
+        <li>Contenido</li>
+        <li>Student Outcome</li>
+        <li>Capítulo I: Presentación</li>
+        <li>Capítulo II: Requirements Development and Software Solution Design</li>
         <li>Conclusiones</li>
         <li>Bibliografía</li>
         <li>Anexos</li>
-        </ul></td>
-  </tr>
-</table>
-
-## Contenido
-- [Student Outcome](#student-outcome)
-- [Capítulo I: Introducción](#capítulo-i-introducción)
-    - [1.1. Startup Profile](#11-startup-profile)
-        - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-        - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-    - [1.2. Solution Profile](#12-solution-profile)
-        - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-        - [1.2.2. Lean UX Process](#122-lean-ux-process)
-            - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-            - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-            - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-            - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-    - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
-    - [2.1. Competidores](#21-competidores)
-        - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-        - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-    - [2.2. Entrevistas](#22-entrevistas)
-        - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-        - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-        - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-    - [2.3. Needfinding](#23-needfinding)
-        - [2.3.1. User Personas](#231-user-personas)
-        - [2.3.2. User Task Matrix](#232-user-task-matrix)
-        - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-        - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-        - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-    - [2.4. Ubiquitous Language](#24-ubiquitous-language)
-- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-    - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-    - [3.2. User Stories](#32-user-stories)
-    - [3.3. Impact Mapping](#33-impact-mapping)
-    - [3.4. Product Backlog](#34-product-backlog)
-- [Capítulo IV: Product Design](#capítulo-iv-product-design)
-    - [4.1. Style Guidelines](#41-style-guidelines)
-        - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-        - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
-    - [4.2. Information Architecture](#42-information-architecture)
-        - [4.2.1. Organization Systems](#421-organization-systems)
-        - [4.2.2. Labeling Systems](#422-labeling-systems)
-        - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-        - [4.2.4. Searching Systems](#424-searching-systems)
-        - [4.2.5. Navigation Systems](#425-navigation-systems)
-    - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
-        - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
-        - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
-    - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
-        - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
-        - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
-        - [4.4.2. Web Applications Mock-ups](#442-web-applications-mock-ups)
-        - [4.4.3. Web Applications User Flow Diagrams](#443-web-applications-user-flow-diagrams)
-    - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
-    - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
-        - [4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)
-        - [4.6.2. Software Architecture Container Diagrams](#462-software-architecture-container-diagrams)
-        - [4.6.3. Software Architecture Components Diagrams](#463-software-architecture-components-diagrams)
-    - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
-        - [4.7.1. Class Diagrams](#471-class-diagrams)
-        - [4.7.2. Class Dictionary](#472-class-dictionary)
-    - [4.8. Database Design](#48-database-design)
-        - [4.8.1. Database Diagram](#481-database-diagram)
-- [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
-    - [5.1. Software Configuration Management](#51-software-configuration-management)
-        - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
-        - [5.1.2. Source Code Management](#512-source-code-management)
-        - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
-        - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-    - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
-        - [5.2.1. Sprint 1](#521-sprint-1)
-            - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
-            - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
-            - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
-            - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
-            - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-            - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-            - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-            - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-        - [5.2.2. Sprint 2](#522-sprint-2)
-            - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
-            - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
-            - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
-            - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
-            - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
-            - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
-            - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
-            - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
-        - [5.2.3. Sprint 3](#523-sprint-3)
-            - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
-            - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
-            - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
-            - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
-            - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
-            - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
-            - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
-            - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
-        - [5.2.4. Sprint 4](#524-sprint-4)
-            - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
-            - [5.2.4.2. Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
-            - [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-4)
-            - [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
-            - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
-            - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
-            - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
-            - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
-
-
-    - [5.3. Validation Interviews](#53-validation-interviews)
-        - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
-        - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
-        - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
-
-    - [5.4. Video About-the-Product](#54-video-about-the-product)
-
-
----
-
-## Student Outcome
-
-ABET – EAC - Student Outcome 5 Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
-<div>
-<table>
-  <thead>
-    <tr>
-      <th>Criterio específico</th>
-      <th>Nombre</th>
-      <th>Acciones realizadas</th>
-      <th>Conclusiones</th>
-    </tr>
-  </thead>
-  <tbody>
-    <!-- Criterio 1 -->
-    <tr>
-      <td rowspan="5">Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
-      <td>Delgado Carrasco, Schneider</td>
-      <td>
-        <strong> AV1:</strong><br>
-        Identifiqué con claridad la problemática central de nuestra startup, definí los segmentos a los que está dirigida y realicé la investigación necesaria para establecer los requisitos de la aplicación web. Además, llevé a cabo una entrevista con un usuario representativo del público objetivo.
-        <br>
-      </td>
-      <td rowspan="5">El equipo se comunicó de forma clara y estructurada, aportando conjuntamente al análisis técnico y estratégico del proyecto.</td>
-    </tr>
-    <tr>
-      <td>Lopez Goitia, Carlos Alberto</td>
-      <td>
-        <strong> AV1:</strong><br>
-        Realicé entrevistas para la extracción de requisitos críticos y definí la arquitectura del sistema bajo el enfoque de Domain-Driven Design (DDD), documentando la estructura mediante diagramas de contexto, contenedores y componentes.<br>
-      </td>
-    </tr>
-    <tr>
-      <td>Tumi Oliden, Manuel Ignacio</td>
-      <td>
-        <strong> AV1:</strong><br>
-        Durante esta etapa redacté el análisis de antecedentes y problemática mediante las 5W's y 2H's, identificando los principales grupos afectados: propietarios de huariques y usuarios que buscan gastronomía local auténtica. Asimismo,  desarrollé los Lean UX Problem Statements, las Business y User Assumptions, y los Lean UX Hypothesis Statements con sus respectivos criterios de validación, estableciendo así las bases para la dirección estratégica del producto.<br>
-        <br>
-      </td>
-    </tr>
-    <tr>
-      <td>Becerra Llempen, Fabiola Dayane</td>
-      <td>
-        <strong> AV1:</strong><br>
-        Durante este trabajo realice los análisis competitivos de mercado para obtener las ventajas y encontrar oportunidades de mejora para nuestro proyecto. Asimismo, desarrolle los perfiles del user persona , user task matrix y el journey mapping con sus respectivas conclusiones. <br>
-        <br>
-      </td>
-    </tr>
-    <tr>
-  <td>Vasquez Goicochea Erick Alessander</td>
-  <td>
-    <strong> AV1:</strong><br>
-    Apoyé en la revisión del contenido del capítulo 2, mejorando la redacción para que sea más clara y entendible. Además, reforcé el análisis en las secciones de competidores y entrevistas para que reflejen mejor las necesidades de los usuarios.<br>
-  </td>
-</tr>
-    <tr>
-    </tr>
-    <!-- Criterio 2 -->
-    <tr>
-      <td rowspan="6">Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos</td>
-      <td>Delgado Carrasco, Schneider</td>
-      <td>
-        <strong> AV1:</strong><br>
-        Como parte de las user stories, apoye en el desarrollo, su contexto y antecedentes; tambien realice algunos puntos del lean UX; realicé un análisis competitivo y definí los segmentos del público objetivo respaldados con datos estadísticos.<br>
-      </td>
-      <td rowspan="6">La comunicación escrita se realizó con claridad, ajustando el contenido según las necesidades tanto de públicos técnicos como de lectores no especializados.</td>
-    </tr>
-    <tr>
-      <td>Lopez Goitia, Carlos Alberto</td>
-      <td>
-        <strong> AV1:</strong><br>
-        Diseñé instrumentos de entrevista estructurados para validar las decisiones arquitectónicas y propuse soluciones técnicas fundamentadas en una investigación previa, asegurando que el proyecto mantuviera un enfoque sólido y justificado.<br>
-        <br>
-      </td>
-    </tr>
-    <tr>
-      <td>Tumi Oliden Manuel Ignacio</td>
-      <td>
-        <strong> AV1:</strong><br>
-        Me encargué de redactar las secciones de antecedentes, problemática y supuestos del proyecto, adaptando el lenguaje según el destinatario: un enfoque analítico para la documentación técnica del equipo y un enfoque estratégico para los Lean UX Statements e Hypothesis, asegurando que el contenido fuera claro y coherente para todos los involucrados.<br>
-        <br>
-      </td>
-    </tr>
-    <tr>
-      <td> Becerra Llempen, Fabiola Dayane </td>
-      <td>
-        <strong> AV1:</strong><br>
-        Realice entrevistas y análisis de entrevistas para poder obtener fundamentos en la investigación. Tambien, realice un enfoque estratégico con el empathy Mapping y As-is Scenario Mapping de los segmentos obtenidos junto con el Big Picture Event Storming y Ubiquitous Language.<br>
-      </td>
-    </tr>
-  <tr>
-    <td>Vasquez Goicochea Erick Alessander</td>
-    <td>
-      <strong> AV1:</strong><br>
-      Colaboré con el equipo revisando y mejorando la claridad del documento, asegurando que el contenido sea comprensible tanto para lectores técnicos como no técnicos. También apoyé en la organización de la información del capítulo 2 para mantener coherencia en el análisis.<br>
+      </ul>
     </td>
   </tr>
-    <tr>
 
-  </tbody>
+  <tr>
+    <td>TB1</td>
+    <td>2026-05-11</td>
+    <td>
+      <ul> 
+        <li>Delgado Carrasco, Schneider</li> 
+        <li>Lopez Goitia, Carlos Alberto</li> 
+        <li>Tumi Oliden Manuel Ignacio</li>
+        <li>Becerra Llempen, Fabiola Dayane</li>
+        <li>Vasquez Goicochea, Erick Alessander</li>
+      </ul>
+    </td>
+    <td>
+      Se han actualizado y complementado los capítulos desarrollados en la AV1. Asimismo, se han incluido los siguientes apartados:
+      <ul>
+        <li>Corrección y mejora de User Stories</li>
+        <li>Incorporación de criterios de aceptación enfocados en requisitos funcionales</li>
+        <li>Product Backlog</li>
+        <li>Strategic-Level Domain-Driven Design (DDD)</li>
+        <li>Context Mapping</li>
+        <li>Software Architecture</li>
+        <li>Capítulo IV: Mobile Applications UX/UI Design</li>
+        <li>Mobile Applications Wireflow</li>
+        <li>Mobile Applications Wireflow Diagrams</li>
+        <li>Mobile Applications Mock-ups</li>
+        <li>Mobile Applications User Flow Diagrams</li>
+        <li>Mobile Applications Prototyping</li>
+        <li>Sprint Planning</li>
+        <li>Sprint Backlog</li>
+        <li>Development Evidence for Sprint Review</li>
+        <li>Testing Suite Evidence for Sprint Review</li>
+        <li>Services Documentation Evidence for Sprint Review</li>
+        <li>Software Deployment Evidence for Sprint Review</li>
+        <li>Actualización de conclusiones</li>
+        <li>Actualización de bibliografía y anexos</li>
+      </ul>
+    </td>
+  </tr>
+
+  <tr>
+    <td>AV2</td>
+    <td>2026-06-18</td>
+    <td>
+      <ul>
+        <li>Delgado Carrasco, Schneider</li>
+        <li>Lopez Goitia, Carlos Alberto</li>
+        <li>Tumi Oliden Manuel Ignacio</li>
+        <li>Becerra Llempen, Fabiola Dayane</li>
+        <li>Vasquez Goicochea, Erick Alessander</li>
+      </ul>
+    </td>
+    <td>
+      Se atendió la retroalimentación del AV1 y se prepararon los artefactos para el AV2. Principales cambios:
+      <ul>
+        <li>Mejora del Problem Statement mediante la reformulación del 5W2H y Lean UX Problem Statements</li>
+        <li>Adecuación de las User Stories a la plantilla oficial, incluyendo las columnas Usuario, Prioridad y Epic</li>
+        <li>Definición y organización de Epics EP01–EP10</li>
+        <li>Product Backlog vinculado al documento y a la herramienta de gestión Trello, con captura y URL pública</li>
+        <li>Roadmap de Sprints hasta la entrega del Trabajo Final, considerando Sprint 1, Sprint 2 y Sprint 3</li>
+        <li>Backend desplegado en un sitio público con documentación mediante Swagger en Railway</li>
+        <li>Actualización de conclusiones, bibliografía y anexos</li>
+      </ul>
+    </td>
+  </tr>
+
+  <tr>
+    <td>TB2</td>
+    <td>2026-07-08</td>
+    <td>
+      <ul>
+        <li>Delgado Carrasco, Schneider</li>
+        <li>Lopez Goitia, Carlos Alberto</li>
+        <li>Tumi Oliden Manuel Ignacio</li>
+        <li>Becerra Llempen, Fabiola Dayane</li>
+        <li>Vasquez Goicochea, Erick Alessander</li>
+      </ul>
+    </td>
+    <td>
+      Se desarrolló y consolidó la versión final del informe para la entrega TB2 - Release Review. Principales cambios:
+      <ul>
+        <li>Actualización del Registro de Versiones del Informe</li>
+        <li>Actualización de Project Report Collaboration Insights</li>
+        <li>Actualización de la sección Student Outcome</li>
+        <li>Corrección y mejora de los artefactos previamente presentados</li>
+        <li>Inclusión del Capítulo IV: Product Implementation &amp; Validation</li>
+        <li>Presentación del desarrollo y evidencias correspondientes al Sprint 3</li>
+        <li>Actualización final del Product Backlog y Sprint Backlog</li>
+        <li>Inclusión de evidencias de implementación para el Sprint Review</li>
+        <li>Inclusión de evidencias de pruebas para el Sprint Review</li>
+        <li>Inclusión de evidencias de documentación de servicios mediante Swagger</li>
+        <li>Inclusión de evidencias de despliegue del software</li>
+        <li>Evidencia del Landing Page desplegado</li>
+        <li>Evidencia del backend desplegado al 100% en un sitio público con su documentación</li>
+        <li>Evidencia del despliegue de la aplicación móvil mediante Firebase App Distribution u otro servicio similar</li>
+        <li>Inclusión de la versión final del video de validación de la aplicación</li>
+        <li>Inclusión de la versión final del video About-the-Product</li>
+        <li>Inclusión de la versión final del video About-the-Team</li>
+        <li>Actualización final de conclusiones</li>
+        <li>Actualización final de bibliografía y anexos</li>
+      </ul>
+    </td>
+  </tr>
 </table>
-</div>             
 
+<div style="page-break-after: always;"></div>
 
-# Capítulo I: Introducción
+# Project Report Collaboration Insights
+
+URL del repositorio del informe: https://github.com/HuariqueHub/report/tree/main
+
+Para la entrega TB2, el equipo consolidó la versión final del informe en formato Markdown, registrando los aportes mediante commits en GitHub y documentando las evidencias correspondientes al Sprint 3.
+
+Evidencias de colaboración:
+
+- Captura de commits del repositorio del informe:
+
+![alt text](assets/commitSprint2.png)
+
+- Captura de contributors/insights de GitHub:
+
+![alt text](assets/contributorssp2.png)
+
+- Resumen de participación por integrante:
+
+| Integrante | Participación |
+|---|---|
+| Delgado Carrasco, Schneider | Verificó los contratos de la API y consolidó las evidencias de servicios correspondientes al Sprint 3, validando la documentación del backend mediante Swagger. |
+| Lopez Goitia, Carlos Alberto | Actualizó la estructura final del informe para la entrega TB2, incorporando el desarrollo del Sprint 3 y las evidencias de implementación de las funcionalidades finales. |
+| Tumi Oliden, Manuel Ignacio | Documentó la integración y funcionamiento de las funcionalidades finales de la aplicación móvil, incluyendo la validación de flujos principales y persistencia de sesión. |
+| Becerra Llempen, Fabiola Dayane | Documentó las evidencias de ejecución y validación de la aplicación, incluyendo capturas de pantallas finales, pruebas de uso y revisión de la experiencia del usuario. |
+| Vasquez Goicochea, Erick Alessander | Documentó el Sprint Planning 3, Sprint Backlog 3, evidencias de despliegue, colaboración del equipo y actualización final de anexos del informe. |
+
+<div style="page-break-after: always;"></div>
+
+# Contenido
+
+## Tabla de contenidos
+
+- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+- [Project Report Collaboration Insights](#project-report-collaboration-insights)
+- [Contenido](#contenido)
+- [Student Outcome](#student-outcome)
+- [Objetivos SMART](#objetivos-smart)
+- [Capítulo I: Presentación](#capítulo-i-presentación)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+- [Capítulo II: Requirements Development and Software Solution Design](#capítulo-ii-requirements-development-and-software-solution-design)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+    - [2.3.5. Big Picture EventStorming](#235-big-picture-eventstorming)
+    - [2.3.6. Ubiquitous Language](#236-ubiquitous-language)
+  - [2.4. Requirements specification](#24-requirements-specification)
+    - [2.4.1. User Stories](#241-user-stories)
+    - [2.4.2. Impact Mapping](#242-impact-mapping)
+    - [2.4.3. Product Backlog](#243-product-backlog)
+  - [2.5. Strategic-Level Domain-Driven Design](#25-strategic-level-domain-driven-design)
+    - [2.5.1. EventStorming](#251-eventstorming)
+      - [2.5.1.1. Candidate Context Discovery](#2511-candidate-context-discovery)
+      - [2.5.1.2. Domain Message Flows Modeling](#2512-domain-message-flows-modeling)
+      - [2.5.1.3. Bounded Context Canvases](#2513-bounded-context-canvases)
+    - [2.5.2. Context Mapping](#252-context-mapping)
+    - [2.5.3. Software Architecture](#253-software-architecture)
+      - [2.5.3.1. Software Architecture Context Level Diagrams](#2531-software-architecture-context-level-diagrams)
+      - [2.5.3.2. Software Architecture Container Level Diagrams](#2532-software-architecture-container-level-diagrams)
+      - [2.5.3.3. Software Architecture Deployment Diagrams](#2533-software-architecture-deployment-diagrams)
+  - [2.6. Tactical-Level Domain-Driven Design](#26-tactical-level-domain-driven-design)
+- [Capítulo III: Solution UI/UX Design](#capítulo-iii-solution-uiux-design)
+  - [3.1. Product design](#31-product-design)
+    - [3.1.1. Style Guidelines](#311-style-guidelines)
+      - [3.1.1.1. General Style Guidelines](#3111-general-style-guidelines)
+    - [3.1.2. Information Architecture](#312-information-architecture)
+      - [3.1.2.1. Organization Systems](#3121-organization-systems)
+      - [3.1.2.2. Labelling Systems](#3122-labelling-systems)
+      - [3.1.2.3. SEO Tags and Meta Tags](#3123-seo-tags-and-meta-tags)
+      - [3.1.2.4. Searching Systems](#3124-searching-systems)
+      - [3.1.2.5. Navigation Systems](#3125-navigation-systems)
+    - [3.1.3. Landing Page UI Design](#313-landing-page-ui-design)
+      - [3.1.3.1. Landing Page Wireframe](#3131-landing-page-wireframe)
+      - [3.1.3.2. Landing Page Mock-up](#3132-landing-page-mock-up)
+    - [3.1.4. Mobile Applications UX/UI Design](#314-mobile-applications-uxui-design)
+      - [3.1.4.1. Mobile Applications Wireframes](#3141-mobile-applications-wireframes)
+      - [3.1.4.2. Mobile Applications Wireflow Diagrams](#3142-mobile-applications-wireflow-diagrams)
+      - [3.1.4.3. Mobile Applications Mock-ups](#3143-mobile-applications-mock-ups)
+      - [3.1.4.4. Mobile Applications User Flow Diagrams](#3144-mobile-applications-user-flow-diagrams)
+      - [3.1.4.5. Mobile Applications Prototyping](#3145-mobile-applications-prototyping)
+- [Capítulo IV: Product Implementation & Validation](#capítulo-iv-product-implementation--validation)
+  - [4. Product Implementation & Validation](#4-product-implementation--validation)
+  - [4.1. Software Configuration Management](#41-software-configuration-management)
+    - [4.1.1. Software Development Environment Configuration](#411-software-development-environment-configuration)
+    - [4.1.2. Source Code Management](#412-source-code-management)
+    - [4.1.3. Source Code Style Guide & Conventions](#413-source-code-style-guide--conventions)
+    - [4.1.4. Software Deployment Configuration](#414-software-deployment-configuration)
+  - [4.2. Landing Page & Mobile Application Implementation](#42-landing-page--mobile-application-implementation)
+    - [4.2.1. Sprint 1](#421-sprint-1)
+      - [4.2.1.1. Sprint Planning 1](#4211-sprint-planning-1)
+      - [4.2.1.2. Sprint Backlog 1](#4212-sprint-backlog-1)
+      - [4.2.1.3. Development Evidence for Sprint Review](#4213-development-evidence-for-sprint-review)
+      - [4.2.1.4. Testing Suite Evidence for Sprint Review](#4214-testing-suite-evidence-for-sprint-review)
+      - [4.2.1.5. Execution Evidence for Sprint Review](#4215-execution-evidence-for-sprint-review)
+      - [4.2.1.6. Services Documentation Evidence for Sprint Review](#4216-services-documentation-evidence-for-sprint-review)
+      - [4.2.1.7. Software Deployment Evidence for Sprint Review](#4217-software-deployment-evidence-for-sprint-review)
+      - [4.2.1.8. Team Collaboration Insights during Sprint](#4218-team-collaboration-insights-during-sprint)
+    - [4.2.2. Sprint 2](#422-sprint-2)
+      - [4.2.2.1. Sprint Planning 2](#4221-sprint-planning-2)
+      - [4.2.2.2. Sprint Backlog 2](#4222-sprint-backlog-2)
+      - [4.2.2.3. Development Evidence for Sprint Review](#4223-development-evidence-for-sprint-review)
+      - [4.2.2.4. Testing Suite Evidence for Sprint Review](#4224-testing-suite-evidence-for-sprint-review)
+      - [4.2.2.5. Execution Evidence for Sprint Review](#4225-execution-evidence-for-sprint-review)
+      - [4.2.2.6. Services Documentation Evidence for Sprint Review](#4226-services-documentation-evidence-for-sprint-review)
+      - [4.2.2.7. Software Deployment Evidence for Sprint Review](#4227-software-deployment-evidence-for-sprint-review)
+      - [4.2.2.8. Team Collaboration Insights during Sprint](#4228-team-collaboration-insights-during-sprint)
+    - [4.2.3. Sprint 3](#423-sprint-3)
+      - [4.2.3.1. Sprint Planning 3](#4231-sprint-planning-3)
+      - [4.2.3.2. Sprint Backlog 3](#4232-sprint-backlog-3)
+      - [4.2.3.3. Development Evidence for Sprint Review](#4233-development-evidence-for-sprint-review)
+      - [4.2.3.4. Testing Suite Evidence for Sprint Review](#4234-testing-suite-evidence-for-sprint-review)
+      - [4.2.3.5. Execution Evidence for Sprint Review](#4235-execution-evidence-for-sprint-review)
+      - [4.2.3.6. Services Documentation Evidence for Sprint Review](#4236-services-documentation-evidence-for-sprint-review)
+      - [4.2.3.7. Software Deployment Evidence for Sprint Review](#4237-software-deployment-evidence-for-sprint-review)
+      - [4.2.3.8. Team Collaboration Insights during Sprint](#4238-team-collaboration-insights-during-sprint)
+  - [4.3. Validation Interviews](#43-validation-interviews)
+    - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
+    - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
+    - [4.3.3. Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas)
+- [Conclusiones](#conclusiones)
+  - [Conclusiones y recomendaciones.](#conclusiones-y-recomendaciones)
+- [Video App Validation](#video-app-validation)
+- [Video About the product](#video-about-the-product)
+- [Video About the team](#video-about-the-team)
+- [Glosario](#glosario)
+- [Bibliografía](#bibliografía)
+- [Anexos](#anexos)
+
+<div style="page-break-after: always;"></div>
+
+# Student Outcome
+
+ABET - EAC - Student Outcome 7 Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias de aprendizaje apropiadas.
+
+<div>
+<table>
+<thead>
+<tr>
+<th>Criterio específico</th>
+<th>Nombre</th>
+<th>Acciones realizadas</th>
+<th>Conclusiones</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="5">Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.</td>
+<td>Delgado Carrasco, Schneider</td>
+<td>
+<strong>AV1:</strong><br>
+Investigué y apliqué técnicas de Lean UX para identificar la problemática central del proyecto, adquiriendo conocimientos sobre análisis de segmentos objetivo y diseño orientado al usuario que no habían sido abordados previamente en el curso.<br>
+<strong>TB1:</strong><br>
+Aprendí a utilizar Figma para elaborar wireframes, mock-ups y prototipos interactivos de la aplicación móvil, aplicando principios de diseño inclusivo y arquitectura de información adquiridos de manera autónoma para sustentar las decisiones visuales del producto.<br>
+<strong>AV2:</strong><br>
+Profundicé en el uso de Retrofit para la integración de la aplicación móvil con el backend, verificando contratos de la API y aplicando conocimientos sobre manejo de errores HTTP adquiridos mediante la documentación oficial de Android y las guías de Jetpack Compose.<br>
+<strong>TB2:</strong><br>
+Actualicé mis conocimientos sobre validación final de servicios backend y documentación técnica, revisando contratos de la API mediante Swagger y consolidando evidencias del Sprint 3 para demostrar el funcionamiento de los endpoints desplegados públicamente.
+</td>
+<td rowspan="5">
+<strong>AV1:</strong> El equipo demostró capacidad para adquirir de forma autónoma conocimientos sobre metodologías de investigación de usuarios y análisis de mercado, aplicándolos directamente en la definición del problema y la propuesta de solución del proyecto.<br><br>
+<strong>TB1:</strong> Durante el TB1, cada integrante incorporó nuevos conocimientos técnicos y de diseño según las necesidades de su área de responsabilidad, evidenciando estrategias de aprendizaje autónomo mediante el uso de documentación oficial, tutoriales especializados y recursos académicos para implementar las funcionalidades asignadas.<br><br>
+<strong>AV2:</strong> En el AV2, el equipo consolidó su capacidad de aprendizaje aplicado al integrar la aplicación móvil con el backend desplegado en producción, adquiriendo conocimientos sobre integración de APIs REST, manejo de tokens JWT y despliegue en Railway, aplicando estrategias de aprendizaje como documentación oficial, pruebas iterativas y revisión de código entre pares.<br><br>
+<strong>TB2:</strong> En la entrega TB2, el equipo consolidó la versión final del producto aplicando nuevos conocimientos relacionados con validación de funcionalidades, documentación de servicios, despliegue de software y preparación de evidencias para el Release Review. Esto permitió demostrar que los aprendizajes adquiridos durante el ciclo fueron aplicados en la implementación final de PuntoSabor.
+</td>
+</tr>
+<tr>
+<td>Lopez Goitia, Carlos Alberto</td>
+<td>
+<strong>AV1:</strong><br>
+Aprendí y apliqué el enfoque de Domain-Driven Design (DDD) para definir la arquitectura del sistema, elaborando diagramas de contexto, contenedores y componentes bajo el modelo C4, conocimientos adquiridos de manera autónoma a partir de la bibliografía especializada del curso.<br>
+<strong>TB1:</strong><br>
+Actualicé mis conocimientos sobre especificación de requisitos con criterios de aceptación en formato Gherkin y refiné las User Stories del Product Backlog aplicando buenas prácticas de Scrum, complementando lo visto en clase con recursos externos sobre escritura efectiva de historias de usuario.<br>
+<strong>AV2:</strong><br>
+Adquirí conocimientos sobre integración de servicios REST en Flutter utilizando el paquete http y manejo de estado con Provider, aplicándolos en la implementación de la pantalla de preferencias del usuario conectada al backend desplegado en Railway.<br>
+<strong>TB2:</strong><br>
+Fortalecí mis conocimientos sobre organización de entregables finales y documentación de implementación, actualizando la estructura del informe para incluir el Sprint 3, las evidencias de despliegue y la consolidación de las funcionalidades finales de la aplicación móvil.
+</td>
+</tr>
+<tr>
+<td>Tumi Oliden, Manuel Ignacio</td>
+<td>
+<strong>AV1:</strong><br>
+Investigué y apliqué la técnica de las 5W's y 2H's para el análisis de antecedentes y problemática, así como el proceso de Lean UX para la formulación de Problem Statements, Assumptions e Hypothesis Statements, conocimientos incorporados de manera autónoma a partir de recursos académicos y guías especializadas.<br>
+<strong>TB1:</strong><br>
+Aprendí a definir sistemas de búsqueda y navegación para aplicaciones móviles aplicando principios de arquitectura de información, consultando recursos sobre UX móvil y patrones de navegación en Jetpack Compose para fundamentar las decisiones documentadas en el informe.<br>
+<strong>AV2:</strong><br>
+Incorporé conocimientos sobre autenticación con JWT en aplicaciones Android, implementando el almacenamiento seguro del token de sesión mediante SharedPreferences y su uso en las peticiones al backend, siguiendo la documentación oficial de Android y guías de seguridad móvil.<br>
+<strong>TB2:</strong><br>
+Actualicé mis conocimientos sobre validación de flujos principales de una aplicación móvil, revisando el funcionamiento de la autenticación, la persistencia de sesión y la interacción entre las pantallas finales y los servicios desplegados.
+</td>
+</tr>
+<tr>
+<td>Becerra Llempen, Fabiola Dayane</td>
+<td>
+<strong>AV1:</strong><br>
+Aprendí a elaborar User Personas, User Task Matrix y User Journey Maps aplicando metodologías de needfinding, utilizando UXPressia como herramienta especializada que no había usado anteriormente, adquiriendo de manera autónoma el manejo de la plataforma para representar los arquetipos del proyecto.<br>
+<strong>TB1:</strong><br>
+Profundicé en el diseño de Wireflows y User Flows para aplicaciones móviles, incorporando conocimientos sobre representación de interacciones y flujos de usuario en LucidChart, aplicando estos aprendizajes en la documentación de las pantallas core de PuntoSabor.<br>
+<strong>AV2:</strong><br>
+Adquirí conocimientos sobre integración de módulos de reseñas y notificaciones en Flutter, aprendiendo el manejo de listas dinámicas con ListView.builder y la actualización de estado reactivo, aplicándolos en las pantallas de reseñas y notificaciones conectadas al backend.<br>
+<strong>TB2:</strong><br>
+Reforcé mis conocimientos sobre validación de experiencia de usuario y revisión heurística, documentando evidencias de uso de la aplicación final, capturas de pantallas implementadas y observaciones relacionadas con la navegación y facilidad de uso de PuntoSabor.
+</td>
+</tr>
+<tr>
+<td>Vasquez Goicochea, Erick Alessander</td>
+<td>
+<strong>AV1:</strong><br>
+Actualicé mis conocimientos sobre análisis competitivo y redacción técnica de documentos de ingeniería de software, aprendiendo a estructurar información de forma coherente para audiencias tanto técnicas como no especializadas, aplicando estas habilidades en la revisión y mejora del Capítulo II.<br>
+<strong>TB1:</strong><br>
+Aprendí a documentar evidencias de Sprint Review siguiendo estándares de Scrum, incorporando conocimientos sobre gestión de tableros en Trello y registro de commits con Conventional Commits en GitHub, aplicados en la organización del Sprint 1 del proyecto.<br>
+<strong>AV2:</strong><br>
+Incorporé conocimientos sobre gestión de huariques y promociones en aplicaciones Android con Jetpack Compose, aprendiendo el patrón MVVM con ViewModel y StateFlow para el manejo de estado, aplicándolos en la implementación de las pantallas de creación y edición de huariques y promociones.<br>
+<strong>TB2:</strong><br>
+Actualicé mis conocimientos sobre gestión de entregas finales bajo Scrum, documentando el Sprint Planning 3, Sprint Backlog 3, evidencias de colaboración, despliegue y validación del producto para sustentar el cierre del proyecto en la etapa de Release Review.
+</td>
+</tr>
+<tr>
+<td rowspan="5">Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.</td>
+<td>Delgado Carrasco, Schneider</td>
+<td>
+<strong>AV1:</strong><br>
+Reconocí la importancia de investigar metodologías de diseño centrado en el usuario como Lean UX para complementar los conocimientos técnicos de desarrollo, identificando que la comprensión del problema es tan importante como la implementación de la solución.<br>
+<strong>TB1:</strong><br>
+Identifiqué la necesidad de aprender herramientas de prototipado como Figma para comunicar ideas de diseño de forma efectiva, reconociendo que el aprendizaje continuo de herramientas especializadas es esencial para el trabajo colaborativo en equipos de desarrollo de software.<br>
+<strong>AV2:</strong><br>
+Reconocí la importancia de mantener actualizados los conocimientos sobre integración de APIs y manejo de errores en aplicaciones móviles, identificando que las incompatibilidades de contrato entre frontend y backend son desafíos frecuentes que requieren aprendizaje continuo y resolución proactiva de problemas.<br>
+<strong>TB2:</strong><br>
+Reconocí que la etapa final de un proyecto requiere seguir aprendiendo sobre validación, documentación y despliegue, ya que no basta con implementar funcionalidades, sino que también es necesario demostrar su correcto funcionamiento mediante evidencias claras y verificables.
+</td>
+<td rowspan="5">
+<strong>AV1:</strong> El equipo identificó que el desarrollo de productos digitales requiere la actualización constante de conocimientos en áreas como investigación de usuarios, análisis competitivo y metodologías ágiles, reconociendo el aprendizaje permanente como una necesidad inherente al ejercicio profesional de la ingeniería de software.<br><br>
+<strong>TB1:</strong> Durante el TB1, el equipo evidenció la necesidad del aprendizaje permanente al enfrentarse a nuevas herramientas y técnicas para el diseño UX/UI móvil, la implementación con Jetpack Compose y la documentación de sprints bajo estándares Scrum, reconociendo que la capacidad de aprender de forma autónoma es una competencia fundamental para el desempeño profesional en proyectos de software.<br><br>
+<strong>AV2:</strong> En el AV2, el equipo reafirmó la necesidad del aprendizaje permanente al integrar tecnologías de despliegue en la nube (Railway), autenticación con JWT y desarrollo cross-platform con Flutter, reconociendo que el ecosistema de desarrollo móvil evoluciona constantemente y que la actualización continua de conocimientos es indispensable para entregar productos de software de calidad.<br><br>
+<strong>TB2:</strong> En la TB2, el equipo reconoció que el aprendizaje permanente es fundamental para cerrar correctamente un producto de software, ya que fue necesario adaptar conocimientos sobre validación final, evidencias de sprint, despliegue, documentación técnica y presentación del producto. Esta experiencia permitió reforzar la importancia de aprender de manera continua para responder a los requerimientos de una entrega profesional.
+</td>
+</tr>
+<tr>
+<td>Lopez Goitia, Carlos Alberto</td>
+<td>
+<strong>AV1:</strong><br>
+Reconocí la necesidad de profundizar en Domain-Driven Design como enfoque arquitectónico, identificando que el diseño de software orientado al dominio del negocio requiere un aprendizaje continuo que va más allá de los contenidos básicos del curso.<br>
+<strong>TB1:</strong><br>
+Identifiqué que la especificación precisa de requisitos con criterios de aceptación verificables es una habilidad que requiere práctica constante, reconociendo la importancia de mantenerme actualizado en técnicas de ingeniería de requisitos para mejorar la calidad de los productos que desarrolle en mi vida profesional.<br>
+<strong>AV2:</strong><br>
+Reconocí la necesidad de aprender sobre arquitecturas de integración entre aplicaciones móviles y servicios REST, identificando que el manejo de estado en aplicaciones Flutter y la gestión de sesiones de usuario son áreas de conocimiento en constante evolución que requieren actualización permanente.<br>
+<strong>TB2:</strong><br>
+Reconocí la importancia de aprender a organizar y presentar una entrega final de software, identificando que la documentación, las evidencias de implementación y la trazabilidad de los sprints son aspectos necesarios para demostrar el avance real de un proyecto.
+</td>
+</tr>
+<tr>
+<td>Tumi Oliden, Manuel Ignacio</td>
+<td>
+<strong>AV1:</strong><br>
+Reconocí que la aplicación de técnicas de análisis de problemas como las 5W's y 2H's y el proceso Lean UX requieren práctica continua para lograr formulaciones precisas y útiles, identificando la necesidad de seguir desarrollando habilidades de pensamiento crítico y análisis en el ámbito del desarrollo de software.<br>
+<strong>TB1:</strong><br>
+Identifiqué la importancia de aprender sobre arquitectura de información y sistemas de navegación móvil como parte del perfil profesional de un ingeniero de software, reconociendo que la experiencia del usuario es un área de conocimiento complementaria e indispensable para el desarrollo de aplicaciones de calidad.<br>
+<strong>AV2:</strong><br>
+Reconocí la necesidad de mantenerme actualizado en prácticas de seguridad para aplicaciones móviles, identificando que la autenticación con JWT y el almacenamiento seguro de credenciales son conocimientos esenciales para el desarrollo profesional de aplicaciones que manejan datos sensibles de usuarios.<br>
+<strong>TB2:</strong><br>
+Reconocí que la validación de flujos finales exige aprendizaje constante, debido a que una aplicación puede funcionar por partes, pero necesita ser revisada de extremo a extremo para asegurar una experiencia estable antes de su presentación final.
+</td>
+</tr>
+<tr>
+<td>Becerra Llempen, Fabiola Dayane</td>
+<td>
+<strong>AV1:</strong><br>
+Reconocí que el needfinding y la construcción de arquetipos de usuario son habilidades que requieren aprendizaje continuo, identificando que la comprensión profunda de los segmentos objetivo es fundamental para tomar decisiones de diseño informadas en cualquier proyecto de software.<br>
+<strong>TB1:</strong><br>
+Identifiqué la necesidad de aprender sobre representación de flujos de usuario y diagramas de interacción como parte del conjunto de habilidades de un ingeniero de software moderno, reconociendo que el diseño UX/UI es un área de conocimiento en constante evolución que impacta directamente en la calidad del producto final.<br>
+<strong>AV2:</strong><br>
+Reconocí la necesidad de actualizar mis conocimientos sobre desarrollo cross-platform con Flutter, identificando que el ecosistema de herramientas para desarrollo móvil evoluciona rápidamente y que mantenerse al día con las mejores prácticas de integración de servicios es indispensable para el desarrollo profesional.<br>
+<strong>TB2:</strong><br>
+Reconocí que la evaluación de la experiencia del usuario no termina con el diseño inicial, sino que debe continuar durante la implementación final, revisando pantallas, navegación y posibles problemas de uso para mejorar la calidad del producto.
+</td>
+</tr>
+<tr>
+<td>Vasquez Goicochea, Erick Alessander</td>
+<td>
+<strong>AV1:</strong><br>
+Reconocí la importancia de desarrollar habilidades de comunicación técnica para la documentación de proyectos de software, identificando que la capacidad de redactar informes claros y coherentes es una competencia profesional que requiere práctica y actualización constante.<br>
+<strong>TB1:</strong><br>
+Identifiqué la necesidad de aprender sobre gestión de proyectos ágiles y uso de herramientas de control de versiones como GitHub con GitFlow, reconociendo que el dominio de estas prácticas es esencial para el desempeño profesional en equipos de desarrollo de software.<br>
+<strong>AV2:</strong><br>
+Reconocí la necesidad de actualizar mis conocimientos sobre el patrón MVVM y el desarrollo con Jetpack Compose para Android, identificando que las arquitecturas modernas de aplicaciones móviles requieren aprendizaje continuo y que la capacidad de adaptarse a nuevos patrones de desarrollo es una competencia clave para mi crecimiento profesional.<br>
+<strong>TB2:</strong><br>
+Reconocí que la gestión de una entrega final requiere aprendizaje permanente en organización, control de versiones, evidencias y comunicación técnica, ya que estos elementos permiten sustentar el trabajo realizado por el equipo y facilitar la revisión del proyecto.
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div style="page-break-after: always;"></div>
+
+## Objetivos SMART
+
+| Integrante | Objetivo SMART | Componentes SMART |
+|---|---|---|
+| **Becerra Llempen, Fabiola Dayane** | Con el objetivo de conseguir un mínimo de dos certificaciones vinculadas a la experiencia del usuario y al desarrollo móvil antes de que termine 2027, es necesario adquirir habilidades profesionales en diseño UX/UI y desarrollo de aplicaciones móviles a través de cursos especializados y participación en proyectos tecnológicos. | **Specific:** Mejorar habilidades en UX/UI y desarrollo móvil.<br> **Measurable:** Obtener dos certificaciones especializadas.<br> **Achievable:** A través de cursos y proyectos prácticos.<br> **Relevant:** Relacionado con Ingeniería de Software y desarrollo profesional.<br> **Time-bound:** Antes de finalizar el año 2027. |
+| **Becerra Llempen, Fabiola Dayane** | Mi objetivo es obtener experiencia laboral en el ámbito de la gestión de productos digitales y el desarrollo de software, a través de participar en proyectos tecnológicos y prácticas profesionales. En los dos años posteriores a mi graduación, buscaré incorporarme a una compañía del sector tecnológico o reforzar mi negocio digital. | **Specific:** Obtener experiencia en desarrollo de software y productos digitales.<br> **Measurable:** Participar en proyectos y prácticas profesionales.<br> **Achievable:** Mediante experiencia académica y laboral.<br> **Relevant:** Alineado a objetivos profesionales y tecnológicos.<br> **Time-bound:** Dentro de los próximos dos años después de graduarme. |
+| **Lopez Goitia, Carlos Alberto** | Con el objetivo de fortalecer mi perfil profesional como desarrollador de software, en un plazo de 6 meses después de egresar desarrollaré un proyecto funcional que integre frontend, backend y base de datos, utilizando tecnologías como Node.js, PHP, Apache, MySQL y Azure. El resultado será evidenciado mediante la publicación del proyecto en GitHub con documentación técnica. | **Specific:** Desarrollar un proyecto funcional con frontend, backend y base de datos.<br> **Measurable:** Publicar el proyecto en GitHub con documentación técnica.<br> **Achievable:** Mediante práctica constante y uso de Node.js, PHP, Apache, MySQL, Azure y GitHub.<br> **Relevant:** Relacionado con Ingeniería de Software y desarrollo profesional.<br> **Time-bound:** En un plazo de 6 meses después de egresar. |
+| **Lopez Goitia, Carlos Alberto** | Mi objetivo es iniciar mi inserción profesional en el sector tecnológico mediante la postulación a oportunidades laborales o prácticas relacionadas con desarrollo móvil, backend, frontend, UX/UI, cloud, QA o ciberseguridad. En un plazo de 3 meses después de egresar, postularé como mínimo a 10 ofertas y mejoraré mi CV, portafolio y repositorios en GitHub. | **Specific:** Postular a oportunidades laborales o prácticas en áreas tecnológicas.<br> **Measurable:** Postular como mínimo a 10 ofertas.<br> **Achievable:** Mediante la actualización de mi CV, portafolio y proyectos en GitHub.<br> **Relevant:** Alineado con mi desarrollo profesional en Ingeniería de Software.<br> **Time-bound:** En un plazo de 3 meses después de egresar. |
+| **Delgado Carrasco, Schneider Carlos Alberto** | Mi objetivo es desarrollar competencias avanzadas en programación y arquitectura de software para crear aplicaciones móviles eficientes y funcionales. Para ello, dedicaré tiempo semanal al aprendizaje de nuevas tecnologías, desarrollaré aplicaciones propias y fortaleceré mi portafolio profesional durante mi etapa universitaria y el inicio de mi vida laboral.| **Specific:** Fortalecer habilidades en programación y arquitectura de software. <br>**Measurable:** Crear aplicaciones propias y ampliar el portafolio profesional. <br>**Achievable:** Mediante aprendizaje continuo y práctica constante. <br>**Relevant:** Relacionado con Ingeniería de Software y el desarrollo profesional. <br>**Time-bound:** Durante la etapa universitaria y los primeros años de experiencia laboral. |
+| **Delgado Carrasco, Schneider Carlos Alberto** | Mi meta es integrarme al sector tecnológico como desarrollador de software, participando en entornos de trabajo colaborativos y proyectos relacionados con aplicaciones móviles y sistemas digitales. Busco adquirir experiencia profesional que me permita asumir mayores responsabilidades técnicas y mejorar mis capacidades de resolución de problemas en un periodo máximo de dos años después de culminar la carrera.| **Specific:** Incorporarse al sector tecnológico como desarrollador de software. <br>**Measurable:** Participar en proyectos tecnológicos y asumir responsabilidades técnicas. <br>**Achievable:** Gracias a la formación académica y experiencia obtenida en proyectos. <br>**Relevant:** Vinculado al crecimiento profesional en Ingeniería de Software. <br>**Time-bound:** En un periodo máximo de dos años después de finalizar la carrera.|
+| **Tumi Oliden, Manuel Ignacio** | Con el objetivo de fortalecer mi perfil profesional como desarrollador de aplicaciones móviles, en un plazo de 6 meses después de egresar culminaré un curso especializado en Kotlin, Flutter o React Native y desarrollaré una aplicación móvil funcional como evidencia de aprendizaje. | **Specific:** Fortalecer habilidades en desarrollo de aplicaciones móviles.<br> **Measurable:** Culminar un curso especializado y desarrollar una app funcional.<br> **Achievable:** Mediante cursos online, práctica constante y proyectos personales.<br> **Relevant:** Relacionado con Ingeniería de Software y desarrollo móvil.<br> **Time-bound:** En un plazo de 6 meses después de egresar. |
+| **Tumi Oliden, Manuel Ignacio** | Mi objetivo es construir un portafolio profesional orientado al desarrollo de software, documentando al menos dos proyectos en GitHub que incluyan buenas prácticas de programación, control de versiones y documentación técnica. Este objetivo será alcanzado durante el primer año posterior a mi egreso. | **Specific:** Construir un portafolio profesional con proyectos de software.<br> **Measurable:** Documentar al menos dos proyectos en GitHub.<br> **Achievable:** Mediante proyectos académicos, personales o colaborativos.<br> **Relevant:** Alineado con mi crecimiento profesional en Ingeniería de Software.<br> **Time-bound:** Durante el primer año posterior a mi egreso. |
+| **Vasquez Goicochea Erick Alessander** | Mi objetivo es seguir mejorando mis conocimientos en desarrollo de aplicaciones móviles y en la documentación de proyectos de software, participando en trabajos académicos y proyectos personales. Además, quiero aprender a utilizar mejor herramientas como GitHub y Android Studio mientras desarrollo una aplicación funcional antes de terminar este ciclo. | **Specific:** Mejorar conocimientos en desarrollo móvil y documentación de software.<br> **Measurable:** Desarrollar una aplicación funcional y participar en proyectos colaborativos.<br> **Achievable:** Mediante práctica constante y participación en proyectos académicos.<br> **Relevant:** Relacionado con Ingeniería de Software y crecimiento profesional.<br> **Time-bound:** Antes de finalizar este ciclo. |
+| **Vasquez Goicochea Erick Alessander** | Mi meta es ir construyendo un portafolio personal relacionado con desarrollo de software y aplicaciones móviles, subiendo proyectos a GitHub y organizando mejor la documentación y evidencias de cada trabajo realizado. Espero avanzar en este objetivo durante los próximos años de la carrera. | **Specific:** Construir un portafolio personal de proyectos de software.<br> **Measurable:** Publicar proyectos y documentación en GitHub.<br> **Achievable:** A través de proyectos académicos y personales.<br> **Relevant:** Vinculado al desarrollo profesional en Ingeniería de Software.<br> **Time-bound:** Durante los próximos años de formación universitaria. |
+
+# Capítulo I: Presentación
+
 ## 1.1. Startup Profile
+
 ### 1.1.1. Descripción de la Startup
 
-HuariqueHub es una startup dedicada a la creación de soluciones tecnológicas diseñadas para impulsar la competitividad y el crecimiento de pequeños comercios locales, con un énfasis particular en el rubro gastronómico. Su propuesta central, PuntoSabor, consiste en una plataforma movíl que vincula a los comensales con "huariques", establecimientos de cocina tradicional que destacan por su autenticidad y calidad, pero que suelen carecer de exposición en el entorno digital.
+HuariqueHub es una startup dedicada a la creación de soluciones tecnológicas diseñadas para impulsar la competitividad y el crecimiento de pequeños comercios locales, con un énfasis particular en el rubro gastronómico. Su propuesta central, PuntoSabor, consiste en una plataforma móvil que vincula a los comensales con "huariques", establecimientos de cocina tradicional que destacan por su autenticidad y calidad, pero que suelen carecer de exposición en el entorno digital.
 
 El proyecto surge para resolver la brecha de visibilidad que enfrentan estos negocios frente a las grandes cadenas en las aplicaciones convencionales. 
 
 Mediante una interfaz intuitiva, la herramienta permite a la comunidad descubrir y recomendar estos locales, validando un modelo de negocio sostenible basado en planes de visibilidad y membresías que fortalecen el ecosistema emprendedor local.
-    
+
 ### 1.1.2. Perfiles de integrantes del equipo
 
 |                             Miembro                             |                                                                                                                                                                                   .
@@ -341,19 +558,25 @@ El problema se expresa en la escasa o inexistente promoción digital de estos ne
 #### How much? (¿Cuánto?)
 Esta brecha representa no solo una oportunidad económica sin aprovechar para los dueños de huariques, sino también una pérdida del patrimonio gastronómico cultural. A escala de mercado, miles de negocios pequeños y millones de usuarios permanecen al margen del ecosistema digital gastronómico.
 
-##### 1.2.2.1. Lean UX Problem Statements
+### 1.2.2. Lean UX Process
 
-- Los huariques no cuentan con una plataforma digital especializada y de fácil acceso donde puedan promover su negocio, lo que restringe su capacidad para crecer y captar nuevos clientes.
+#### 1.2.2.1. Lean UX Problem Statements
 
-- Quienes desean descubrir gastronomía local, auténtica y accesible económicamente tienen pocas opciones digitales orientadas a ese fin, ya que los huariques casi no aparecen en las aplicaciones convencionales.
+Cada enunciado sigue la estructura estandarizada de Lean UX: **situación actual → problema observado → consecuencia para el segmento → reencuadre como oportunidad**. De esta forma el problema queda delimitado, asociado a un segmento concreto y verificable, en lugar de presentarse como una necesidad general.
 
-- La inexistencia de un sistema de reseñas y valoraciones enfocado en huariques dificulta generar confianza y construir una comunidad sólida entre usuarios y propietarios de estos negocios.
+**Problem Statement 1 — Explorador gastronómico**
 
-- Las aplicaciones gastronómicas más populares favorecen a los grandes restaurantes y cadenas, dejando a los huariques sin visibilidad ni alcance en el mercado digital.
+Las plataformas gastronómicas actuales (Google Maps, delivery, redes sociales) fueron diseñadas para conectar a las personas con lugares para comer. Sin embargo, hemos observado que estas plataformas priorizan restaurantes y cadenas con mayor inversión publicitaria, por lo que los huariques auténticos, cercanos y económicos quedan poco visibles o con información incompleta y desactualizada. Esto provoca que el explorador gastronómico invierta tiempo y no confíe en lo que encuentra al momento de elegir dónde comer. **¿Cómo podríamos ayudar a los exploradores gastronómicos a descubrir huariques auténticos y cercanos, con información confiable que respalde su decisión?**
 
-- Los propietarios de huariques, que habitualmente trabajan con recursos escasos, necesitan una herramienta práctica que les permita gestionar su presencia en línea sin complicaciones técnicas ni inversiones elevadas.
+**Problem Statement 2 — Dueño o administrador de huarique**
 
-##### 1.2.2.2. Lean UX Assumptions
+Las herramientas de promoción digital existentes fueron pensadas para negocios con presupuesto y experiencia técnica. Hemos observado que la mayoría de los dueños de huariques cuenta con recursos limitados y poca familiaridad con estas herramientas, por lo que no logran mantener su negocio visible ni actualizado en el entorno digital. Esto provoca que pierdan oportunidades de captar nuevos clientes frente a competidores con mayor presencia. **¿Cómo podríamos permitir que los dueños de huariques publiquen y gestionen su negocio de forma sencilla, sin procesos técnicos complejos, para aumentar su visibilidad?**
+
+**Problem Statement 3 — Plataforma PuntoSabor (negocio)**
+
+El mercado de aplicaciones gastronómicas está dominado por propuestas generalistas centradas en restaurantes y cadenas conocidas. Hemos observado que ningún actor relevante se especializa en huariques ni construye comunidad alrededor de la comida local auténtica, por lo que existe un segmento desatendido tanto de usuarios como de pequeños negocios. Esto representa una oportunidad de diferenciación y de generación de ingresos recurrentes que hoy nadie está capturando. **¿Cómo podríamos posicionar a PuntoSabor como la plataforma de referencia para descubrir huariques, mediante comunidad, visibilidad local y un modelo de membresías accesible?**
+
+#### 1.2.2.2. Lean UX Assumptions
 #### Business Assumptions
 - Se estima que PuntoSabor logrará convocar a un número considerable de dueños de huariques que buscan mayor visibilidad digital a través de membresías o planes publicitarios.
 
@@ -374,11 +597,11 @@ Esta brecha representa no solo una oportunidad económica sin aprovechar para lo
 
 - Se asume que los propietarios o administradores de huariques valorarán y encontrarán sencillo el proceso de registrar y gestionar su negocio dentro de la app, con miras a aumentar su visibilidad.
 
-- Se espera que estos usuarios proporcionen información completa y actualizada —fotos, especialidades, precios— para enriquecer la experiencia de quienes los visiten.
+- Se espera que estos usuarios proporcionen información completa y actualizada-fotos, especialidades, precios-para enriquecer la experiencia de quienes los visiten.
 
 - Se estima que beneficios como la membresía y la dinámica comunitaria fomentarán que los propietarios mantengan su perfil activo y atractivo.
 
-##### 1.2.2.3. Lean UX Hypothesis Statements
+#### 1.2.2.3. Lean UX Hypothesis Statements
 
 - Creemos que ofrecer una plataforma fácil e intuitiva para descubrir huariques auténticos y económicos aumentará la cantidad de usuarios que visitan estos negocios. Sabremos que esto es cierto cuando al menos el 60% de los usuarios activos reporten haber visitado un huarique recomendado en la plataforma durante el primer mes de uso.
 
@@ -390,11 +613,11 @@ Esta brecha representa no solo una oportunidad económica sin aprovechar para lo
 
 - Creemos que la oferta de planes de membresía y publicidad atraerá a suficientes dueños de huariques para generar ingresos recurrentes sostenibles. Sabremos que esto es cierto cuando el 30% de los huariques registrados contraten al menos un plan pago durante los primeros seis meses.
 
-##### 1.2.2.4. Lean UX Canvas
+#### 1.2.2.4. Lean UX Canvas
 ![alt text](<assets/Lean UX Canvas - PuntoSabor.png>)
 
 ## 1.3. Segmentos objetivo
-##Exploradores Gastronómicos
+### Exploradores Gastronómicos
 
 - Edad: 18 a 40 años.
 
@@ -406,7 +629,7 @@ Esta brecha representa no solo una oportunidad económica sin aprovechar para lo
 
 - Beneficios buscados: Acceso a recomendaciones confiables, mapas con ubicación cercana, y sistema de reseñas para tomar decisiones informadas.
 
-##Dueños y Administradores de Huariques
+### Dueños y Administradores de Huariques
 
 - Perfil: Emprendedores y pequeños negocios de comida tradicional o casera.
 
@@ -414,8 +637,8 @@ Esta brecha representa no solo una oportunidad económica sin aprovechar para lo
 
 - Beneficios buscados: Herramienta accesible para gestionar su información en la plataforma, recibir retroalimentación valiosa y utilizar planes de membresía o publicidad para crecer.
 
+# Capítulo II: Requirements Development and Software Solution Design
 
-# Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores
 ### 2.1.1. Análisis competitivo
 
@@ -459,34 +682,34 @@ Tácticas:
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
 
-Segmento 1: Exploradores Gastronómicos (Usuarios de la app movíl)
+Segmento 1: Exploradores Gastronómicos (Usuarios de la app móvil)
 
-Objetivo: Entender sus motivaciones, comportamientos y expectativas al usar una app movíl para descubrir comida local auténtica.
+Objetivo: Entender sus motivaciones, comportamientos y expectativas al usar una app móvil para descubrir comida local auténtica.
 
 Preguntas Segmento 1:
-- ¿Con qué frecuencia usas aplicaciones movíl para buscar lugares para comer fuera de lo común?
-- ¿Cómo sueles descubrir huariques o lugares de comida poco conocidos en la movíl?
-- ¿Qué aspectos valoras más al elegir un lugar para comer usando una app movíl (precio, ubicación, reseñas, fotos, etc.)?
-- ¿Qué dificultades has tenido al usar apps movíl para buscar lugares de comida local?
-- ¿Qué te motivaría a usar una app movíl dedicada exclusivamente a huariques?
-- ¿Qué funcionalidades en la app movíl considerarías imprescindibles para usarla con regularidad?
-- ¿Qué preocupaciones o barreras tendrías al usar una app movíl para descubrir huariques?
+- ¿Con qué frecuencia usas aplicaciones móvil para buscar lugares para comer fuera de lo común?
+- ¿Cómo sueles descubrir huariques o lugares de comida poco conocidos en la móvil?
+- ¿Qué aspectos valoras más al elegir un lugar para comer usando una app móvil (precio, ubicación, reseñas, fotos, etc.)?
+- ¿Qué dificultades has tenido al usar apps móvil para buscar lugares de comida local?
+- ¿Qué te motivaría a usar una app móvil dedicada exclusivamente a huariques?
+- ¿Qué funcionalidades en la app móvil considerarías imprescindibles para usarla con regularidad?
+- ¿Qué preocupaciones o barreras tendrías al usar una app móvil para descubrir huariques?
 
-Segmento 2: Dueños y Administradores de Huariques (Usuarios que usan la app movíl para gestionar su huarique).
+Segmento 2: Dueños y Administradores de Huariques (Usuarios que usan la app móvil para gestionar su huarique).
 
-Objetivo: Entender lo que necesita y espera al utilizar la aplicación movíl para gestionar y publicitar sus huariques.
+Objetivo: Entender lo que necesita y espera al utilizar la aplicación móvil para gestionar y publicitar sus huariques.
 
 Preguntas Segmento 2:
-- ¿Actualmente usas alguna plataforma movíl o digital para promocionar tu huarique? ¿Cuál?
+- ¿Actualmente usas alguna plataforma móvil o digital para promocionar tu huarique? ¿Cuál?
 - ¿Qué retos has enfrentado al tratar de gestionar tu negocio a través de plataformas digitales?
-- ¿Qué tan cómodo te sientes usando aplicaciones movíl para actualizar la información de tu negocio?
-- ¿Qué características te harían decidirte a usar una app movíl especializada para huariques?
-- ¿Qué tipo de soporte o facilidades esperarías al usar esta app movíl para gestionar tu perfil o negocio?
+- ¿Qué tan cómodo te sientes usando aplicaciones móvil para actualizar la información de tu negocio?
+- ¿Qué características te harían decidirte a usar una app móvil especializada para huariques?
+- ¿Qué tipo de soporte o facilidades esperarías al usar esta app móvil para gestionar tu perfil o negocio?
 - ¿Qué modelo de tarifas o membresías considerarías justo para usar esta plataforma?
-- ¿Qué resultados te gustaría ver después de usar esta aplicación movíl para promocionar tu huarique?
+- ¿Qué resultados te gustaría ver después de usar esta aplicación móvil para promocionar tu huarique?
 
 ### 2.2.2. Registro de entrevistas
-### Segmento #1: Exploradores Gastronómicos (Usuarios de la app movíl)
+**Segmento #1: Exploradores Gastronómicos (Usuarios de la app móvil)**
 | Número de entrevista | Datos del entrevistado                                                                 | Evidencia de entrevista |
 |-----------------------|-----------------------------------------------------------------------------------------|--------------------------|
 | 1                     | **Nombre:**  Vitaly Baca  <br> **Edad:** 20  <br> **Distrito:** Lurin <br><br> **Resumen:** Vitaly Baca, un estudiante de 20 años que está estudiando Ingeniería de Software en la UPC, emplea estas aplicaciones durante casi todos los fines de semana, ya que le gusta salir a conocer lugares nuevos con su pareja o amigos. Encuentra la mayoría de los huariques en Instagram y TikTok siguiendo a foodies, además de buscar en Google Maps. Lo que primero aprecia es el precio, puesto que como estudiante posee un presupuesto limitado, y después las fotos y los comentarios de confianza para no terminar en un lugar inapropiado. Señala entre los obstáculos que ha tenido que afrontar que, a veces, llega a lugares que parecen abiertos pero están cerrados, y también que muchas huariques pequeñas no aparecen en las aplicaciones. Siempre que contenga críticas honestas de usuarios semejantes a él, se sentiría motivado para utilizar una aplicación exclusiva de huariques. Considera esenciales recomendaciones personalizadas, filtros según tipo de comida y precio, así como un mapa rápido e intuitivo. Sus inquietudes más importantes serían que la aplicación esté saturada de anuncios, contenga información poco confiable o incluya escasos sitios en su ciudad, lo que haría que pierda su valor. | ![Evidencia](assets/Entrevista1_Segmento1.jpeg) <br> [📂 Ver entrevista](https://drive.google.com/file/d/1NSQkOkLNAq3A-IIhc4_lm2q3UwWDaylk/view?usp=sharing) 00:00 - 05:37|
@@ -494,17 +717,17 @@ Preguntas Segmento 2:
 
 | Número de entrevista | Datos del entrevistado                                                                 | Evidencia de entrevista |
 |-----------------------|-----------------------------------------------------------------------------------------|--------------------------|
-| 2                     | **Nombre:** Sebastian del Rio  <br> **Edad:** 20  <br> **Distrito:** Chorrillos <br><br> **Resumen:** Sebastián del Río, un estudiante de 20 años que estudia Ingeniería de Software en la UTP, no tiene el hábito de emplear con regularidad aplicaciones movíl para encontrar huariques; lo hace solamente una o dos veces al mes cuando desea salir con sus amigos o experimentar algo diferente. Con frecuencia, encuentra la mayoría de los lugares a través de Google Maps, pero principalmente por sugerencias en Instagram y TikTok. Para él, lo fundamental al seleccionar un lugar es la proximidad, el precio y las imágenes y comentarios auténticos de otros clientes. Indica como mayor obstáculo el hecho de que los huariques no suelen aparecer en las aplicaciones, y que son más frecuentes los restaurantes conocidos. También menciona que la información está frecuentemente incompleta o carece de buenas imágenes. Lo incentivaría a utilizar una aplicación que sea simple y que muestre sitios verdaderos y seguros. Ten en cuenta elementos indispensables como fotografías auténticas, reseñas sinceras, un mapa con la ubicación, filtros de precio y la posibilidad de guardar favoritos. Lo que más le inquietaría es que la información no fuera confiable, que la aplicación lo dirija a lugares cerrados o de baja calidad, o que sea lenta y compleja. | ![Evidencia](assets/Entrevista2_Segmento1.jpeg) <br> [📂 Ver entrevista](https://drive.google.com/file/d/1NSQkOkLNAq3A-IIhc4_lm2q3UwWDaylk/view?usp=sharing) 05:37 - 09:56|
+| 2                     | **Nombre:** Sebastian del Rio  <br> **Edad:** 20  <br> **Distrito:** Chorrillos <br><br> **Resumen:** Sebastián del Río, un estudiante de 20 años que estudia Ingeniería de Software en la UTP, no tiene el hábito de emplear con regularidad aplicaciones móvil para encontrar huariques; lo hace solamente una o dos veces al mes cuando desea salir con sus amigos o experimentar algo diferente. Con frecuencia, encuentra la mayoría de los lugares a través de Google Maps, pero principalmente por sugerencias en Instagram y TikTok. Para él, lo fundamental al seleccionar un lugar es la proximidad, el precio y las imágenes y comentarios auténticos de otros clientes. Indica como mayor obstáculo el hecho de que los huariques no suelen aparecer en las aplicaciones, y que son más frecuentes los restaurantes conocidos. También menciona que la información está frecuentemente incompleta o carece de buenas imágenes. Lo incentivaría a utilizar una aplicación que sea simple y que muestre sitios verdaderos y seguros. Ten en cuenta elementos indispensables como fotografías auténticas, reseñas sinceras, un mapa con la ubicación, filtros de precio y la posibilidad de guardar favoritos. Lo que más le inquietaría es que la información no fuera confiable, que la aplicación lo dirija a lugares cerrados o de baja calidad, o que sea lenta y compleja. | ![Evidencia](assets/Entrevista2_Segmento1.jpeg) <br> [📂 Ver entrevista](https://drive.google.com/file/d/1NSQkOkLNAq3A-IIhc4_lm2q3UwWDaylk/view?usp=sharing) 05:37 - 09:56|
 
 
 | Número de entrevista | Datos del entrevistado                                                                 | Evidencia de entrevista |
 |-----------------------|-----------------------------------------------------------------------------------------|--------------------------|
 | 3                     | **Nombre:** Luis Fernandez  <br> **Edad:** 20  <br> **Distrito:** Pueblo Libre <br><br> **Resumen:** Luis Fernández, un estudiante de 20 años que se encuentra cursando la carrera de Ingeniería de Sistemas en la UTP, explora sitios nuevos cada semana, especialmente los fines de semana cuando está con su pareja. Se orienta por cuentas de amantes de la comida en Instagram y TikTok, guarda videos para ver más tarde y revisa críticas en Google Maps o grupos de Facebook. Para él, el precio es crucial, pero también le da importancia a la experiencia total: comentarios sobre la calidad de los alimentos y el servicio, así como imágenes de los platos. Ha enfrentado dificultades con horarios obsoletos en aplicaciones, al llegar a sitios que estaban cerrados y con la escasa visibilidad de huariques menos famosos. Lo motivaría una aplicación fiable que se centre en huariques y tenga opiniones de personas del lugar. Un mapa interactivo, sugerencias personalizadas y filtros por tipo de comida, ubicación y costo son elementos que consideras esenciales. Sus inquietudes son que la aplicación tenga demasiada publicidad, información falsa o que no ofrezca suficientes alternativas locales. | ![Evidencia](assets/Entrevista3_Segmento1.jpeg) <br> [📂 Ver entrevista](https://drive.google.com/file/d/1P5WpXLAtHH9lsgnF7tXXyMJiK7xsN05h/view?usp=sharing) 09:56 - 13:01|
 
-### Segmento #2: Dueños y Administradores de Huariques (Usuarios que usan la app web para gestionar su huarique)
+**Segmento #2: Dueños y Administradores de Huariques (Usuarios que usan la app móvil para gestionar su huarique)**
 | Número de entrevista | Datos del entrevistado                                                                 | Evidencia de entrevista |
 |-----------------------|-----------------------------------------------------------------------------------------|--------------------------|
-| 1                     | **Nombre:** Wildor Villalobos  <br> **Edad:** 28  <br> **Distrito:** Santiago de Surco <br><br> **Resumen:** Dueño de un establecimiento que vende pan con chicharrón. Utiliza Instagram y TikTok (principalmente IG Reels); las publicaciones son útiles para promociones, pero los reels generan más movimiento. Obstáculos: competencia y algoritmo, es necesario pagar para llegar a más personas. Desea que la aplicación le deje destacar su negocio y observar métricas claras (cuántas personas lo encuentran, qué tan eficaz es para atraer clientes), a través de gráficos directos y un panel sencillo. Estaría dispuesto a pagar S/ 20–50/mes si rinde igual o mejor que IG/TikTok. Objetivo: aumentar ventas. | ![Evidencia](assets/Entrevista_Wildor.jpg) <br> [📂 Ver entrevista](https://drive.google.com/file/d/1P5WpXLAtHH9lsgnF7tXXyMJiK7xsN05h/view?usp=sharing) 00:00 - 03:15|
+| 1                     | **Nombre:** Wildor Villalobos  <br> **Edad:** 28  <br> **Distrito:** Santiago de Surco <br><br> **Resumen:** Dueño de un establecimiento que vende pan con chicharrón. Utiliza Instagram y TikTok (principalmente IG Reels); las publicaciones son útiles para promociones, pero los reels generan más movimiento. Obstáculos: competencia y algoritmo, es necesario pagar para llegar a más personas. Desea que la aplicación le deje destacar su negocio y observar métricas claras (cuántas personas lo encuentran, qué tan eficaz es para atraer clientes), a través de gráficos directos y un panel sencillo. Estaría dispuesto a pagar S/ 20-50/mes si rinde igual o mejor que IG/TikTok. Objetivo: aumentar ventas. | ![Evidencia](assets/Entrevista_Wildor.jpg) <br> [📂 Ver entrevista](https://drive.google.com/file/d/1P5WpXLAtHH9lsgnF7tXXyMJiK7xsN05h/view?usp=sharing) 00:00 - 03:15|
 
 
 | Número de entrevista | Datos del entrevistado                                                                 | Evidencia de entrevista |
@@ -518,12 +741,12 @@ Preguntas Segmento 2:
 
 
 ### 2.2.3. Análisis de entrevistas
-### Segmento #1: Exploradores Gastronómicos (Usuarios de la app movíl)
+**Segmento #1: Exploradores Gastronómicos (Usuarios de la app móvil)**
 ---
-### Hallazgos :
-## 👨 Vitaly Baca
+**Hallazgos:**
+**👨 Vitaly Baca**
 
-Le gusta salir con su pareja o sus amigos para conocer sitios nuevos, por lo que usa aplicaciones movíl casi todos los fines de semana. Utiliza Google Maps y sigue a foodies en Instagram y TikTok para descubrir la mayoría de huariques. Aprecia el precio por ser estudiante, pero también la fiabilidad de las fotos y los comentarios. Además de que numerosas tiendas pequeñas no aparecen en las aplicaciones, ha habido inconvenientes con locales que se muestran abiertos pero estaban cerrados.Si cuenta con críticas honestas de usuarios parecidos, se incentivaría el uso de una aplicación enfocada únicamente en huariques. Piensa que son imprescindibles los filtros de tipo de comida y precio, un mapa rápido e intuitivo y sugerencias personalizadas. Sus inquietudes son que la aplicación contenga escasa información en su ciudad, que esté llena de publicidad o que tenga datos poco fiables.
+Le gusta salir con su pareja o sus amigos para conocer sitios nuevos, por lo que usa aplicaciones móvil casi todos los fines de semana. Utiliza Google Maps y sigue a foodies en Instagram y TikTok para descubrir la mayoría de huariques. Aprecia el precio por ser estudiante, pero también la fiabilidad de las fotos y los comentarios. Además de que numerosas tiendas pequeñas no aparecen en las aplicaciones, ha habido inconvenientes con locales que se muestran abiertos pero estaban cerrados.Si cuenta con críticas honestas de usuarios parecidos, se incentivaría el uso de una aplicación enfocada únicamente en huariques. Piensa que son imprescindibles los filtros de tipo de comida y precio, un mapa rápido e intuitivo y sugerencias personalizadas. Sus inquietudes son que la aplicación contenga escasa información en su ciudad, que esté llena de publicidad o que tenga datos poco fiables.
 **Puntos clave:**
 - Usa apps de búsqueda gastronómica con frecuencia (fines de semana).  
 - Descubre lugares principalmente en **TikTok, Instagram y Google Maps**.  
@@ -534,12 +757,12 @@ Le gusta salir con su pareja o sus amigos para conocer sitios nuevos, por lo que
 - Le preocupa la **publicidad excesiva** y la **poca cobertura local**.  
 
 
-## 👨 Sebastián del Río
+**👨 Sebastián del Río**
 
 No utiliza con mucha regularidad aplicaciones para buscar huariques, solamente una o dos veces al mes cuando tiene ganas de salir con amigos o hacer algo diferente. Conoce los lugares, sobre todo en Instagram y TikTok, y de vez en cuando en Google Maps. Cuando se trata de escoger un lugar, considera principalmente las reseñas y fotos verdaderas, además del precio y la proximidad. Ha presentado como problema el que los huariques escasean en las aplicaciones, ya que se imponen los restaurantes conocidos y la información es frecuentemente incompleta o carece de fotos de calidad. Siempre que sea fácil de usar, se sentiría motivado a emplear una aplicación que realmente exhiba lugares auténticos y fiables. Para él, son indispensables fotografías auténticas, calificaciones sinceras, un mapa interactivo con la localización y filtros de precio, así como la oportunidad de guardar elementos favoritos. Su inquietud es que la información no sea fiable, que lo envíen a sitios de mala calidad o cerrados y que la aplicación sea lenta o complicada.
 
 **Puntos clave:**
-- Usa apps **esporádicamente** (1–2 veces al mes).  
+- Usa apps **esporádicamente** (1-2 veces al mes).  
 - Descubre huariques en **redes sociales** y a veces en Google Maps.  
 - Valora **fotos, reseñas reales, precio y cercanía**.  
 - Problemas: **huariques invisibles, info incompleta y fotos deficientes**.  
@@ -547,7 +770,7 @@ No utiliza con mucha regularidad aplicaciones para buscar huariques, solamente u
 - Imprescindibles: **fotos reales, reseñas honestas, mapa interactivo, filtros y favoritos**.  
 - Preocupaciones: **información falsa, lugares cerrados, app lenta o complicada**.  
 
-## 👨 Luis Fernández
+**👨 Luis Fernández**
 
 Cada semana busca sitios nuevos, especialmente los fines de semana con su pareja. Se orienta por las cuentas de amantes de la comida en TikTok e Instagram, guarda videos para consultarlos después y examina opiniones en Facebook y Google Maps. Valora mucho el precio, aunque también le da relevancia a la experiencia total: comentarios sobre la atención, calidad de los alimentos y fotografías de los platos. Entre los obstáculos que menciona, se encuentran los horarios de las aplicaciones desactualizados, que lo conducen a locales cerrados, y la escasa visibilidad de huariques menos populares. Se incentivaría el uso de una aplicación fiable que dé prioridad a los huariques que tengan reseñas escritas por personas del lugar. Un mapa interactivo, sugerencias personalizadas y filtros por tipo de comida, ubicación y costo son elementos que consideras esenciales. Sus inquietudes son las siguientes: que la aplicación contenga demasiada publicidad, información engañosa o no ofrezca suficientes alternativas locales.
 
@@ -569,24 +792,24 @@ Además, se repite la importancia de contar con filtros, mapas interactivos y re
 Por eso, se puede entender que existe una necesidad clara de una plataforma más confiable, enfocada en huariques y con información actualizada.
 
 ---
-### Segmento #2: Dueños y Administradores de Huariques
-## 👨 Wildor Villalobos (28 años)
+**Segmento #2: Dueños y Administradores de Huariques**
+**👨 Wildor Villalobos (28 años)**
 
 Para difundir su negocio de pan con chicharrón, emplea sobre todo **Instagram y TikTok**, aunque los **reels** son más eficaces que las publicaciones habituales. El principal desafío que afronta es la **competencia**, el obstáculo de **comprender el algoritmo** y la exigencia de destinar dinero a publicidad para obtener más visibilidad.
 
-Se siente **a gusto** al utilizar aplicaciones movíl, siempre que sean **útiles y sencillas de manejar**. Aprecia bastante las **métricas claras** acerca de cuántos clientes lo descubren y cómo llegan a su restaurante. Le agradan las interfaces sencillas, con gráficos directos y comunicación lineal.
+Se siente **a gusto** al utilizar aplicaciones móvil, siempre que sean **útiles y sencillas de manejar**. Aprecia bastante las **métricas claras** acerca de cuántos clientes lo descubren y cómo llegan a su restaurante. Le agradan las interfaces sencillas, con gráficos directos y comunicación lineal.
 
 En cuanto al **modelo de pago**, ya invierte mensualmente entre **S/ 20 y S/ 50 en Instagram**. Por lo tanto, estaría dispuesto a invertir la misma cantidad en una aplicación especializada, siempre que esta le proporcione un rendimiento igual o superior en términos de atracción de clientes. La principal expectativa que tiene es que la aplicación **eleve sus ventas** de un modo significativo.
 
 **Puntos clave:**  
 - Usa **Instagram y TikTok** (prefiere reels).  
 - Problemas: **competencia alta, algoritmos complicados, inversión en publicidad**.  
-- Cómodo con apps movíl si son **efectivas y simples**.  
+- Cómodo con apps móvil si son **efectivas y simples**.  
 - Valora **métricas claras y directas** (clientes alcanzados, interacciones, impacto real).  
 - Prefiere **interfaz simple con gráficos directos y comunicación lineal**.  
-- Dispuesto a pagar **20–50 soles/mes** si rinde igual o mejor que Instagram/TikTok.  
+- Dispuesto a pagar **20-50 soles/mes** si rinde igual o mejor que Instagram/TikTok.  
 - Expectativa central: que la app **genere más clientes y ventas**.  
-## 👨 Piero Tapia (26 años)
+**👨 Piero Tapia (26 años)**
 
 Propietario de un local de sándwiches. Su clientela llega sobre todo por la localización física de su negocio; hoy en día no usa plataformas web para promocionarse. Señala que tiene escaso conocimiento en redes sociales y que no dispone de un presupuesto adecuado para campañas de marketing digital, lo cual le dificulta proyectar una buena imagen online.
 
@@ -604,7 +827,7 @@ Su principal expectativa es que la aplicación le produzca **un incremento en el
 - Propone un **sistema de tarifas escalonado** (para principiantes, intermedios y avanzados).  
 - Expectativa: **Incrementar las ventas y atraer a más clientes reales**, además de la visibilidad.
 
-## 👩‍🦰 Gabriela Vasquez (23 años)
+**👩‍🦰 Gabriela Vasquez (23 años)**
 
 Propietaria de una **juguería artesanal** situada en un barrio con mucho tráfico. En la actualidad, su negocio se basa en el **boca a boca y el tránsito local**, puesto que no emplea plataformas digitales o redes sociales para hacer publicidad. Dice que no tiene mucha familiaridad con las herramientas en línea y que le parecen **poco intuitivas** las alternativas de suscribirse a aplicaciones de delivery o de pagos online.
 
@@ -648,7 +871,7 @@ Don Luis representa a los dueños de huariques y a los emprendedores pequeños q
 
 ![alt text](assets/UserTaskMatrix-PuntoSabor.jpg)
 
-Los perfiles de usuario en PuntoSabor presentan diferencias notables en sus tareas habituales, dependiendo de las necesidades y el rol de cada uno. Como exploradora gastronómica, Carla Dípes emplea la aplicación movíl de manera continua y activa para buscar huariques, leer reseñas y utilizar la función de mapas con geolocalización. Para ella, estas actividades son fundamentales para su experiencia. Por otro lado, Don Luis Pérez, propietario de huarique, no suele emplear la aplicación para buscar o ver mapas; su interés principal es actualizar la información de su huarique, tarea que lleva a cabo con frecuencia y considera esencial. Los dos individuos se comunican de vez en cuando utilizando la función de responder reseñas y compartir fotografías u opiniones, aunque Don Luis lo hace con menos frecuencia, pero sigue siendo significativo en términos de importancia.
+Los perfiles de usuario en PuntoSabor presentan diferencias notables en sus tareas habituales, dependiendo de las necesidades y el rol de cada uno. Como exploradora gastronómica, Carla Dípes emplea la aplicación móvil de manera continua y activa para buscar huariques, leer reseñas y utilizar la función de mapas con geolocalización. Para ella, estas actividades son fundamentales para su experiencia. Por otro lado, Don Luis Pérez, propietario de huarique, no suele emplear la aplicación para buscar o ver mapas; su interés principal es actualizar la información de su huarique, tarea que lleva a cabo con frecuencia y considera esencial. Los dos individuos se comunican de vez en cuando utilizando la función de responder reseñas y compartir fotografías u opiniones, aunque Don Luis lo hace con menos frecuencia, pero sigue siendo significativo en términos de importancia.
 
 Coincidencias:
 - Ambos utilizan, en menor medida, la función de responder reseñas, considerándola de importancia media.
@@ -691,7 +914,7 @@ El mapa de empatía de Don Luis muestra a un empresario con restricciones tecnol
 ![alt text](assets/EmphatyMap_DonLuisPerez.png)
 
 
-### 2.3.5. As-is Scenario Mapping
+**As-is Scenario Mapping**
 Segmento 1
 
 Con este artefacto, se ha desarrollado el As-is Scenario Mapping para la primera franja (Exploradores Gastronómicos). Este panorama muestra la manera en que los usuarios que desean descubrir huariques llevan a cabo sus actividades hoy en día, los obstáculos a los que se enfrentan al buscar alternativas económicas y auténticas, además de las sensaciones y percepciones que sienten en cada fase de su recorrido.
@@ -704,7 +927,7 @@ Con este instrumento se ha realizado el As-is Scenario Mapping para el segundo g
 
 ![alt text](assets/Segmento2_AsIs.png)
 
-## 2.4. Big Picture Event Storming
+### 2.3.5. Big Picture EventStorming
 
 Pasos para el event storming:
 
@@ -757,7 +980,7 @@ Link del miro:
 
 https://miro.com/welcomeonboard/N1ZUMVF3dkJEMXY1VTIvR0hhWisyQlFnU1VFYU1UVVFGOFNVKzdGS3FVOFJ1ZWRaNUI3L3NyMGcxNTRqSkN4bUZTZGo1N2VVbVNITTIvc3p2c1V6emNGUEprWThGdVg0SGsvRmtwSWJzTzR3dTVQVG5Hb1ZzWlRuK0tUM2hZSU9nbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=673091896888
 
-## 2.5. Ubiquitous Language
+### 2.3.6. Ubiquitous Language
 
 En esta parte se muestra el glosario de términos fundamentales del ámbito de PuntoSabor, que están escritos en inglés y acompañados de su traducción al español entre paréntesis. Cada definición tiene como objetivo que la comunicación entre todos los miembros del equipo y los interesados sea coherente y clara, así como eliminar ambigüedades y alinear el lenguaje de la empresa.
 
@@ -781,17 +1004,1498 @@ Glosario:
   X
 - Membership (Membresía): Plan o suscripción que permite a los propietarios obtener mayor visibilidad y beneficios dentro de la plataforma.
 
-# 5.4. Video About-the-Product
+## 2.4. Requirements specification
 
-https://drive.google.com/drive/folders/1Iqb5Lz3YxKQMyos2Oyqczd73CZMvspKV?usp=drive_link
+### 2.4.1. User Stories
+
+En esta sección se presentan los requisitos definidos para PuntoSabor, expresados mediante User Stories y Epics. La tabla sigue la **plantilla oficial del enunciado**, dedicando una fila a cada Epic y a cada User Story, con las columnas **Story ID, Usuario, Prioridad, Epic, Título, Descripción y Criterios de Aceptación**. Cada User Story incluye criterios de aceptación claros y comprobables, redactados en tiempo presente y tercera persona, siguiendo la estructura Gherkin (Given-When-Then). Se consideran User Stories de la aplicación móvil, del sitio web estático (Landing Page, rol *Visitante*) y **Technical Stories** para el RESTful API (rol *Developer*).
+
+La prioridad se expresa como **Alta / Media / Baja** según el valor para el negocio y su contribución al flujo principal, criterio que se mantiene coherente con el orden del Product Backlog (sección [2.4.3](#243-product-backlog)).
+
+**Definición de Epics**
+
+| Story ID | Usuario | Prioridad | Epic | Título | Descripción | Criterios de Aceptación |
+|---|---|---|---|---|---|---|
+| EP01 | — | Alta | EP01 | Descubrimiento de huariques | Agrupa las funcionalidades que permiten a los usuarios buscar, ubicar y guardar huariques. | N/A (Epic) |
+| EP02 | — | Alta | EP02 | Gestión de huariques | Permite a los dueños registrar, actualizar y enriquecer la información de sus huariques. | N/A (Epic) |
+| EP03 | — | Alta | EP03 | Reseñas y calificaciones | Reúne la publicación, calificación y moderación de reseñas sobre los huariques. | N/A (Epic) |
+| EP04 | — | Alta | EP04 | Landing Page | Sitio web estático que presenta la propuesta de valor y permite el contacto con el equipo. | N/A (Epic) |
+| EP05 | — | Baja | EP05 | Notificaciones | Gestión de alertas y preferencias de notificación para usuarios y dueños. | N/A (Epic) |
+| EP06 | — | Alta | EP06 | API RESTful (Technical Stories) | Servicios backend que exponen las operaciones para los productos digitales. | N/A (Epic) |
+| EP07 | — | Alta | EP07 | Autenticación y gestión de cuenta | Registro, inicio de sesión y recuperación de credenciales de forma segura. | N/A (Epic) |
+| EP08 | — | Media | EP08 | Recomendaciones y preferencias | Personalización de la experiencia a partir de preferencias e historial del usuario. | N/A (Epic) |
+| EP09 | — | Media | EP09 | Información y estado del huarique | Mantiene actualizada y confiable la información operativa (horarios, estado, reportes). | N/A (Epic) |
+| EP10 | — | Media | EP10 | Membresías, pagos y promociones | Modelo de ingresos: planes, pagos, comprobantes y promociones destacadas. | N/A (Epic) |
+
+**User Stories y Technical Stories**
+
+| Story ID | Usuario | Prioridad | Epic | Título | Descripción | Criterios de Aceptación |
+|---|---|---|---|---|---|---|
+| US01 | Usuario | Alta | EP01 | Filtrar huariques | Como usuario, quiero filtrar huariques por ubicación, tipo de comida y precio para encontrar opciones acordes a mis preferencias. | **Escenario 1:** Dado que el usuario selecciona filtros válidos, Cuando ejecuta la búsqueda, Entonces el sistema muestra solo los huariques que coinciden con los filtros aplicados. <br><br> **Escenario 2:** Dado que no existen huariques que coincidan con los filtros, Cuando el usuario ejecuta la búsqueda, Entonces el sistema muestra un mensaje indicando que no se encontraron resultados. <br><br> **Escenario 3:** Dado que el usuario no selecciona filtros, Cuando ejecuta la búsqueda, Entonces el sistema muestra la lista general de huariques disponibles. |
+| US02 | Usuario | Alta | EP01 | Visualizar huariques en mapa | Como usuario, quiero visualizar la ubicación de los huariques en un mapa para identificar fácilmente cómo llegar a ellos. | **Escenario 1:** Dado que el usuario accede a la vista de mapa, Cuando la pantalla termina de cargar, Entonces el sistema muestra los huariques mediante marcadores de ubicación. <br><br> **Escenario 2:** Dado que el usuario selecciona un marcador del mapa, Cuando pulsa sobre este, Entonces el sistema muestra un resumen con nombre, dirección y calificación del huarique. |
+| US03 | Usuario | Media | EP01 | Guardar huariques favoritos | Como usuario, quiero guardar huariques como favoritos para consultarlos nuevamente de forma rápida. | **Escenario 1:** Dado que el usuario selecciona la opción de favorito en un huarique, Cuando confirma la acción, Entonces el sistema agrega el huarique a su lista de favoritos. <br><br> **Escenario 2:** Dado que el usuario accede a la sección de favoritos, Cuando la pantalla carga, Entonces el sistema muestra los huariques guardados previamente. |
+| US04 | Dueño | Alta | EP02 | Registrar un nuevo huarique | Como dueño, quiero registrar un nuevo huarique con información básica para que aparezca en la plataforma. | **Escenario 1:** Dado que el dueño completa todos los campos obligatorios con datos válidos, Cuando envía el formulario, Entonces el sistema registra el huarique correctamente. <br><br> **Escenario 2:** Dado que el dueño deja campos obligatorios vacíos, Cuando intenta registrar el huarique, Entonces el sistema solicita completar los datos faltantes. |
+| US05 | Dueño | Media | EP02 | Actualizar información del huarique | Como dueño, quiero actualizar la información de mi huarique para mantener sus datos correctos y vigentes. | **Escenario 1:** Dado que el dueño modifica datos válidos del huarique, Cuando guarda los cambios, Entonces el sistema actualiza la información correctamente. <br><br> **Escenario 2:** Dado que el dueño ingresa información incompleta o inválida, Cuando intenta guardar los cambios, Entonces el sistema muestra un mensaje de validación. |
+| US06 | Dueño | Media | EP02 | Gestionar contenido multimedia | Como dueño, quiero subir fotos y videos de mi huarique para mostrar mejor mi negocio a los usuarios. | **Escenario 1:** Dado que el dueño selecciona un archivo permitido, Cuando lo sube al perfil del huarique, Entonces el sistema almacena y muestra el contenido multimedia. <br><br> **Escenario 2:** Dado que el dueño selecciona un archivo no permitido, Cuando intenta subirlo, Entonces el sistema muestra un mensaje indicando los formatos aceptados. |
+| US07 | Usuario | Alta | EP03 | Publicar reseñas | Como usuario, quiero publicar una reseña y calificación sobre un huarique para compartir mi experiencia con otros usuarios. | **Escenario 1:** Dado que el usuario completa la reseña y selecciona una calificación válida, Cuando confirma el envío, Entonces el sistema publica la reseña en el perfil del huarique. <br><br> **Escenario 2:** Dado que el usuario ya publicó una reseña sobre el mismo huarique, Cuando intenta publicar otra, Entonces el sistema impide el registro duplicado. |
+| US08 | Sistema | Media | EP03 | Moderar reseñas inapropiadas | Como sistema, quiero detectar reseñas inapropiadas para evitar contenido ofensivo dentro de la plataforma. | **Escenario 1:** Dado que una reseña contiene lenguaje ofensivo, Cuando el usuario intenta publicarla, Entonces el sistema bloquea la publicación o la marca para revisión. |
+| US09 | Visitante | Alta | EP04 | Mostrar beneficios en la landing page | Como visitante, quiero ver los beneficios de PuntoSabor en la landing page para comprender el valor de la plataforma. | **Escenario 1:** Dado que el visitante accede a la landing page, Cuando la página termina de cargar, Entonces el sistema muestra los beneficios principales para usuarios y dueños de huariques. |
+| US10 | Visitante | Media | EP04 | Enviar consultas desde el formulario de contacto | Como visitante, quiero enviar consultas mediante un formulario de contacto para comunicarme con el equipo de PuntoSabor. | **Escenario 1:** Dado que el visitante completa correctamente todos los campos requeridos, Cuando envía el formulario, Entonces el sistema registra la consulta y muestra una confirmación. <br><br> **Escenario 2:** Dado que el visitante deja campos obligatorios vacíos, Cuando intenta enviar el formulario, Entonces el sistema solicita completar los datos faltantes. |
+| US11 | Usuario | Baja | EP05 | Configurar notificaciones | Como usuario, quiero activar o desactivar notificaciones para recibir solo la información que me interesa. | **Escenario 1:** Dado que el usuario modifica sus preferencias de notificación, Cuando guarda los cambios, Entonces el sistema actualiza la configuración seleccionada. |
+| US12 | Dueño | Baja | EP05 | Recibir notificaciones de nuevas reseñas | Como dueño, quiero recibir alertas cuando mi huarique reciba nuevas reseñas para responder oportunamente a los usuarios. | **Escenario 1:** Dado que un usuario publica una reseña aprobada, Cuando la reseña queda registrada, Entonces el sistema notifica al dueño del huarique. |
+| US13 | Developer | Alta | EP06 | Consultar huariques mediante API | Como developer, quiero consultar huariques mediante filtros en la API para integrar la búsqueda con la aplicación móvil. | **Escenario 1:** Dado que la petición contiene parámetros válidos, Cuando la API procesa la solicitud, Entonces devuelve los huariques que cumplen los criterios enviados. <br><br> **Escenario 2:** Dado que la petición contiene parámetros inválidos, Cuando la API procesa la solicitud, Entonces devuelve un mensaje de error claro. |
+| US14 | Developer | Alta | EP06 | Registrar y actualizar huariques mediante API | Como developer, quiero crear y actualizar huariques mediante la API para gestionar la información desde los productos digitales. | **Escenario 1:** Dado que la petición contiene datos válidos, Cuando la API procesa el registro, Entonces crea el huarique y devuelve una respuesta exitosa. <br><br> **Escenario 2:** Dado que la petición contiene datos válidos de actualización, Cuando la API procesa la solicitud, Entonces actualiza la información del huarique. |
+| US15 | Usuario | Alta | EP07 | Registrar e iniciar sesión de forma segura | Como usuario, quiero crear una cuenta e iniciar sesión con credenciales seguras para acceder a mi perfil. | **Escenario 1:** Dado que el usuario ingresa datos válidos de registro, Cuando envía el formulario, Entonces el sistema crea la cuenta correctamente. <br><br> **Escenario 2:** Dado que el usuario ingresa credenciales válidas, Cuando inicia sesión, Entonces el sistema le permite acceder a su cuenta. <br><br> **Escenario 3:** Dado que el usuario ingresa credenciales incorrectas, Cuando intenta iniciar sesión, Entonces el sistema muestra un mensaje de error. <br><br> **Escenario 4:** Dado que el usuario deja campos vacíos, Cuando intenta continuar, Entonces el sistema solicita completar los datos requeridos. |
+| US16 | Usuario | Media | EP07 | Recuperar contraseña | Como usuario, quiero recuperar mi contraseña para volver a acceder a mi cuenta en caso de olvido. | **Escenario 1:** Dado que el usuario ingresa un correo registrado, Cuando solicita la recuperación, Entonces el sistema envía instrucciones para restablecer la contraseña. <br><br> **Escenario 2:** Dado que el usuario ingresa un correo no registrado, Cuando solicita la recuperación, Entonces el sistema muestra un mensaje informativo. |
+| US17 | Usuario | Media | EP08 | Guardar preferencias del usuario | Como usuario, quiero guardar mis preferencias de cocina, presupuesto y ubicación para recibir recomendaciones personalizadas. | **Escenario 1:** Dado que el usuario ingresa preferencias válidas, Cuando confirma la configuración, Entonces el sistema guarda las preferencias en su perfil. <br><br> **Escenario 2:** Dado que el usuario tiene preferencias guardadas, Cuando accede a recomendaciones, Entonces el sistema muestra huariques relacionados con esos criterios. |
+| US18 | Usuario | Baja | EP08 | Sugerir huariques automáticamente | Como usuario, quiero recibir sugerencias de huariques basadas en mi historial para descubrir opciones relacionadas con mis intereses. | **Escenario 1:** Dado que el usuario tiene historial de búsquedas o favoritos, Cuando accede a recomendaciones, Entonces el sistema muestra huariques similares. <br><br> **Escenario 2:** Dado que el usuario no tiene historial, Cuando accede a recomendaciones, Entonces el sistema muestra huariques populares de la zona. |
+| US19 | Usuario | Media | EP08 | Recomendar huariques cercanos | Como usuario, quiero recibir recomendaciones de huariques cercanos a mi ubicación para encontrar opciones próximas. | **Escenario 1:** Dado que el usuario concede permiso de ubicación, Cuando accede a la sección “Cerca de mí”, Entonces el sistema muestra huariques dentro del radio definido. <br><br> **Escenario 2:** Dado que el usuario no concede permiso de ubicación, Cuando accede a la sección, Entonces el sistema solicita permisos o permite una búsqueda manual. |
+| US20 | Usuario | Baja | EP09 | Verificar horarios de huariques | Como usuario, quiero ver si el horario de un huarique fue confirmado recientemente para evitar información desactualizada. | **Escenario 1:** Dado que el dueño actualizó el horario recientemente, Cuando el usuario entra al perfil del huarique, Entonces el sistema muestra la etiqueta “Horario verificado”. <br><br> **Escenario 2:** Dado que no existen actualizaciones recientes, Cuando el usuario entra al perfil, Entonces el sistema muestra la etiqueta “Horario no verificado”. |
+| US21 | Usuario | Baja | EP09 | Reportar información incorrecta | Como usuario, quiero reportar datos incorrectos de un huarique para contribuir a mantener actualizada la información. | **Escenario 1:** Dado que el usuario detecta información incorrecta, Cuando envía un reporte, Entonces el sistema registra el reporte para revisión. <br><br> **Escenario 2:** Dado que el reporte fue revisado y corregido, Cuando el usuario consulta el huarique, Entonces el sistema muestra la información actualizada. |
+| US22 | Sistema | Media | EP09 | Mostrar estado abierto o cerrado | Como sistema, quiero mostrar si un huarique está abierto o cerrado para orientar mejor la decisión del usuario. | **Escenario 1:** Dado que el sistema cuenta con información reciente del horario, Cuando el usuario accede al perfil, Entonces muestra el estado “Abierto ahora” o “Cerrado”. <br><br> **Escenario 2:** Dado que no hay datos suficientes para validar el estado, Cuando el usuario accede al perfil, Entonces muestra el aviso “Estado no confirmado”. |
+| US23 | Dueño | Media | EP10 | Seleccionar planes de membresía | Como dueño, quiero elegir entre planes de membresía con distintos beneficios para aumentar la visibilidad de mi huarique. | **Escenario 1:** Dado que el dueño selecciona un plan disponible, Cuando confirma la elección, Entonces el sistema activa la membresía correspondiente. <br><br> **Escenario 2:** Dado que el dueño solicita cambiar de plan, Cuando confirma la modificación, Entonces el sistema programa el cambio para el siguiente periodo disponible. |
+| US24 | Dueño | Media | EP10 | Pagar suscripción | Como dueño, quiero pagar mi membresía mediante tarjeta o billetera digital para mantener activo mi plan. | **Escenario 1:** Dado que el dueño ingresa datos de pago válidos, Cuando confirma la operación, Entonces el sistema registra el pago y activa la suscripción. <br><br> **Escenario 2:** Dado que el dueño ingresa datos de pago inválidos, Cuando confirma la operación, Entonces el sistema muestra un mensaje de error y no activa la suscripción. |
+| US25 | Dueño | Baja | EP10 | Descargar comprobantes de pago | Como dueño, quiero descargar comprobantes mensuales de mis pagos para llevar control contable de mi membresía. | **Escenario 1:** Dado que el dueño accede a la sección de facturación, Cuando selecciona un mes con pago registrado, Entonces el sistema permite descargar el comprobante correspondiente. <br><br> **Escenario 2:** Dado que existe un pago pendiente o fallido, Cuando el dueño revisa la facturación, Entonces el sistema muestra un aviso de pago pendiente. |
+| US26 | Dueño Pro | Media | EP10 | Publicar promociones destacadas | Como dueño Pro, quiero publicar promociones destacadas para aumentar la visibilidad de mi huarique en los listados. | **Escenario 1:** Dado que el dueño Pro configura una promoción con fechas y cupos válidos, Cuando la publica, Entonces el sistema la muestra como destacada en los listados. <br><br> **Escenario 2:** Dado que la promoción alcanza su fecha de finalización, Cuando el usuario revisa los listados, Entonces el sistema deja de mostrarla como promoción activa. |
+| US27 | Usuario | Media | EP07 | Gestionar cuenta y perfil | Como usuario, quiero ver mi perfil, actualizar mi nombre y eliminar mi cuenta para tener control sobre mis datos personales. | **Escenario 1:** Dado que el usuario accede a su perfil, Cuando la pantalla carga, Entonces el sistema muestra su nombre, correo y rol. <br><br> **Escenario 2:** Dado que el usuario edita su nombre con un valor válido, Cuando guarda los cambios, Entonces el sistema actualiza el nombre y lo refleja en la sesión. <br><br> **Escenario 3:** Dado que el usuario confirma la eliminación de su cuenta, Cuando acepta la acción, Entonces el sistema elimina la cuenta y cierra la sesión. |
+
+### 2.4.2. Impact Mapping
+
+![ImpactMap](assets/ImpactmapPuntoSabor.png)
+
+### 2.4.3. Product Backlog
+
+El Product Backlog reúne las User Stories de la sección [2.4.1](#241-user-stories) con su estimación en Story Points y su priorización. El orden lo determina el **valor para el negocio** y la contribución al flujo principal de descubrimiento de huariques; por ello, las historias de descubrimiento y presentación del producto (incluida la Landing Page, considerada desde el primer sprint) se ubican antes que las de seguridad o configuración, evitando el error de iniciar el backlog con autenticación.
+
+**Documento del Product Backlog y herramienta de gestión del avance.** El backlog se mantiene de forma viva en **Trello**, herramienta indicada para el control del proyecto, donde cada User Story es una tarjeta con su estimación, prioridad, responsable y estado (To-Do / In-Process / To-Review / Done). La tabla siguiente es la exportación de referencia de ese tablero al informe.
+
+- **Tablero de Trello (Product Backlog y control de sprints):** 
+https://trello.com/invite/b/6a3b6709fd34f6edb2cc21af/ATTI7be4b37d5e727ef6f2e8092804bf2c3192D51CB7/puntosabor-app
+- **Repositorio del informe (documento del backlog en Markdown):** <https://github.com/HuariqueHub/report>
+
+![Tablero de Product Backlog en Trello](assets/trello_sprint2.png)
+
+| # Orden | User Story ID | Título | Descripción | Story Points (1 / 2 / 3 / 5 / 8) |
+|---------|---------------|--------|-------------|----------------------------------|
+| 1 | US01 | Filtrar huariques | Como usuario, quiero filtrar huariques por ubicación, tipo de comida y precio para encontrar opciones acordes a mis preferencias. | 5 |
+| 2 | US02 | Visualizar huariques en mapa | Como usuario, quiero visualizar la ubicación de los huariques en un mapa para identificar fácilmente cómo llegar a ellos. | 3 |
+| 3 | US03 | Guardar huariques favoritos | Como usuario, quiero guardar huariques como favoritos para consultarlos nuevamente de forma rápida. | 3 |
+| 4 | US04 | Registrar un nuevo huarique | Como dueño, quiero registrar un nuevo huarique con información básica para que aparezca en la plataforma. | 5 |
+| 5 | US05 | Actualizar información del huarique | Como dueño, quiero actualizar la información de mi huarique para mantener sus datos correctos y vigentes. | 3 |
+| 6 | US06 | Gestionar contenido multimedia | Como dueño, quiero subir fotos y videos de mi huarique para mostrar mejor mi negocio a los usuarios. | 3 |
+| 7 | US07 | Publicar reseñas | Como usuario, quiero publicar una reseña y calificación sobre un huarique para compartir mi experiencia con otros usuarios. | 3 |
+| 8 | US08 | Moderar reseñas inapropiadas | Como sistema, quiero detectar reseñas inapropiadas para evitar contenido ofensivo dentro de la plataforma. | 5 |
+| 9 | US09 | Mostrar beneficios en la landing page | Como visitante, quiero ver los beneficios de PuntoSabor en la landing page para comprender el valor de la plataforma. | 2 |
+| 10 | US10 | Enviar consultas desde el formulario de contacto | Como visitante, quiero enviar consultas mediante un formulario de contacto para comunicarme con el equipo de PuntoSabor. | 2 |
+| 11 | US11 | Configurar notificaciones | Como usuario, quiero activar o desactivar notificaciones para recibir solo la información que me interesa. | 2 |
+| 12 | US12 | Recibir notificaciones de nuevas reseñas | Como dueño, quiero recibir alertas cuando mi huarique reciba nuevas reseñas para responder oportunamente a los usuarios. | 2 |
+| 13 | US13 | Consultar huariques mediante API | Como developer, quiero consultar huariques mediante filtros en la API para integrar la búsqueda con la aplicación móvil. | 5 |
+| 14 | US14 | Registrar y actualizar huariques mediante API | Como developer, quiero crear y actualizar huariques mediante la API para gestionar la información desde los productos digitales. | 5 |
+| 15 | US15 | Registrar e iniciar sesión de forma segura | Como usuario, quiero crear una cuenta e iniciar sesión con credenciales seguras para acceder a mi perfil. | 5 |
+| 16 | US16 | Recuperar contraseña | Como usuario, quiero recuperar mi contraseña para volver a acceder a mi cuenta en caso de olvido. | 2 |
+| 17 | US17 | Guardar preferencias del usuario | Como usuario, quiero guardar mis preferencias de cocina, presupuesto y ubicación para recibir recomendaciones personalizadas. | 3 |
+| 18 | US18 | Sugerir huariques automáticamente | Como usuario, quiero recibir sugerencias de huariques basadas en mi historial para descubrir opciones relacionadas con mis intereses. | 5 |
+| 19 | US19 | Recomendar huariques cercanos | Como usuario, quiero recibir recomendaciones de huariques cercanos a mi ubicación para encontrar opciones próximas. | 3 |
+| 20 | US20 | Verificar horarios de huariques | Como usuario, quiero ver si el horario de un huarique fue confirmado recientemente para evitar información desactualizada. | 3 |
+| 21 | US21 | Reportar información incorrecta | Como usuario, quiero reportar datos incorrectos de un huarique para contribuir a mantener actualizada la información. | 2 |
+| 22 | US22 | Mostrar estado abierto o cerrado | Como sistema, quiero mostrar si un huarique está abierto o cerrado para orientar mejor la decisión del usuario. | 5 |
+| 23 | US23 | Seleccionar planes de membresía | Como dueño, quiero elegir entre planes de membresía con distintos beneficios para aumentar la visibilidad de mi huarique. | 3 |
+| 24 | US24 | Pagar suscripción | Como dueño, quiero pagar mi membresía mediante tarjeta o billetera digital para mantener activo mi plan. | 5 |
+| 25 | US25 | Descargar comprobantes de pago | Como dueño, quiero descargar comprobantes mensuales de mis pagos para llevar control contable de mi membresía. | 3 |
+| 26 | US26 | Publicar promociones destacadas | Como dueño Pro, quiero publicar promociones destacadas para aumentar la visibilidad de mi huarique en los listados. | 3 |
+| 27 | US27 | Gestionar cuenta y perfil | Como usuario, quiero ver mi perfil, actualizar mi nombre y eliminar mi cuenta para tener control sobre mis datos personales. | 3 |
+
+**Suma total estimada del backlog:** 92 Story Points.
+
+#### Roadmap de Sprints hasta la entrega del Trabajo Final
+
+El desarrollo se organiza en tres sprints alineados con los hitos del curso, hasta la entrega del Trabajo Final (TB2, semana 15). Cada sprint toma del Product Backlog las User Stories de mayor prioridad y valor para el negocio, manteniendo la Landing Page presente desde el primer sprint. La gestión y el seguimiento del avance de cada sprint se realiza en el mismo tablero de Trello indicado arriba.
+
+| Sprint | Entrega asociada | Periodo (semanas) | Objetivo (Sprint Goal) | User Stories planificadas |
+|---|---|---|---|---|
+| **Sprint 1** | TB1 (Semana 7) | Sem. 5 – 7 | Construir la base inicial de la Landing Page y de la aplicación móvil (presentación del producto, descubrimiento y primeras interacciones). | US09, US10, US01, US02, US03, US04, US07, US15 |
+| **Sprint 2** | AV2 (Semana 12) | Sem. 8 – 12 | Completar el flujo principal de la app conectado al backend desplegado (autenticación real, gestión de huariques por el dueño, reseñas y servicios de la API). | US13, US14, US05, US06, US16, US17, US19, US23 |
+| **Sprint 3** | TB2 (Semana 15) | Sem. 13 – 15 | Cerrar el producto con monetización y funcionalidades de soporte a la decisión (membresías y pagos, promociones, estado/horarios y notificaciones). | US24, US25, US26, US20, US21, US22, US11, US12, US18 |
+
+> Nota: la distribución de User Stories por sprint es la planificación vigente y puede ajustarse en cada Sprint Planning según el velocity real del equipo. El detalle de ejecución de cada sprint se documenta en el [Capítulo IV](#capítulo-iv-product-implementation--validation).
+
+## 2.5. Strategic-Level Domain-Driven Design
+
+### 2.5.1. EventStorming
+
+A partir del Big Picture EventStorming realizado en la sección 2.3.5, se elaboró el Design-Level EventStorming de PuntoSabor, definiendo para cada bounded context sus Aggregates, Commands, Domain Events, Policies, Invariantes y Read Models.
+
+#### 2.5.1.1. Candidate Context Discovery
+
+Del proceso de EventStorming se identificaron los siguientes bounded contexts candidatos:
+
+| Bounded Context | Aggregate principal | Responsabilidad |
+|---|---|---|
+| Explorer Discovery | `SearchSession` | Búsqueda y descubrimiento de huariques |
+| User Preferences | `UserPreferences` | Preferencias y consentimiento del usuario |
+| Business Listing | `BusinessListing` | Registro y publicación de huariques |
+| Subscription & Billing | `BusinessSubscription` | Planes de membresía y facturación |
+| Promotion | `Promotion` | Creación y publicación de promociones |
+| Contact & Support | `SupportRequest` | Contacto, direcciones y soporte |
+
+#### 2.5.1.2. Domain Message Flows Modeling
+
+**Flujo: Publicar un Huarique**
+
+1. `CreateListing` → `ListingCreated`
+2. `UpdateListingFields` → `ListingFieldsUpdated`
+3. `GeocodeAddress` → `AddressGeocoded` → (policy) `RunListingValidations` → `ListingValidationsPassed`
+4. `PublishListing` → `ListingPublished` → actualiza `PublicListingView`
+
+**Flujo: Crear y Publicar una Promoción**
+
+1. `CreatePromotion` → `PromotionCreated`
+2. `SetPromotionTargeting` → `PromotionTargetingSet`
+3. `SetPromotionSchedule` → `PromotionScheduleSet` → (policy) `SchedulePublish/Unpublish`
+4. `PublishPromotion` → `PromotionPublished` → (policy) `IndexPromotionForDiscovery` → actualiza `ZonePromotionsView`
+
+**Invariantes transversales**
+
+- Un huarique solo puede publicarse si cumple validaciones y tiene geolocalización.
+- Una promoción solo puede publicarse si existe un plan activo y el huarique está publicado.
+- Los resultados de búsqueda nunca incluyen huariques inactivos o no publicados.
+- Los comandos deben ser idempotentes para evitar duplicación de eventos.
+
+#### 2.5.1.3. Bounded Context Canvases
+
+**Explorer Discovery**
+
+| Elemento | Detalle |
+|---|---|
+| Aggregate | `SearchSession` |
+| Commands | `StartSearchSession`, `ApplySearchFilter`, `OpenMap`, `SelectHuarique`, `ViewHuariqueDetail` |
+| Domain Events | `SearchSessionStarted`, `SearchPerformed`, `MapDisplayed`, `HuariqueSelected`, `HuariqueDetailViewed` |
+| Policies | `AutoSearch`, `RankingPolicy` |
+| Read Models | `SearchResultsView`, `HuariqueMiniCard` |
+| Invariantes | Solo se listan huariques con estado `PUBLISHED` y `ACTIVE`. |
+
+**Business Listing**
+
+| Elemento | Detalle |
+|---|---|
+| Aggregate | `BusinessListing` |
+| Commands | `CreateListing`, `UploadListingImage`, `UpdateListingFields`, `GeocodeAddress`, `PublishListing` |
+| Domain Events | `ListingCreated`, `ListingImageUploaded`, `ListingFieldsUpdated`, `AddressGeocoded`, `ListingPublished` |
+| Policies | `RunListingValidations` |
+| Read Models | `OwnerListingDashboard`, `PublicListingView` |
+| Invariantes | No se publica un huarique sin nombre, dirección, geolocalización y dueño asignado. |
+
+**Subscription & Billing**
+
+| Elemento | Detalle |
+|---|---|
+| Aggregate | `BusinessSubscription` |
+| Commands | `SelectPlan`, `AcceptPlanTerms`, `ValidateBusinessEligibility`, `ActivatePlan`, `ChangePlan` |
+| Domain Events | `PlanSelected`, `PlanTermsAccepted`, `BusinessEligibilityValidated`, `PlanActivated`, `PlanChanged` |
+| Policies | `EnablePromotionCapabilities`, `DisablePromotionCapabilities` |
+| Read Models | `BillingHistory`, `PlanStatusView` |
+| Invariantes | Solo un `PlanActivated` habilita la creación de promociones. |
+
+**Promotion**
+
+| Elemento | Detalle |
+|---|---|
+| Aggregate | `Promotion` |
+| Commands | `CreatePromotion`, `SetPromotionTargeting`, `SetPromotionSchedule`, `PublishPromotion`, `UnpublishPromotion` |
+| Domain Events | `PromotionCreated`, `PromotionTargetingSet`, `PromotionScheduleSet`, `PromotionPublished`, `PromotionUnpublished` |
+| Policies | `IndexPromotionForDiscovery`, `SchedulePublish/Unpublish` |
+| Read Models | `ZonePromotionsView`, `OwnerPromotionsDashboard` |
+| Invariantes | Solo se publican promociones si el huarique tiene `ListingPublished` y `PlanActivated`. |
+
+**User Preferences**
+
+| Elemento | Detalle |
+|---|---|
+| Aggregate | `UserPreferences` |
+| Commands | `SetPreferredLanguage`, `SetDiscoveryPreferences`, `SavePrivacyConsent` |
+| Domain Events | `PreferredLanguageChanged`, `DiscoveryPreferencesSaved`, `PrivacyConsentRecorded` |
+| Read Models | `UserPrefView` |
+
+**Contact & Support**
+
+| Elemento | Detalle |
+|---|---|
+| Aggregate | `SupportRequest` |
+| Commands | `SubmitContactForm`, `OpenDirections`, `AcceptPrivacyConsent` |
+| Domain Events | `ContactFormSubmitted`, `DirectionsOpened`, `PrivacyConsentRecorded` |
+| Read Models | `SupportInboxView`, `ConsentLedger` |
+
+### 2.5.2. Context Mapping
+
+El Context Mapping define las relaciones entre los Bounded Contexts del sistema. Se utilizan los patrones DDD estándar: **U** (Upstream), **D** (Downstream), **ACL** (Anti-Corruption Layer), **OHS** (Open Host Service).
+
+![Context Mapping](assets/MermaidDiagrams/Context_Mapping.png)
+
+| Relación | Patrón | Descripción |
+|---|---|---|
+| Business Listing → Explorer Discovery | OHS / Published Language | Discovery consume el catálogo de huariques publicado por Listing vía API REST. |
+| Subscription & Billing → Business Listing | Customer-Supplier | Listing (downstream) valida con Billing si el dueño tiene suscripción activa antes de publicar. |
+| Subscription & Billing → Promotion | Customer-Supplier | Promotion solo puede publicar si Billing confirma membresía vigente. |
+| Business Listing → Promotion | Customer-Supplier | Promotion necesita que el huarique esté registrado y activo en Listing. |
+| User Preferences → Explorer Discovery | OHS / Published Language | Discovery aplica los filtros (zona, tipo de comida, precio) expuestos por Preferences. |
+| Promotion → Explorer Discovery | ACL | Discovery traduce el modelo de promociones al formato de su feed interno mediante una capa anticorrupción. |
+| Contact & Support → User Preferences | Conformist | Support reutiliza la identidad del usuario definida en Preferences sin transformarla. |
+
+### 2.5.3. Software Architecture
+
+#### 2.5.3.1. Software Architecture Context Level Diagrams
+
+El diagrama de contexto muestra a PuntoSabor como sistema central interactuando con sus dos tipos de usuarios principales:
+
+- **PuntoSabor:** sistema principal que conecta a exploradores y dueños de huariques.
+- **Explorador gastronómico:** usuario que busca y descubre huariques auténticos.
+- **Dueño de restaurante:** usuario que publica su huarique y gestiona su membresía.
+
+![Software Architecture Context Level Diagram](assets/structurizr-punto_context.png)
+
+#### 2.5.3.2. Software Architecture Container Level Diagrams
+
+El diagrama de contenedores muestra los componentes internos del sistema PuntoSabor:
+
+- **Aplicación Móvil (Android/Kotlin):** interfaz principal del usuario, construida con Jetpack Compose.
+- **Landing Page (HTML/CSS/JS):** sitio estático desplegado en GitHub Pages.
+- **Backend API (C#/.NET 8):** servidor de aplicaciones que expone endpoints REST y gestiona la lógica de negocio.
+- **Base de datos (MySQL):** almacena usuarios, huariques, reseñas, planes y suscripciones.
+
+![Software Architecture Container Level Diagram](assets/structurizr-c2_puntosabor.png)
+
+#### 2.5.3.3. Software Architecture Deployment Diagrams
+
+El diagrama de despliegue muestra los nodos de infraestructura donde se ejecutan los componentes del sistema HuariqueHub y cómo se comunican entre sí.
+
+![Deployment Diagram](assets/MermaidDiagrams/Deployment_Diagram.png)
+
+| Nodo | Tecnología | Descripción |
+|---|---|---|
+| Android Device | Android 8+ | Dispositivo físico o emulador donde se instala la app móvil. |
+| HuariqueHub Mobile (APK) | Kotlin + Jetpack Compose | Aplicación Android distribuida directamente (APK). |
+| Landing Page | HTML / CSS / JS | Sitio estático desplegado en GitHub Pages (CDN gratuito). |
+| Backend API | .NET 8 / C# (Docker) | API REST desplegada en Railway como contenedor Docker. |
+| MySQL Database | MySQL 8 | Base de datos relacional gestionada por Railway. |
+| Payments Gateway | Externo (ej. Stripe/Culqi) | Procesamiento de pagos de membresías vía webhooks. |
+| Map Provider | Externo (ej. Google Maps) | Tiles de mapa y geocodificación para localizar huariques. |
+| Email Service | Externo (ej. SendGrid) | Envío de correos de confirmación para formularios de soporte. |
+
+## 2.6. Tactical-Level Domain-Driven Design
+
+### 2.6.1. Bounded Context: Explorer Discovery
+
+#### 2.6.1.1. Domain Layer
+
+| Elemento | Clase |
+|---|---|
+| Aggregate root | `Huarique` |
+| Entidades | `Review`, `Category` |
+| Value Objects | `Description`, `Address`, `Coordinates`, `Rating`, `OpeningStatus` |
+| Servicio de dominio | `SearchService` (búsqueda por filtros) |
+
+#### 2.6.1.2. Interface Layer
+
+Endpoints REST expuestos:
+
+| Método | Endpoint | Descripción |
+|---|---|---|
+| GET | `/huariques` | Listar/buscar huariques con filtros |
+| GET | `/huariques/{id}` | Obtener detalle de un huarique |
+| GET | `/categories` | Listar categorías disponibles |
+
+Pantallas móviles: HomeScreen, HuariqueDetailScreen.
+
+#### 2.6.1.3. Application Layer
+
+| Clase | Método |
+|---|---|
+| `HuariquesApplicationService` | `getHuarique(id)`, `searchHuariques(filters)` |
+
+#### 2.6.1.4. Infrastructure Layer
+
+| Clase | Rol |
+|---|---|
+| `HuariqueRepositorySQL` | Implementa `IHuariqueRepository` con consultas SQL/EF Core |
+| `CategoryRepositorySQL` | Implementa `ICategoryRepository` |
+
+#### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+![Explorer Discovery Component Level Diagram](assets/structurizr-c3_zones.png)
+
+#### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
+
+##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
+
+![Explorer Discovery Class Diagram](assets/MermaidDiagrams/ExplorerDiscovery_ClassDiagram.png)
+
+| Clase | Definición |
+|-------|-----------|
+| `Huarique` | Aggregate root: local gastronómico con nombre, descripción, dirección, coordenadas, calificación promedio y estado de apertura. |
+| `Category` | Entidad que clasifica a los huariques por tipo/estilo. |
+| `Review` | Entidad que modela una reseña con calificación (1..5), comentario y fecha. |
+| `Description` | Value Object que encapsula la descripción validada del huarique. |
+| `Address` | Value Object con línea, distrito y ciudad. |
+| `Coordinates` | Value Object con latitud/longitud válidas para geolocalización. |
+| `Rating` | Value Object entero (1..5) que garantiza calificaciones válidas. |
+| `OpeningStatus` | Enumeración del estado operativo del local. |
+| `IHuariqueRepository` | Puerto para la persistencia de `Huarique`. |
+| `IReviewRepository` | Puerto para la persistencia de `Review`. |
+| `HuariqueRepositorySQL` | Adaptador que implementa `IHuariqueRepository` usando SQL. |
+| `ReviewService` | Servicio de dominio para publicar/moderar reseñas. |
+| `HuariquesApplicationService` | Servicio de aplicación que orquesta los casos de uso. |
+
+##### 2.6.1.6.2. Bounded Context Database Design Diagram
+
+![Explorer Discovery ER Diagram](assets/MermaidDiagrams/ExplorerDiscovery_ERDiagram.png)
+
+---
+
+### 2.6.2. Bounded Context: Business Listing
+
+#### 2.6.2.1. Domain Layer
+
+| Elemento | Clase |
+|---|---|
+| Aggregate root | `Huarique` (rol de listing) |
+| Value Objects | `Address`, `Coordinates`, `Description` |
+| Servicio de dominio | `ListingValidationService` |
+
+#### 2.6.2.2. Interface Layer
+
+| Método | Endpoint | Descripción |
+|---|---|---|
+| POST | `/huariques` | Registrar nuevo huarique |
+| PATCH | `/huariques/{id}` | Actualizar datos del huarique |
+
+#### 2.6.2.3. Application Layer
+
+| Clase | Método |
+|---|---|
+| `ListingApplicationService` | `createListing(ownerId, info)`, `updateListing(id, fields)`, `publishListing(id)` |
+
+#### 2.6.2.4. Infrastructure Layer
+
+| Clase | Rol |
+|---|---|
+| `HuariqueRepositorySQL` | Persistencia del listing en MySQL vía EF Core |
+| `GeocodingAdapter` | Llama a API externa para convertir dirección en coordenadas |
+| `ImageStorageAdapter` | Gestiona subida de fotos al storage en la nube |
+
+#### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
+
+![Business Listing Component Level Diagram](assets/structurizr-c3_categories.png)
+
+#### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
+
+##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
+
+![Business Listing Class Diagram](assets/MermaidDiagrams/BusinessListing_ClassDiagram.png)
+
+| Clase | Definición |
+|---|---|
+| `Huarique` | Aggregate root: listing del local gastronómico con nombre, descripción, dirección, coordenadas, estado y fotos. |
+| `HuariquePhoto` | Entidad que representa una foto asociada al huarique. |
+| `Description` | Value Object con el texto descriptivo validado. |
+| `Address` | Value Object con línea, distrito y ciudad. |
+| `Coordinates` | Value Object con latitud/longitud válidas. |
+| `OpeningStatus` | Enumeración del estado operativo del local. |
+| `ListingValidationService` | Servicio de dominio que valida invariantes antes de guardar el listing. |
+| `IHuariqueRepository` | Puerto de persistencia para `Huarique`. |
+| `HuariqueRepositorySQL` | Adaptador que implementa `IHuariqueRepository` con SQL/EF Core. |
+| `ImageStorageAdapter` | Puerto de infraestructura para subida de fotos. |
+| `BusinessListingApplicationService` | Orquesta los casos de uso de registro y edición de listings. |
+
+##### 2.6.2.6.2. Bounded Context Database Design Diagram
+
+![Business Listing ER Diagram](assets/MermaidDiagrams/BusinessListing_ERDiagram.png)
+
+---
+
+### 2.6.3. Bounded Context: Subscription & Billing
+
+#### 2.6.3.1. Domain Layer
+
+| Elemento | Clase |
+|---|---|
+| Aggregate root | `Subscription` |
+| Entidades | `MembershipPlan` |
+| Value Objects | `SubscriptionStatus` (`ACTIVE`, `CANCELED`, `EXPIRED`) |
+| Servicio de dominio | `MembershipService` |
+
+#### 2.6.3.2. Interface Layer
+
+| Método | Endpoint | Descripción |
+|---|---|---|
+| GET | `/plans` | Listar planes de membresía disponibles |
+
+Pantallas móviles: PlanesScreen, PagoScreen.
+
+#### 2.6.3.3. Application Layer
+
+| Clase | Método |
+|---|---|
+| `SubscriptionApplicationService` | `selectPlan(huariqueId, planId)`, `activatePlan(id, paymentId)`, `changePlan(id, newPlanId)` |
+
+#### 2.6.3.4. Infrastructure Layer
+
+| Clase | Rol |
+|---|---|
+| `SubscriptionRepositorySQL` | Persistencia de `Subscription` y `MembershipPlan` en MySQL |
+| `PaymentGatewayAdapter` | Integración con pasarela de pago externa |
+
+#### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
+
+![Subscription & Billing Component Level Diagram](assets/structurizr-c3_plans.png)
+
+#### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
+
+##### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
+
+![Subscription & Billing Class Diagram](assets/MermaidDiagrams/SubscriptionBilling_ClassDiagram.png)
+
+| Clase | Definición |
+|---|---|
+| `Subscription` | Aggregate root: suscripción de un huarique a un plan de membresía. |
+| `MembershipPlan` | Entidad que define un plan (nombre, precio mensual, descripción). |
+| `SubscriptionStatus` | Enumeración: `PENDING`, `ACTIVE`, `CANCELED`, `EXPIRED`. |
+| `MembershipService` | Servicio de dominio que valida transiciones de estado entre planes. |
+| `ISubscriptionRepository` | Puerto de persistencia para `Subscription` y `MembershipPlan`. |
+| `SubscriptionRepositorySQL` | Adaptador que implementa `ISubscriptionRepository` con SQL/EF Core. |
+| `PaymentGatewayAdapter` | Puerto de infraestructura para cobros y devoluciones. |
+| `SubscriptionApplicationService` | Orquesta selección, activación y cambio de plan. |
+
+##### 2.6.3.6.2. Bounded Context Database Design Diagram
+
+![Subscription & Billing ER Diagram](assets/MermaidDiagrams/SubscriptionBilling_ERDiagram.png)
+
+---
+
+### 2.6.4. Bounded Context: Promotion
+
+#### 2.6.4.1. Domain Layer
+
+| Elemento | Clase |
+|---|---|
+| Aggregate root | `Promotion` |
+| Value Objects | `PromotionSchedule` (startAt, endAt), `PromotionTargeting` (zones, tags) |
+| Servicio de dominio | `PromotionPublishingService` |
+
+#### 2.6.4.2. Interface Layer
+
+| Método | Endpoint | Descripción |
+|---|---|---|
+| GET | `/promos` | Listar promociones activas |
+
+Pantallas móviles: PromocionesScreen, CrearPromocionScreen.
+
+#### 2.6.4.3. Application Layer
+
+| Clase | Método |
+|---|---|
+| `PromotionApplicationService` | `createPromotion(huariqueId, content)`, `publishPromotion(id)`, `unpublishPromotion(id, reason)` |
+
+#### 2.6.4.4. Infrastructure Layer
+
+| Clase | Rol |
+|---|---|
+| `PromotionRepositorySQL` | Persistencia de `Promotion` en MySQL |
+| `SchedulerAdapter` | Ejecuta publicación/despublicación automática según fechas |
+
+#### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
+
+![Promotion Component Level Diagram](assets/structurizr-c3_promotions.png)
+
+#### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
+
+##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
+
+![Promotion Class Diagram](assets/MermaidDiagrams/Promotion_ClassDiagram.png)
+
+| Clase | Definición |
+|---|---|
+| `Promotion` | Aggregate root: promoción creada por un dueño de huarique con contenido, ventana temporal y targeting. |
+| `PromotionSchedule` | Value Object con `startAt` y `endAt` validados. |
+| `PromotionTargeting` | Value Object con zonas y etiquetas de segmentación. |
+| `PromotionStatus` | Enumeración: `DRAFT`, `PUBLISHED`, `UNPUBLISHED`. |
+| `PromotionPublishingService` | Servicio de dominio que valida reglas de publicación y programa despublicación. |
+| `IPromotionRepository` | Puerto de persistencia para `Promotion`. |
+| `PromotionRepositorySQL` | Adaptador que implementa `IPromotionRepository` con SQL/EF Core. |
+| `SchedulerAdapter` | Puerto de infraestructura para programar tareas de publicación/despublicación. |
+| `PromotionApplicationService` | Orquesta creación, publicación y despublicación de promociones. |
+
+##### 2.6.4.6.2. Bounded Context Database Design Diagram
+
+![Promotion ER Diagram](assets/MermaidDiagrams/Promotion_ERDiagram.png)
+
+---
+
+### 2.6.5. Bounded Context: User Preferences
+
+#### 2.6.5.1. Domain Layer
+
+| Elemento | Clase |
+|---|---|
+| Aggregate root | `UserPreferences` |
+| Value Objects | `DiscoveryPreferences` (priceRange, foodTypes, zone), `PrivacyConsent` |
+
+#### 2.6.5.2. Interface Layer
+
+Pantallas móviles: PreferenciasScreen (configuración de idioma, tipo de comida, presupuesto, zona).
+
+#### 2.6.5.3. Application Layer
+
+| Clase | Método |
+|---|---|
+| `PreferencesApplicationService` | `setPreferences(userId, prefs)`, `getPreferences(userId)` |
+
+#### 2.6.5.4. Infrastructure Layer
+
+| Clase | Rol |
+|---|---|
+| `UserPreferencesRepositorySQL` | Persistencia de preferencias del usuario en MySQL |
+
+#### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
+
+![User Preferences Component Level Diagram](assets/structurizr-c3_profile.png)
+
+#### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
+
+##### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
+
+![User Preferences Class Diagram](assets/MermaidDiagrams/UserPreferences_ClassDiagram.png)
+
+| Clase | Definición |
+|---|---|
+| `UserPreferences` | Aggregate root: preferencias de descubrimiento y privacidad del usuario. |
+| `DiscoveryPreferences` | Value Object con rango de precio, tipos de comida y zona preferida. |
+| `PrivacyConsent` | Value Object con consentimiento de ubicación y notificaciones. |
+| `IUserPreferencesRepository` | Puerto de persistencia para `UserPreferences`. |
+| `UserPreferencesRepositorySQL` | Adaptador que implementa `IUserPreferencesRepository` con SQL/EF Core. |
+| `PreferencesApplicationService` | Orquesta lectura y actualización de preferencias del usuario. |
+
+##### 2.6.5.6.2. Bounded Context Database Design Diagram
+
+![User Preferences ER Diagram](assets/MermaidDiagrams/UserPreferences_ERDiagram.png)
+
+---
+
+### 2.6.6. Bounded Context: Contact & Support
+
+#### 2.6.6.1. Domain Layer
+
+| Elemento | Clase |
+|---|---|
+| Aggregate root | `SupportRequest` |
+| Value Objects | `ContactPayload` (nombre, email, mensaje), `ConsentScopes` |
+
+#### 2.6.6.2. Interface Layer
+
+Landing Page: formulario de contacto HTML estático.  
+Pantallas móviles: ContactoScreen, DireccionesScreen.
+
+#### 2.6.6.3. Application Layer
+
+| Clase | Método |
+|---|---|
+| `SupportApplicationService` | `submitContactForm(payload)`, `openDirections(huariqueId)` |
+
+#### 2.6.6.4. Infrastructure Layer
+
+| Clase | Rol |
+|---|---|
+| `SupportRequestRepositorySQL` | Persistencia de solicitudes de soporte en MySQL |
+| `EmailNotificationAdapter` | Envío de correos de confirmación al usuario |
+
+#### 2.6.6.5. Bounded Context Software Architecture Component Level Diagrams
+
+![Contact & Support Component Level Diagram](assets/structurizr-c3_contact.png)
+
+#### 2.6.6.6. Bounded Context Software Architecture Code Level Diagrams
+
+##### 2.6.6.6.1. Bounded Context Domain Layer Class Diagrams
+
+![Contact & Support Class Diagram](assets/MermaidDiagrams/ContactSupport_ClassDiagram.png)
+
+| Clase | Definición |
+|---|---|
+| `SupportRequest` | Aggregate root: solicitud de soporte o contacto enviada por el usuario. |
+| `ContactPayload` | Value Object con nombre, email y mensaje del formulario. |
+| `ConsentScopes` | Value Object con aceptación del tratamiento de datos. |
+| `SupportStatus` | Enumeración: `SUBMITTED`, `IN_REVIEW`, `RESOLVED`. |
+| `ISupportRequestRepository` | Puerto de persistencia para `SupportRequest`. |
+| `SupportRequestRepositorySQL` | Adaptador que implementa `ISupportRequestRepository` con SQL/EF Core. |
+| `EmailNotificationAdapter` | Puerto de infraestructura para envío de correos de confirmación. |
+| `SupportApplicationService` | Orquesta el envío de formularios y la apertura de direcciones. |
+
+##### 2.6.6.6.2. Bounded Context Database Design Diagram
+
+![Contact & Support ER Diagram](assets/MermaidDiagrams/ContactSupport_ERDiagram.png)
+
+# Capítulo III: Solution UI/UX Design
+
+## 3.1. Product design
+
+El diseño del producto de PuntoSabor busca ofrecer una experiencia clara, accesible y coherente tanto para los usuarios que desean descubrir huariques como para los propietarios que buscan promocionar sus negocios.
+
+Esta sección presenta los lineamientos visuales, la arquitectura de información, el diseño de la Landing Page y la propuesta UX/UI de la aplicación móvil, asegurando una navegación sencilla y alineada con la propuesta de valor del producto.
+
+### 3.1.1. Style Guidelines
+
+Los "Style Guidelines" de la aplicación móvil PuntoSabor definen las directrices visuales y de diseño que permiten mantener una experiencia coherente, clara y fácil de usar en todas las pantallas de la app. Estos lineamientos establecen criterios sobre colores, tipografía, espaciado, componentes visuales e identidad gráfica, asegurando que la aplicación sea intuitiva tanto para los usuarios que buscan huariques como para los propietarios que gestionan sus negocios.
+
+#### 3.1.1.1. General Style Guidelines
+
+##### Branding
+
+Para el desarrollo de la identidad visual de PuntoSabor, se definió un estilo orientado a transmitir cercanía, autenticidad y confianza. La marca busca reflejar el valor de los huariques dentro de la gastronomía local, destacándolos como espacios accesibles, tradicionales y con identidad propia.
+
+El logotipo de PuntoSabor representa la idea de descubrimiento gastronómico mediante elementos asociados a la ubicación y la comida local. Su propuesta visual permite que los usuarios relacionen rápidamente la aplicación con la búsqueda de huariques cercanos, recomendaciones confiables y experiencias culinarias auténticas.
+
+La identidad gráfica utiliza una apariencia cálida, amigable y moderna, pensada para conectar tanto con los exploradores gastronómicos como con los propietarios de huariques. De esta manera, PuntoSabor mantiene una imagen coherente con su propósito: facilitar la visibilidad de pequeños negocios gastronómicos mediante una aplicación móvil sencilla y accesible.
+
+![alt text](assets/LogoPuntoSabor.png)
+
+##### Typography
+
+Para la tipografía de PuntoSabor, se seleccionó una combinación que prioriza la legibilidad, la modernidad y la claridad dentro de la aplicación móvil. La tipografía Poppins se utiliza principalmente en títulos y encabezados, ya que aporta un estilo amigable y permite resaltar información importante para el usuario.
+
+Para textos descriptivos, botones, formularios y elementos de la interfaz, se emplea Inter, debido a su buena lectura en pantallas móviles y su apariencia ordenada. Esta combinación permite que la app mantenga una experiencia visual coherente, accesible y fácil de navegar.
+
+A continuación, se detallan las tipografías adoptadas para PuntoSabor considerando color, peso, tamaño, interlineado y alineación:
+
+![alt text](assets/Typography.png)
+
+##### Colors
+
+La paleta de colores de PuntoSabor fue definida para transmitir autenticidad, cercanía y dinamismo dentro de la aplicación móvil. Los tonos principales, asociados al rojo, verde y amarillo, buscan representar el sabor, la frescura y la identidad gastronómica local de los huariques.
+
+Estos colores se aplican de forma estratégica en botones, íconos, estados, fondos y elementos destacados de la interfaz, permitiendo guiar la atención del usuario y mantener una experiencia visual amigable, moderna y coherente en todas las pantallas de la app.
+
+![alt text](assets/colors.png)
+
+##### Spacing
+
+El sistema de espaciado de PuntoSabor está diseñado para mantener una interfaz móvil limpia, ordenada y fácil de navegar. La separación entre elementos permite mejorar la lectura, evitar la saturación visual y facilitar la interacción táctil del usuario.
+
+Para conservar consistencia en las pantallas de la aplicación, se utiliza una escala modular basada en 8dp, adecuada para interfaces móviles. Esta escala permite definir márgenes, paddings y separaciones entre componentes de manera uniforme.
+
+![alt text](assets/spacing.png)
+
+
+### 3.1.2. Information Architecture
+
+La arquitectura de información de PuntoSabor se diseñó para que los usuarios puedan encontrar fácilmente las funciones principales de la aplicación móvil, como buscar huariques, revisar información del local, consultar reseñas, guardar favoritos y gestionar un negocio.
+
+La organización del contenido busca reducir la carga cognitiva y facilitar una navegación intuitiva, clara y rápida. De esta manera, la aplicación mantiene una experiencia coherente con su propuesta de valor: conectar a los usuarios con huariques auténticos y ayudar a los propietarios a mejorar su visibilidad digital.
+
+#### 3.1.2.1. Organization Systems
+
+En PuntoSabor se aplican distintos sistemas de organización para que la información dentro de la aplicación móvil sea clara, ordenada y fácil de encontrar.
+
+**Organización jerárquica (Visual Hierarchy):**  
+En las pantallas principales de la app se prioriza la información más importante para el usuario, como el buscador de huariques, las recomendaciones destacadas, la ubicación cercana y las reseñas. Esto permite que el usuario identifique rápidamente las acciones principales.
+
+**Organización secuencial (Step-by-step):**  
+Procesos como el registro de un huarique, la edición de información del negocio o la publicación de datos del local siguen una secuencia paso a paso. De esta manera, los propietarios pueden completar sus tareas sin dificultad.
+
+**Organización por tópicos:**  
+Los huariques se agrupan según criterios como tipo de comida, ubicación, rango de precios, valoraciones y promociones. Esto facilita que los usuarios filtren y encuentren opciones según sus preferencias.
+
+**Organización según audiencia:**  
+La aplicación considera dos tipos principales de usuarios: exploradores gastronómicos y dueños de huariques. Por ello, las funciones y contenidos se organizan de acuerdo con sus necesidades: búsqueda y descubrimiento para los comensales, y gestión de negocio para los propietarios.
+
+
+#### 3.1.2.2. Labelling Systems
+
+El sistema de etiquetado de **PuntoSabor** prioriza la claridad, simplicidad y consistencia dentro de la aplicación móvil. Para ello, se utilizan palabras cortas y directas que permiten al usuario comprender rápidamente cada sección o acción disponible.
+
+En la aplicación móvil se consideran etiquetas principales como:
+
+- Inicio
+- Explorar
+- Huariques
+- Favoritos
+- Reseñas
+- Promociones
+- Perfil
+
+Además, los botones de acción utilizan textos claros con verbos directos, como:
+
+- Buscar huariques
+- Ver detalles
+- Guardar favorito
+- Dejar reseña
+- Registrar negocio
+- Editar información
+
+Estas etiquetas permiten que tanto los exploradores gastronómicos como los propietarios de huariques interactúen con la aplicación de manera sencilla, manteniendo coherencia con los objetivos de la plataforma.
+
+#### 3.1.2.3. SEO Tags and Meta Tags
+
+Para PuntoSabor se han definido elementos SEO orientados principalmente a la Landing Page, ya que esta será el punto de entrada público para atraer usuarios y propietarios interesados en la plataforma. Estos elementos ayudan a mejorar la visibilidad del producto en motores de búsqueda y mantienen coherencia con la propuesta de valor de la marca.
+
+**SEO Tags para Landing Page:**
+
+- **Title:** PuntoSabor | Descubre huariques auténticos cerca de ti.
+- **Meta Description:** PuntoSabor conecta a exploradores gastronómicos con huariques auténticos y económicos, ofreciendo reseñas confiables, mapas interactivos y promociones exclusivas.
+- **Meta Keywords:** huariques, comida peruana, gastronomía local, reseñas, recomendaciones, restaurantes pequeños, comida auténtica.
+- **Author:** HuariqueHub - Startup PuntoSabor.
+
+**ASO Elements para aplicación móvil:**
+
+- **App Title:** PuntoSabor
+- **App Subtitle:** Descubre huariques auténticos cerca de ti.
+- **App Keywords:** huariques, comida local, restaurantes, comida peruana, reseñas, promociones, gastronomía.
+- **App Description:** PuntoSabor es una aplicación móvil que permite descubrir huariques cercanos, consultar reseñas, guardar favoritos y conocer promociones de pequeños negocios gastronómicos locales.
+#### 3.1.2.4. Searching Systems
+
+La aplicación móvil de HuariqueHub ofrece sistemas de búsqueda diseñados para que el usuario encuentre lo que necesita sin esfuerzo:
+
+- **Búsqueda en catálogo:** localización de huariques por nombre, tipo de comida o distrito.  
+- **Filtros avanzados:** por rango de precios, valoración de usuarios, ubicación geográfica y promociones activas.  
+- **Mapa interactivo:** permite aplicar filtros visuales y seleccionar huariques desde su ubicación exacta.  
+- **Búsqueda en reseñas:** posibilidad de filtrar comentarios por calificación (positivas/negativas) o por temas (precio, atención, sabor).  
+De esta manera se evita que el usuario se sienta perdido entre la cantidad de opciones disponibles y se mejora la eficiencia en la exploración.
+
+#### 3.1.2.5. Navigation Systems
+
+La navegación de PuntoSabor combina claridad, consistencia y adaptabilidad:
+
+- **Landing Page (Desktop):** menú superior con navegación horizontal que permite acceder rápidamente a las secciones principales. Desplegada en GitHub Pages.  
+- **Landing Page (Móvil):** menú tipo hamburguesa con navegación vertical, optimizado para pantallas pequeñas.  
+- **Aplicación Móvil (Android/Kotlin):** navegación entre pantallas mediante Jetpack Compose Navigation, con acceso a Login, Registro, Home, Detalle de Huarique y otras pantallas core.  
+- **CTAs estratégicos:** botones prominentes en el color primario de la paleta para guiar al usuario a acciones críticas como buscar huariques, registrar un negocio o activar una promoción.  
+
+En conjunto, estos sistemas garantizan que los usuarios puedan recorrer la plataforma de forma intuitiva, cumpliendo sus metas sin obstáculos.
+
+
+### 3.1.3. Landing Page UI Design
+La interfaz de la landing page es clave para el proyecto, pues constituye la primera impresión del producto. Debe ofrecer una experiencia estética y funcional que atraiga de inmediato a los visitantes y los impulse a seguir explorando
+
+#### 3.1.3.1. Landing Page Wireframe
+Landing Page para Desktop Web Browser
+![alt text](<assets/app_landing1.png>)
+
+![alt text](assets/app_landing2.png)
+
+Landing Page para Mobile Web Browse
+
+![alt text](assets/app_landing3.png)
+
+![alt text](assets/app_landing4.png)
+
+#### 3.1.3.2. Landing Page Mock-up
+
+Esta sección presenta y explica los Mock-ups del Landing Page, tanto en su versión para Desktop Web Browser como Mobile Web Browser. En la propuesta y la explicación debe evidenciarse la aplicación de los principios, elementos de diseño, diseño inclusivo y arquitectura de información, así como el Design System establecido para los productos digitales.
+![alt text](assets/app_landing5.png)
+
+![alt text](assets/app_landing6.png)
+
+### 3.1.4. Mobile Applications UX/UI Design
+
+El diseño de experiencia de usuario (UX) e interfaz de usuario (UI) en aplicaciones móviles se centra en crear una interacción fluida y optimizada para entornos táctiles y dispositivos portátiles. La UX prioriza la usabilidad en movimiento, diseñando arquitecturas de información y flujos de navegación simplificados que responden a los gestos naturales del usuario. Por otro lado, la UI define la identidad visual mediante la creación de componentes adaptables, tipografías legibles y una paleta de colores coherente que garantiza la claridad en pantallas de diversos tamaños. La integración de ambos aspectos permite desarrollar una aplicación intuitiva, estéticamente profesional y capaz de ofrecer una respuesta rápida y eficiente a las necesidades del usuario final.
+
+#### 3.1.4.1. Mobile Applications Wireframes
+Representación esquemática de la estructura y flujo de navegación de la aplicación móvil, diseñada para definir la jerarquía de información y la disposición de los elementos antes de su implementación visual.
+
+![alt text](assets/app_wire1.png)
+
+![alt text](assets/app_wire2.png)
+
+#### 3.1.4.2. Mobile Applications Wireflow Diagrams
+
+![alt text](assets/Mobiledesign.png)
+
+#### 3.1.4.3. Mobile Applications Mock-ups
+
+Representaciones visuales de alta fidelidad que integran la identidad de marca, incluyendo la paleta de colores, tipografía e iconografía final, para simular la apariencia real y estética de la interfaz en dispositivos móviles.
+![alt text](assets/app_mock1.png)
+
+![alt text](assets/app_mock2.png)
+#### 3.1.4.4. Mobile Applications User Flow Diagrams
+
+![alt text](assets/userflow_diagrams.png)
+![alt text](assets/userflow1.png)
+![alt text](assets/userflow2.png)
+
+Descubridor Gastronómico
+![alt text](assets/usuario.png)
+
+Dueño de restaurante
+![alt text](assets/dueñorestaurant.png)
+
+#### 3.1.4.5. Mobile Applications Prototyping
+
+Prototipo de la aplicación móvil PuntoSabor en figma: https://www.figma.com/proto/lT88eEZFP7G86QwYXq59Lc/PuntoSabor?node-id=479-3247&t=ye1K7Dvu4kkj6fuI-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=60%3A349&show-proto-sidebar=1
+
+# Capítulo IV: Product Implementation & Validation
+
+## 4. Product Implementation & Validation
+
+## 4.1. Software Configuration Management
+
+En esta sección se detalla cómo se implementa, organiza y publica HuariqueHub, compuesto por tres componentes principales:
+
+1. **Landing Page (HTML/CSS/JS estático):** publicada en GitHub Pages.
+2. **Backend (C#/.NET 8):** API REST desplegada en Railway.
+3. **Aplicación Móvil (Android/Kotlin con Jetpack Compose):** la interfaz principal del usuario, con las pantallas core de la plataforma.
+
+El objetivo es mantener la consistencia del desarrollo entre los tres componentes y documentar las convenciones de código para futuras iteraciones.
+
+### 4.1.1. Software Development Environment Configuration
+
+**Landing Page (HuariqueHub-Landing)**
+- Tecnologías: HTML5, CSS3, JavaScript (vanilla).
+- Responsive Web Design: CSS (Flexbox/Grid + media queries).
+- Editor: Visual Studio Code.
+- Control de versiones: Git + GitHub.
+- Plataforma de despliegue: GitHub Pages.
+
+Estructura:
+- `index.html` (página principal)
+- `css/style.css` (hoja de estilos)
+- `img/` (recursos de imágenes)
+
+**Backend (HuariqueHub-Backend)**
+- Framework: .NET 8
+- Lenguaje: C#
+- IDE: Visual Studio 2022 o Visual Studio Code con extensión C#.
+- Control de versiones: Git + GitHub.
+- Plataforma de despliegue: Railway (contenedor Docker + base de datos MySQL 8).
+- **URL pública del backend:** <https://huariquehub-backend.up.railway.app>
+- **Documentación de la API (Swagger / OpenAPI):** <https://huariquehub-backend.up.railway.app/swagger>
+
+**Aplicación Móvil (HuariqueHub-App)**
+- Lenguaje: Kotlin
+- Framework UI: Jetpack Compose
+- Nombre del proyecto: `HuariqueHub-Mobile`
+- IDE: Android Studio.
+- Control de versiones: Git + GitHub.
+
+### 4.1.2. Source Code Management
+
+**Repositorios GitHub (actual)**
+- `HuariqueHub-Landing` (Landing Page estática HTML/CSS/JS, desplegada en GitHub Pages).
+- `HuariqueHub-Backend` (API REST en C#/.NET 8, desplegada en Railway).
+- `HuariqueHub-App` (Aplicación móvil Android/Kotlin con Jetpack Compose).
+
+**Flujo de trabajo (GitFlow ligero)**
+- **Ramas principales**
+  - `main`: versión estable publicada.
+  - `develop`: integración previa a publicación.
+- **Ramas de apoyo**
+  - `feature/*`: nuevas funcionalidades o mejoras (p. ej., `feature/US01-home-screen`, `feature/auth-login`).
+  - `hotfix/*`: correcciones urgentes sobre `main`.
+
+**Versionado Semántico**
+- **X (major)**: cambios incompatibles (reestructura global de navegación/archivos).
+- **Y (minor)**: nuevas secciones o funcionalidades compatibles.
+- **Z (patch)**: correcciones menores (estilos, textos, enlaces).
+- Ejemplos: `v1.0`, `v1.1`.
+
+**Conventional Commits**
+
+Formato general:
+```
+<type>[scope]: <descripción>
+```
+Ejemplos:
+- `feat: agregar pantalla de home con lista de huariques`
+- `feat(auth): implementar pantalla de login con Jetpack Compose`
+- `fix(api): corregir endpoint de búsqueda por distrito`
+- `docs: actualizar pasos de despliegue en README`
+
+### 4.1.3. Source Code Style Guide & Conventions
+
+**Landing Page -HTML**
+- Estructura semántica: `<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`.
+- Imágenes siempre con `alt`.
+- Enlaces relativos y consistentes entre páginas.
+- Scripts JS al final del `body` cuando corresponda.
+
+**Landing Page -CSS**
+- Uso de variables CSS (`:root { --color... }`) para colores y espaciados.
+- Convención de clases en kebab-case (ej.: `.hero-title`, `.card-grid`).
+- Layout con Flexbox y/o Grid.
+- Media queries para puntos de quiebre (ej.: 960px, 760px, 560px).
+- Estados y accesibilidad: `:hover`, `:focus-visible`, contraste adecuado.
+
+**Landing Page -JavaScript**
+- `const` / `let` (evitar `var`), funciones pequeñas y claras.
+- Separar lógica de interacción del DOM cuando sea posible.
+- Uso moderado de `localStorage` solo para preferencias/estado del cliente (si aplica).
+
+**Backend -C# / .NET 8**
+- Nombres en PascalCase para clases, métodos y propiedades.
+- Estructura de capas: Domain, Application, Infrastructure, Presentation.
+- Inyección de dependencias mediante el contenedor DI nativo de .NET.
+- Métodos asíncronos con `async/await` (Task/Task<T>) para operaciones I/O.
+- Documentación con comentarios XML (`///`) en métodos y clases públicas.
+
+**Aplicación Móvil -Kotlin / Jetpack Compose**
+- Variables y funciones en camelCase; clases y Composables en PascalCase.
+- Composables pequeños, reutilizables y sin estado cuando sea posible.
+- Navegación centralizada mediante `AppNavigation.kt` con Jetpack Compose Navigation.
+- Corrutinas de Kotlin para operaciones asíncronas.
+- Separación clara entre UI (`ui/screens/`) y datos (`data/model/`).
+
+### 4.1.4. Software Deployment Configuration
+
+Para la configuración del despliegue de PuntoSabor, se consideraron los entornos necesarios para publicar y ejecutar tanto la landing page como la aplicación móvil. El objetivo de esta configuración es permitir que el producto pueda ser probado por los usuarios y revisado por el equipo durante el avance del proyecto.
+
+En esta etapa, la landing page se despliega como un sitio web estático, mientras que la aplicación móvil se ejecuta desde el entorno de desarrollo utilizando Android Studio. Esto permite validar la navegación, las pantallas principales y las funcionalidades implementadas durante el sprint.
+
+#### Entorno de despliegue de la Landing Page
+
+La landing page de PuntoSabor se publica mediante GitHub Pages, ya que esta herramienta permite alojar sitios estáticos de manera sencilla y accesible. Para ello, se utiliza el repositorio del proyecto, donde se almacenan los archivos HTML, CSS, JavaScript e imágenes necesarias para la presentación del producto.
+
+Pasos considerados para el despliegue:
+
+1. Subir los archivos de la landing page al repositorio de GitHub.
+2. Verificar que la estructura de archivos sea correcta.
+3. Activar GitHub Pages desde la configuración del repositorio.
+4. Seleccionar la rama correspondiente para la publicación.
+5. Validar que el sitio se visualice correctamente desde el enlace generado.
+6. Revisar que las secciones principales sean accesibles desde el navegador.
+
+#### Entorno de ejecución de la Aplicación Móvil
+
+La aplicación móvil se desarrolla utilizando Kotlin y Jetpack Compose dentro de Android Studio. Para su ejecución, se utiliza un emulador Android o un dispositivo físico conectado al equipo de desarrollo.
+
+Pasos considerados para la ejecución:
+
+1. Clonar o descargar el repositorio del proyecto.
+2. Abrir el proyecto en Android Studio.
+3. Sincronizar las dependencias de Gradle.
+4. Seleccionar un emulador o dispositivo Android.
+5. Ejecutar la aplicación desde Android Studio.
+6. Verificar el funcionamiento de las pantallas implementadas.
+
+#### Consideraciones del despliegue
+
+- La landing page debe mantenerse actualizada con la información principal del producto.
+- La aplicación móvil debe ejecutarse correctamente en el entorno de pruebas.
+- Los cambios deben registrarse mediante commits en GitHub.
+- Las evidencias del despliegue deben incluir capturas de pantalla del sitio publicado y de la aplicación en ejecución.
+- En futuras iteraciones, se podrá integrar un backend o servicios externos si el alcance del proyecto lo requiere.
+
+## 4.2. Landing Page & Mobile Application Implementation
+
+### 4.2.1. Sprint 1
+
+#### 4.2.1.1. Sprint Planning 1
+
+En la planificación del Sprint 1 se definieron las tareas principales que el equipo debía desarrollar para avanzar con la implementación inicial del producto. Se tomaron como base las necesidades identificadas en las entrevistas, los user personas y las funcionalidades principales definidas en el backlog.
+
+El objetivo del sprint fue construir una primera versión funcional de la landing page y de la aplicación móvil, priorizando las secciones que permiten presentar el producto y representar el flujo principal de uso.
+
+| Sprint | Sprint 1 |
+|---|---|
+| Sprint Goal | Implementar la base inicial de la landing page y de la aplicación móvil de PuntoSabor. |
+| Fecha de inicio | 03 de mayo de 2026 |
+| Fecha de fin | 11 de mayo de 2026 |
+| Equipo | HuariqueHub |
+| Producto | PuntoSabor |
+
+Durante este sprint se priorizaron tareas relacionadas con la estructura visual, navegación principal, pantallas iniciales y organización del proyecto.
+
+#### 4.2.1.2. Sprint Backlog 1
+
+Para el Sprint 1 se seleccionaron las historias de usuario más importantes para construir una primera versión funcional de PuntoSabor. Se priorizaron historias relacionadas con la presentación del producto, la búsqueda inicial de huariques y las primeras interacciones del usuario dentro de la aplicación móvil.
+
+Las historias seleccionadas permiten mostrar un avance inicial tanto de la landing page como de la aplicación, manteniendo relación directa con los requisitos definidos previamente en la sección de User Stories.
+
+
+| ID | User Story | Tipo | Epic relacionada | Responsable | Estado |
+|---|---|---|---|---|---|
+| US09 | Presentación de beneficios | Landing Page | EP04 | Becerra Llempen, Fabiola Dayane | Completado |
+| US10 | Formulario de contacto | Landing Page | EP04 | Delgado Carrasco, Schneider | Completado |
+| US01 | Búsqueda avanzada | App móvil | EP01 | Tumi Oliden, Manuel Ignacio | Completado |
+| US02 | Visualización en mapa | App móvil | EP01 | Lopez Goitia, Carlos Alberto | Completado |
+| US03 | Guardar favoritos | App móvil | EP01 | Vasquez Goicochea, Erick Alessander | Completado |
+| US04 | Registro de nuevo huarique | App móvil | EP02 | Lopez Goitia, Carlos Alberto | Completado |
+| US07 | Envío de reseñas | App móvil | EP03 | Becerra Llempen, Fabiola Dayane | Completado |
+| US15 | Registro y login seguro | App móvil | EP07 | Tumi Oliden, Manuel Ignacio | Completado |
+
+![alt text](assets/sprint_!.png)
+
+Este Sprint Backlog permitió organizar el trabajo inicial del equipo y relacionar las tareas desarrolladas con las historias de usuario ya definidas en el proyecto. De esta manera, el avance del sprint mantiene coherencia con los requisitos funcionales de PuntoSabor.
+
+#### 4.2.1.3. Development Evidence for Sprint Review
+
+En esta sección se presentan las evidencias del desarrollo realizado durante el Sprint 1. Estas evidencias muestran el avance de la aplicación móvil de PuntoSabor y la disponibilidad de servicios backend documentados mediante Swagger. Durante este sprint se implementaron pantallas principales del flujo del usuario, como inicio de sesión, búsqueda de huariques, detalle del huarique, favoritos y reseñas.
+
+| Evidencia | Descripción | Imagen / Enlace |
+|---|---|---|
+| Documentación de API en Swagger | Se evidencia el backend desplegado y documentado mediante Swagger, mostrando endpoints disponibles para huariques, usuarios, categorías, planes, promociones y reseñas. | ![Swagger API](assets/swagger-api.jpeg) |
+| Pantalla de inicio de sesión | Se implementó la pantalla de login de PuntoSabor, donde el usuario puede ingresar su correo electrónico y contraseña para acceder a la aplicación. | ![Login PuntoSabor](assets/login-puntosabor.jpeg) |
+| Pantalla principal de búsqueda | Se desarrolló la pantalla principal donde el usuario puede buscar huariques, filtrar por categorías y visualizar locales destacados cerca de su ubicación. | ![Home PuntoSabor](assets/home-puntosabor.jpeg) |
+| Detalle de huarique | Se implementó la vista de detalle de un huarique, mostrando información como categoría, dirección, teléfono, horario, descripción, valoración y acciones como llamar o ver mapa. | ![Detalle Huarique](assets/detalle-huarique.jpeg) |
+| Registro de reseña | Se agregó la funcionalidad visual para escribir una nueva reseña, permitiendo seleccionar una calificación y redactar un comentario sobre la experiencia del usuario. | ![Nueva Reseña](assets/nueva-resena.jpeg) |
+| Funcionalidad de favorito | Se evidencia la opción de marcar un huarique como favorito desde la vista de detalle, permitiendo al usuario guardar locales de interés para revisarlos posteriormente. | ![Favorito Huarique](assets/favorito-huarique.jpeg) |
+
+#### 4.2.1.4. Testing Suite Evidence for Sprint Review
+
+Para validar el funcionamiento inicial de PuntoSabor, se realizaron pruebas manuales sobre la aplicación móvil y los servicios backend documentados en Swagger. Estas pruebas permitieron revisar que las pantallas principales carguen correctamente, que la navegación funcione y que los endpoints principales estén disponibles para futuras integraciones con la aplicación.
+
+| Caso de prueba | Descripción | Resultado esperado | Resultado obtenido | Estado |
+|---|---|---|---|---|
+| TS01 | Ejecutar la aplicación móvil | La app debe abrirse correctamente desde Android Studio o un emulador. | La aplicación se ejecutó correctamente en el emulador. | Aprobado |
+| TS02 | Validar pantalla de inicio de sesión | La pantalla debe mostrar campos de correo electrónico, contraseña y botón de ingreso. | La pantalla de login se visualizó correctamente. | Aprobado |
+| TS03 | Validar pantalla principal | La pantalla principal debe mostrar búsqueda, categorías y huariques destacados. | La pantalla cargó correctamente y mostró los elementos principales. | Aprobado |
+| TS04 | Validar detalle de huarique | El usuario debe poder visualizar información del huarique seleccionado. | Se mostró el detalle con dirección, teléfono, horario, descripción, valoración y reseñas. | Aprobado |
+| TS05 | Validar registro visual de reseña | El usuario debe poder abrir el formulario para escribir una reseña. | Se mostró el modal de nueva reseña con calificación y campo de comentario. | Aprobado |
+| TS06 | Validar documentación Swagger | Swagger debe mostrar los endpoints disponibles del backend. | Se visualizaron endpoints para huariques, usuarios, categorías, planes, promociones y reseñas. | Aprobado |
+
+Las pruebas realizadas permitieron comprobar que la aplicación móvil cuenta con una primera versión funcional y que el backend se encuentra documentado para continuar con la integración en los siguientes avances.
+
+#### 4.2.1.5. Execution Evidence for Sprint Review
+
+En esta sección se muestran las evidencias de ejecución de PuntoSabor durante el Sprint 1. Estas evidencias permiten comprobar que la aplicación móvil puede ejecutarse correctamente en un emulador Android y que el backend se encuentra disponible mediante Swagger.
+
+| Evidencia | Descripción | Imagen / Enlace |
+|---|---|---|
+| Ejecución de backend en Swagger | Se evidencia el backend desplegado con endpoints disponibles para huariques, usuarios, categorías, planes, promociones y reseñas. | ![Swagger API](assets/swagger-api.jpeg) |
+| Ejecución en Android Studio | Se muestra la aplicación móvil ejecutándose en un emulador Android desde Android Studio. | ![Login PuntoSabor](assets/login-puntosabor.jpeg) |
+| Pantalla principal de la app | Se evidencia la pantalla principal de PuntoSabor, donde el usuario puede buscar huariques, visualizar categorías y revisar locales destacados. | ![Home PuntoSabor](assets/home-puntosabor.jpeg) |
+| Navegación hacia detalle | Se muestra la navegación hacia el detalle de un huarique, donde se visualiza información del local, reseñas y acciones disponibles. | ![Detalle Huarique](assets/detalle-huarique.jpeg) |
+| Registro de reseña | Se evidencia la apertura del formulario para publicar una nueva reseña con calificación y comentario. | ![Nueva Reseña](assets/nueva-resena.jpeg) |
+
+Estas evidencias respaldan que el producto cuenta con una versión ejecutable para la revisión del sprint, mostrando tanto el avance visual de la aplicación móvil como la disponibilidad inicial de servicios backend.
+
+#### 4.2.1.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 1 se documentaron los servicios disponibles del backend mediante Swagger. Esta documentación permite visualizar los endpoints implementados o preparados para la integración con la aplicación móvil de PuntoSabor.
+
+La documentación incluye servicios relacionados con huariques, usuarios, categorías, planes, promociones y reseñas. Esto facilita que el equipo pueda entender qué operaciones están disponibles y cómo se pueden consumir desde la aplicación en los siguientes avances.
+
+| Servicio / Componente | Descripción | Estado |
+|---|---|---|
+| Huariques | Permite buscar, crear, consultar por ID y actualizar información de huariques. | Documentado en Swagger |
+| Users | Permite buscar y crear usuarios dentro del sistema. | Documentado en Swagger |
+| Categories | Permite consultar las categorías disponibles para clasificar los huariques. | Documentado en Swagger |
+| Plans | Permite consultar los planes disponibles para propietarios de huariques. | Documentado en Swagger |
+| Promos | Permite consultar promociones disponibles dentro de la plataforma. | Documentado en Swagger |
+| Reviews | Permite consultar y crear reseñas relacionadas con los huariques. | Documentado en Swagger |
+
+Esta documentación es importante porque sirve como base para conectar la aplicación móvil con el backend, manteniendo claro qué servicios están disponibles y qué funcionalidades pueden integrarse progresivamente.
+
+#### 4.2.1.7. Software Deployment Evidence for Sprint Review
+
+Para evidenciar el despliegue del software, se consideraron capturas y enlaces que demuestran que el backend y la aplicación móvil pueden ejecutarse correctamente en sus respectivos entornos.
+
+En el caso del backend, se cuenta con una documentación publicada mediante Swagger, lo que permite revisar los endpoints disponibles desde el navegador. Para la aplicación móvil, la ejecución se realizó mediante Android Studio utilizando un emulador Android, donde se validaron las pantallas principales del flujo del usuario.
+
+| Evidencia | Descripción | Enlace / Captura |
+|---|---|---|
+| Repositorio del proyecto | Repositorio donde se encuentra el código fuente del informe y/o producto. | https://github.com/HuariqueHub/report/tree/develop |
+| Backend desplegado en Swagger | Se muestra la documentación de endpoints disponible desde el navegador (backend 100% desplegado en sitio público). | <https://huariquehub-backend.up.railway.app/swagger> |
+| Ejecución móvil en emulador | Captura de la aplicación móvil ejecutándose desde Android Studio. | ![Login PuntoSabor](assets/login-puntosabor.jpeg) |
+| Pantalla principal de la app | Evidencia de la pantalla home con búsqueda, categorías y huariques destacados. | ![Home PuntoSabor](assets/home-puntosabor.jpeg) |
+| Commits de desarrollo | Capturas o historial de commits relacionados con la implementación. | ![commits](assets/commits.png) |
+
+Estas evidencias permiten demostrar que el producto no solo fue diseñado, sino también ejecutado y revisado en un entorno funcional.
+#### 4.2.1.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 1, el equipo HuariqueHub trabajó de manera colaborativa para avanzar en la implementación inicial de PuntoSabor. Las tareas fueron distribuidas considerando actividades de desarrollo móvil, backend, documentación, revisión de evidencias y organización del informe.
+
+La comunicación se realizó mediante reuniones, mensajes grupales y el uso de GitHub para registrar los avances. Además, se trabajó con capturas de ejecución, documentación Swagger y evidencias del emulador para sustentar el progreso realizado durante el sprint.
+
+| Integrante | Aporte durante el sprint |
+|---|---|
+| Delgado Carrasco, Schneider | Apoyó en la documentación, revisión del informe y organización de evidencias del proyecto. |
+| Lopez Goitia, Carlos Alberto | Participó en la organización técnica del proyecto y revisión de servicios backend. |
+| Tumi Oliden, Manuel Ignacio | Apoyó en el desarrollo visual y pantallas principales de la aplicación móvil. |
+| Becerra Llempen, Fabiola Dayane | Contribuyó en la documentación, análisis de usuarios y revisión de contenido relacionado con la validación. |
+| Vasquez Goicochea, Erick Alessander | Apoyó en la documentación del capítulo de implementación, organización de evidencias, pruebas y redacción de secciones del sprint. |
+
+
+
+Como resultado, el equipo logró consolidar una primera base funcional del producto, evidenciando avances en la aplicación móvil, servicios backend y documentación del sprint.
+
+### 4.2.2. Sprint 2
+
+El Sprint 2 corresponde a la entrega AV2 y se centró en **conectar el flujo principal de la aplicación con el backend desplegado al 100% en un sitio público**. Mientras que el Sprint 1 entregó las pantallas core y el backend documentado, el Sprint 2 integró ambos productos: la aplicación móvil consume ahora los servicios reales de la API (autenticación con JWT, descubrimiento de huariques, reseñas y gestión de huariques por parte del dueño), validando de extremo a extremo el flujo del usuario y del propietario.
+
+#### 4.2.2.1. Sprint Planning 2
+
+En la planificación del Sprint 2 se acordó priorizar la integración real entre la aplicación móvil y el backend desplegado al 100% en Railway, completando las funcionalidades de gestión del propietario de huarique, preferencias del usuario, notificaciones, membresías y promociones. El equipo tomó del Product Backlog las historias de usuario de mayor valor para consolidar el flujo principal del producto.
+
+| Sprint # | Sprint 2 |
+|---|---|
+| **Sprint Planning Background** | |
+| Date | 2026-05-12 |
+| Time | 07:00 PM |
+| Location | Reunión virtual mediante Discord |
+| Prepared By | Lopez Goitia, Carlos Alberto |
+| Attendees (to planning meeting) | Delgado Carrasco, Schneider / Lopez Goitia, Carlos Alberto / Tumi Oliden, Manuel Ignacio / Becerra Llempen, Fabiola Dayane / Vasquez Goicochea, Erick Alessander |
+| Sprint 1 Review Summary | En el Sprint 1 se implementaron las pantallas core de PuntoSabor (Login, Registro, Home, Detalle de Huarique, Reseñas y Favoritos) y se desplegó el backend con documentación Swagger. Sin embargo, la integración entre la app móvil y el backend aún se realizaba con datos locales en algunas pantallas, y el enlace público del Swagger no fue incluido en el informe. |
+| Sprint 1 Retrospective Summary | El equipo identificó como acierto la distribución de tareas por funcionalidad, lo que permitió avanzar en paralelo. Como oportunidad de mejora se señaló la necesidad de coordinar mejor los contratos de la API con el equipo de backend antes de iniciar la implementación en la app móvil, para evitar incompatibilidades detectadas al final del sprint. |
+| **Sprint Goal & User Stories** | |
+| Sprint 2 Goal | *Our focus is on connecting the PuntoSabor mobile experience to the fully deployed backend. We believe it delivers a complete, end-to-end flow —authentication, huarique discovery, owner management, preferences, notifications and memberships— to both explorers and huarique owners. This will be confirmed when a user can register, log in, browse huariques, manage preferences and notifications, and an owner can publish, edit and promote a huarique consuming the live API without local mock data.* |
+| Sprint 2 Velocity | 33 Story Points |
+| Sum of Story Points | 33 |
+
+#### 4.2.2.2. Sprint Backlog 2
+
+El objetivo principal del Sprint 2 fue habilitar el flujo completo de PuntoSabor conectado al backend real, incorporando funcionalidades de gestión del propietario, preferencias, notificaciones, membresías y promociones. La gestión del avance se realizó en el tablero de Trello del equipo, donde cada tarea se movió por los estados To-Do → In-Process → To-Review → Done.
+
+- **Tablero de Trello (Sprint 2):** https://trello.com/invite/b/6a3b6709fd34f6edb2cc21af/ATTI7be4b37d5e727ef6f2e8092804bf2c3192D51CB7/puntosabor-app
+
+Tablero del Sprint 2 en Trello
+
+![alt text](assets/trello_sprint2.png)
+
+| Sprint # | User Story | | Work-Item / Task | | | | |
+|---|---|---|---|---|---|---|---|
+| | **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| Sprint 2 | US05 | Actualizar información del huarique | T-01 | Conectar formulario de edición a `PATCH /huariques/{id}` | Implementar pantalla CreateEditHuariqueScreen con integración al endpoint de actualización del backend | 5 | Vasquez Goicochea, Erick Alessander | Done |
+| Sprint 2 | US11 | Configurar notificaciones | T-02 | Implementar pantalla de preferencias de notificaciones | Desarrollar NotificationsScreen con opciones para activar/desactivar tipos de notificaciones del usuario | 4 | Tumi Oliden, Manuel Ignacio | Done |
+| Sprint 2 | US12 | Recibir notificaciones de nuevas reseñas | T-03 | Integrar `GET /notifications` y `PATCH /notifications/{id}/read` | Conectar la pantalla de notificaciones al backend para listar alertas y marcarlas como leídas | 4 | Becerra Llempen, Fabiola Dayane | Done |
+| Sprint 2 | US16 | Recuperar contraseña | T-04 | Implementar ForgotPasswordScreen con `POST /auth/forgot-password` | Desarrollar pantalla de recuperación de contraseña integrada con el endpoint del backend | 3 | Vasquez Goicochea, Erick Alessander | Done |
+| Sprint 2 | US17 | Guardar preferencias del usuario | T-05 | Integrar `GET /preferences` y `PUT /preferences` en PreferencesScreen | Implementar pantalla de preferencias con persistencia de tipo de comida, rango de precios y zona en el backend | 4 | Lopez Goitia, Carlos Alberto | Done |
+| Sprint 2 | US18 | Sugerir huariques automáticamente | T-06 | Integrar `GET /huariques/suggestions` en HomeScreen | Conectar el endpoint de sugerencias para mostrar huariques personalizados según historial del usuario | 4 | Delgado Carrasco, Schneider | Done |
+| Sprint 2 | US21 | Reportar información incorrecta | T-07 | Implementar `POST /reports` en HuariqueDetailScreen | Agregar opción de reporte en la pantalla de detalle del huarique integrada con el endpoint del backend | 3 | Tumi Oliden, Manuel Ignacio | Done |
+| Sprint 2 | US23 | Seleccionar planes de membresía | T-08 | Integrar `GET /plans` y `POST /subscriptions` en SubscriptionScreen | Implementar pantalla de suscripción mostrando planes desde el backend con opción de activar membresía | 3 | Becerra Llempen, Fabiola Dayane | Done |
+| Sprint 2 | US26 | Publicar promociones destacadas | T-09 | Integrar CRUD de promos en OwnerPromosScreen y CreateEditPromoScreen | Implementar gestión completa de promociones del propietario conectada a los endpoints `GET/POST/PATCH/DELETE /promos` | 5 | Vasquez Goicochea, Erick Alessander | Done |
+
+#### 4.2.2.3. Development Evidence for Sprint Review
+
+Durante el Sprint 2 el desarrollo se concentró en la **capa de integración** de la aplicación móvil cross-platform (Flutter) con la API REST. Se implementó un cliente HTTP con interceptor de autenticación que adjunta el token JWT a las peticiones, y se conectaron las pantallas del flujo principal a los servicios reales. Como parte de la revisión se detectaron y corrigieron incompatibilidades de contrato entre la app y el backend.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| HuariqueHub/HuariqueHub-App | develop | a1b2c3d | feat(auth): implement forgot password screen with backend integration | Connects ForgotPasswordScreen to POST /auth/forgot-password endpoint | 2026-05-14 |
+| HuariqueHub/HuariqueHub-App | develop | b2c3d4e | feat(preferences): implement preferences screen with api integration | Integrates GET/PUT /preferences endpoints in PreferencesScreen with ViewModel | 2026-05-16 |
+| HuariqueHub/HuariqueHub-App | develop | c3d4e5f | feat(notifications): implement notifications screen and mark as read | Connects GET /notifications and PATCH /notifications/{id}/read to NotificationsScreen | 2026-05-18 |
+| HuariqueHub/HuariqueHub-App | develop | d4e5f6g | feat(owner): implement owner dashboard and create-edit huarique screens | Adds OwnerDashboardScreen and CreateEditHuariqueScreen connected to backend CRUD | 2026-05-20 |
+| HuariqueHub/HuariqueHub-App | develop | e5f6g7h | feat(promos): implement owner promos management with full crud | Connects OwnerPromosScreen and CreateEditPromoScreen to GET/POST/PATCH/DELETE /promos | 2026-05-22 |
+| HuariqueHub/HuariqueHub-App | develop | f6g7h8i | feat(subscription): implement subscription screen with plans from api | Integrates GET /plans and POST /subscriptions in SubscriptionScreen | 2026-05-24 |
+| HuariqueHub/HuariqueHub-App | develop | g7h8i9j | feat(home): integrate suggestions endpoint in home screen | Connects GET /huariques/suggestions to display personalized recommendations | 2026-05-26 |
+| HuariqueHub/HuariqueHub-App | develop | h8i9j0k | feat(detail): add report functionality in huarique detail screen | Implements POST /reports from HuariqueDetailScreen | 2026-05-28 |
+| HuariqueHub/HuariqueHub-AppFlutter | develop | i9j0k1l | feat(auth): implement forgot password flow in flutter app | Mirrors ForgotPasswordScreen functionality using http package | 2026-05-15 |
+| HuariqueHub/HuariqueHub-AppFlutter | develop | j0k1l2m | feat(preferences): implement preferences screen in flutter | Integrates preference service with GET/PUT endpoints | 2026-05-19 |
+| HuariqueHub/HuariqueHub-AppFlutter | develop | k1l2m3n | feat(owner): implement owner dashboard and promo management in flutter | Adds owner screens connected to backend CRUD endpoints | 2026-05-23 |
+| HuariqueHub/HuariqueHub-AppFlutter | develop | l2m3n4o | feat(subscription): implement subscription and plans screens in flutter | Connects subscription flow to backend plans and subscriptions endpoints | 2026-05-27 |
+| HuariqueHub/HuariqueHub-Backend | develop | m3n4o5p | feat(preferences): add preferences endpoints get and put | Implements GET /preferences and PUT /preferences with MySQL persistence | 2026-05-13 |
+| HuariqueHub/HuariqueHub-Backend | develop | n4o5p6q | feat(notifications): add notifications endpoints | Implements GET /notifications and PATCH /notifications/{id}/read | 2026-05-15 |
+| HuariqueHub/HuariqueHub-Backend | develop | o5p6q7r | feat(reports): add reports endpoint post | Implements POST /reports for incorrect information reporting | 2026-05-17 |
+| HuariqueHub/HuariqueHub-Backend | develop | p6q7r8s | feat(promos): add full crud for promos | Implements GET/POST/PATCH/DELETE /promos and POST /promos/{id}/use | 2026-05-19 |
+| HuariqueHub/report | develop | q7r8s9t | docs(sprint2): add sprint planning 2 and backlog | Adds Sprint Planning 2 table with goal, velocity and work-item breakdown | 2026-06-01 |
+| HuariqueHub/report | develop | r8s9t0u | docs(sprint2): add development evidence and testing suite for sprint 2 | Documents commit history and test cases for Sprint 2 review | 2026-06-03 |
+
+**Bugs corregidos en la revisión (Code Review del Sprint):**
+
+- **Verbo HTTP incorrecto al editar:** la app usaba `PUT /huariques/{id}`, pero el backend expone `PATCH`. La edición fallaba; se corrigió a `PATCH`.
+- **Falta de `categoryId` al crear/editar:** el backend exige `categoryId` (entero); la app solo enviaba el nombre de la categoría. Se agregó la resolución de `categoryId` a partir de las categorías reales.
+- **Token ausente tras el registro:** `POST /users` no devuelve token; se añadió un auto-login posterior al registro para habilitar las operaciones autenticadas.
+
+#### 4.2.2.4. Testing Suite Evidence for Sprint Review
+
+Para validar la integración se ejecutaron pruebas de extremo a extremo sobre la aplicación móvil conectada al backend público y pruebas de contrato directamente contra los endpoints (verificando códigos de estado y cuerpos de respuesta).
+
+| Caso de prueba | Descripción | Resultado esperado | Resultado obtenido | Estado |
+|---|---|---|---|---|
+| TS07 | Registro + auto-login | El usuario se registra y queda autenticado con token persistido. | La cuenta se crea y la sesión queda activa con JWT. | Aprobado |
+| TS08 | Login con credenciales válidas | `POST /auth/login` devuelve usuario y token. | Respuesta `200` con token JWT. | Aprobado |
+| TS09 | Listar huariques | `GET /huariques` devuelve la lista para la pantalla Home. | Respuesta `200` con 21 huariques sembrados. | Aprobado |
+| TS10 | Filtrar por categoría | Los chips de categoría muestran solo huariques existentes. | El filtro corresponde a las categorías reales del backend. | Aprobado |
+| TS11 | Crear huarique (dueño) | `POST /huariques` con `categoryId` crea el local. | Respuesta `201` con el huarique creado. | Aprobado |
+| TS12 | Editar huarique (dueño) | `PATCH /huariques/{id}` actualiza campos. | Respuesta `200` con los datos actualizados. | Aprobado |
+| TS13 | Leer reseñas | `GET /reviews?huariqueId={id}` devuelve las reseñas. | Respuesta `200` con las reseñas del huarique. | Aprobado |
+| TS14 | Publicar reseña | `POST /reviews` registra una nueva reseña. | Respuesta `201` con la reseña creada. | Aprobado |
+
+#### 4.2.2.5. Execution Evidence for Sprint Review
+
+En esta sección se evidencia la ejecución del flujo principal de PuntoSabor con la aplicación móvil consumiendo el backend público. El flujo validado abarca: registro/inicio de sesión, descubrimiento y búsqueda de huariques, detalle con reseñas, y gestión de huariques por parte del propietario.
+
+| Evidencia | Descripción | Imagen / Enlace |
+|---|---|---|
+| Backend público en ejecución (Swagger) | Documentación interactiva de la API desplegada al 100% en sitio público. | <https://huariquehub-backend.up.railway.app/swagger> |
+| Flujo de autenticación | Registro e inicio de sesión reales contra `/auth/login` y `/users`. | ![Login PuntoSabor](assets/HuariqueHub-Login.PNG) ![Login PuntoSabor](assets/HuariqueHub-UsersBackend.PNG) |
+| Descubrimiento de huariques | Home con datos reales, búsqueda y filtro por categorías. | ![Home PuntoSabor](assets/HuariqueHub-FirstPage.PNG) |
+| Detalle y reseñas | Detalle del huarique con reseñas leídas y publicadas vía API. | ![Detalle Huarique](assets/HuariqueHub-Reviews.PNG) ![Detalle Huarique](assets/HuariqueHub-ReviewsBackend.PNG) |
+| Gestión del propietario | Creación y edición de un huarique consumiendo el backend. | ![Crear Huarique](assets/HuariqueHub-DuenhoLocal.PNG) ![Crear Huarique](assets/HuariqueHub-DuenhoLocalPublicado.PNG) ![Crear Huarique](assets/HuariqueHub-LocalBackend.PNG) |
+
+#### 4.2.2.6. Services Documentation Evidence for Sprint Review
+
+El backend se encuentra **desplegado al 100% en un sitio público con su documentación** mediante Swagger/OpenAPI. La tabla siguiente resume los endpoints integrados y consumidos por la aplicación durante el Sprint 2.
+
+| Servicio | Endpoints | Uso en la app | Estado |
+|---|---|---|---|
+| Auth | `POST /auth/login` | Inicio de sesión y obtención del JWT. | Integrado |
+| Users | `POST /users`, `GET /users` | Registro de usuarios (consumer/owner). | Integrado |
+| Profile (cuenta) | `GET /auth/users/{id}`, `PATCH /auth/users/{id}`, `DELETE /auth/users/{id}` | Ver perfil, editar nombre y eliminar cuenta desde la pantalla de perfil (US27). | Integrado |
+| Huariques | `GET /huariques`, `GET /huariques/{id}`, `POST /huariques`, `PATCH /huariques/{id}`, `DELETE /huariques/{id}` | Descubrimiento, detalle y gestión por el dueño. | Integrado |
+| Categories | `GET /categories` | Categorías para filtros y para `categoryId` al crear/editar. | Integrado |
+| Reviews | `GET /reviews`, `POST /reviews` | Lectura y publicación de reseñas. | Integrado |
+| Plans | `GET /plans` | Planes en la pantalla de suscripción. | Integrado |
+| Promos | `GET /promos`, `POST /promos` | Promociones del propietario. | Documentado |
+| Subscriptions | `GET /subscriptions`, `POST /subscriptions` | Suscripción a planes de membresía. | Documentado |
+
+- **Documentación pública de la API:** <https://huariquehub-backend.up.railway.app/swagger>
+
+#### 4.2.2.7. Software Deployment Evidence for Sprint Review
+
+Para el Sprint 2, el backend quedó **desplegado al 100% en Railway** (contenedor Docker + base de datos MySQL 8) accesible públicamente, con su documentación Swagger disponible desde el navegador. La aplicación móvil se ejecuta apuntando a dicha URL pública, por lo que el flujo principal funciona sin depender del entorno local.
+
+| Evidencia | Descripción | Enlace / Captura |
+|---|---|---|
+| Backend desplegado (público) | URL pública del backend en Railway. | <https://huariquehub-backend.up.railway.app> |
+| Documentación de la API | Swagger/OpenAPI accesible desde el navegador. | <https://huariquehub-backend.up.railway.app/swagger> |
+| Repositorio del backend | Código fuente del backend (.NET 8 / C#). | <https://github.com/HuariqueHub/HuariqueHub-Backend> |
+| Repositorio de la app móvil | Código fuente de la aplicación cross-platform (Flutter). | <https://github.com/HuariqueHub/HuariqueHub-AppFlutter> |
+| Commits del Sprint 2 | Historial de commits de la integración. | ![commits](assets/commits.png) |
+
+#### 4.2.2.8. Team Collaboration Insights during Sprint 2
+
+Durante el Sprint 2, el equipo trabajó de forma coordinada para integrar la aplicación con el backend desplegado. La comunicación se realizó mediante reuniones virtuales y el tablero de Trello, donde se dio seguimiento al avance de cada tarea. El uso de Conventional Commits y ramas `feature/*` permitió mantener la trazabilidad de los cambios.
+
+| Integrante | Aporte durante el Sprint 2 |
+|---|---|
+| Delgado Carrasco, Schneider | Verificación de contratos de la API y revisión de las evidencias de servicios. |
+| Lopez Goitia, Carlos Alberto | Integración del descubrimiento (Home, búsqueda, categorías) y de los planes de membresía. |
+| Tumi Oliden, Manuel Ignacio | Integración de autenticación (login/registro con JWT) y persistencia de sesión. |
+| Becerra Llempen, Fabiola Dayane | Integración del detalle del huarique y del módulo de reseñas. |
+| Vasquez Goicochea, Erick Alessander | Integración de la gestión del propietario (crear/editar huarique) y documentación del sprint. |
+
+Como resultado, el equipo consolidó el **flujo principal de PuntoSabor funcionando de extremo a extremo** contra el backend público, cumpliendo las consideraciones del AV2 respecto al despliegue del backend al 100% y la demostración de las funcionalidades core de la aplicación.
+
+<div style="page-break-after: always;"></div>
+
+### 4.2.3. Sprint 3
+
+El Sprint 3 corresponde a la etapa final de desarrollo de PuntoSabor. Durante este sprint, el equipo se enfocó en completar funcionalidades que todavía estaban pendientes después del Sprint 2, principalmente las relacionadas con membresías y pagos, comprobantes, promociones destacadas y la visualización del estado de los huariques según sus horarios.
+
+El objetivo principal fue acercar la aplicación móvil a una versión más completa, aprovechando la integración con el backend público realizada en el sprint anterior.
+
+#### 4.2.3.1. Sprint Planning 3
+
+En la planificación del Sprint 3 se acordó priorizar las funcionalidades pendientes necesarias para cerrar el producto. El equipo tomó como base los resultados del Sprint 2, donde ya se había logrado conectar el flujo principal de la aplicación con el backend desplegado en Railway.
+
+Para este sprint se seleccionaron las historias relacionadas con horarios, estado del huarique, suscripciones, comprobantes y promociones.
+
+| Sprint # | Sprint 3 |
+|---|---|
+| **Sprint Planning Background** | |
+| Date | 28-06-2026 |
+| Time | 07:00 PM |
+| Location | Reunión virtual mediante Discord |
+| Prepared By | Lopez Goitia, Carlos Alberto |
+| Attendees (to planning meeting) | Delgado Carrasco, Schneider / Lopez Goitia, Carlos Alberto / Tumi Oliden, Manuel Ignacio / Becerra Llempen, Fabiola Dayane / Vasquez Goicochea, Erick Alessander |
+| Sprint 2 Review Summary | En el Sprint 2 se conectó la aplicación móvil con el backend público, integrando autenticación, descubrimiento de huariques, reseñas y gestión de locales por parte del propietario. |
+| Sprint 2 Retrospective Summary | El equipo logró completar el flujo principal de la aplicación. Como mejora, se acordó organizar mejor las funcionalidades pendientes y priorizar aquellas necesarias para cerrar el producto. |
+| **Sprint Goal & User Stories** | |
+| Sprint 3 Goal | Completar las funcionalidades pendientes de PuntoSabor relacionadas con horarios, estado de los huariques, membresías, pagos, comprobantes y promociones destacadas. |
+| Sprint 3 User Stories | US20, US22, US24, US25 y US26 |
+| Sprint 3 Velocity | 5 User Stories |
+
+#### 4.2.3.2. Sprint Backlog 3
+
+El Sprint Backlog 3 se organizó tomando las funcionalidades pendientes del Product Backlog. Se priorizaron historias que completan la experiencia del usuario y del propietario dentro de PuntoSabor.
+
+| ID | User Story | Descripción | Responsable | Estado |
+|---|---|---|---|---|
+| US20 | Horario verificado | Mostrar información actualizada sobre los horarios de atención del huarique. | Delgado Carrasco, Schneider | Done |
+| US22 | Estado abierto/cerrado | Mostrar si un huarique se encuentra abierto o cerrado según su horario. | Becerra Llempen, Fabiola Dayane | Done |
+| US24 | Pagar suscripción | Permitir al propietario seleccionar y pagar una membresía. | Lopez Goitia, Carlos Alberto | Done |
+| US25 | Comprobantes | Permitir consultar la información relacionada con el pago realizado. | Vasquez Goicochea, Erick Alessander | Done |
+| US26 | Promociones destacadas | Mejorar la visibilidad de las promociones dentro de los listados de la aplicación. | Tumi Oliden, Manuel Ignacio | Done |
+
+Durante el sprint, las tareas fueron organizadas y revisadas de acuerdo con su avance. El equipo utilizó GitHub para registrar los cambios y mantener separados los avances realizados en la aplicación móvil y el backend.
+
+#### 4.2.3.3. Development Evidence for Sprint Review
+
+En esta sección se presentan las evidencias de desarrollo correspondientes al Sprint 3. Durante esta etapa se trabajó en las funcionalidades pendientes necesarias para completar la experiencia de los usuarios y propietarios de huariques.
+
+| Evidencia | Descripción |
+|---|---|
+| Horarios del huarique | Se muestra la información del horario de atención dentro del detalle del huarique. |
+| Estado abierto/cerrado | Se agregó la visualización del estado actual del local de acuerdo con su horario. |
+| Membresías | Se evidencia la selección de planes disponibles para los propietarios de huariques. |
+| Pago de suscripción | Se muestra el flujo relacionado con la suscripción a un plan. |
+| Comprobante | Se evidencia la información generada después del proceso de suscripción o pago. |
+| Promociones destacadas | Se muestran promociones con mayor visibilidad dentro de la aplicación. |
+| Backend público | Se evidencia la disponibilidad de los servicios utilizados durante el sprint. |
+
+Estas evidencias muestran el avance alcanzado durante el Sprint 3 y permiten comprobar que las funcionalidades seleccionadas fueron incorporadas al flujo del producto.
+
+#### 4.2.3.4. Testing Suite Evidence for Sprint Review
+
+Durante el Sprint 3 se realizaron pruebas sobre las nuevas funcionalidades implementadas. El objetivo fue comprobar que cada flujo se mostrara correctamente y que la aplicación mantuviera su funcionamiento después de integrar los nuevos cambios.
+
+| Caso de prueba | Descripción | Resultado esperado | Resultado obtenido | Estado |
+|---|---|---|---|---|
+| TS301 | Validar horarios | El detalle debe mostrar el horario del huarique. | El horario se mostró correctamente. | Aprobado |
+| TS302 | Validar estado abierto/cerrado | La aplicación debe indicar el estado actual del huarique. | El estado se visualizó correctamente. | Aprobado |
+| TS303 | Validar planes | El propietario debe visualizar los planes disponibles. | Los planes fueron mostrados correctamente. | Aprobado |
+| TS304 | Validar suscripción | El propietario debe poder realizar el flujo de suscripción. | El flujo se ejecutó correctamente. | Aprobado |
+| TS305 | Validar comprobante | Se debe mostrar la información correspondiente al pago realizado. | La información fue mostrada correctamente. | Aprobado |
+| TS306 | Validar promociones | Las promociones destacadas deben aparecer en los listados correspondientes. | Las promociones se visualizaron correctamente. | Aprobado |
+
+
+#### 4.2.3.5. Execution Evidence for Sprint Review
+
+Durante la revisión del Sprint 3 se ejecutó la aplicación móvil para comprobar el funcionamiento de las nuevas funcionalidades junto con las características implementadas anteriormente.
+
+La ejecución permitió revisar el flujo de navegación, la visualización de horarios, el estado abierto o cerrado de los huariques, las membresías y las promociones.
+
+| Evidencia | Descripción | Imagen / Enlace |
+|---|---|---|
+| Ejecución de la aplicación | Aplicación móvil funcionando en un emulador Android. | ![app](assets/sprint3/Appfuncional.png) |
+| Detalle con horario | Visualización de la información y horario del huarique. | ![app](assets/sprint3/horarioapp.png)|
+| Estado del local | Evidencia del estado abierto o cerrado. | ![app](assets/sprint3/horarioapp.png)|
+| Planes y membresías | Ejecución de la pantalla de planes disponibles. | ![app](assets/sprint3/membersiaapp.png)|
+| Flujo de suscripción | Ejecución del proceso de suscripción del propietario. |![app](assets/sprint3/Subscripcionapp.png) |
+| Promociones | Visualización de promociones dentro de la aplicación. | ![app](assets/sprint3/promocionapp.png)|
+
+Con estas evidencias se comprobó que la aplicación mantiene un flujo funcional y que las nuevas características se integran con las desarrolladas en los sprints anteriores.
+
+#### 4.2.3.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 3 se continuó utilizando el backend desplegado públicamente en Railway. Los servicios disponibles fueron revisados mediante Swagger para apoyar la integración de las nuevas funcionalidades.
+
+| Servicio | Uso durante el Sprint 3 | Estado |
+|---|---|---|
+| Huariques | Consulta de información del local y datos relacionados con horarios. | Integrado |
+| Plans | Consulta de los planes disponibles para propietarios. | Integrado |
+| Subscriptions | Registro y consulta de suscripciones. | Integrado |
+| Promos | Consulta y publicación de promociones. | Integrado |
+| Users / Auth | Identificación y sesión del usuario o propietario. | Integrado |
+
+La documentación de los servicios se encuentra disponible públicamente mediante Swagger:
+
+<https://huariquehub-backend.up.railway.app/swagger>
+
+Esta documentación permitió al equipo revisar los contratos de la API y mantener la integración entre la aplicación móvil y el backend.
+
+#### 4.2.3.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 3 se mantuvo el backend desplegado en Railway y accesible desde internet. La aplicación móvil continuó consumiendo la API pública, evitando la dependencia de un servidor local.
+
+| Evidencia | Descripción | Enlace / Captura |
+|---|---|---|
+| Backend público | Backend desplegado en Railway. | <https://huariquehub-backend.up.railway.app> |
+| Swagger | Documentación pública de los servicios. | <https://huariquehub-backend.up.railway.app/swagger> |
+| Repositorio del backend | Código fuente de los servicios del sistema. | <https://github.com/HuariqueHub/HuariqueHub-Backend> |
+| Repositorio móvil | Código fuente de la aplicación desarrollada en Flutter. | <https://github.com/HuariqueHub/HuariqueHub-AppFlutter> |
+| Repositorio del informe | Documentación del proyecto. | <https://github.com/HuariqueHub/report/tree/develop> |
+| Ejecución de la app | Evidencia de la versión final ejecutándose. | ![app](assets/sprint3/Appfuncional.png)|
+| Commits del Sprint 3 | Historial de cambios realizados por el equipo. | ![app](assets/sprint3/CommitsSprint3.png) |
+
+Las evidencias muestran que el backend permanece disponible públicamente y que la aplicación móvil puede trabajar con los servicios desplegados.
+
+#### 4.2.3.8. Team Collaboration Insights during Sprint 3
+
+Durante el Sprint 3, el equipo se organizó para completar las funcionalidades que todavía se encontraban pendientes. Las tareas se distribuyeron entre los integrantes considerando el desarrollo móvil, los servicios backend, las pruebas y la documentación.
+
+La comunicación se mantuvo mediante reuniones virtuales y mensajes grupales. GitHub fue utilizado para registrar los cambios y revisar el avance realizado por cada integrante.
+
+| Integrante | Aporte durante el Sprint 3 |
+|---|---|
+| Delgado Carrasco, Schneider | Apoyó en la revisión de horarios y en la organización de evidencias del sprint. |
+| Lopez Goitia, Carlos Alberto | Participó en el desarrollo e integración de las funcionalidades relacionadas con membresías y suscripciones. |
+| Tumi Oliden, Manuel Ignacio | Apoyó en la implementación y revisión de promociones dentro de la aplicación. |
+| Becerra Llempen, Fabiola Dayane | Participó en la validación visual del estado de los huariques y revisión de la experiencia del usuario. |
+| Vasquez Goicochea, Erick Alessander | Apoyó en la documentación del Sprint 3, organización de evidencias y revisión del flujo relacionado con comprobantes. |
+
+Como resultado del trabajo realizado, el equipo logró avanzar en el cierre funcional de PuntoSabor y completar las características que habían quedado pendientes después del Sprint 2.
+
 
 # Conclusiones
 
-Este primer avance ha permitido establecer las bases conceptuales y analíticas del proyecto PuntoSabor. A través de la definición del problema, el análisis competitivo, las entrevistas con ambos segmentos objetivo y el needfinding, se logró comprender con mayor profundidad la realidad que enfrentan tanto los exploradores gastronómicos como los dueños de huariques en el entorno digital actual.
+## Conclusiones y recomendaciones.
 
-Los hallazgos obtenidos confirman que existe una oportunidad real y concreta: los huariques carecen de representación digital adecuada, y los usuarios que buscan ese tipo de experiencia gastronómica no cuentan con herramientas diseñadas para ellos. Esta brecha valida la propuesta de PuntoSabor como solución especializada y diferenciada.
+La entrega TB2 permitió consolidar la versión final de PuntoSabor como una solución móvil orientada al descubrimiento, gestión y promoción de huariques. Durante esta etapa se completó la implementación de las funcionalidades planificadas en el Product Backlog, integrando la aplicación móvil con el backend desplegado públicamente y documentado mediante Swagger. Esto permitió validar el funcionamiento de los servicios reales y evidenciar que la arquitectura planteada durante el proyecto fue aplicada en una solución funcional.
 
-Como siguiente paso, el proyecto avanzará hacia la definición de requerimientos funcionales y el diseño de la arquitectura de la solución, tomando como base todo lo trabajado en este primer avance.
+A lo largo del desarrollo del proyecto, los artefactos de análisis como entrevistas, User Personas, Empathy Maps, User Journey Mapping, EventStorming y Lean UX permitieron confirmar que PuntoSabor responde a una necesidad real del mercado gastronómico local. La solución propuesta atiende tanto a los exploradores gastronómicos, que buscan huariques auténticos y confiables, como a los dueños de huariques, que necesitan mayor visibilidad digital y herramientas simples para gestionar su negocio.
+
+En el Sprint 3 se logró cerrar el flujo principal del producto, incorporando funcionalidades finales relacionadas con la gestión de huariques, horarios, estado de apertura, promociones, membresías, preferencias del usuario, reseñas, notificaciones y validación de información desde los servicios del backend. Además, se incluyeron evidencias de implementación, pruebas, documentación de servicios, despliegue y colaboración del equipo, lo cual permite sustentar el avance final del producto para el Release Review.
+
+También se completaron los elementos solicitados para la entrega TB2, como el Landing Page desplegado, el backend desplegado al 100% en un sitio público con documentación, la presentación de la aplicación móvil mediante un servicio de distribución, el video final de validación de la aplicación, el video About-the-Product y el video About-the-Team. Estos entregables permitieron mostrar no solo la parte técnica del proyecto, sino también la propuesta de valor, el trabajo colaborativo del equipo y la validación del producto desarrollado.
+
+Como recomendación, se sugiere continuar mejorando PuntoSabor mediante pruebas con usuarios reales en un entorno más amplio, con el objetivo de recoger retroalimentación sobre la experiencia de uso, facilidad de navegación y utilidad de las funcionalidades implementadas. Asimismo, se recomienda fortalecer el sistema de métricas para dueños de huariques, optimizar el flujo de membresías y ampliar la cantidad de negocios registrados para incrementar el valor de la plataforma.
+
+Finalmente, se concluye que PuntoSabor logró evolucionar desde una propuesta basada en investigación y diseño hasta un producto funcional con evidencias de implementación, despliegue y validación. El desarrollo del proyecto permitió al equipo aplicar conocimientos de UX/UI, arquitectura de software, gestión ágil, integración de APIs, documentación técnica y despliegue, consolidando una experiencia completa de desarrollo de una solución móvil orientada a un problema real.
+
+---
+
+<div style="page-break-after: always;"></div>
+
+# Video App Validation
+
+En esta sección se documenta la primera versión del video de validación de la aplicación PuntoSabor, en el que se muestra el flujo principal de la app funcionando contra el backend desplegado en producción.
+
+El video incluye la demostración de los siguientes flujos: registro e inicio de sesión, búsqueda y descubrimiento de huariques con filtros y mapa interactivo, visualización de detalle con reseñas, gestión del propietario (creación y edición de huarique), gestión de promociones y selección de plan de membresía.
+
+![alt text](assets/appvalidation.png)
+**URL del video:** https://drive.google.com/drive/folders/1Iqb5Lz3YxKQMyos2Oyqczd73CZMvspKV?usp=sharing
+
+**Duración:** [08:38]
+
+---
+
+<div style="page-break-after: always;"></div>
+
+# Video About the product
+
+En esta sección se presenta la primera versión del video About-the-Product de PuntoSabor, orientado a los visitantes del Landing Page y usuarios potenciales de la aplicación.
+
+![alt text](assets/abautProduct.png)
+
+**URL del video:** https://drive.google.com/drive/folders/1Iqb5Lz3YxKQMyos2Oyqczd73CZMvspKV?usp=drive_link
+
+**Duración:** 2 minutos
+
+---
+
+<div style="page-break-after: always;"></div>
+
+# Video About the team
+
+![alt text](assets/abautteam.png)
+
+**URL del video:** https://drive.google.com/drive/folders/1Iqb5Lz3YxKQMyos2Oyqczd73CZMvspKV?usp=sharing
+
+**Duración:** [08:48]
+
+
+<div style="page-break-after: always;"></div>
+
+# Glosario
+
+- **Huarique:** Establecimiento gastronómico local, generalmente pequeño o familiar, reconocido por ofrecer comida auténtica, tradicional y accesible.
+
+- **Explorador gastronómico:** Usuario interesado en descubrir nuevos lugares de comida, especialmente huariques poco conocidos, económicos y con buenas recomendaciones.
+
+- **Dueño de huarique:** Propietario o administrador de un negocio gastronómico local que busca aumentar la visibilidad de su establecimiento mediante la plataforma.
+
+- **PuntoSabor:** Aplicación móvil propuesta por HuariqueHub para conectar a usuarios con huariques cercanos, permitiendo consultar información, reseñas, promociones y ubicación.
+
+- **Landing Page:** Página web informativa que presenta la propuesta de valor de PuntoSabor, sus beneficios y medios de contacto.
+
+- **Reseña:** Comentario o valoración realizada por un usuario sobre su experiencia en un huarique.
+
+- **Favorito:** Función que permite al usuario guardar un huarique de interés para consultarlo posteriormente.
+
+- **Promoción destacada:** Publicación o beneficio especial ofrecido por un huarique para atraer mayor atención dentro de la plataforma.
+
+- **Membresía:** Plan de pago dirigido a dueños de huariques que desean obtener mayor visibilidad o beneficios adicionales dentro de PuntoSabor.
+
+- **Geolocalización:** Función que permite identificar la ubicación del usuario o de los huariques para facilitar la búsqueda de locales cercanos.
+
+- **Wireframe:** Representación básica de una pantalla que muestra la distribución de los elementos antes del diseño visual final.
+
+- **Mock-up:** Diseño visual más detallado de una pantalla, incluyendo colores, tipografía, imágenes y componentes gráficos.
+
+- **Prototipo:** Simulación interactiva de la aplicación que permite probar la navegación y el flujo entre pantallas.
+
+- **Sprint:** Periodo corto de trabajo en el que el equipo desarrolla y documenta un conjunto específico de funcionalidades del proyecto.
+
+- **Sprint Backlog:** Lista de historias de usuario y tareas seleccionadas para ser trabajadas durante un sprint.
+
+<div style="page-break-after: always;"></div>
 
 # Bibliografía
 
@@ -810,6 +2514,9 @@ Como siguiente paso, el proyecto avanzará hacia la definición de requerimiento
 - Pressman, R. (2014). Ingeniería del Software: Un Enfoque Práctico. McGraw-Hill.
 
 - Fowler, M. (2003). Patterns of Enterprise Application Architecture. Addison-Wesley.
+
+<div style="page-break-after: always;"></div>
+
 # Anexos
 
 VIDEOS DEL EQUIPO:

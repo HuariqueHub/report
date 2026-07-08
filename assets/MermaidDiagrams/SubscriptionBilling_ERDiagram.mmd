@@ -1,0 +1,32 @@
+erDiagram
+  Membership_Plans ||--o{ Subscriptions : "offered to"
+  Huariques        ||--o{ Subscriptions : "subscribes"
+  Users            ||--o{ Subscriptions : "created by"
+
+  Membership_Plans {
+    uuid plan_id PK
+    string name
+    text description
+    decimal monthly_price
+    timestamp created_at
+  }
+  Subscriptions {
+    uuid subscription_id PK
+    uuid huarique_id FK
+    uuid plan_id FK
+    uuid user_id FK
+    date start_date
+    date end_date
+    enum status
+    timestamp created_at
+    timestamp updated_at
+  }
+  Huariques {
+    uuid huarique_id PK
+    string name
+  }
+  Users {
+    uuid user_id PK
+    string name
+    string email
+  }

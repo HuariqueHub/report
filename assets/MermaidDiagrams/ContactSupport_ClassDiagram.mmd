@@ -1,0 +1,50 @@
+classDiagram
+direction TB
+
+class SupportApplicationService {
+  +submitContactForm(payload: ContactPayloadDTO) void
+  +openDirections(huariqueId: UUID) DirectionsDTO
+}
+SupportApplicationService --> ISupportRequestRepository
+SupportApplicationService --> EmailNotificationAdapter
+
+class SupportRequest {
+  +UUID requestId
+  +ContactPayload payload
+  +ConsentScopes consent
+  +SupportStatus status
+  +submit() void
+}
+SupportRequest --> ContactPayload
+SupportRequest --> ConsentScopes
+SupportRequest --> SupportStatus
+
+class ContactPayload {
+  -string nombre
+  -string email
+  -string mensaje
+}
+class ConsentScopes {
+  -bool dataProcessingAccepted
+  -datetime acceptedAt
+}
+class SupportStatus {
+  <<enumeration>>
+  SUBMITTED
+  IN_REVIEW
+  RESOLVED
+}
+
+class ISupportRequestRepository {
+  +save(r: SupportRequest) void
+  +getById(id: UUID) SupportRequest
+}
+class SupportRequestRepositorySQL {
+  +save(r: SupportRequest) void
+  +getById(id: UUID) SupportRequest
+}
+SupportRequestRepositorySQL ..|> ISupportRequestRepository
+
+class EmailNotificationAdapter {
+  +sendConfirmation(to: string, body: string) void
+}

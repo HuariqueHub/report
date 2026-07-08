@@ -1,0 +1,88 @@
+erDiagram
+  Users            ||--o{ Reviews           : "writes"
+  Users            ||--o{ Favorites         : "bookmarks"
+  Huariques        ||--o{ Reviews           : "reviewed in"
+  Huariques        ||--o{ Favorites         : "bookmarked"
+  Categories       ||--o{ Huariques         : "classifies"
+  Huariques        ||--o{ Huarique_Photos   : "has"
+  Membership_Plans ||--o{ Subscriptions     : "offered to"
+  Huariques        ||--o{ Subscriptions     : "subscribes"
+  Users            ||--o{ Subscriptions     : "created by"
+  Users            ||--o{ Audit_Logs        : "logs"
+
+  Users {
+      uuid user_id PK
+      string name
+      string email UK
+      enum role
+      timestamp created_at
+      timestamp updated_at
+  }
+  Huariques {
+      uuid huarique_id PK
+      string name
+      text description
+      string address_line
+      string district
+      string city
+      float lat
+      float lng
+      enum opening_status
+      decimal average_rating
+      int category_id FK
+      timestamp created_at
+      timestamp updated_at
+  }
+  Categories {
+      int category_id PK
+      string name
+      string description
+      timestamp created_at
+  }
+  Reviews {
+      uuid review_id PK
+      uuid huarique_id FK
+      uuid user_id FK
+      int rating
+      string comment
+      datetime review_date
+      timestamp created_at
+  }
+  Favorites {
+      uuid user_id PK
+      uuid huarique_id PK
+      timestamp created_at
+  }
+  Membership_Plans {
+      uuid plan_id PK
+      string name
+      text description
+      decimal monthly_price
+      timestamp created_at
+  }
+  Subscriptions {
+      uuid subscription_id PK
+      uuid huarique_id FK
+      uuid plan_id FK
+      uuid user_id FK
+      date start_date
+      date end_date
+      enum status
+      timestamp created_at
+      timestamp updated_at
+  }
+  Huarique_Photos {
+      uuid photo_id PK
+      uuid huarique_id FK
+      string url
+      timestamp created_at
+  }
+  Audit_Logs {
+      int audit_id PK
+      uuid user_id FK
+      string entity_type
+      uuid entity_id
+      string action
+      json details
+      timestamp audit_date
+  }

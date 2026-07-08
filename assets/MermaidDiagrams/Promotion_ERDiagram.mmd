@@ -1,0 +1,19 @@
+erDiagram
+  Huariques ||--o{ Promotions : "creates"
+
+  Promotions {
+    uuid promotion_id PK
+    uuid huarique_id FK
+    string content
+    datetime start_at
+    datetime end_at
+    json targeting_zones
+    json targeting_tags
+    enum status
+    timestamp created_at
+    timestamp updated_at
+  }
+  Huariques {
+    uuid huarique_id PK
+    string name
+  }
