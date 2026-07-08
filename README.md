@@ -2465,23 +2465,18 @@ Preguntas realizadas:
 
 **Entrevista 01**
 
-**Nombres:** [Nombre del entrevistado]
+**Nombres:** Elkin 
 
-**Apellidos:** [Apellidos del entrevistado]
+**Apellidos:** Carrasco
 
-**Edad:** [Edad] años
+**Edad:** 20 años
 
-**Distrito:** [Distrito]
+**Distrito:** Lima
 
 **Evidencia de la reunión:**
 
-![Evidencia entrevista validación segmento 1](assets/validation_interview_segmento1.png)
+![Evidencia entrevista validación segmento 1](assets/seg-1-elkin.png)
 
-**Inicio:** [00:00]
-
-**Fin:** [00:00]
-
-**Enlace de entrevista:** [Entrevista segmento 1](URL_DE_LA_ENTREVISTA_SEGMENTO_1)
 
 **Resumen de la entrevista:**
 
@@ -2497,23 +2492,18 @@ En síntesis, la entrevista permitió confirmar que PuntoSabor responde a una ne
 
 **Entrevista 02**
 
-**Nombres:** [Nombre del entrevistado]
+**Nombres:** James 
 
-**Apellidos:** [Apellidos del entrevistado]
+**Apellidos:** Rodriguez
 
-**Edad:** [Edad] años
+**Edad:** 20 años
 
-**Distrito:** [Distrito]
+**Distrito:** San Isidro
 
 **Evidencia de la reunión:**
 
-![Evidencia entrevista validación segmento 2](assets/validation_interview_segmento2.png)
+![Evidencia entrevista validación segmento 2](assets/seg-2-james.png)
 
-**Inicio:** [00:00]
-
-**Fin:** [00:00]
-
-**Enlace de entrevista:** [Entrevista segmento 2](URL_DE_LA_ENTREVISTA_SEGMENTO_2)
 
 **Resumen de la entrevista:**
 
