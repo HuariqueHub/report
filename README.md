@@ -397,6 +397,8 @@ Profundicé en el diseño de Wireflows y User Flows para aplicaciones móviles, 
 Adquirí conocimientos sobre integración de módulos de reseñas y notificaciones en Flutter, aprendiendo el manejo de listas dinámicas con ListView.builder y la actualización de estado reactivo, aplicándolos en las pantallas de reseñas y notificaciones conectadas al backend.<br>
 <strong>TB2:</strong><br>
 Reforcé mis conocimientos sobre validación de experiencia de usuario y revisión heurística, documentando evidencias de uso de la aplicación final, capturas de pantallas implementadas y observaciones relacionadas con la navegación y facilidad de uso de PuntoSabor.
+<strong>TF:</strong><br>
+Consolidé lo aprendido a lo largo de todo el ciclo al incorporar los módulos desarrollados en una aplicación web que funciona perfectamente. Me capacité en la integración de servicios backend, Flutter, pruebas funcionales y optimización de la experiencia del usuario, al documentar y mostrar el resultado final de PuntoSabor con un enfoque en calidad, operatividad integral y facilidad de uso.
 </td>
 </tr>
 <tr>
