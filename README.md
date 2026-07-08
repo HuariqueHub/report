@@ -181,7 +181,7 @@
 
 URL del repositorio del informe: https://github.com/HuariqueHub/report/tree/main
 
-Para la entrega AV2, el equipo continuó trabajando de forma colaborativa en formato Markdown, registrando los aportes mediante commits en GitHub.
+Para la entrega TB2, el equipo consolidó la versión final del informe en formato Markdown, registrando los aportes mediante commits en GitHub y documentando las evidencias correspondientes al Sprint 3.
 
 Evidencias de colaboración:
 
@@ -197,11 +197,11 @@ Evidencias de colaboración:
 
 | Integrante | Participación |
 |---|---|
-| Delgado Carrasco, Schneider | Verificó contratos de la API y consolidó las evidencias de servicios del Sprint 2. |
-| Lopez Goitia, Carlos Alberto | Actualizó la estructura del informe para el AV2, integró el módulo de descubrimiento (Home, búsqueda, categorías) y los planes de membresía. |
-| Tumi Oliden, Manuel Ignacio | Documentó la integración de autenticación con JWT y la persistencia de sesión en la aplicación móvil. |
-| Becerra Llempen, Fabiola Dayane | Documentó la integración del detalle del huarique, el módulo de reseñas y las evidencias de validación. |
-| Vasquez Goicochea, Erick Alessander | Documentó el Sprint Planning 2, Sprint Backlog 2, evidencias de despliegue y colaboración del equipo. |
+| Delgado Carrasco, Schneider | Verificó los contratos de la API y consolidó las evidencias de servicios correspondientes al Sprint 3, validando la documentación del backend mediante Swagger. |
+| Lopez Goitia, Carlos Alberto | Actualizó la estructura final del informe para la entrega TB2, incorporando el desarrollo del Sprint 3 y las evidencias de implementación de las funcionalidades finales. |
+| Tumi Oliden, Manuel Ignacio | Documentó la integración y funcionamiento de las funcionalidades finales de la aplicación móvil, incluyendo la validación de flujos principales y persistencia de sesión. |
+| Becerra Llempen, Fabiola Dayane | Documentó las evidencias de ejecución y validación de la aplicación, incluyendo capturas de pantallas finales, pruebas de uso y revisión de la experiencia del usuario. |
+| Vasquez Goicochea, Erick Alessander | Documentó el Sprint Planning 3, Sprint Backlog 3, evidencias de despliegue, colaboración del equipo y actualización final de anexos del informe. |
 
 <div style="page-break-after: always;"></div>
 
