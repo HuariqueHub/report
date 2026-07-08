@@ -2409,6 +2409,201 @@ La comunicación se mantuvo mediante reuniones virtuales y mensajes grupales. Gi
 Como resultado del trabajo realizado, el equipo logró avanzar en el cierre funcional de PuntoSabor y completar las características que habían quedado pendientes después del Sprint 2.
 
 
+## 4.3. Validation Interviews
+
+A continuación, se presentan los resultados de las entrevistas de validación realizadas a usuarios de los dos segmentos objetivo de PuntoSabor. El propósito de esta etapa fue validar si la aplicación móvil responde a las necesidades identificadas durante la investigación inicial y si las funcionalidades implementadas son claras, útiles y fáciles de usar.
+
+Para la validación se presentó la versión final de la aplicación móvil, considerando los principales flujos desarrollados durante el Sprint 3, como la búsqueda de huariques, visualización de información del local, reseñas, horarios, estado de apertura, promociones, membresías y gestión de información del negocio.
+
+### 4.3.1. Diseño de Entrevistas
+
+Para las entrevistas de validación se plantearon preguntas generales y preguntas específicas para cada segmento objetivo. Primero, se buscó conocer el perfil del entrevistado y luego se evaluó su percepción sobre la aplicación, su facilidad de uso, claridad de la información y utilidad de las funcionalidades implementadas.
+
+#### Preguntas generales
+
+- ¿Cómo te llamas?
+- ¿Cuántos años tienes?
+- ¿En qué distrito vives actualmente?
+- ¿Con qué frecuencia utilizas aplicaciones móviles para buscar lugares de comida o promocionar un negocio?
+- Después de ver la aplicación, ¿cuál fue tu primera impresión sobre PuntoSabor?
+
+#### Segmento 1: Explorador gastronómico
+
+Este segmento está compuesto por usuarios que buscan descubrir huariques, restaurantes locales o lugares de comida auténtica mediante herramientas digitales.
+
+Preguntas realizadas:
+
+- Después de ver la aplicación, ¿crees que PuntoSabor te ayudaría a encontrar huariques de manera más sencilla?
+- ¿La pantalla principal te parece clara y fácil de entender?
+- ¿Consideras útil poder buscar huariques por categorías, nombre o preferencias?
+- ¿La información mostrada en el detalle del huarique, como fotos, horarios, ubicación, reseñas y estado de apertura, te parece suficiente para decidir si visitarías el local?
+- ¿Qué opinas sobre la posibilidad de guardar huariques favoritos?
+- ¿Las promociones o recomendaciones te motivarían a usar la aplicación con mayor frecuencia?
+- ¿Qué aspecto de la aplicación te gustó más?
+- ¿Qué mejorarías para que la experiencia sea más completa?
+- ¿Recomendarías PuntoSabor a otras personas interesadas en descubrir huariques? ¿Por qué?
+
+#### Segmento 2: Dueño o administrador de huarique
+
+Este segmento está compuesto por propietarios o encargados de negocios gastronómicos locales que buscan aumentar su visibilidad digital y atraer más clientes.
+
+Preguntas realizadas:
+
+- Después de ver la aplicación, ¿crees que PuntoSabor podría ayudarte a promocionar tu huarique o negocio?
+- ¿Te parece clara la forma en que se muestra la información del huarique?
+- ¿Consideras útil poder mostrar horarios, estado de apertura, ubicación, fotos y reseñas del negocio?
+- ¿Qué opinas sobre las promociones y planes de membresía dentro de la aplicación?
+- ¿Crees que esta plataforma podría ayudarte a atraer nuevos clientes?
+- ¿La aplicación te parece fácil de entender para un dueño de huarique?
+- ¿Qué funcionalidad te parece más útil para tu negocio?
+- ¿Qué mejorarías para que la aplicación sea más práctica para los propietarios?
+- ¿Estarías dispuesto a usar PuntoSabor para dar mayor visibilidad a tu negocio? ¿Por qué?
+
+### 4.3.2. Registro de Entrevistas
+
+#### Segmento 01: Explorador gastronómico
+
+**Entrevista 01**
+
+**Nombres:** [Nombre del entrevistado]
+
+**Apellidos:** [Apellidos del entrevistado]
+
+**Edad:** [Edad] años
+
+**Distrito:** [Distrito]
+
+**Evidencia de la reunión:**
+
+![Evidencia entrevista validación segmento 1](assets/validation_interview_segmento1.png)
+
+**Inicio:** [00:00]
+
+**Fin:** [00:00]
+
+**Enlace de entrevista:** [Entrevista segmento 1](URL_DE_LA_ENTREVISTA_SEGMENTO_1)
+
+**Resumen de la entrevista:**
+
+La entrevista se realizó a un usuario perteneciente al segmento de exploradores gastronómicos, quien revisó la versión final de la aplicación PuntoSabor y brindó comentarios sobre su experiencia de uso. El entrevistado indicó que la propuesta de la aplicación le parece útil porque permite encontrar huariques de forma más rápida y organizada, especialmente cuando se desea descubrir lugares poco conocidos, económicos y con buena valoración.
+
+Durante la validación, el usuario señaló que la pantalla principal resulta comprensible y que las categorías ayudan a explorar opciones de comida de manera sencilla. También consideró importante que el detalle del huarique muestre información como fotos, ubicación, horarios, estado de apertura y reseñas, ya que estos elementos generan mayor confianza antes de decidir visitar un local.
+
+Asimismo, el entrevistado valoró positivamente la opción de guardar favoritos y revisar promociones, debido a que estas funcionalidades pueden motivar el uso frecuente de la aplicación. Sin embargo, recomendó mejorar la cantidad de filtros disponibles, por ejemplo, agregar filtros por distancia, precio o calificación, para encontrar opciones de forma más precisa.
+
+En síntesis, la entrevista permitió confirmar que PuntoSabor responde a una necesidad real del segmento, ya que facilita el descubrimiento de huariques y brinda información relevante para tomar decisiones. Además, se identificó como oportunidad de mejora la incorporación de filtros más específicos y una mayor cantidad de imágenes por local.
+
+#### Segmento 02: Dueño o administrador de huarique
+
+**Entrevista 02**
+
+**Nombres:** [Nombre del entrevistado]
+
+**Apellidos:** [Apellidos del entrevistado]
+
+**Edad:** [Edad] años
+
+**Distrito:** [Distrito]
+
+**Evidencia de la reunión:**
+
+![Evidencia entrevista validación segmento 2](assets/validation_interview_segmento2.png)
+
+**Inicio:** [00:00]
+
+**Fin:** [00:00]
+
+**Enlace de entrevista:** [Entrevista segmento 2](URL_DE_LA_ENTREVISTA_SEGMENTO_2)
+
+**Resumen de la entrevista:**
+
+La entrevista se realizó a una persona perteneciente al segmento de dueños o administradores de huariques, con el objetivo de validar si PuntoSabor puede aportar valor a pequeños negocios gastronómicos que buscan mayor visibilidad digital. Durante la presentación de la aplicación, el entrevistado manifestó que la propuesta resulta interesante porque está enfocada en negocios locales y no únicamente en restaurantes grandes o cadenas comerciales.
+
+El participante consideró útil que la aplicación permita mostrar información del huarique, como ubicación, fotos, horarios, estado de apertura y reseñas. Según su opinión, estos elementos pueden ayudar a que los clientes tengan mayor confianza al momento de visitar el negocio. También señaló que las promociones pueden ser una herramienta importante para atraer nuevos clientes, sobre todo en horarios de baja demanda.
+
+Respecto a los planes de membresía, el entrevistado indicó que podrían ser atractivos siempre que ofrezcan beneficios claros, como mayor visibilidad, aparición destacada o acceso a herramientas para promocionar el negocio. Además, recomendó que la aplicación mantenga una interfaz simple para los dueños, ya que muchos pequeños negocios no tienen experiencia utilizando plataformas digitales complejas.
+
+En conclusión, la entrevista permitió validar que PuntoSabor puede ser una herramienta útil para los dueños de huariques, ya que les brinda un espacio especializado para promocionar su negocio. Como oportunidad de mejora, se identificó la necesidad de incluir métricas simples, como cantidad de vistas, interacciones o clics en el perfil del huarique, para que los propietarios puedan medir el impacto de su presencia en la plataforma.
+
+### 4.3.3. Evaluaciones según heurísticas
+
+Para complementar las entrevistas de validación, se realizó una evaluación heurística de la aplicación móvil PuntoSabor. Esta evaluación permitió revisar la usabilidad de la aplicación, identificar posibles problemas y proponer recomendaciones de mejora del producto.
+
+#### Tareas a evaluar
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas principales:
+
+- Iniciar sesión en la aplicación.
+- Explorar la pantalla principal.
+- Buscar huariques.
+- Ver el detalle de un huarique.
+- Revisar horarios, ubicación, reseñas y estado de apertura.
+- Guardar huariques como favoritos.
+- Consultar promociones.
+- Revisar planes o membresías.
+- Visualizar información del perfil del usuario.
+- Validar la información del huarique desde los servicios del backend.
+
+#### Escala de severidad
+
+Los errores fueron puntuados tomando en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción |
+|---|---|
+| 1 | Problema superficial: puede ser superado fácilmente por el usuario o ocurre con poca frecuencia. No requiere corrección inmediata. |
+| 2 | Problema menor: puede ocurrir con cierta frecuencia, pero no impide el uso general de la aplicación. Debe corregirse para mejorar la experiencia del usuario. |
+| 3 | Problema mayor: ocurre con frecuencia o puede dificultar la experiencia del usuario. Es recomendable corregirlo para una versión más estable del producto. |
+| 4 | Problema muy grave: impide que el usuario continúe con el uso de la aplicación. Debe corregirse antes del lanzamiento público del producto. |
+
+#### Tabla de resumen
+
+| # | Problema | Escala de severidad | Heurística/Principio violado |
+|---|---|---|---|
+| 1 | Algunos usuarios pueden necesitar más filtros para encontrar huariques según precio, distancia o calificación. | 3 | Usability: Flexibilidad y eficiencia de uso |
+| 2 | La información del estado de apertura del huarique podría destacarse más visualmente para evitar confusiones. | 2 | Usability: Visibilidad del estado del sistema |
+| 3 | Los mensajes de error o carga podrían ser más claros cuando no se obtiene respuesta del backend. | 3 | Usability: Ayuda al usuario a reconocer y recuperarse de errores |
+| 4 | El proceso de gestión o actualización de información del huarique puede requerir orientación adicional para dueños con poca experiencia digital. | 2 | Inclusive Design: Accesibilidad y facilidad de aprendizaje |
+| 5 | Las promociones y membresías podrían necesitar una explicación más visible sobre sus beneficios para el dueño del huarique. | 2 | Information Architecture: Claridad de información |
+| 6 | Algunas pantallas podrían mejorar la jerarquía visual para resaltar mejor las acciones principales. | 2 | Usability: Diseño estético y minimalista |
+
+#### Descripción de problemas
+
+**Problema #1:** Algunos usuarios pueden necesitar más filtros para encontrar huariques según precio, distancia o calificación.  
+**Severidad:** 3  
+**Heurística violada:** Usability: Flexibilidad y eficiencia de uso.  
+**Descripción:** Aunque la aplicación permite explorar huariques, la búsqueda podría ser más eficiente si se agregan filtros avanzados. Esto ayudaría a que los usuarios encuentren opciones más ajustadas a sus necesidades.  
+**Recomendación:** Agregar filtros por precio, distancia, calificación, tipo de comida y estado de apertura.
+
+**Problema #2:** La información del estado de apertura del huarique podría destacarse más visualmente para evitar confusiones.  
+**Severidad:** 2  
+**Heurística violada:** Usability: Visibilidad del estado del sistema.  
+**Descripción:** El estado de apertura es una información importante para el usuario, ya que evita que visite un local cerrado. Si esta información no se resalta lo suficiente, puede pasar desapercibida.  
+**Recomendación:** Usar etiquetas visuales más claras como “Abierto ahora” o “Cerrado”, acompañadas de colores o íconos que faciliten su identificación.
+
+**Problema #3:** Los mensajes de error o carga podrían ser más claros cuando no se obtiene respuesta del backend.  
+**Severidad:** 3  
+**Heurística violada:** Usability: Ayuda al usuario a reconocer y recuperarse de errores.  
+**Descripción:** Cuando ocurre un problema de conexión o carga de datos, el usuario necesita saber qué ocurrió y qué puede hacer. Si el mensaje no es claro, puede pensar que la aplicación no funciona correctamente.  
+**Recomendación:** Incorporar mensajes como “No se pudo cargar la información. Intenta nuevamente” y botones para reintentar la acción.
+
+**Problema #4:** El proceso de gestión o actualización de información del huarique puede requerir orientación adicional para dueños con poca experiencia digital.  
+**Severidad:** 2  
+**Heurística violada:** Inclusive Design: Accesibilidad y facilidad de aprendizaje.  
+**Descripción:** Algunos dueños de huariques podrían no estar acostumbrados a usar plataformas digitales. Por ello, aunque la funcionalidad sea útil, puede requerir una guía inicial.  
+**Recomendación:** Agregar mensajes de ayuda, tutorial breve o indicaciones dentro de los formularios de gestión del huarique.
+
+**Problema #5:** Las promociones y membresías podrían necesitar una explicación más visible sobre sus beneficios para el dueño del huarique.  
+**Severidad:** 2  
+**Heurística violada:** Information Architecture: Claridad de información.  
+**Descripción:** Los dueños necesitan entender rápidamente qué beneficio obtienen al usar promociones o membresías. Si la información no es clara, podrían no utilizar estas funciones.  
+**Recomendación:** Incluir una breve descripción de cada plan, beneficios principales y ejemplos de uso.
+
+**Problema #6:** Algunas pantallas podrían mejorar la jerarquía visual para resaltar mejor las acciones principales.  
+**Severidad:** 2  
+**Heurística violada:** Usability: Diseño estético y minimalista.  
+**Descripción:** La aplicación mantiene una identidad visual clara, pero algunas acciones importantes podrían destacarse más para facilitar la navegación del usuario.  
+**Recomendación:** Mejorar el tamaño, posición o contraste de botones principales como buscar, guardar favorito, ver ubicación o crear promoción.
+
 # Conclusiones
 
 ## Conclusiones y recomendaciones.
