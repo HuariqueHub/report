@@ -2193,6 +2193,145 @@ Como resultado, el equipo consolidó el **flujo principal de PuntoSabor funciona
 
 <div style="page-break-after: always;"></div>
 
+### 4.2.3. Sprint 3
+
+El Sprint 3 corresponde a la etapa final de desarrollo de PuntoSabor. Durante este sprint, el equipo se enfocó en completar funcionalidades que todavía estaban pendientes después del Sprint 2, principalmente las relacionadas con membresías y pagos, comprobantes, promociones destacadas y la visualización del estado de los huariques según sus horarios.
+
+El objetivo principal fue acercar la aplicación móvil a una versión más completa, aprovechando la integración con el backend público realizada en el sprint anterior.
+
+#### 4.2.3.1. Sprint Planning 3
+
+En la planificación del Sprint 3 se acordó priorizar las funcionalidades pendientes necesarias para cerrar el producto. El equipo tomó como base los resultados del Sprint 2, donde ya se había logrado conectar el flujo principal de la aplicación con el backend desplegado en Railway.
+
+Para este sprint se seleccionaron las historias relacionadas con horarios, estado del huarique, suscripciones, comprobantes y promociones.
+
+| Sprint # | Sprint 3 |
+|---|---|
+| **Sprint Planning Background** | |
+| Date | 28-06-2026 |
+| Time | 07:00 PM |
+| Location | Reunión virtual mediante Discord |
+| Prepared By | Lopez Goitia, Carlos Alberto |
+| Attendees (to planning meeting) | Delgado Carrasco, Schneider / Lopez Goitia, Carlos Alberto / Tumi Oliden, Manuel Ignacio / Becerra Llempen, Fabiola Dayane / Vasquez Goicochea, Erick Alessander |
+| Sprint 2 Review Summary | En el Sprint 2 se conectó la aplicación móvil con el backend público, integrando autenticación, descubrimiento de huariques, reseñas y gestión de locales por parte del propietario. |
+| Sprint 2 Retrospective Summary | El equipo logró completar el flujo principal de la aplicación. Como mejora, se acordó organizar mejor las funcionalidades pendientes y priorizar aquellas necesarias para cerrar el producto. |
+| **Sprint Goal & User Stories** | |
+| Sprint 3 Goal | Completar las funcionalidades pendientes de PuntoSabor relacionadas con horarios, estado de los huariques, membresías, pagos, comprobantes y promociones destacadas. |
+| Sprint 3 User Stories | US20, US22, US24, US25 y US26 |
+| Sprint 3 Velocity | 5 User Stories |
+
+#### 4.2.3.2. Sprint Backlog 3
+
+El Sprint Backlog 3 se organizó tomando las funcionalidades pendientes del Product Backlog. Se priorizaron historias que completan la experiencia del usuario y del propietario dentro de PuntoSabor.
+
+| ID | User Story | Descripción | Responsable | Estado |
+|---|---|---|---|---|
+| US20 | Horario verificado | Mostrar información actualizada sobre los horarios de atención del huarique. | Delgado Carrasco, Schneider | Done |
+| US22 | Estado abierto/cerrado | Mostrar si un huarique se encuentra abierto o cerrado según su horario. | Becerra Llempen, Fabiola Dayane | Done |
+| US24 | Pagar suscripción | Permitir al propietario seleccionar y pagar una membresía. | Lopez Goitia, Carlos Alberto | Done |
+| US25 | Comprobantes | Permitir consultar la información relacionada con el pago realizado. | Vasquez Goicochea, Erick Alessander | Done |
+| US26 | Promociones destacadas | Mejorar la visibilidad de las promociones dentro de los listados de la aplicación. | Tumi Oliden, Manuel Ignacio | Done |
+
+Durante el sprint, las tareas fueron organizadas y revisadas de acuerdo con su avance. El equipo utilizó GitHub para registrar los cambios y mantener separados los avances realizados en la aplicación móvil y el backend.
+
+#### 4.2.3.3. Development Evidence for Sprint Review
+
+En esta sección se presentan las evidencias de desarrollo correspondientes al Sprint 3. Durante esta etapa se trabajó en las funcionalidades pendientes necesarias para completar la experiencia de los usuarios y propietarios de huariques.
+
+| Evidencia | Descripción |
+|---|---|
+| Horarios del huarique | Se muestra la información del horario de atención dentro del detalle del huarique. |
+| Estado abierto/cerrado | Se agregó la visualización del estado actual del local de acuerdo con su horario. |
+| Membresías | Se evidencia la selección de planes disponibles para los propietarios de huariques. |
+| Pago de suscripción | Se muestra el flujo relacionado con la suscripción a un plan. |
+| Comprobante | Se evidencia la información generada después del proceso de suscripción o pago. |
+| Promociones destacadas | Se muestran promociones con mayor visibilidad dentro de la aplicación. |
+| Backend público | Se evidencia la disponibilidad de los servicios utilizados durante el sprint. |
+
+Estas evidencias muestran el avance alcanzado durante el Sprint 3 y permiten comprobar que las funcionalidades seleccionadas fueron incorporadas al flujo del producto.
+
+#### 4.2.3.4. Testing Suite Evidence for Sprint Review
+
+Durante el Sprint 3 se realizaron pruebas sobre las nuevas funcionalidades implementadas. El objetivo fue comprobar que cada flujo se mostrara correctamente y que la aplicación mantuviera su funcionamiento después de integrar los nuevos cambios.
+
+| Caso de prueba | Descripción | Resultado esperado | Resultado obtenido | Estado |
+|---|---|---|---|---|
+| TS301 | Validar horarios | El detalle debe mostrar el horario del huarique. | El horario se mostró correctamente. | Aprobado |
+| TS302 | Validar estado abierto/cerrado | La aplicación debe indicar el estado actual del huarique. | El estado se visualizó correctamente. | Aprobado |
+| TS303 | Validar planes | El propietario debe visualizar los planes disponibles. | Los planes fueron mostrados correctamente. | Aprobado |
+| TS304 | Validar suscripción | El propietario debe poder realizar el flujo de suscripción. | El flujo se ejecutó correctamente. | Aprobado |
+| TS305 | Validar comprobante | Se debe mostrar la información correspondiente al pago realizado. | La información fue mostrada correctamente. | Aprobado |
+| TS306 | Validar promociones | Las promociones destacadas deben aparecer en los listados correspondientes. | Las promociones se visualizaron correctamente. | Aprobado |
+
+
+#### 4.2.3.5. Execution Evidence for Sprint Review
+
+Durante la revisión del Sprint 3 se ejecutó la aplicación móvil para comprobar el funcionamiento de las nuevas funcionalidades junto con las características implementadas anteriormente.
+
+La ejecución permitió revisar el flujo de navegación, la visualización de horarios, el estado abierto o cerrado de los huariques, las membresías y las promociones.
+
+| Evidencia | Descripción |
+|---|---|
+| Ejecución de la aplicación | Aplicación móvil funcionando en un emulador Android. |
+| Detalle con horario | Visualización de la información y horario del huarique. |
+| Estado del local | Evidencia del estado abierto o cerrado. |
+| Planes y membresías | Ejecución de la pantalla de planes disponibles. |
+| Flujo de suscripción | Ejecución del proceso de suscripción del propietario. |
+| Promociones | Visualización de promociones dentro de la aplicación. |
+
+Con estas evidencias se comprobó que la aplicación mantiene un flujo funcional y que las nuevas características se integran con las desarrolladas en los sprints anteriores.
+
+#### 4.2.3.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 3 se continuó utilizando el backend desplegado públicamente en Railway. Los servicios disponibles fueron revisados mediante Swagger para apoyar la integración de las nuevas funcionalidades.
+
+| Servicio | Uso durante el Sprint 3 | Estado |
+|---|---|---|
+| Huariques | Consulta de información del local y datos relacionados con horarios. | Integrado |
+| Plans | Consulta de los planes disponibles para propietarios. | Integrado |
+| Subscriptions | Registro y consulta de suscripciones. | Integrado |
+| Promos | Consulta y publicación de promociones. | Integrado |
+| Users / Auth | Identificación y sesión del usuario o propietario. | Integrado |
+
+La documentación de los servicios se encuentra disponible públicamente mediante Swagger:
+
+<https://huariquehub-backend.up.railway.app/swagger>
+
+Esta documentación permitió al equipo revisar los contratos de la API y mantener la integración entre la aplicación móvil y el backend.
+
+#### 4.2.3.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 3 se mantuvo el backend desplegado en Railway y accesible desde internet. La aplicación móvil continuó consumiendo la API pública, evitando la dependencia de un servidor local.
+
+| Evidencia | Descripción | Enlace / Captura |
+|---|---|---|
+| Backend público | Backend desplegado en Railway. | <https://huariquehub-backend.up.railway.app> |
+| Swagger | Documentación pública de los servicios. | <https://huariquehub-backend.up.railway.app/swagger> |
+| Repositorio del backend | Código fuente de los servicios del sistema. | <https://github.com/HuariqueHub/HuariqueHub-Backend> |
+| Repositorio móvil | Código fuente de la aplicación desarrollada en Flutter. | <https://github.com/HuariqueHub/HuariqueHub-AppFlutter> |
+| Repositorio del informe | Documentación del proyecto. | <https://github.com/HuariqueHub/report/tree/develop> |
+| Ejecución de la app | Evidencia de la versión final ejecutándose. |  |
+| Commits del Sprint 3 | Historial de cambios realizados por el equipo. |  |
+
+Las evidencias muestran que el backend permanece disponible públicamente y que la aplicación móvil puede trabajar con los servicios desplegados.
+
+#### 4.2.3.8. Team Collaboration Insights during Sprint 3
+
+Durante el Sprint 3, el equipo se organizó para completar las funcionalidades que todavía se encontraban pendientes. Las tareas se distribuyeron entre los integrantes considerando el desarrollo móvil, los servicios backend, las pruebas y la documentación.
+
+La comunicación se mantuvo mediante reuniones virtuales y mensajes grupales. GitHub fue utilizado para registrar los cambios y revisar el avance realizado por cada integrante.
+
+| Integrante | Aporte durante el Sprint 3 |
+|---|---|
+| Delgado Carrasco, Schneider | Apoyó en la revisión de horarios y en la organización de evidencias del sprint. |
+| Lopez Goitia, Carlos Alberto | Participó en el desarrollo e integración de las funcionalidades relacionadas con membresías y suscripciones. |
+| Tumi Oliden, Manuel Ignacio | Apoyó en la implementación y revisión de promociones dentro de la aplicación. |
+| Becerra Llempen, Fabiola Dayane | Participó en la validación visual del estado de los huariques y revisión de la experiencia del usuario. |
+| Vasquez Goicochea, Erick Alessander | Apoyó en la documentación del Sprint 3, organización de evidencias y revisión del flujo relacionado con comprobantes. |
+
+Como resultado del trabajo realizado, el equipo logró avanzar en el cierre funcional de PuntoSabor y completar las características que habían quedado pendientes después del Sprint 2.
+
+
 # Conclusiones
 
 ## Conclusiones y recomendaciones.
