@@ -2341,14 +2341,14 @@ Durante la revisión del Sprint 3 se ejecutó la aplicación móvil para comprob
 
 La ejecución permitió revisar el flujo de navegación, la visualización de horarios, el estado abierto o cerrado de los huariques, las membresías y las promociones.
 
-| Evidencia | Descripción |
-|---|---|
-| Ejecución de la aplicación | Aplicación móvil funcionando en un emulador Android. |
-| Detalle con horario | Visualización de la información y horario del huarique. |
-| Estado del local | Evidencia del estado abierto o cerrado. |
-| Planes y membresías | Ejecución de la pantalla de planes disponibles. |
-| Flujo de suscripción | Ejecución del proceso de suscripción del propietario. |
-| Promociones | Visualización de promociones dentro de la aplicación. |
+| Evidencia | Descripción | Imagen / Enlace |
+|---|---|---|
+| Ejecución de la aplicación | Aplicación móvil funcionando en un emulador Android. | ![app](assets/sprint3/Appfuncional.png) |
+| Detalle con horario | Visualización de la información y horario del huarique. | ![app](assets/sprint3/horarioapp.png)|
+| Estado del local | Evidencia del estado abierto o cerrado. | ![app](assets/sprint3/horarioapp.png)|
+| Planes y membresías | Ejecución de la pantalla de planes disponibles. | ![app](assets/sprint3/membersiaapp.png)|
+| Flujo de suscripción | Ejecución del proceso de suscripción del propietario. |![app](assets/sprint3/Subscripcionapp.png) |
+| Promociones | Visualización de promociones dentro de la aplicación. | ![app](assets/sprint3/promocionapp.png)|
 
 Con estas evidencias se comprobó que la aplicación mantiene un flujo funcional y que las nuevas características se integran con las desarrolladas en los sprints anteriores.
 
@@ -2381,8 +2381,8 @@ Durante el Sprint 3 se mantuvo el backend desplegado en Railway y accesible desd
 | Repositorio del backend | Código fuente de los servicios del sistema. | <https://github.com/HuariqueHub/HuariqueHub-Backend> |
 | Repositorio móvil | Código fuente de la aplicación desarrollada en Flutter. | <https://github.com/HuariqueHub/HuariqueHub-AppFlutter> |
 | Repositorio del informe | Documentación del proyecto. | <https://github.com/HuariqueHub/report/tree/develop> |
-| Ejecución de la app | Evidencia de la versión final ejecutándose. |  |
-| Commits del Sprint 3 | Historial de cambios realizados por el equipo. |  |
+| Ejecución de la app | Evidencia de la versión final ejecutándose. | ![app](assets/sprint3/Appfuncional.png)|
+| Commits del Sprint 3 | Historial de cambios realizados por el equipo. | ![app](assets/sprint3/CommitsSprint3.png) |
 
 Las evidencias muestran que el backend permanece disponible públicamente y que la aplicación móvil puede trabajar con los servicios desplegados.
 
