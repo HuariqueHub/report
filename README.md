@@ -357,7 +357,8 @@ Actualicé mis conocimientos sobre validación final de servicios backend y docu
 <strong>AV1:</strong> El equipo demostró capacidad para adquirir de forma autónoma conocimientos sobre metodologías de investigación de usuarios y análisis de mercado, aplicándolos directamente en la definición del problema y la propuesta de solución del proyecto.<br><br>
 <strong>TB1:</strong> Durante el TB1, cada integrante incorporó nuevos conocimientos técnicos y de diseño según las necesidades de su área de responsabilidad, evidenciando estrategias de aprendizaje autónomo mediante el uso de documentación oficial, tutoriales especializados y recursos académicos para implementar las funcionalidades asignadas.<br><br>
 <strong>AV2:</strong> En el AV2, el equipo consolidó su capacidad de aprendizaje aplicado al integrar la aplicación móvil con el backend desplegado en producción, adquiriendo conocimientos sobre integración de APIs REST, manejo de tokens JWT y despliegue en Railway, aplicando estrategias de aprendizaje como documentación oficial, pruebas iterativas y revisión de código entre pares.<br><br>
-<strong>TB2:</strong> En la entrega TB2, el equipo consolidó la versión final del producto aplicando nuevos conocimientos relacionados con validación de funcionalidades, documentación de servicios, despliegue de software y preparación de evidencias para el Release Review. Esto permitió demostrar que los aprendizajes adquiridos durante el ciclo fueron aplicados en la implementación final de PuntoSabor.
+<strong>TB2:</strong> En la entrega TB2, el equipo consolidó la versión final del producto aplicando nuevos conocimientos relacionados con validación de funcionalidades, documentación de servicios, despliegue de software y preparación de evidencias para el Release Review. Esto permitió demostrar que los aprendizajes adquiridos durante el ciclo fueron aplicados en la implementación final de PuntoSabor.<br><br>
+<strong>TF:</strong> En la entrega del TF,entendiendo lo importante que es mantenerse al día con las tecnologías, metodologías y herramientas que se emplean para desarrollar soluciones de software. La integración de la aplicación con los servicios de backend, la implementación de la solución, la validación funcional y la documentación técnica nos hicieron reforzar habilidades esenciales para nuestro crecimiento profesional, teniendo en cuenta que el aprendizaje constante es vital para adecuarnos al avance tecnológico y crear productos de software de alta calidad que satisfagan necesidades auténticas.
 </td>
 </tr>
 <tr>
@@ -396,7 +397,9 @@ Profundicé en el diseño de Wireflows y User Flows para aplicaciones móviles, 
 <strong>AV2:</strong><br>
 Adquirí conocimientos sobre integración de módulos de reseñas y notificaciones en Flutter, aprendiendo el manejo de listas dinámicas con ListView.builder y la actualización de estado reactivo, aplicándolos en las pantallas de reseñas y notificaciones conectadas al backend.<br>
 <strong>TB2:</strong><br>
-Reforcé mis conocimientos sobre validación de experiencia de usuario y revisión heurística, documentando evidencias de uso de la aplicación final, capturas de pantallas implementadas y observaciones relacionadas con la navegación y facilidad de uso de PuntoSabor.
+Reforcé mis conocimientos sobre validación de experiencia de usuario y revisión heurística, documentando evidencias de uso de la aplicación final, capturas de pantallas implementadas y observaciones relacionadas con la navegación y facilidad de uso de PuntoSabor.<br>
+<strong>TF:</strong><br>
+Consolidé lo aprendido a lo largo de todo el ciclo al incorporar los módulos desarrollados en una aplicación web que funciona perfectamente. Me capacité en la integración de servicios backend, Flutter, pruebas funcionales y optimización de la experiencia del usuario, al documentar y mostrar el resultado final de PuntoSabor con un enfoque en calidad, operatividad integral y facilidad de uso.
 </td>
 </tr>
 <tr>
@@ -429,7 +432,8 @@ Reconocí que la etapa final de un proyecto requiere seguir aprendiendo sobre va
 <strong>AV1:</strong> El equipo identificó que el desarrollo de productos digitales requiere la actualización constante de conocimientos en áreas como investigación de usuarios, análisis competitivo y metodologías ágiles, reconociendo el aprendizaje permanente como una necesidad inherente al ejercicio profesional de la ingeniería de software.<br><br>
 <strong>TB1:</strong> Durante el TB1, el equipo evidenció la necesidad del aprendizaje permanente al enfrentarse a nuevas herramientas y técnicas para el diseño UX/UI móvil, la implementación con Jetpack Compose y la documentación de sprints bajo estándares Scrum, reconociendo que la capacidad de aprender de forma autónoma es una competencia fundamental para el desempeño profesional en proyectos de software.<br><br>
 <strong>AV2:</strong> En el AV2, el equipo reafirmó la necesidad del aprendizaje permanente al integrar tecnologías de despliegue en la nube (Railway), autenticación con JWT y desarrollo cross-platform con Flutter, reconociendo que el ecosistema de desarrollo móvil evoluciona constantemente y que la actualización continua de conocimientos es indispensable para entregar productos de software de calidad.<br><br>
-<strong>TB2:</strong> En la TB2, el equipo reconoció que el aprendizaje permanente es fundamental para cerrar correctamente un producto de software, ya que fue necesario adaptar conocimientos sobre validación final, evidencias de sprint, despliegue, documentación técnica y presentación del producto. Esta experiencia permitió reforzar la importancia de aprender de manera continua para responder a los requerimientos de una entrega profesional.
+<strong>TB2:</strong> En la TB2, el equipo reconoció que el aprendizaje permanente es fundamental para cerrar correctamente un producto de software, ya que fue necesario adaptar conocimientos sobre validación final, evidencias de sprint, despliegue, documentación técnica y presentación del producto. Esta experiencia permitió reforzar la importancia de aprender de manera continua para responder a los requerimientos de una entrega profesional.<br><br>
+<strong>TF:</strong> En el TF, nos dimos cuenta de que el aprendizaje continuo es un componente esencial para nuestro rendimiento profesional y para la creación de proyectos de soluciones informáticas. Durante esta fase, consolidamos nuestros conocimientos en desarrollo, integración de tecnologías, pruebas, implementación y documentación del producto. Reconocimos la importancia de mantenernos al día ante el constante cambio del entorno tecnológico. De igual modo, entendimos que la perfección constante de nuestras capacidades nos posibilita enfrentar nuevos retos, adecuarnos a diversas herramientas y métodos, y colaborar en el desarrollo de soluciones informáticas eficaces, escalables y enfocadas en lo que los usuarios requieren.
 </td>
 </tr>
 <tr>
@@ -468,7 +472,9 @@ Identifiqué la necesidad de aprender sobre representación de flujos de usuario
 <strong>AV2:</strong><br>
 Reconocí la necesidad de actualizar mis conocimientos sobre desarrollo cross-platform con Flutter, identificando que el ecosistema de herramientas para desarrollo móvil evoluciona rápidamente y que mantenerse al día con las mejores prácticas de integración de servicios es indispensable para el desarrollo profesional.<br>
 <strong>TB2:</strong><br>
-Reconocí que la evaluación de la experiencia del usuario no termina con el diseño inicial, sino que debe continuar durante la implementación final, revisando pantallas, navegación y posibles problemas de uso para mejorar la calidad del producto.
+Reconocí que la evaluación de la experiencia del usuario no termina con el diseño inicial, sino que debe continuar durante la implementación final, revisando pantallas, navegación y posibles problemas de uso para mejorar la calidad del producto.<br>
+<strong>TF:</strong><br>
+Identifiqué que para integrar tecnologías recientes, optimizar el rendimiento y hacer que la experiencia de los usuarios sea mejor, es necesario aprender constantemente en el desarrollo de aplicaciones web y móviles. Igualmente, entendí la relevancia de mantenerme al día en metodologías de desarrollo, herramientas y buenas prácticas. Reconocí que para encarar proyectos de software cada vez más complicados y proporcionar soluciones de calidad superior, es esencial mejorar mis capacidades continuamente.
 </td>
 </tr>
 <tr>
@@ -2403,6 +2409,243 @@ La comunicación se mantuvo mediante reuniones virtuales y mensajes grupales. Gi
 Como resultado del trabajo realizado, el equipo logró avanzar en el cierre funcional de PuntoSabor y completar las características que habían quedado pendientes después del Sprint 2.
 
 
+## 4.3. Validation Interviews
+
+A continuación, se presentan los resultados de las entrevistas de validación realizadas a usuarios de los dos segmentos objetivo de PuntoSabor. El propósito de esta etapa fue validar si la aplicación móvil responde a las necesidades identificadas durante la investigación inicial y si las funcionalidades implementadas son claras, útiles y fáciles de usar.
+
+Para la validación se presentó la versión final de la aplicación móvil, considerando los principales flujos desarrollados durante el Sprint 3, como la búsqueda de huariques, visualización de información del local, reseñas, horarios, estado de apertura, promociones, membresías y gestión de información del negocio.
+
+### 4.3.1. Diseño de Entrevistas
+
+Para las entrevistas de validación se plantearon preguntas generales y preguntas específicas para cada segmento objetivo. Primero, se buscó conocer el perfil del entrevistado y luego se evaluó su percepción sobre la aplicación, su facilidad de uso, claridad de la información y utilidad de las funcionalidades implementadas.
+
+#### Preguntas generales
+
+- ¿Cómo te llamas?
+- ¿Cuántos años tienes?
+- ¿En qué distrito vives actualmente?
+- ¿Con qué frecuencia utilizas aplicaciones móviles para buscar lugares de comida o promocionar un negocio?
+- Después de ver la aplicación, ¿cuál fue tu primera impresión sobre PuntoSabor?
+
+#### Segmento 1: Explorador gastronómico
+
+Este segmento está compuesto por usuarios que buscan descubrir huariques, restaurantes locales o lugares de comida auténtica mediante herramientas digitales.
+
+Preguntas realizadas:
+
+- Después de ver la aplicación, ¿crees que PuntoSabor te ayudaría a encontrar huariques de manera más sencilla?
+- ¿La pantalla principal te parece clara y fácil de entender?
+- ¿Consideras útil poder buscar huariques por categorías, nombre o preferencias?
+- ¿La información mostrada en el detalle del huarique, como fotos, horarios, ubicación, reseñas y estado de apertura, te parece suficiente para decidir si visitarías el local?
+- ¿Qué opinas sobre la posibilidad de guardar huariques favoritos?
+- ¿Las promociones o recomendaciones te motivarían a usar la aplicación con mayor frecuencia?
+- ¿Qué aspecto de la aplicación te gustó más?
+- ¿Qué mejorarías para que la experiencia sea más completa?
+- ¿Recomendarías PuntoSabor a otras personas interesadas en descubrir huariques? ¿Por qué?
+
+#### Segmento 2: Dueño o administrador de huarique
+
+Este segmento está compuesto por propietarios o encargados de negocios gastronómicos locales que buscan aumentar su visibilidad digital y atraer más clientes.
+
+Preguntas realizadas:
+
+- Después de ver la aplicación, ¿crees que PuntoSabor podría ayudarte a promocionar tu huarique o negocio?
+- ¿Te parece clara la forma en que se muestra la información del huarique?
+- ¿Consideras útil poder mostrar horarios, estado de apertura, ubicación, fotos y reseñas del negocio?
+- ¿Qué opinas sobre las promociones y planes de membresía dentro de la aplicación?
+- ¿Crees que esta plataforma podría ayudarte a atraer nuevos clientes?
+- ¿La aplicación te parece fácil de entender para un dueño de huarique?
+- ¿Qué funcionalidad te parece más útil para tu negocio?
+- ¿Qué mejorarías para que la aplicación sea más práctica para los propietarios?
+- ¿Estarías dispuesto a usar PuntoSabor para dar mayor visibilidad a tu negocio? ¿Por qué?
+
+### 4.3.2. Registro de Entrevistas
+
+#### Segmento 01: Explorador gastronómico
+
+**Entrevista 01**
+
+**Nombres:** Elkin 
+
+**Apellidos:** Carrasco
+
+**Edad:** 20 años
+
+**Distrito:** Lima
+
+**Evidencia de la reunión:**
+
+![Evidencia entrevista validación segmento 1](assets/seg-1-elkin.png)
+
+
+**Resumen de la entrevista:**
+
+La entrevista se realizó a un usuario perteneciente al segmento de exploradores gastronómicos, quien revisó la versión final de la aplicación PuntoSabor y brindó comentarios sobre su experiencia de uso. El entrevistado indicó que la propuesta de la aplicación le parece útil porque permite encontrar huariques de forma más rápida y organizada, especialmente cuando se desea descubrir lugares poco conocidos, económicos y con buena valoración.
+
+Durante la validación, el usuario señaló que la pantalla principal resulta comprensible y que las categorías ayudan a explorar opciones de comida de manera sencilla. También consideró importante que el detalle del huarique muestre información como fotos, ubicación, horarios, estado de apertura y reseñas, ya que estos elementos generan mayor confianza antes de decidir visitar un local.
+
+Asimismo, el entrevistado valoró positivamente la opción de guardar favoritos y revisar promociones, debido a que estas funcionalidades pueden motivar el uso frecuente de la aplicación. Sin embargo, recomendó mejorar la cantidad de filtros disponibles, por ejemplo, agregar filtros por distancia, precio o calificación, para encontrar opciones de forma más precisa.
+
+En síntesis, la entrevista permitió confirmar que PuntoSabor responde a una necesidad real del segmento, ya que facilita el descubrimiento de huariques y brinda información relevante para tomar decisiones. Además, se identificó como oportunidad de mejora la incorporación de filtros más específicos y una mayor cantidad de imágenes por local.
+
+
+**Entrevista 02**
+
+**Nombres:** Cucho 
+
+**Apellidos:** Suarez 
+
+**Edad:** 20 años
+
+**Distrito:** Comas
+
+**Evidencia de la reunión:**
+
+![Evidencia entrevista validación segmento 1](assets/seg-1-cucho.png)
+
+
+**Resumen de la entrevista:**
+
+La entrevista se realizó a un usuario perteneciente al segmento de exploradores gastronómicos, quien revisó la versión final de PuntoSabor y comentó su experiencia al interactuar con los principales flujos de la aplicación. El entrevistado indicó que la propuesta le parece útil porque permite encontrar huariques de una manera más ordenada, evitando depender únicamente de recomendaciones en redes sociales o búsquedas poco precisas en otras plataformas.
+
+Durante la validación, señaló que la pantalla principal es fácil de entender y que las categorías ayudan a explorar diferentes opciones de comida local. También consideró importante que el detalle del huarique incluya información como fotos, ubicación, horarios, estado de apertura, reseñas y promociones, ya que estos elementos le permiten tomar una decisión con mayor confianza antes de visitar un local.
+
+Asimismo, mencionó que la opción de guardar favoritos resulta práctica para recordar lugares que le interesan y visitarlos posteriormente. Como aspecto positivo, destacó que PuntoSabor se enfoque específicamente en huariques, ya que esto permite descubrir negocios que normalmente no aparecen con facilidad en aplicaciones más generales. Como mejora, sugirió incorporar filtros más específicos, como precio, distancia o calificación, para encontrar opciones de manera más rápida.
+
+En síntesis, la entrevista permitió validar que PuntoSabor cumple con una necesidad del segmento, ya que facilita el descubrimiento de huariques auténticos y brinda información relevante para decidir dónde comer. Además, se identificó que la aplicación puede mejorar aún más si se agregan filtros avanzados y mayor cantidad de contenido visual en los perfiles de los locales.
+
+#### Segmento 02: Dueño o administrador de huarique
+
+**Entrevista 02**
+
+**Nombres:** James 
+
+**Apellidos:** Rodriguez
+
+**Edad:** 20 años
+
+**Distrito:** San Isidro
+
+**Evidencia de la reunión:**
+
+![Evidencia entrevista validación segmento 2](assets/seg-2-james.png)
+
+
+**Resumen de la entrevista:**
+
+La entrevista se realizó a una persona perteneciente al segmento de dueños o administradores de huariques, con el objetivo de validar si PuntoSabor puede aportar valor a pequeños negocios gastronómicos que buscan mayor visibilidad digital. Durante la presentación de la aplicación, el entrevistado manifestó que la propuesta resulta interesante porque está enfocada en negocios locales y no únicamente en restaurantes grandes o cadenas comerciales.
+
+El participante consideró útil que la aplicación permita mostrar información del huarique, como ubicación, fotos, horarios, estado de apertura y reseñas. Según su opinión, estos elementos pueden ayudar a que los clientes tengan mayor confianza al momento de visitar el negocio. También señaló que las promociones pueden ser una herramienta importante para atraer nuevos clientes, sobre todo en horarios de baja demanda.
+
+Respecto a los planes de membresía, el entrevistado indicó que podrían ser atractivos siempre que ofrezcan beneficios claros, como mayor visibilidad, aparición destacada o acceso a herramientas para promocionar el negocio. Además, recomendó que la aplicación mantenga una interfaz simple para los dueños, ya que muchos pequeños negocios no tienen experiencia utilizando plataformas digitales complejas.
+
+En conclusión, la entrevista permitió validar que PuntoSabor puede ser una herramienta útil para los dueños de huariques, ya que les brinda un espacio especializado para promocionar su negocio. Como oportunidad de mejora, se identificó la necesidad de incluir métricas simples, como cantidad de vistas, interacciones o clics en el perfil del huarique, para que los propietarios puedan medir el impacto de su presencia en la plataforma.
+
+
+**Entrevista 02**
+
+**Nombres:** Luis 
+
+**Apellidos:** Diaz
+
+**Edad:** 20 años
+
+**Distrito:** Comas
+
+**Evidencia de la reunión:**
+
+![Evidencia entrevista validación segmento 2](assets/seg-2-luis.png)
+
+
+**Resumen de la entrevista:**
+
+La entrevista se realizó a una persona perteneciente al segmento de dueños o administradores de huariques, con el objetivo de validar si PuntoSabor representa una herramienta útil para promocionar negocios gastronómicos locales. Durante la presentación de la aplicación, el entrevistado indicó que la propuesta le parece interesante porque está dirigida a pequeños negocios que muchas veces no cuentan con suficiente presencia digital o no tienen los recursos para competir con restaurantes más grandes.
+
+El participante consideró positivo que la aplicación permita mostrar información del negocio, como ubicación, fotos, horarios, estado de apertura, reseñas y promociones. Según su opinión, estos datos ayudan a que los clientes conozcan mejor el local antes de visitarlo y generan mayor confianza. También señaló que las promociones pueden ser una función importante para atraer nuevos clientes y dar mayor movimiento al negocio en determinados días u horarios.
+
+Respecto a los planes de membresía, el entrevistado mencionó que podrían ser útiles siempre que los beneficios sean claros y estén relacionados con una mayor visibilidad dentro de la aplicación. Además, destacó que la plataforma debe mantenerse sencilla, ya que muchos dueños de huariques no están acostumbrados a utilizar herramientas digitales complejas para gestionar su negocio.
+
+En conclusión, la entrevista permitió validar que PuntoSabor puede aportar valor al segmento de dueños de huariques, ya que ofrece un espacio especializado para promocionar sus negocios y conectar con nuevos clientes. Como oportunidad de mejora, se identificó la necesidad de incluir información más clara sobre los beneficios de cada plan y, en futuras mejoras, agregar métricas simples como visualizaciones, interacciones o visitas al perfil del huarique.
+
+### 4.3.3. Evaluaciones según heurísticas
+
+Para complementar las entrevistas de validación, se realizó una evaluación heurística de la aplicación móvil PuntoSabor. Esta evaluación permitió revisar la usabilidad de la aplicación, identificar posibles problemas y proponer recomendaciones de mejora del producto.
+
+#### Tareas a evaluar
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas principales:
+
+- Iniciar sesión en la aplicación.
+- Explorar la pantalla principal.
+- Buscar huariques.
+- Ver el detalle de un huarique.
+- Revisar horarios, ubicación, reseñas y estado de apertura.
+- Guardar huariques como favoritos.
+- Consultar promociones.
+- Revisar planes o membresías.
+- Visualizar información del perfil del usuario.
+- Validar la información del huarique desde los servicios del backend.
+
+#### Escala de severidad
+
+Los errores fueron puntuados tomando en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción |
+|---|---|
+| 1 | Problema superficial: puede ser superado fácilmente por el usuario o ocurre con poca frecuencia. No requiere corrección inmediata. |
+| 2 | Problema menor: puede ocurrir con cierta frecuencia, pero no impide el uso general de la aplicación. Debe corregirse para mejorar la experiencia del usuario. |
+| 3 | Problema mayor: ocurre con frecuencia o puede dificultar la experiencia del usuario. Es recomendable corregirlo para una versión más estable del producto. |
+| 4 | Problema muy grave: impide que el usuario continúe con el uso de la aplicación. Debe corregirse antes del lanzamiento público del producto. |
+
+#### Tabla de resumen
+
+| # | Problema | Escala de severidad | Heurística/Principio violado |
+|---|---|---|---|
+| 1 | Algunos usuarios pueden necesitar más filtros para encontrar huariques según precio, distancia o calificación. | 3 | Usability: Flexibilidad y eficiencia de uso |
+| 2 | La información del estado de apertura del huarique podría destacarse más visualmente para evitar confusiones. | 2 | Usability: Visibilidad del estado del sistema |
+| 3 | Los mensajes de error o carga podrían ser más claros cuando no se obtiene respuesta del backend. | 3 | Usability: Ayuda al usuario a reconocer y recuperarse de errores |
+| 4 | El proceso de gestión o actualización de información del huarique puede requerir orientación adicional para dueños con poca experiencia digital. | 2 | Inclusive Design: Accesibilidad y facilidad de aprendizaje |
+| 5 | Las promociones y membresías podrían necesitar una explicación más visible sobre sus beneficios para el dueño del huarique. | 2 | Information Architecture: Claridad de información |
+| 6 | Algunas pantallas podrían mejorar la jerarquía visual para resaltar mejor las acciones principales. | 2 | Usability: Diseño estético y minimalista |
+
+#### Descripción de problemas
+
+**Problema #1:** Algunos usuarios pueden necesitar más filtros para encontrar huariques según precio, distancia o calificación.  
+**Severidad:** 3  
+**Heurística violada:** Usability: Flexibilidad y eficiencia de uso.  
+**Descripción:** Aunque la aplicación permite explorar huariques, la búsqueda podría ser más eficiente si se agregan filtros avanzados. Esto ayudaría a que los usuarios encuentren opciones más ajustadas a sus necesidades.  
+**Recomendación:** Agregar filtros por precio, distancia, calificación, tipo de comida y estado de apertura.
+
+**Problema #2:** La información del estado de apertura del huarique podría destacarse más visualmente para evitar confusiones.  
+**Severidad:** 2  
+**Heurística violada:** Usability: Visibilidad del estado del sistema.  
+**Descripción:** El estado de apertura es una información importante para el usuario, ya que evita que visite un local cerrado. Si esta información no se resalta lo suficiente, puede pasar desapercibida.  
+**Recomendación:** Usar etiquetas visuales más claras como “Abierto ahora” o “Cerrado”, acompañadas de colores o íconos que faciliten su identificación.
+
+**Problema #3:** Los mensajes de error o carga podrían ser más claros cuando no se obtiene respuesta del backend.  
+**Severidad:** 3  
+**Heurística violada:** Usability: Ayuda al usuario a reconocer y recuperarse de errores.  
+**Descripción:** Cuando ocurre un problema de conexión o carga de datos, el usuario necesita saber qué ocurrió y qué puede hacer. Si el mensaje no es claro, puede pensar que la aplicación no funciona correctamente.  
+**Recomendación:** Incorporar mensajes como “No se pudo cargar la información. Intenta nuevamente” y botones para reintentar la acción.
+
+**Problema #4:** El proceso de gestión o actualización de información del huarique puede requerir orientación adicional para dueños con poca experiencia digital.  
+**Severidad:** 2  
+**Heurística violada:** Inclusive Design: Accesibilidad y facilidad de aprendizaje.  
+**Descripción:** Algunos dueños de huariques podrían no estar acostumbrados a usar plataformas digitales. Por ello, aunque la funcionalidad sea útil, puede requerir una guía inicial.  
+**Recomendación:** Agregar mensajes de ayuda, tutorial breve o indicaciones dentro de los formularios de gestión del huarique.
+
+**Problema #5:** Las promociones y membresías podrían necesitar una explicación más visible sobre sus beneficios para el dueño del huarique.  
+**Severidad:** 2  
+**Heurística violada:** Information Architecture: Claridad de información.  
+**Descripción:** Los dueños necesitan entender rápidamente qué beneficio obtienen al usar promociones o membresías. Si la información no es clara, podrían no utilizar estas funciones.  
+**Recomendación:** Incluir una breve descripción de cada plan, beneficios principales y ejemplos de uso.
+
+**Problema #6:** Algunas pantallas podrían mejorar la jerarquía visual para resaltar mejor las acciones principales.  
+**Severidad:** 2  
+**Heurística violada:** Usability: Diseño estético y minimalista.  
+**Descripción:** La aplicación mantiene una identidad visual clara, pero algunas acciones importantes podrían destacarse más para facilitar la navegación del usuario.  
+**Recomendación:** Mejorar el tamaño, posición o contraste de botones principales como buscar, guardar favorito, ver ubicación o crear promoción.
+
 # Conclusiones
 
 ## Conclusiones y recomendaciones.
@@ -2417,7 +2660,7 @@ También se completaron los elementos solicitados para la entrega TB2, como el L
 
 Como recomendación, se sugiere continuar mejorando PuntoSabor mediante pruebas con usuarios reales en un entorno más amplio, con el objetivo de recoger retroalimentación sobre la experiencia de uso, facilidad de navegación y utilidad de las funcionalidades implementadas. Asimismo, se recomienda fortalecer el sistema de métricas para dueños de huariques, optimizar el flujo de membresías y ampliar la cantidad de negocios registrados para incrementar el valor de la plataforma.
 
-Finalmente, se concluye que PuntoSabor logró evolucionar desde una propuesta basada en investigación y diseño hasta un producto funcional con evidencias de implementación, despliegue y validación. El desarrollo del proyecto permitió al equipo aplicar conocimientos de UX/UI, arquitectura de software, gestión ágil, integración de APIs, documentación técnica y despliegue, consolidando una experiencia completa de desarrollo de una solución móvil orientada a un problema real.
+Finalmente, el Trabajo Final posibilitó que todos los entregables creados a lo largo del ciclo se unieran y se consolidaran en una versión estable y totalmente operativa de PuntoSabor. Esta fase posibilitó la comprobación de la adecuada integración entre el backend implementado y el frontend creado en Flutter, así como la validación del cumplimiento de los requerimientos funcionales y no funcionales, además de mostrar una solución preparada para su exhibición. Además, se consolidaron las habilidades del equipo en cuanto al desarrollo de aplicaciones móviles, integración de servicios, pruebas, documentación técnica y trabajo en conjunto. Esto demuestra que los objetivos establecidos al principio del proyecto fueron alcanzados y que se pudo elaborar una solución tecnológica enfocada en satisfacer una necesidad auténtica del mercado gastronómico.
 
 ---
 
