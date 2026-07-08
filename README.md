@@ -396,7 +396,7 @@ Profundicé en el diseño de Wireflows y User Flows para aplicaciones móviles, 
 <strong>AV2:</strong><br>
 Adquirí conocimientos sobre integración de módulos de reseñas y notificaciones en Flutter, aprendiendo el manejo de listas dinámicas con ListView.builder y la actualización de estado reactivo, aplicándolos en las pantallas de reseñas y notificaciones conectadas al backend.<br>
 <strong>TB2:</strong><br>
-Reforcé mis conocimientos sobre validación de experiencia de usuario y revisión heurística, documentando evidencias de uso de la aplicación final, capturas de pantallas implementadas y observaciones relacionadas con la navegación y facilidad de uso de PuntoSabor.
+Reforcé mis conocimientos sobre validación de experiencia de usuario y revisión heurística, documentando evidencias de uso de la aplicación final, capturas de pantallas implementadas y observaciones relacionadas con la navegación y facilidad de uso de PuntoSabor.<br>
 <strong>TF:</strong><br>
 Consolidé lo aprendido a lo largo de todo el ciclo al incorporar los módulos desarrollados en una aplicación web que funciona perfectamente. Me capacité en la integración de servicios backend, Flutter, pruebas funcionales y optimización de la experiencia del usuario, al documentar y mostrar el resultado final de PuntoSabor con un enfoque en calidad, operatividad integral y facilidad de uso.
 </td>
@@ -470,7 +470,9 @@ Identifiqué la necesidad de aprender sobre representación de flujos de usuario
 <strong>AV2:</strong><br>
 Reconocí la necesidad de actualizar mis conocimientos sobre desarrollo cross-platform con Flutter, identificando que el ecosistema de herramientas para desarrollo móvil evoluciona rápidamente y que mantenerse al día con las mejores prácticas de integración de servicios es indispensable para el desarrollo profesional.<br>
 <strong>TB2:</strong><br>
-Reconocí que la evaluación de la experiencia del usuario no termina con el diseño inicial, sino que debe continuar durante la implementación final, revisando pantallas, navegación y posibles problemas de uso para mejorar la calidad del producto.
+Reconocí que la evaluación de la experiencia del usuario no termina con el diseño inicial, sino que debe continuar durante la implementación final, revisando pantallas, navegación y posibles problemas de uso para mejorar la calidad del producto.<br>
+<strong>TF:</strong><br>
+Identifiqué que para integrar tecnologías recientes, optimizar el rendimiento y hacer que la experiencia de los usuarios sea mejor, es necesario aprender constantemente en el desarrollo de aplicaciones web y móviles. Igualmente, entendí la relevancia de mantenerme al día en metodologías de desarrollo, herramientas y buenas prácticas. Reconocí que para encarar proyectos de software cada vez más complicados y proporcionar soluciones de calidad superior, es esencial mejorar mis capacidades continuamente.
 </td>
 </tr>
 <tr>
